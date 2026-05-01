@@ -1,0 +1,13 @@
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+FASE 2 INCOMPLETA ⚠️
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Stack: Node.js + Express
+Endpoints listos: 6/14
+Usando mock: agents, tasks, approvals, health, model usage, costs, events (OpenClaw real no mapeado aún)
+Build frontend: ✅
+Healthcheck: ✅
+WebSocket: ✅
+Auth JWT: ✅
+Telegram: ⚠️ pendiente (token no configurado y callbacks solo scaffold)
+Pendiente Fase 3: completar endpoints restantes, conectar frontend totalmente a API real, completar acciones ejecutivas, integrar OpenClaw real, cerrar validación final completa
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

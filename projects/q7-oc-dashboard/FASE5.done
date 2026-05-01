@@ -1,0 +1,7 @@
+fecha: 2026-04-11T13:05:21Z
+frontend_conectado: ok
+mock_eliminado: ok
+ws_hook: ok
+build: ok
+npm_fix: usar --include=dev en este entorno
+pendiente_fase6: ["normalizar mejor los modelos de datos del frontend para todas las rutas del backend", "integrar audit/integrations/settings con datos reales o dejar claramente marcados como pendientes", "limpiar código legacy no usado y revisar tipado fino de stores/eventos", "validar visualmente en navegador que Overview/Agents/Tasks/Chat reflejen datos reales end-to-end"]

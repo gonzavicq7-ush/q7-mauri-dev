@@ -1,0 +1,6 @@
+fecha: 2026-04-11T01:13:48Z
+agents_mock: false
+ws_snapshot: ok
+ws_eventos: metric_update
+build_frontend: ok
+pendiente_fase5: ["normalizar mejor el mapeo de agentes para exponer modelo/provider/tools reales si el gateway los publica por otro método o evento", "integrar rutas /events y /chat con UX final del dashboard", "limpiar logs temporales y endurecer manejo de errores/reconexión en producción"]

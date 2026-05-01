@@ -1,0 +1,9 @@
+fecha: 2026-04-11T00:30:35Z
+gateway_url: ws://127.0.0.1:18789/
+handshake: ok
+client_id: gateway-client
+is_mock: false
+telegram_chat_id: 8646271102
+eventos_recibidos: ["tick", "health"]
+build_frontend: ok
+pendiente_fase4: ["corregir get_agents() para mapear salida real de agents.list y eliminar mock en /api/agents", "hacer que el websocket del backend emita eventos observables al cliente dashboard al conectarse o tras suscripción", "revisar por qué npm run build no ejecutó build real y solo devolvió notices de npm", "validar rutas /chat y /events e integrar adaptador real end-to-end"]
