@@ -1,0 +1,22 @@
+# Archivos operativos del sistema
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Logs operativos
+*.log
+
+# Archivos temporales
+.tmp/
+.cache/
+
+# Dependencias (si se agregan en el futuro)
+# node_modules/
+# __pycache__/
+
+#IDE
+.vscode/
+.idea/
+*.code-workspace

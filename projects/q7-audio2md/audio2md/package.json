@@ -1,0 +1,13 @@
+{
+  "name": "q7-audio2md-core",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node src/cli.mjs",
+    "build": "node -e \"console.log('core no build step')\""
+  },
+  "dependencies": {
+    "commander": "^12.1.0"
+  }
+}

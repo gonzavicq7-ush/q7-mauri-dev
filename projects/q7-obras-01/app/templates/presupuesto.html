@@ -1,0 +1,126 @@
+{% extends "base.html" %}
+{% block content %}
+<!-- Top Bar -->
+<header class="bg-white border-b border-gray-200 sticky top-0 z-10">
+  <div class="max-w-4xl mx-auto px-4 py-3 flex items-center justify-between">
+    <a href="/obras/{{ obra.token }}" class="text-sm text-blue-600 font-medium">← Panel</a>
+    <h1 class="font-bold text-gray-800">Presupuesto</h1>
+    <span class="text-sm text-gray-500">{{ obra.nombre }}</span>
+  </div>
+</header>
+
+<div class="max-w-4xl mx-auto px-4 py-6 space-y-6" x-data="{ showNewCat: false }">
+
+  <!-- Nueva categoría (toggle) -->
+  <div class="bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden">
+    <button @click="showNewCat = !showNewCat"
+            class="w-full px-4 py-3 bg-gray-50 border-b border-gray-100 flex items-center justify-between hover:bg-gray-100 transition">
+      <h2 class="font-bold text-gray-700 text-sm uppercase">➕ Nueva categoría</h2>
+      <span class="text-gray-400 text-lg" x-text="showNewCat ? '−' : '+'"></span>
+    </button>
+    <form x-show="showNewCat" x-transition method="post" action="/obras/{{ obra.token }}/presupuesto/categoria"
+          class="p-4 grid grid-cols-1 sm:grid-cols-3 gap-3"
+          @submit="if(!confirm('¿Crear esta categoría?')) { $event.preventDefault(); }">
+      <input type="text" name="nombre" required placeholder="Ej: Albañilería"
+             class="border border-gray-300 rounded-lg px-3 py-2 focus:ring-2 focus:ring-blue-500 outline-none">
+      <input type="number" name="monto_presupuestado" step="1" min="0" placeholder="$ presupuestado"
+             class="border border-gray-300 rounded-lg px-3 py-2 focus:ring-2 focus:ring-blue-500 outline-none">
+      <button type="submit"
+              class="bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg px-4 py-2 transition">
+        Crear
+      </button>
+    </form>
+  </div>
+
+  <!-- Categorías existentes -->
+  {% if cat_data %}
+    {% for d in cat_data %}
+    <div class="bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden">
+      <!-- Category header -->
+      <div class="px-4 py-3 bg-gray-50 border-b border-gray-100 flex items-center justify-between">
+        <div>
+          <h3 class="font-bold text-gray-800">{{ d.cat.nombre }}</h3>
+          <p class="text-xs text-gray-500">
+            Presup.: ${{ format_money(d.cat.monto_presupuestado) }} ·
+            Gastado: ${{ format_money(d.gastado) }}
+            {% if d.gastado > d.cat.monto_presupuestado %}
+              <span class="text-red-600 font-medium">· 🔴 Excedido</span>
+            {% endif %}
+          </p>
+        </div>
+        <form method="post" action="/obras/{{ obra.token }}/presupuesto/categoria/{{ d.cat.id }}/delete"
+              onsubmit="return confirm('¿Eliminar esta categoría y todos sus items?')">
+          <button type="submit" class="text-red-500 hover:text-red-700 text-sm font-medium">🗑️</button>
+        </form>
+      </div>
+
+      <!-- Items in category -->
+      <div class="overflow-x-auto">
+        <table class="w-full text-sm">
+          <thead>
+            <tr class="border-b border-gray-100 text-gray-500 text-xs uppercase">
+              <th class="text-left px-4 py-2">Descripción</th>
+              <th class="text-right px-4 py-2">Cant.</th>
+              <th class="text-right px-4 py-2">Precio unit.</th>
+              <th class="text-right px-4 py-2">Total</th>
+              <th class="px-4 py-2 w-10"></th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for it in d.items %}
+            <tr class="border-b border-gray-50">
+              <td class="px-4 py-2 text-gray-800">{{ it.descripcion }}</td>
+              <td class="text-right px-4 py-2 text-gray-600">{{ it.cantidad }}</td>
+              <td class="text-right px-4 py-2 text-gray-600">${{ format_money(it.precio_unitario) }}</td>
+              <td class="text-right px-4 py-2 font-medium">${{ format_money(it.total) }}</td>
+              <td class="px-4 py-2">
+                <form method="post" action="/obras/{{ obra.token }}/presupuesto/item/{{ it.id }}/delete"
+                      onsubmit="return confirm('¿Eliminar este item?')">
+                  <button type="submit" class="text-gray-400 hover:text-red-500">×</button>
+                </form>
+              </td>
+            </tr>
+            {% endfor %}
+            {% if not d.items %}
+            <tr>
+              <td colspan="5" class="px-4 py-3 text-gray-400 text-center text-sm">Sin items aún</td>
+            </tr>
+            {% endif %}
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Add item form -->
+      <form method="post" action="/obras/{{ obra.token }}/presupuesto/categoria/{{ d.cat.id }}/item"
+            class="p-4 grid grid-cols-2 sm:grid-cols-5 gap-2 bg-gray-50/50">
+        <input type="text" name="descripcion" required placeholder="Descripción del item"
+               class="sm:col-span-2 border border-gray-300 rounded-lg px-3 py-2 text-sm focus:ring-2 focus:ring-blue-500 outline-none">
+        <input type="number" name="cantidad" step="0.01" min="0" placeholder="Cant."
+               class="border border-gray-300 rounded-lg px-3 py-2 text-sm focus:ring-2 focus:ring-blue-500 outline-none">
+        <input type="number" name="precio_unitario" step="1" min="0" placeholder="Precio unit."
+               class="border border-gray-300 rounded-lg px-3 py-2 text-sm focus:ring-2 focus:ring-blue-500 outline-none">
+        <select name="tipo" class="border border-gray-300 rounded-lg px-3 py-2 text-sm focus:ring-2 focus:ring-blue-500 outline-none">
+          <option value="material">Material</option>
+          <option value="mano_obra">Mano de obra</option>
+          <option value="honorarios">Honorarios</option>
+          <option value="otro">Otro</option>
+        </select>
+        <button type="submit"
+                class="bg-green-600 hover:bg-green-700 text-white font-medium rounded-lg px-3 py-2 text-sm transition">
+          + Item
+        </button>
+      </form>
+
+      <!-- Category totals -->
+      <div class="px-4 py-2 bg-gray-50 text-right text-sm text-gray-600 border-t border-gray-100">
+        Total items: <strong class="text-gray-800">${{ format_money(d.total_items) }}</strong>
+      </div>
+    </div>
+    {% endfor %}
+  {% else %}
+  <div class="text-center py-10 text-gray-400">
+    📝 No hay categorías de presupuesto aún. Agregá la primera arriba.
+  </div>
+  {% endif %}
+</div>
+{% endblock %}

@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+
+# Data
+data/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Whisper.cpp (managed separately as submodule)
+tools/whisper.cpp/build/
+tools/whisper.cpp/samples/
+tools/whisper.cpp/models/
+!tools/whisper.cpp/build/bin/whisper-cli
+!tools/whisper.cpp/ggml-small.bin
+
+# Test files
+test_audio/

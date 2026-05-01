@@ -1,0 +1,106 @@
+{% extends "base.html" %}
+{% block content %}
+<!-- Top Bar -->
+<header class="bg-white border-b border-gray-200 sticky top-0 z-10">
+  <div class="max-w-4xl mx-auto px-4 py-3 flex items-center justify-between">
+    <a href="/obras/{{ obra.token }}" class="text-sm text-blue-600 font-medium">← Panel</a>
+    <h1 class="font-bold text-gray-800">Proveedores</h1>
+    <span class="text-sm text-gray-500">{{ prov_data | length }}</span>
+  </div>
+</header>
+
+<div class="max-w-4xl mx-auto px-4 py-6 space-y-6">
+
+  <!-- Create form -->
+  <div class="bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden">
+    <div class="px-4 py-3 bg-gray-50 border-b border-gray-100">
+      <h2 class="font-bold text-gray-700 text-sm uppercase">➕ Nuevo proveedor</h2>
+    </div>
+
+    <form method="post" action="/obras/{{ obra.token }}/proveedores" class="p-4 grid grid-cols-1 sm:grid-cols-2 gap-3">
+      <input type="text" name="nombre" required placeholder="Nombre *"
+             class="border border-gray-300 rounded-lg px-3 py-2 focus:ring-2 focus:ring-blue-500 outline-none">
+      <input type="text" name="contacto" placeholder="Contacto"
+             class="border border-gray-300 rounded-lg px-3 py-2 focus:ring-2 focus:ring-blue-500 outline-none">
+      <input type="text" name="telefono" placeholder="Teléfono"
+             class="border border-gray-300 rounded-lg px-3 py-2 focus:ring-2 focus:ring-blue-500 outline-none">
+      <input type="email" name="email" placeholder="Email"
+             class="border border-gray-300 rounded-lg px-3 py-2 focus:ring-2 focus:ring-blue-500 outline-none">
+      <input type="text" name="notas" placeholder="Notas"
+             class="sm:col-span-2 border border-gray-300 rounded-lg px-3 py-2 focus:ring-2 focus:ring-blue-500 outline-none">
+      <button type="submit"
+              class="sm:col-span-2 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg px-4 py-2 transition">
+        Crear proveedor
+      </button>
+    </form>
+  </div>
+
+  <!-- Proveedor list -->
+  {% if prov_data %}
+    <div class="bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden">
+      <div class="px-4 py-3 bg-gray-50 border-b border-gray-100">
+        <h2 class="font-bold text-gray-700 text-sm uppercase">Proveedores guardados</h2>
+      </div>
+
+      <div class="divide-y divide-gray-100">
+      {% for d in prov_data %}
+        <div x-data="{ editing: false }" class="p-4 hover:bg-gray-50 transition">
+          <div class="flex items-start justify-between">
+            <div class="flex-1">
+              <p class="font-medium text-gray-800">{{ d.prov.nombre }}</p>
+              <p class="text-xs text-gray-500 mt-0.5">
+                {% if d.prov.telefono %}📞 {{ d.prov.telefono }}{% endif %}
+                {% if d.prov.email %}<span class="mx-1">·</span>📧 {{ d.prov.email }}{% endif %}
+              </p>
+              {% if d.prov.contacto %}
+              <p class="text-xs text-gray-400 mt-0.5">👤 {{ d.prov.contacto }}</p>
+              {% endif %}
+              {% if d.prov.notas %}
+              <p class="text-xs text-gray-400 mt-0.5">📝 {{ d.prov.notas }}</p>
+              {% endif %}
+              <p class="text-xs text-blue-600 mt-1 font-medium">{{ d.num_gastos }} gastos registrados</p>
+            </div>
+
+            <div class="flex items-center gap-2 ml-2">
+              <button @click="editing = !editing"
+                      class="text-gray-400 hover:text-blue-600 text-sm">✏️</button>
+              <form method="post" action="/obras/{{ obra.token }}/proveedores/{{ d.prov.id }}/delete"
+                    onsubmit="return confirm('¿Eliminar este proveedor?')">
+                <button type="submit" class="text-gray-400 hover:text-red-500 text-sm">🗑️</button>
+              </form>
+            </div>
+          </div>
+
+          <!-- Inline edit form -->
+          <form x-show="editing"
+                x-transition
+                method="post"
+                action="/obras/{{ obra.token }}/proveedores/{{ d.prov.id }}/edit"
+                class="mt-3 p-3 bg-gray-50 rounded-lg grid grid-cols-2 gap-2">
+            <input type="text" name="nombre" value="{{ d.prov.nombre }}" required
+                   class="border border-gray-300 rounded px-2 py-1 text-sm">
+            <input type="text" name="contacto" value="{{ d.prov.contacto }}"
+                   class="border border-gray-300 rounded px-2 py-1 text-sm">
+            <input type="text" name="telefono" value="{{ d.prov.telefono }}"
+                   class="border border-gray-300 rounded px-2 py-1 text-sm">
+            <input type="email" name="email" value="{{ d.prov.email }}"
+                   class="border border-gray-300 rounded px-2 py-1 text-sm">
+            <input type="text" name="notas" value="{{ d.prov.notas }}"
+                   class="col-span-2 border border-gray-300 rounded px-2 py-1 text-sm">
+            <div class="col-span-2 flex gap-2">
+              <button type="submit" class="bg-blue-600 text-white text-xs font-medium rounded px-3 py-1">Guardar</button>
+              <button type="button" @click="editing = false"
+                      class="bg-gray-200 text-gray-700 text-xs font-medium rounded px-3 py-1">Cancelar</button>
+            </div>
+          </form>
+        </div>
+      {% endfor %}
+      </div>
+    </div>
+  {% else %}
+    <div class="text-center py-10 text-gray-400">
+      📝 No hay proveedores guardados aún.
+    </div>
+  {% endif %}
+</div>
+{% endblock %}

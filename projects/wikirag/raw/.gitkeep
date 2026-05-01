@@ -1,0 +1,29 @@
+# raw/
+
+Este directorio contiene las fuentes originales e inmutables.
+
+## Propósito
+
+- Documentos originales (PDFs, archivos)
+- URLs exportadas
+- Notas raw sin procesar
+- Cualquier fuente de conocimiento ingested
+
+## Regla
+
+**NUNCA modificar archivos en este directorio.**
+
+La inmutabilidad garantiza trazabilidad: si el contenido original cambia, se crea una nueva versión en su lugar.
+
+## Estructura sugerida
+
+```
+raw/
+├── documents/
+│   ├── paper-001.pdf
+│   └── report-2024.pdf
+├── web/
+│   └── url-export-2024-01.md
+└── notes/
+    └── meeting-2024-01-15.md
+```

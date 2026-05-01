@@ -1,0 +1,91 @@
+{% extends "base.html" %}
+{% block content %}
+<!-- Top Bar -->
+<header class="bg-white border-b border-gray-200 sticky top-0 z-10">
+  <div class="max-w-4xl mx-auto px-4 py-3 flex items-center justify-between">
+    <a href="/obras/{{ obra.token }}" class="text-sm text-blue-600 font-medium">← Panel</a>
+    <h1 class="font-bold text-gray-800">Nuevo Gasto</h1>
+    <span class="text-sm text-gray-500 truncate">{{ obra.nombre }}</span>
+  </div>
+</header>
+
+<div class="max-w-4xl mx-auto px-4 py-6">
+  <div class="bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden">
+    <div class="px-4 py-3 bg-gray-50 border-b border-gray-100">
+      <h2 class="font-bold text-gray-700 text-sm uppercase">Registrar un gasto</h2>
+    </div>
+
+    <form method="post" action="/obras/{{ obra.token }}/gastos" class="p-4 space-y-4">
+      <div>
+        <label class="block text-sm font-semibold text-gray-700 mb-1">Descripción *</label>
+        <input type="text" name="descripcion" required placeholder="Ej: Compra de cemento"
+               class="w-full border border-gray-300 rounded-lg px-3 py-2 focus:ring-2 focus:ring-blue-500 outline-none">
+      </div>
+
+      <div class="grid grid-cols-2 gap-4">
+        <div>
+          <label class="block text-sm font-semibold text-gray-700 mb-1">Monto *</label>
+          <input type="number" name="monto" step="1" min="1" required placeholder="50000"
+                 class="w-full border border-gray-300 rounded-lg px-3 py-2 focus:ring-2 focus:ring-blue-500 outline-none">
+        </div>
+        <div>
+          <label class="block text-sm font-semibold text-gray-700 mb-1">Fecha *</label>
+          <input type="date" name="fecha" required value="{{ hoy }}"
+                 class="w-full border border-gray-300 rounded-lg px-3 py-2 focus:ring-2 focus:ring-blue-500 outline-none">
+        </div>
+      </div>
+
+      <div class="grid grid-cols-2 gap-4">
+        <div>
+          <label class="block text-sm font-semibold text-gray-700 mb-1">Categoría</label>
+          <select name="categoria_id" class="w-full border border-gray-300 rounded-lg px-3 py-2 focus:ring-2 focus:ring-blue-500 outline-none">
+            <option value="0">— Sin categoría —</option>
+            {% for cat in categorias %}
+            <option value="{{ cat.id }}">{{ cat.nombre }}</option>
+            {% endfor %}
+          </select>
+        </div>
+        <div>
+          <label class="block text-sm font-semibold text-gray-700 mb-1">Proveedor</label>
+          <select name="proveedor_id" class="w-full border border-gray-300 rounded-lg px-3 py-2 focus:ring-2 focus:ring-blue-500 outline-none">
+            <option value="0">— Sin proveedor —</option>
+            {% for p in proveedores %}
+            <option value="{{ p.id }}">{{ p.nombre }}</option>
+            {% endfor %}
+          </select>
+        </div>
+      </div>
+
+      <div>
+        <label class="block text-sm font-semibold text-gray-700 mb-1">Tipo</label>
+        <select name="tipo" class="w-full border border-gray-300 rounded-lg px-3 py-2 focus:ring-2 focus:ring-blue-500 outline-none">
+          <option value="material">Material</option>
+          <option value="mano_obra">Mano de obra</option>
+          <option value="honorarios">Honorarios</option>
+          <option value="otro">Otro</option>
+        </select>
+      </div>
+
+      <div>
+        <label class="block text-sm font-semibold text-gray-700 mb-1">Comprobante / Notas</label>
+        <input type="text" name="comprobante" placeholder="N° factura, nota, etc."
+               class="w-full border border-gray-300 rounded-lg px-3 py-2 focus:ring-2 focus:ring-blue-500 outline-none">
+      </div>
+
+      <div class="flex gap-3 pt-2">
+        <button type="submit"
+                class="flex-1 bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 rounded-xl text-lg transition shadow-md">
+          💾 Guardar gasto
+        </button>
+      </div>
+    </form>
+  </div>
+
+  <!-- Quick add proveedor -->
+  <div class="mt-4 text-center">
+    <a href="/obras/{{ obra.token }}/proveedores" class="text-sm text-blue-600 hover:text-blue-700 font-medium">
+      + Crear un proveedor nuevo
+    </a>
+  </div>
+</div>
+{% endblock %}
