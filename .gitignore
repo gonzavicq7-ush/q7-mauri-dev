@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.db
+.venv/
+venv/
+
+# Node
+node_modules/
+.env
+.env.local
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large binaries
+*.sqlite
+*.db-journal
+
+# Workspace internals
+.github/TOKEN.md
+data.bak/
+gentle-ai/
+mauri/
