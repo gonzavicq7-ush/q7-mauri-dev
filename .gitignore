@@ -26,3 +26,9 @@ Thumbs.db
 data.bak/
 gentle-ai/
 mauri/
+-e 
+# Large files
+*.exe
+*.bin
+tools/ffmpeg
+
