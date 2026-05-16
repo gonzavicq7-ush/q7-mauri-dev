@@ -1,25 +1,54 @@
-# DECISIONS.md
+# DECISIONS.md — q7-forms2apex
 
-## 2026-05-16 — Arquitectura del parser Python
-- Decisión: parser en Python puro (sin dependencias externas de Oracle, sin Docker si no hace falta)
-- Motivo: portabilidad, facilidad de ejecución, rápido prototipado. El objetivo es generar JSON/metadata, no conectarnos a Oracle directamente
-- Alternativa considerada: parser PL/SQL existente (ya funciona pero es rígido y anclado a Windows); se usa como referencia, no como base
+## Decisiones técnicas
 
-## 2026-05-16 — Formato de salida interim: JSON estructurado
-- Decisión: output intermedio en JSON, no en APEXLang directamente
-- Motivo: APEXLang 26.1 aún no está disponible y su gramática no es estable. JSON permite iterar rápido y separar la fase de parsing de la fase de generación de specs
-- Impacto: cuando APEXLang esté disponible, se добавить шаг de transformación JSON → .apx
+### Parser: split_kv por doble espacio
+- El Object List Report usa formato con padding de espacios: `* Name                    VALUE`
+- El separador clave/valor es 2+ espacios entre la clave y el valor
+- No usa `:` como delimitador (los dos-puntos aparecen solo cuando el valor tiene `:` por contenido, ej: "Title: Attention:")
+- `split_kv` busca el primer par de espacios y divide ahí
 
-## 2026-05-16 — Baseline: repo franklingjr/oracle-forms-migration
-- Decisión: usar el repo brasileiro como referencia para entender qué metadata se puede extraer de un Object List Report
-- Motivo: ya hay un trabajo considerable hecho; usar como spec de lo que se captura y cómo se estructura
-- Contiene: 15+ tablas de staging, paquetes PL/SQL de parsing, lógica de triggers → funciones booleanas
+### Indentación: clave para el nivel (depth)
+- `get_depth(line)`: cuenta espacios al inicio, divide por 2
+- `depth=0` → nivel form (propiedades del form, section headers)
+- `depth=1` → nivel block (* Name = T_NOMBRE, propiedades de bloque, triggers, alerts)
+- `depth=2` → nivel item (* Name = nombre de item dentro de bloque)
+- Las líneas `* Name` sin indentation al inicio son secciones (TRIGGERS, ALERTS, BLOCKS)
 
-## 2026-05-16 — Scope inicial: lógica de negocio + metadata de UI
-- Decisión: el parser inicial captura lógica (triggers → funciones PL/SQL) y metadata de UI (bloques, items, propiedades, LOVs)
-- Motivo: son las dos cosas que más valor dan para migrar rápido
-- Excluido temporalmente: layout visual exacto (X/Y positioning) — no es confiable desde Object List Report
+### Triggers: detección por depth + nombre
+- Cuando `section == 'triggers'` y `key == '* Name'`, un trigger name aparece a depth=1
+- La marca de trigger text es `* Trigger Text` también a depth=1
+- El texto PL/SQL viene líneas a depth=0 y depth=1 (BEGIN/END están a depth=0)
+- Acumulación: si depth >= 1 y estamos dentro de trigger text → acumular línea completa
 
-## 2026-05-16 — Ubicación del proyecto
-- Decisión: `Mauri-dev/projects/q7-forms2apex/`
-- Motivo: regla operativa general de Victor
+### Bloques: distinción control/data
+- Los bloques de control empiezan con C_ o I_ → no generan tabla DDL
+- Los bloques de datos tienen T_ prefix y Query Data Source Name
+
+### Items: filtrado de triggers internos
+- Items con `name` en trigger name list (WHEN-*, PRE-*, POST-*, KEY-*) son triggers internos del bloque, no items de UI
+- Se filtran en el generator (no aparecen en el DDL de la página APEX)
+
+### Radio Group / LOV
+- Se mapean en `_map_item` cuando aparecen las propiedades específicas
+- Se acumulan en `state['radio_buttons']` y `state['lov_values']`
+- Se asignan al item al hacer flush
+
+## Metodología de migración
+
+1. **Object List Report** → archivo .txt de cada form
+2. **Parser** → JSON estructurado (bloques, items, triggers, alerts, LOVs)
+3. **Generator** → DDL SQL para crear las tablas y página APEX correspondiente
+4. **Pendiente**: integrate APEXLang (26.1) cuando esté disponible para specs declarativas
+
+## Limitaciones reconocidas
+- El Object List Report **no incluye layout visual** (XY de canvas no mappea a coordinates APEX sin más)
+- La posición X/Y de los items está en la sección de propiedades del item, accesible
+- Se genera un grid aproximado en APEX basándose en X/Y pero requiere validación manual
+- Los triggers PL/SQL se migran como texto dentro de un package helper, no como código ejecutable
+- La UI exacta de la forma no puede reconstruirse automáticamente — requiere diseño APEX manual
+
+## Próximo paso planificado
+- Integrar más archivos de ejemplo del repo brasileiro para validar覆盖率
+- Investigar cómo el pkg_import_form genera el SQL de las tablas del Object List Report
+- Ver si el Object List Report incluye suficientes metadatos para replicar la UI en APEX
