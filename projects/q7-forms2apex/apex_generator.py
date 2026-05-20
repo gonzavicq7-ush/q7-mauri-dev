@@ -256,7 +256,8 @@ class APEXPageGenerator:
             return
 
         for block in blocks:
-            real_items, trigger_items = self._partition_block_items(block)
+            real_items = [it for it in block.get("items", []) if it.get("name", "").strip()]
+            block_triggers = block.get("triggers", [])
             region_type = self._block_region_type(block, real_items)
             region_id = self._region_id(block["name"])
             region_name = block["name"].replace("_", " ")
@@ -300,7 +301,7 @@ class APEXPageGenerator:
                 self._write_item(block["name"], item, region_id, region_type)
 
             # ── Procesos de triggers a nivel de bloque ─────────────
-            for trig in trigger_items:
+            for trig in block_triggers:
                 self._write_block_trigger_process(block["name"], trig, region_id)
 
             self.sql_lines.append("")
