@@ -23,6 +23,7 @@ class FormBlock:
     where_clause: str = ""
     order_by: str = ""
     items: list = field(default_factory=list)
+    triggers: list = field(default_factory=list)
 
 
 @dataclass
@@ -123,6 +124,10 @@ class FormsParser:
             'alert': None,
             'radio_buttons': [],
             'lov_values': [],
+            'block_subsection': 'properties',
+            'block_trigger': None,
+            'in_block_trigger_text': False,
+            'block_trigger_text_lines': [],
         }
 
         for raw_line in lines:
@@ -171,7 +176,7 @@ class FormsParser:
 
             # ── Blocks / Items ─────────────────────────────────────
             if state['section'] == 'blocks':
-                self._parse_block_item(key, value, depth, state, form)
+                self._parse_block_item(key, value, depth, state, form, line)
 
         self._flush_item(state)
         self._flush_block(state, form)
@@ -231,38 +236,78 @@ class FormsParser:
             s['alert'].button2_label = value
 
     # ── Block / Item parsing ───────────────────────────────────────
-    def _parse_block_item(self, key: str, value: str, depth: int, state: dict, form: Form):
+    def _parse_block_item(self, key: str, value: str, depth: int, state: dict, form: Form, line: str):
         s = state
         key_u = key_upper(key)
 
+        # New block starts at depth=1 with * Name
         if depth == 1 and key_u == '* NAME':
-            if value.startswith('T_') or value.startswith('BLOCK_'):
+            # Control blocks start with C_, I_, etc. Data blocks start with T_, BLOCK_
+            if value.startswith(('T_', 'BLOCK_', 'C_', 'I_')):
                 self._flush_item(s)
                 self._flush_block(s, form)
                 s['block'] = FormBlock(name=value)
                 s['item'] = None
-                return
-            if state['section'] == 'triggers':
-                self._flush_trigger(s, form)
-                s['trigger'] = FormTrigger(name=value)
-                s['in_trigger_text'] = False
-                s['trigger_text_lines'] = []
-                return
-            if value.startswith('MSG_') or value.startswith('A_'):
-                self._flush_alert(s, form)
-                s['alert'] = FormAlert(name=value)
+                s['block_trigger'] = None
+                s['in_block_trigger_text'] = False
+                s['block_trigger_text_lines'] = []
+                s['block_subsection'] = 'properties'
                 return
 
         if s['block'] is None:
             return
 
-        if depth == 2 and key_u == '* NAME':
-            # Item name
+        # ── Sub-section detection within block ─────────────────────
+        if depth == 1 and 'TRIGGERS' in key_u:
+            s['block_subsection'] = 'triggers'
             self._flush_item(s)
+            return
+        if depth == 1 and 'ITEMS' in key_u:
+            s['block_subsection'] = 'items'
+            return
+
+        # ── Block-level triggers ───────────────────────────────────
+        if s.get('block_subsection') == 'triggers':
+            if depth == 2 and key_u == '* NAME':
+                # Flush previous block trigger
+                self._flush_block_trigger(s)
+                s['block_trigger'] = FormTrigger(name=value)
+                s['in_block_trigger_text'] = False
+                s['block_trigger_text_lines'] = []
+                return
+
+            if s['block_trigger'] is None:
+                return
+
+            if key_u == '* TRIGGER TEXT':
+                s['in_block_trigger_text'] = True
+                s['block_trigger_text_lines'] = []
+                if value:
+                    s['block_trigger_text_lines'].append(value)
+                return
+
+            if s['in_block_trigger_text']:
+                if key.startswith('* Name') or key.startswith('-'):
+                    s['in_block_trigger_text'] = False
+                    s['block_trigger'].trigger_text = '\n'.join(s['block_trigger_text_lines'])
+                else:
+                    s['block_trigger_text_lines'].append(value if value else line.strip())
+                return
+
+            # Other trigger properties
+            if s['block_trigger'] is not None and not s['in_block_trigger_text']:
+                # Trigger style, etc.
+                return
+
+        # ── Block items ────────────────────────────────────────────
+        if depth == 2 and key_u == '* NAME' and s.get('block_subsection') != 'triggers':
+            self._flush_item(s)
+            self._flush_block_trigger(s)
             s['item'] = FormItem()
             s['item'].name = value
             s['radio_buttons'] = []
             s['lov_values'] = []
+            s['block_subsection'] = 'items'
             return
 
         if s['item'] is not None:
@@ -370,9 +415,22 @@ class FormsParser:
             s['lov_values'] = []
 
     def _flush_block(self, s: dict, form: Form):
-        if s['block'] is not None and s['block'].items:
+        if s['block'] is not None:
+            # Flush any pending block trigger before saving block
+            self._flush_block_trigger(s)
+            # Save block even if empty (for control blocks without items)
             form.blocks.append(asdict(s['block']))
         s['block'] = None
+
+    def _flush_block_trigger(self, s: dict):
+        if s['block_trigger'] is not None:
+            if s['in_block_trigger_text']:
+                s['block_trigger'].trigger_text = '\n'.join(s['block_trigger_text_lines'])
+            if s['block'] is not None:
+                s['block'].triggers.append(asdict(s['block_trigger']))
+            s['block_trigger'] = None
+            s['block_trigger_text_lines'] = []
+            s['in_block_trigger_text'] = False
 
     def _flush_trigger(self, s: dict, form: Form):
         if s['trigger'] is not None:
