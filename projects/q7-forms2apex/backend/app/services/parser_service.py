@@ -1,19 +1,13 @@
 """
 parser_service.py — Service wrapper for Oracle Forms parser.
 
-Reuses the existing parser.py from the project root.
+Reuses parser.py from the app package.
 """
 
 import json
-import sys
 from typing import Dict, Any
 
-# Make parser.py importable from project root
-_project_root = "/app"
-if _project_root not in sys.path:
-    sys.path.insert(0, _project_root)
-
-from parser import FormsParser, Form  # type: ignore
+from app.parser import FormsParser  # type: ignore
 
 
 class ParserService:

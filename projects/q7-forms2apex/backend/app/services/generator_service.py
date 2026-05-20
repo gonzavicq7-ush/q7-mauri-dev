@@ -1,18 +1,12 @@
 """
 generator_service.py — Service wrapper for APEX SQL generator.
 
-Reuses the existing apex_generator.py from the project root.
+Reuses apex_generator.py from the app package.
 """
 
-import sys
 from typing import Dict, Any
 
-# Make apex_generator.py importable from project root
-_project_root = "/app"
-if _project_root not in sys.path:
-    sys.path.insert(0, _project_root)
-
-from apex_generator import APEXPageGenerator  # type: ignore
+from app.apex_generator import APEXPageGenerator  # type: ignore
 
 
 class GeneratorService:

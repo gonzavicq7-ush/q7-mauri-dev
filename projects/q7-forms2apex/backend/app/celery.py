@@ -10,18 +10,11 @@ play well with async SQLAlchemy natively.
 """
 
 import json
-import os
-import sys
 from typing import Optional
 
 from celery import Celery
 from sqlalchemy import create_engine, select
 from sqlalchemy.orm import sessionmaker
-
-# Make project root available for imports
-_project_root = "/app"
-if _project_root not in sys.path:
-    sys.path.insert(0, _project_root)
 
 from app.config import get_settings
 from app.models import Migration, MigrationStatus
