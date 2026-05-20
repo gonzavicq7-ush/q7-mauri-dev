@@ -1,0 +1,403 @@
+{% extends "base.html" %}
+
+{% block title %}Asistente de Migración — q7-forms2apex{% endblock %}
+
+{% block content %}<div x-data="migrationWizard()" x-init="init()">
+
+<!-- Wizard header -->
+<div class="mb-6">
+    <nav class="flex items-center text-sm text-slate-500 mb-2">
+        <a href="/dashboard" class="hover:text-slate-800">Dashboard</a>
+        <span class="mx-2">/</span>
+        <span class="text-slate-800 font-medium">Asistente de migración</span>
+    </nav>
+    <h1 class="text-2xl font-bold text-slate-800"><span x-text="migration?.name || 'Migración'"></span></h1>
+</div>
+
+<!-- Steps indicator -->
+<div class="flex items-center justify-between mb-8">
+    <template x-for="(step, idx) in steps" :key="step.id">
+        <div class="flex items-center">
+            <div class="flex flex-col items-center">
+                <div
+                    :class="stepClass(idx)"
+                    class="w-10 h-10 rounded-full flex items-center justify-center text-sm font-bold transition"
+                >
+                    <span x-show="idx > currentStep" x-text="idx + 1"></span>
+                    <svg x-show="idx <= currentStep" class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                    </svg>
+                </div>
+                <span class="text-xs mt-1 font-medium" :class="idx <= currentStep ? 'text-slate-800' : 'text-slate-400'" x-text="step.label"></span>
+            </div>
+            <div x-show="idx < steps.length - 1" class="flex-1 h-0.5 mx-2 bg-gray-200">
+                <div class="h-full bg-slate-800 transition-all" :style="`width: ${idx < currentStep ? '100%' : '0%'}`"></div>
+            </div>
+        </template>
+</div>
+
+<!-- Step content -->
+<div class="bg-white rounded-xl shadow p-6 min-h-[400px]">
+
+    <!-- Step 1: Upload -->
+    <div x-show="currentStep === 0">
+        <h2 class="text-lg font-bold text-slate-800 mb-4">Paso 1: Subir archivo Oracle Forms</h2>
+        <div x-show="!fileUploaded">
+            <div
+                @dragover.prevent
+                @drop.prevent="handleDrop($event)"
+                class="border-2 border-dashed border-gray-300 rounded-xl p-12 text-center hover:border-slate-500 transition cursor-pointer"
+                @click="$refs.fileInput.click()"
+            >
+                <svg class="w-12 h-12 mx-auto text-slate-400 mb-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12"></path>
+                </svg>
+                <p class="text-slate-600 font-medium">Arrastra un archivo .txt aquí o haz clic para seleccionar</p>
+                <p class="text-sm text-slate-400 mt-1">Solo archivos .txt (Object List Report)</p>
+                <input type="file" x-ref="fileInput" @change="handleFile($event)" accept=".txt" class="hidden">
+            </div>
+        </div>
+        <div x-show="fileUploaded" class="text-center">
+            <svg class="w-12 h-12 mx-auto text-green-500 mb-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+            </svg>
+            <p class="text-slate-800 font-medium">Archivo subido correctamente</p>
+            <p class="text-sm text-slate-500" x-text="uploadedFileName"></p>
+        </div>
+    </div>
+
+    <!-- Step 2: Parse -->
+    <div x-show="currentStep === 1">
+        <h2 class="text-lg font-bold text-slate-800 mb-4">Paso 2: Analizar archivo</h2>
+        <div x-show="parsingStatus === 'idle'">
+            <p class="text-slate-600 mb-4">Haz clic para analizar el archivo y extraer la estructura del formulario.</p>
+            <button @click="startParse()" class="bg-slate-800 hover:bg-slate-700 text-white px-6 py-3 rounded-lg font-medium">Iniciar análisis</button>
+        </div>
+        <div x-show="parsingStatus === 'running'">
+            <div class="flex items-center justify-center mb-4">
+                <svg class="animate-spin h-8 w-8 text-slate-800" fill="none" viewBox="0 0 24 24">
+                    <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+                    <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z"></path>
+                </svg>
+            </div>
+            <p class="text-center text-slate-600 mb-4">Analizando formulario...</p>
+            <div class="w-full bg-gray-200 rounded-full h-3 overflow-hidden max-w-md mx-auto">
+                <div class="bg-slate-800 h-full transition-all duration-500" :style="`width: ${parseProgress}%`"></div>
+            </div>
+            <p class="text-center text-sm text-slate-500 mt-2" x-text="parseProgress + '%'"></p>
+        </div>
+        <div x-show="parsingStatus === 'done'">
+            <div class="text-center">
+                <svg class="w-12 h-12 mx-auto text-green-500 mb-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                </svg>
+                <p class="text-slate-800 font-medium">Análisis completado</p>
+                <p class="text-sm text-slate-500 mt-1">Se detectaron <span x-text="parsedBlocks"></span> bloques, <span x-text="parsedItems"></span> items y <span x-text="parsedTriggers"></span> triggers.</p>
+            </div>
+        </div>
+        <div x-show="parsingStatus === 'error'">
+            <div class="text-center">
+                <svg class="w-12 h-12 mx-auto text-red-500 mb-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                </svg>
+                <p class="text-red-600 font-medium">Error durante el análisis</p>
+                <p class="text-sm text-slate-500 mt-1" x-text="parseError"></p>
+                <button @click="parsingStatus = 'idle'; parseError = ''" class="mt-3 text-slate-800 hover:underline">Reintentar</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Step 3: Review -->
+    <div x-show="currentStep === 2">
+        <h2 class="text-lg font-bold text-slate-800 mb-4">Paso 3: Revisar datos parseados</h2>
+        <div x-show="!parsedData">
+            <p class="text-slate-500">Cargando datos...</p>
+        </div>
+        <div x-show="parsedData">
+            <div class="mb-4 flex justify-between items-center">
+                <span class="text-sm text-slate-500">Estructura JSON del formulario</span>
+                <button @click="toggleJsonView()" class="text-sm text-slate-800 hover:underline"><span x-text="jsonCollapsed ? 'Expandir' : 'Contraer'"></span> todo</button>
+            </div>
+            <div class="bg-gray-900 rounded-lg p-4 overflow-auto max-h-[500px]">
+                <pre class="text-green-400 text-sm font-mono"><code x-html="formatJson(parsedData)"></code></pre>
+            </div>
+        </div>
+    </div>
+
+    <!-- Step 4: Generate SQL -->
+    <div x-show="currentStep === 3">
+        <h2 class="text-lg font-bold text-slate-800 mb-4">Paso 4: Generar SQL APEX</h2>
+        <div x-show="generateStatus === 'idle'">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+                <div>
+                    <label class="block text-sm font-medium text-slate-700 mb-1">Page ID</label>
+                    <input type="number" x-model="apexPageId" class="w-full px-3 py-2 border rounded-lg focus:ring-2 focus:ring-slate-500 outline-none">
+                </div>
+                <div>
+                    <label class="block text-sm font-medium text-slate-700 mb-1">App ID</label>
+                    <input type="number" x-model="apexAppId" class="w-full px-3 py-2 border rounded-lg focus:ring-2 focus:ring-slate-500 outline-none">
+                </div>
+            </div>
+            <button @click="startGenerate()" class="bg-slate-800 hover:bg-slate-700 text-white px-6 py-3 rounded-lg font-medium">Generar SQL</button>
+        </div>
+        <div x-show="generateStatus === 'running'">
+            <div class="flex items-center justify-center mb-4">
+                <svg class="animate-spin h-8 w-8 text-slate-800" fill="none" viewBox="0 0 24 24">
+                    <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+                    <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z"></path>
+                </svg>
+            </div>
+            <p class="text-center text-slate-600">Generando script SQL...</p>
+        </div>
+        <div x-show="generateStatus === 'done'">
+            <div class="text-center">
+                <svg class="w-12 h-12 mx-auto text-green-500 mb-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                </svg>
+                <p class="text-slate-800 font-medium">SQL generado correctamente</p>
+            </div>
+        </div>
+        <div x-show="generateStatus === 'error'">
+            <div class="text-center">
+                <p class="text-red-600 font-medium">Error: <span x-text="generateError"></span></p>
+                <button @click="generateStatus = 'idle'; generateError = ''" class="mt-3 text-slate-800 hover:underline">Reintentar</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Step 5: Download -->
+    <div x-show="currentStep === 4">
+        <h2 class="text-lg font-bold text-slate-800 mb-4">Paso 5: Descargar SQL</h2>
+        <div class="text-center py-8">
+            <svg class="w-16 h-16 mx-auto text-green-500 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+            </svg>
+            <p class="text-xl font-bold text-slate-800 mb-2">¡Migración completada!</p>
+            <p class="text-slate-500 mb-6">El script SQL está listo para ser ejecutado en Oracle APEX SQL Workshop.</p>
+            <div class="flex justify-center space-x-4">
+                <button @click="downloadSql()" class="bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-lg font-medium flex items-center">
+                    <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path>
+                    </svg>
+                    Descargar .sql
+                </button>
+                <a href="/dashboard" class="bg-gray-200 hover:bg-gray-300 text-slate-800 px-6 py-3 rounded-lg font-medium">Volver al Dashboard</a>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!-- Navigation buttons -->
+<div class="mt-6 flex justify-between">
+    <button
+        x-show="currentStep > 0"
+        @click="prevStep()"
+        class="px-4 py-2 text-slate-600 hover:bg-gray-100 rounded-lg"
+    >← Anterior</button>
+    <div></div>
+    <button
+        x-show="currentStep < steps.length - 1 && canAdvance()"
+        @click="nextStep()"
+        class="bg-slate-800 hover:bg-slate-700 text-white px-6 py-2 rounded-lg font-medium"
+    >Siguiente →</button>
+</div>
+
+</script>
+function migrationWizard() {
+    const pathParts = window.location.pathname.split('/');
+    const migrationId = pathParts[pathParts.length - 1];
+    return {
+        migrationId,
+        migration: null,
+        currentStep: 0,
+        steps: [
+            { id: 'upload', label: 'Subir' },
+            { id: 'parse', label: 'Analizar' },
+            { id: 'review', label: 'Revisar' },
+            { id: 'generate', label: 'Generar SQL' },
+            { id: 'download', label: 'Descargar' },
+        ],
+        // Upload
+        fileUploaded: false,
+        uploadedFileName: '',
+        // Parse
+        parsingStatus: 'idle',
+        parseProgress: 0,
+        parsedBlocks: 0,
+        parsedItems: 0,
+        parsedTriggers: 0,
+        parseError: '',
+        // Review
+        parsedData: null,
+        jsonCollapsed: false,
+        // Generate
+        generateStatus: 'idle',
+        generateError: '',
+        apexPageId: 100,
+        apexAppId: 100,
+        async init() {
+            await this.loadMigration();
+            // Resume from current status
+            if (this.migration) {
+                if (this.migration.status === 'PENDING') this.currentStep = 0;
+                else if (['PARSING'].includes(this.migration.status)) { this.currentStep = 1; this.parsingStatus = 'running'; this.startPolling(); }
+                else if (['PARSED', 'REVIEWING'].includes(this.migration.status)) { this.currentStep = 2; this.loadParsedData(); }
+                else if (['GENERATING'].includes(this.migration.status)) { this.currentStep = 3; this.generateStatus = 'running'; this.startPolling(); }
+                else if (['COMPLETED'].includes(this.migration.status)) { this.currentStep = 4; }
+                else if (['FAILED'].includes(this.migration.status)) { this.currentStep = 1; this.parsingStatus = 'error'; this.parseError = this.migration.error_message || 'Error desconocido'; }
+            }
+        },
+        stepClass(idx) {
+            if (idx < this.currentStep) return 'bg-green-500 text-white';
+            if (idx === this.currentStep) return 'bg-slate-800 text-white';
+            return 'bg-gray-200 text-gray-500';
+        },
+        canAdvance() {
+            if (this.currentStep === 0) return this.fileUploaded || !!this.migration?.form_file_path;
+            if (this.currentStep === 1) return this.parsingStatus === 'done';
+            if (this.currentStep === 2) return !!this.parsedData;
+            if (this.currentStep === 3) return this.generateStatus === 'done';
+            return true;
+        },
+        nextStep() {
+            if (this.currentStep < this.steps.length - 1) this.currentStep++;
+        },
+        prevStep() {
+            if (this.currentStep > 0) this.currentStep--;
+        },
+        async loadMigration() {
+            const token = localStorage.getItem('access_token');
+            const res = await fetch(`/migrations/${this.migrationId}/status`, {
+                headers: { 'Authorization': 'Bearer ' + token }
+            });
+            if (res.ok) {
+                this.migration = await res.json();
+                this.fileUploaded = !!this.migration.form_file_path;
+            }
+        },
+        handleDrop(e) {
+            const files = e.dataTransfer.files;
+            if (files.length) this.uploadFile(files[0]);
+        },
+        handleFile(e) {
+            const files = e.target.files;
+            if (files.length) this.uploadFile(files[0]);
+        },
+        async uploadFile(file) {
+            const token = localStorage.getItem('access_token');
+            const formData = new FormData();
+            formData.append('file', file);
+            const res = await fetch(`/migrations/${this.migrationId}/upload`, {
+                method: 'POST',
+                headers: { 'Authorization': 'Bearer ' + token },
+                body: formData,
+            });
+            if (res.ok) {
+                this.fileUploaded = true;
+                this.uploadedFileName = file.name;
+            } else {
+                alert((await res.json()).detail || 'Error al subir');
+            }
+        },
+        async startParse() {
+            this.parsingStatus = 'running';
+            this.parseProgress = 5;
+            const token = localStorage.getItem('access_token');
+            const res = await fetch(`/migrations/${this.migrationId}/parse`, {
+                method: 'POST',
+                headers: { 'Authorization': 'Bearer ' + token },
+            });
+            if (res.ok) {
+                this.startPolling();
+            } else {
+                this.parsingStatus = 'error';
+                this.parseError = (await res.json()).detail || 'Error al iniciar parseo';
+            }
+        },
+        startPolling() {
+            const interval = setInterval(async () => {
+                await this.loadMigration();
+                this.parseProgress = this.migration?.progress_percent || 0;
+                if (['PARSED', 'COMPLETED', 'FAILED'].includes(this.migration?.status)) {
+                    clearInterval(interval);
+                    if (this.migration.status === 'FAILED') {
+                        this.parsingStatus = 'error';
+                        this.parseError = this.migration.error_message;
+                    } else {
+                        this.parsingStatus = 'done';
+                        this.parsedBlocks = this.migration.parsed_data?.blocks?.length || 0;
+                        this.parsedItems = (this.migration.parsed_data?.blocks || []).reduce((acc, b) => acc + (b.items?.length || 0), 0);
+                        this.parsedTriggers = this.migration.parsed_data?.triggers?.length || 0;
+                    }
+                }
+            }, 2000);
+        },
+        async loadParsedData() {
+            const token = localStorage.getItem('access_token');
+            const res = await fetch(`/migrations/${this.migrationId}/parsed`, {
+                headers: { 'Authorization': 'Bearer ' + token }
+            });
+            if (res.ok) {
+                const data = await res.json();
+                this.parsedData = data.data;
+            }
+        },
+        toggleJsonView() {
+            this.jsonCollapsed = !this.jsonCollapsed;
+        },
+        formatJson(data) {
+            if (!data) return '';
+            const str = JSON.stringify(data, null, 2);
+            if (this.jsonCollapsed) {
+                return str.replace(/\n/g, ' ').replace(/\s+/g, ' ');
+            }
+            return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+        },
+        async startGenerate() {
+            this.generateStatus = 'running';
+            const token = localStorage.getItem('access_token');
+            const formData = new FormData();
+            formData.append('page_id', this.apexPageId);
+            formData.append('app_id', this.apexAppId);
+            const res = await fetch(`/migrations/${this.migrationId}/generate`, {
+                method: 'POST',
+                headers: { 'Authorization': 'Bearer ' + token },
+                body: formData,
+            });
+            if (res.ok) {
+                const poll = setInterval(async () => {
+                    await this.loadMigration();
+                    if (['COMPLETED', 'FAILED'].includes(this.migration?.status)) {
+                        clearInterval(poll);
+                        if (this.migration.status === 'FAILED') {
+                            this.generateStatus = 'error';
+                            this.generateError = this.migration.error_message;
+                        } else {
+                            this.generateStatus = 'done';
+                        }
+                    }
+                }, 2000);
+            } else {
+                this.generateStatus = 'error';
+                this.generateError = (await res.json()).detail || 'Error al generar';
+            }
+        },
+        downloadSql() {
+            const token = localStorage.getItem('access_token');
+            fetch(`/migrations/${this.migrationId}/download`, {
+                headers: { 'Authorization': 'Bearer ' + token }
+            }).then(r => r.blob()).then(blob => {
+                const url = window.URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = `${this.migration?.name || 'migration'}_generated.sql`;
+                a.click();
+                window.URL.revokeObjectURL(url);
+            });
+        }
+    };
+}
+</script>
+
+{% endblock %}

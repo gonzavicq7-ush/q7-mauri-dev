@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}q7-forms2apex{% endblock %}</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/htmx.org@1.9.12"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.13.5/dist/cdn.min.js"></script>
+    <style>
+        [x-cloak] { display: none !important; }
+    </style>
+    {% block head %}{% endblock %}
+</head>
+<body class="bg-gray-50 text-gray-900 font-sans min-h-screen" x-data="app()">
+    <!-- Navigation -->
+    <nav class="bg-slate-800 text-white shadow-lg">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex justify-between items-center h-16">
+                <a href="/" class="text-xl font-bold tracking-tight">q7-forms2apex</a>
+                <div class="flex items-center space-x-6" x-cloak x-show="isLoggedIn()">
+                    <a href="/dashboard" class="hover:text-slate-300 transition">Dashboard</a>
+                    <a href="/dashboard#projects" class="hover:text-slate-300 transition">Proyectos</a>
+                    <a href="/dashboard#migrations" class="hover:text-slate-300 transition">Migraciones</a>
+                    <button @click="logout()" class="text-red-300 hover:text-red-100 transition">Cerrar sesión</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main content -->
+    <main class="max-w-7xl mx-auto px-4 py-8">
+        {% block content %}{% endblock %}
+    </main>
+
+    <!-- Toast container -->
+    <div class="fixed bottom-4 right-4 z-50 space-y-2" id="toast-container"></div>
+
+    <script>
+        function app() {
+            return {
+                token: localStorage.getItem('access_token') || '',
+                isLoggedIn() {
+                    return !!this.token;
+                },
+                logout() {
+                    localStorage.removeItem('access_token');
+                    window.location.href = '/login';
+                },
+                showToast(message, type = 'info') {
+                    const colors = {
+                        info: 'bg-blue-500',
+                        success: 'bg-green-500',
+                        error: 'bg-red-500',
+                        warning: 'bg-yellow-500',
+                    };
+                    const toast = document.createElement('div');
+                    toast.className = `${colors[type] || colors.info} text-white px-4 py-3 rounded shadow-lg transform transition-all duration-300 translate-y-0`;
+                    toast.textContent = message;
+                    document.getElementById('toast-container').appendChild(toast);
+                    setTimeout(() => {
+                        toast.style.opacity = '0';
+                        toast.style.transform = 'translateY(20px)';
+                        setTimeout(() => toast.remove(), 300);
+                    }, 4000);
+                }
+            };
+        }
+
+        // HTMX event handlers for auth
+        document.addEventListener('htmx:configRequest', (evt) => {
+            const token = localStorage.getItem('access_token');
+            if (token) {
+                evt.detail.headers['Authorization'] = 'Bearer ' + token;
+            }
+        });
+
+        document.addEventListener('htmx:afterRequest', (evt) => {
+            if (evt.detail.xhr.status === 401) {
+                localStorage.removeItem('access_token');
+                window.location.href = '/login';
+            }
+        });
+    </script>
+    {% block scripts %}{% endblock %}
+</body>
+</html>

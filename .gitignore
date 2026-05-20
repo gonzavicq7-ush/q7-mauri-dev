@@ -32,3 +32,8 @@ mauri/
 *.bin
 tools/ffmpeg
 
+# Embedded repos (managed separately)
+projects/oracle-forms-migration/
+projects/q7-audio2md/tools/ffmpeg
+projects/q7-audio2md/tools/ffprobe
+

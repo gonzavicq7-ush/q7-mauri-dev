@@ -1,0 +1,20 @@
+# Ignore embedded repos and large binaries
+projects/oracle-forms-migration/
+projects/q7-audio2md/tools/ffmpeg
+projects/q7-audio2md/tools/ffprobe
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.env
+.venv
+venv/
+
+# Docker
+*.log
+
+# IDE
+.vscode/
+.idea/

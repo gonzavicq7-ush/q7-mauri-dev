@@ -1,0 +1,166 @@
+version: '3.8'
+
+services:
+  # Base de datos PostgreSQL (multi-tenant por schema)
+  db:
+    image: postgres:15-alpine
+    container_name: q7-forms2apex-db
+    environment:
+      POSTGRES_DB: forms2apex
+      POSTGRES_USER: forms2apex
+      POSTGRES_PASSWORD: forms2apex_secret
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5433:5432"
+    networks:
+      - forms2apex-net
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U forms2apex -d forms2apex"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  # Redis para cola Celery y cache
+  redis:
+    image: redis:7-alpine
+    container_name: q7-forms2apex-redis
+    volumes:
+      - redis_data:/data
+    ports:
+      - "6380:6379"
+    networks:
+      - forms2apex-net
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  # MinIO para storage de archivos (S3-compatible)
+  minio:
+    image: minio/minio:latest
+    container_name: q7-forms2apex-minio
+    environment:
+      MINIO_ROOT_USER: forms2apex
+      MINIO_ROOT_PASSWORD: forms2apex_secret
+    command: server /data --console-address ":9001"
+    volumes:
+      - minio_data:/data
+    ports:
+      - "9000:9000"
+      - "9001:9001"
+    networks:
+      - forms2apex-net
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:9000/minio/health/live"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # Crear bucket en MinIO al iniciar
+  minio-init:
+    image: minio/mc:latest
+    container_name: q7-forms2apex-minio-init
+    depends_on:
+      minio:
+        condition: service_healthy
+    entrypoint: >
+      /bin/sh -c "
+      mc alias set local http://minio:9000 forms2apex forms2apex_secret &&
+      mc mb local/forms2apex-uploads --ignore-existing &&
+      mc anonymous set download local/forms2apex-uploads
+      "
+    networks:
+      - forms2apex-net
+
+  # Backend FastAPI
+  api:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: q7-forms2apex-api
+    environment:
+      DATABASE_URL: postgresql+asyncpg://forms2apex:forms2apex_secret@db:5432/forms2apex
+      REDIS_URL: redis://redis:6379/0
+      MINIO_ENDPOINT: minio:9000
+      MINIO_ACCESS_KEY: forms2apex
+      MINIO_SECRET_KEY: forms2apex_secret
+      MINIO_BUCKET: forms2apex-uploads
+      SECRET_KEY: super_secret_key_cambiar_en_produccion
+      DEBUG: "true"
+    volumes:
+      - ./backend:/app
+      - /app/__pycache__
+    ports:
+      - "8000:8000"
+    depends_on:
+      db:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+      minio:
+        condition: service_healthy
+    networks:
+      - forms2apex-net
+    command: uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
+
+  # Celery Worker para parsing async
+  worker:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: q7-forms2apex-worker
+    environment:
+      DATABASE_URL: postgresql+asyncpg://forms2apex:forms2apex_secret@db:5432/forms2apex
+      REDIS_URL: redis://redis:6379/0
+      MINIO_ENDPOINT: minio:9000
+      MINIO_ACCESS_KEY: forms2apex
+      MINIO_SECRET_KEY: forms2apex_secret
+      MINIO_BUCKET: forms2apex-uploads
+      SECRET_KEY: super_secret_key_cambiar_en_produccion
+    volumes:
+      - ./backend:/app
+      - /app/__pycache__
+    depends_on:
+      db:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+      minio:
+        condition: service_healthy
+    networks:
+      - forms2apex-net
+    command: celery -A app.celery worker --loglevel=info
+
+  # Celery Beat para tareas programadas (si se necesita en el futuro)
+  beat:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: q7-forms2apex-beat
+    environment:
+      DATABASE_URL: postgresql+asyncpg://forms2apex:forms2apex_secret@db:5432/forms2apex
+      REDIS_URL: redis://redis:6379/0
+      MINIO_ENDPOINT: minio:9000
+      MINIO_ACCESS_KEY: forms2apex
+      MINIO_SECRET_KEY: forms2apex_secret
+      MINIO_BUCKET: forms2apex-uploads
+      SECRET_KEY: super_secret_key_cambiar_en_produccion
+    volumes:
+      - ./backend:/app
+      - /app/__pycache__
+    depends_on:
+      - redis
+    networks:
+      - forms2apex-net
+    command: celery -A app.celery beat --loglevel=info
+
+volumes:
+  postgres_data:
+  redis_data:
+  minio_data:
+
+networks:
+  forms2apex-net:
+    driver: bridge

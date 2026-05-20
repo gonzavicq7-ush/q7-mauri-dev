@@ -52,3 +52,45 @@
 - Integrar más archivos de ejemplo del repo brasileiro para validar覆盖率
 - Investigar cómo el pkg_import_form genera el SQL de las tablas del Object List Report
 - Ver si el Object List Report incluye suficientes metadatos para replicar la UI en APEX
+
+---
+
+## Decisiones de arquitectura y producto (2026-05-20)
+
+### Producto: herramienta interna de Cuadrante7
+- **No es SaaS público.** Es una herramienta interna para migrar sistemas de clientes de Cuadrante7.
+- No hay freemium ni billing. El acceso es controlado por Cuadrante7.
+- Los usuarios son el equipo de Cuadrante7 + clientes específicos si aplica.
+
+### Arquitectura: Monolito API REST + Frontend SPA ligero
+- **Backend:** FastAPI (ya tenemos experiencia con él en q7-obras-01)
+- **Frontend:** HTMX + Alpine.js + Tailwind (más ligero que React, suficiente para wizard de migración)
+- **Base de datos:** PostgreSQL 15 con multi-tenant por schema (un schema por organización/cliente)
+- **Cola async:** Celery + Redis para parsing y generación en background
+- **Storage:** MinIO (S3-compatible) para archivos .txt de Forms y .sql generados
+- **Auth:** JWT con email/password (inicialmente)
+
+### Modelo de datos de tenancy
+| Entidad | Descripción |
+|---|---|
+| `Organization` | Cliente de Cuadrante7 (ej: "Municipalidad de X") |
+| `Project` | Una migración específica dentro de la org (ej: "Sistema de Escuelas") |
+| `User` | Miembro del equipo de Cuadrante7 o contacto del cliente |
+| `Migration` | Una ejecución de migración: upload → parse → review → generate → download |
+| `FormFile` | El `.txt` del Object List Report subido |
+| `ParsedResult` | JSON generado por el parser |
+| `GeneratedSQL` | DDL SQL APEX generado |
+
+### Flujo de trabajo (MVP)
+1. Login → Dashboard de organizaciones
+2. Crear proyecto → Subir `.txt`
+3. Parser automático async con barra de progreso en vivo
+4. Revisar resultado parseado (árbol de bloques/items/triggers)
+5. Ajustar mapeos si es necesario
+6. Generar SQL APEX → descargar
+7. Historial de migraciones por proyecto
+
+### Deployment
+- **Fase 1:** Docker Compose local (Proxmox/VM del entorno de Victor)
+- **Fase 2:** Si se necesita alta disponibilidad → Kubernetes o Docker Swarm
+- **Arranque inmediato:** `docker-compose up` con todos los servicios

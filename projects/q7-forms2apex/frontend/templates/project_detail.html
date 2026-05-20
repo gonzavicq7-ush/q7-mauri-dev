@@ -1,0 +1,176 @@
+{% extends "base.html" %}
+
+{% block title %}Detalle de Proyecto — q7-forms2apex{% endblock %}
+
+{% block content %}<div x-data="projectDetail()" x-init="init()">
+
+<!-- Breadcrumb -->
+<nav class="flex items-center text-sm text-slate-500 mb-4">
+    <a href="/dashboard" class="hover:text-slate-800">Dashboard</a>
+    <span class="mx-2">/</span>
+    <span class="text-slate-800 font-medium" x-text="project?.name || 'Proyecto'"></span>
+</nav>
+
+<!-- Project info -->
+<div class="bg-white rounded-xl shadow p-6 mb-6">
+    <div class="flex justify-between items-start">
+        <div>
+            <h1 class="text-2xl font-bold text-slate-800" x-text="project?.name"></h1>
+            <p class="text-slate-500 mt-1" x-text="project?.description || 'Sin descripción'"></p>
+        </div>
+        <div class="flex space-x-2">
+            <button @click="showNewMigration = true" class="bg-slate-800 hover:bg-slate-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition">
+                + Nueva migración
+            </button>
+        </div>
+    </div>
+</div>
+
+<!-- Migrations list -->
+<div class="bg-white rounded-xl shadow overflow-hidden">
+    <div class="px-6 py-4 border-b border-gray-100 flex justify-between items-center">
+        <h2 class="text-lg font-bold text-slate-800">Migraciones</h2>
+        <span class="text-sm text-slate-500" x-text="migrations.length + ' total'"></span>
+    </div>
+
+    <div x-show="migrations.length === 0" class="px-6 py-12 text-center text-slate-400">
+        <p>No hay migraciones todavía.</p>
+        <button @click="showNewMigration = true" class="mt-3 text-slate-800 font-medium hover:underline">Crear la primera</button>
+    </div>
+
+    <div x-show="migrations.length > 0">
+        <table class="w-full text-left text-sm">
+            <thead>
+                <tr class="bg-gray-50 border-b border-gray-100">
+                    <th class="px-6 py-3 font-medium text-slate-600">Nombre</th>
+                    <th class="px-6 py-3 font-medium text-slate-600">Estado</th>
+                    <th class="px-6 py-3 font-medium text-slate-600">Progreso</th>
+                    <th class="px-6 py-3 font-medium text-slate-600">Creado</th>
+                    <th class="px-6 py-3 font-medium text-slate-600 text-right">Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                <template x-for="m in migrations" :key="m.id">
+                    <tr class="border-b border-gray-50 hover:bg-gray-50">
+                        <td class="px-6 py-4 font-medium text-slate-800" x-text="m.name"></td>
+                        <td class="px-6 py-4">
+                            <span :class="statusClass(m.status)" class="px-2 py-1 rounded-full text-xs font-medium"
+                                  x-text="m.status"></span>
+                        </td>
+                        <td class="px-6 py-4">
+                            <div class="w-32 bg-gray-200 rounded-full h-2 overflow-hidden">
+                                <div class="bg-slate-800 h-full transition-all" :style="`width: ${m.progress_percent}%`"></div>
+                            </div>
+                            <span class="text-xs text-slate-500" x-text="m.progress_percent + '%'"></span>
+                        </td>
+                        <td class="px-6 py-4 text-slate-500" x-text="formatDate(m.created_at)"></td>
+                        <td class="px-6 py-4 text-right space-x-2">
+                            <a :href="`/wizard/${m.id}`" class="text-slate-800 hover:text-blue-600 font-medium">Ver</a>
+                            <button x-show="m.generated_sql_path" @click="downloadSql(m.id, m.name)" class="text-green-600 hover:text-green-800 font-medium">Descargar SQL</button>
+                        </td>
+                    </tr>
+                </template>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<!-- New Migration Modal -->
+<div x-show="showNewMigration" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50"
+     @click.away="showNewMigration = false">
+    <div class="bg-white rounded-xl shadow-xl p-6 w-full max-w-md">
+        <h3 class="text-lg font-bold text-slate-800 mb-4">Nueva migración</h3>
+        <div class="space-y-4">
+            <div>
+                <label class="block text-sm font-medium text-slate-700 mb-1">Nombre</label>
+                <input x-model="newMigration.name" class="w-full px-3 py-2 border rounded-lg focus:ring-2 focus:ring-slate-500 outline-none"
+                       placeholder="Ej: Formulario de Escuelas">
+            </div>
+            <div class="flex justify-end space-x-2">
+                <button @click="showNewMigration = false" class="px-4 py-2 text-slate-600 hover:bg-gray-100 rounded-lg">Cancelar</button>
+                <button @click="createMigration()" class="px-4 py-2 bg-slate-800 hover:bg-slate-700 text-white rounded-lg">Crear</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+</script>
+function projectDetail() {
+    const params = new URLSearchParams(window.location.search);
+    const projectId = params.get('id') || window.location.pathname.split('/').pop();
+    return {
+        projectId,
+        project: null,
+        migrations: [],
+        showNewMigration: false,
+        newMigration: { name: '' },
+        async init() {
+            await this.loadProject();
+            await this.loadMigrations();
+            // Auto-poll every 5s for progress updates
+            setInterval(() => this.loadMigrations(), 5000);
+        },
+        async loadProject() {
+            const token = localStorage.getItem('access_token');
+            const res = await fetch(`/organizations/${this.projectId}`, {
+                headers: { 'Authorization': 'Bearer ' + token }
+            });
+            if (res.ok) this.project = await res.json();
+        },
+        async loadMigrations() {
+            const token = localStorage.getItem('access_token');
+            // Note: projectId may need org_id. Simplification: fetch all migrations for this project
+            const res = await fetch(`/migrations/projects/${this.projectId}/migrations`, {
+                headers: { 'Authorization': 'Bearer ' + token }
+            });
+            if (res.ok) this.migrations = await res.json();
+        },
+        statusClass(status) {
+            const map = {
+                PENDING: 'bg-gray-100 text-gray-700',
+                PARSING: 'bg-blue-100 text-blue-700',
+                PARSED: 'bg-purple-100 text-purple-700',
+                REVIEWING: 'bg-yellow-100 text-yellow-700',
+                GENERATING: 'bg-orange-100 text-orange-700',
+                COMPLETED: 'bg-green-100 text-green-700',
+                FAILED: 'bg-red-100 text-red-700',
+            };
+            return map[status] || 'bg-gray-100 text-gray-700';
+        },
+        formatDate(d) {
+            if (!d) return '';
+            return new Date(d).toLocaleDateString('es-ES');
+        },
+        async createMigration() {
+            const token = localStorage.getItem('access_token');
+            const res = await fetch(`/migrations/projects/${this.projectId}/migrations`, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json', 'Authorization': 'Bearer ' + token },
+                body: JSON.stringify(this.newMigration),
+            });
+            if (res.ok) {
+                this.showNewMigration = false;
+                this.newMigration = { name: '' };
+                await this.loadMigrations();
+            } else {
+                alert((await res.json()).detail || 'Error');
+            }
+        },
+        downloadSql(migrationId, name) {
+            const token = localStorage.getItem('access_token');
+            fetch(`/migrations/${migrationId}/download`, {
+                headers: { 'Authorization': 'Bearer ' + token }
+            }).then(r => r.blob()).then(blob => {
+                const url = window.URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = `${name}_generated.sql`;
+                a.click();
+                window.URL.revokeObjectURL(url);
+            });
+        }
+    };
+}
+</script>
+
+{% endblock %}

@@ -1,0 +1,157 @@
+{% extends "base.html" %}
+
+{% block title %}Dashboard — q7-forms2apex{% endblock %}
+
+{% block content %}<div x-data="dashboard()" x-init="init()">
+
+<!-- Header -->
+<div class="flex justify-between items-center mb-8">
+    <div>
+        <h1 class="text-3xl font-bold text-slate-800">Dashboard</h1>
+        <p class="text-slate-500 mt-1">Resumen de migraciones Oracle Forms → APEX</p>
+    </div>
+    <div x-show="user">
+        <span class="bg-slate-100 text-slate-700 px-3 py-1 rounded-full text-sm font-medium">
+            👤 <span x-text="user?.full_name || user?.email"></span>
+        </span>
+    </div>
+</div>
+
+<!-- Stats cards -->
+<div class="grid grid-cols-1 md:grid-cols-4 gap-4 mb-8">
+    <div class="bg-white rounded-xl shadow p-5 border-l-4 border-blue-500">
+        <p class="text-slate-500 text-sm">Organizaciones</p>
+        <p class="text-3xl font-bold text-slate-800" x-text="stats.orgs">0</p>
+    </div>
+    <div class="bg-white rounded-xl shadow p-5 border-l-4 border-green-500">
+        <p class="text-slate-500 text-sm">Proyectos</p>
+        <p class="text-3xl font-bold text-slate-800" x-text="stats.projects">0</p>
+    </div>
+    <div class="bg-white rounded-xl shadow p-5 border-l-4 border-purple-500">
+        <p class="text-slate-500 text-sm">Migraciones</p>
+        <p class="text-3xl font-bold text-slate-800" x-text="stats.migrations">0</p>
+    </div>
+    <div class="bg-white rounded-xl shadow p-5 border-l-4 border-orange-500">
+        <p class="text-slate-500 text-sm">Completadas</p>
+        <p class="text-3xl font-bold text-slate-800" x-text="stats.completed">0</p>
+    </div>
+</div>
+
+<!-- Organizations -->
+<section class="mb-8">
+    <div class="flex justify-between items-center mb-4">
+        <h2 class="text-xl font-bold text-slate-800">Organizaciones</h2>
+        <button class="bg-slate-800 hover:bg-slate-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition"
+                x-show="user?.is_superuser"
+                @click="showOrgModal = true">+ Nueva</button>
+    </div>
+    <div id="org-list" hx-get="/api/orgs" hx-trigger="load">
+        <!-- HTMX loads orgs here -->
+        <div class="text-center py-8 text-slate-400">Cargando organizaciones...</div>
+    </div>
+</section>
+
+<!-- Projects -->
+<section class="mb-8">
+    <div class="flex justify-between items-center mb-4">
+        <h2 class="text-xl font-bold text-slate-800">Proyectos recientes</h2>
+    </div>
+    <div id="project-list" hx-get="/api/projects" hx-trigger="load">
+        <div class="text-center py-8 text-slate-400">Cargando proyectos...</div>
+    </div>
+</section>
+
+<!-- Recent migrations -->
+<section>
+    <div class="flex justify-between items-center mb-4">
+        <h2 class="text-xl font-bold text-slate-800" id="migrations">Migraciones recientes</h2>
+    </div>
+    <div id="migration-list" hx-get="/api/migrations" hx-trigger="load">
+        <div class="text-center py-8 text-slate-400">Cargando migraciones...</div>
+    </div>
+</section>
+
+<!-- New Org Modal (admin only) -->
+<div x-show="showOrgModal" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50"
+     @click.away="showOrgModal = false">
+    <div class="bg-white rounded-xl shadow-xl p-6 w-full max-w-md">
+        <h3 class="text-lg font-bold text-slate-800 mb-4">Nueva organización</h3>
+        <div class="space-y-4">
+            <div>
+                <label class="block text-sm font-medium text-slate-700 mb-1">Nombre</label>
+                <input x-model="newOrg.name" class="w-full px-3 py-2 border rounded-lg focus:ring-2 focus:ring-slate-500 outline-none">
+            </div>
+            <div>
+                <label class="block text-sm font-medium text-slate-700 mb-1">Slug (URL)</label>
+                <input x-model="newOrg.slug" class="w-full px-3 py-2 border rounded-lg focus:ring-2 focus:ring-slate-500 outline-none">
+            </div>
+            <div>
+                <label class="block text-sm font-medium text-slate-700 mb-1">Descripción</label>
+                <textarea x-model="newOrg.description" rows="2" class="w-full px-3 py-2 border rounded-lg focus:ring-2 focus:ring-slate-500 outline-none"></textarea>
+            </div>
+            <div class="flex justify-end space-x-2">
+                <button @click="showOrgModal = false" class="px-4 py-2 text-slate-600 hover:bg-gray-100 rounded-lg">Cancelar</button>
+                <button @click="createOrg()" class="px-4 py-2 bg-slate-800 hover:bg-slate-700 text-white rounded-lg">Crear</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+</script>
+function dashboard() {
+    return {
+        user: null,
+        stats: { orgs: 0, projects: 0, migrations: 0, completed: 0 },
+        showOrgModal: false,
+        newOrg: { name: '', slug: '', description: '' },
+        async init() {
+            await this.loadUser();
+            this.loadStats();
+        },
+        async loadUser() {
+            const token = localStorage.getItem('access_token');
+            if (!token) { window.location.href = '/login'; return; }
+            try {
+                const res = await fetch('/auth/me', {
+                    headers: { 'Authorization': 'Bearer ' + token }
+                });
+                if (!res.ok) { window.location.href = '/login'; return; }
+                this.user = await res.json();
+            } catch (e) { window.location.href = '/login'; }
+        },
+        async loadStats() {
+            const token = localStorage.getItem('access_token');
+            try {
+                const [orgs, projects, migrations] = await Promise.all([
+                    fetch('/organizations', { headers: { 'Authorization': 'Bearer ' + token } }).then(r => r.json()).catch(() => []),
+                    fetch('/organizations', { headers: { 'Authorization': 'Bearer ' + token } }).then(r => r.json()).catch(() => []),
+                    fetch('/organizations', { headers: { 'Authorization': 'Bearer ' + token } }).then(r => r.json()).catch(() => []),
+                ]);
+                this.stats.orgs = Array.isArray(orgs) ? orgs.length : 0;
+                this.stats.projects = 0; // loaded per org
+                this.stats.migrations = 0;
+                this.stats.completed = 0;
+            } catch (e) {}
+        },
+        async createOrg() {
+            const token = localStorage.getItem('access_token');
+            try {
+                const res = await fetch('/organizations', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json', 'Authorization': 'Bearer ' + token },
+                    body: JSON.stringify(this.newOrg),
+                });
+                if (res.ok) {
+                    this.showOrgModal = false;
+                    this.newOrg = { name: '', slug: '', description: '' };
+                    document.getElementById('org-list').dispatchEvent(new Event('refresh'));
+                } else {
+                    alert((await res.json()).detail || 'Error');
+                }
+            } catch (e) { alert('Error: ' + e.message); }
+        }
+    };
+}
+</script>
+
+{% endblock %}
