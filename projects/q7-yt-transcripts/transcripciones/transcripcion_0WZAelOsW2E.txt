@@ -1,0 +1,733 @@
+imagino
+que uno de los temas que que al
+principio ser importante plantearlo es
+tuvimos manejando un poco ansiedad todos
+estos días porque como que estamos ya
+encendiendo el motor se siente eso está
+buenísimo
+me siento que todos estamos como un poco
+pensando en esta idea y Bueno eso está
+buenísimo no este entonces por ahí
+Imagino que bueno vctor est trabajando
+un poquito en en la idea de de la imagen
+del nombre del proyecto eso es
+importante y al tomé algo de eso también
+Jos también yo me había comunicado el
+otro día con él y me comentó que iba a
+hacer este estudio que de competencias y
+demás que se están dando en la zona
+y un poco para para pulir lo último que
+habíamos
+hablado quedaba como un poco
+fuso la la relación entre la intención
+del proyecto con de alguna forma la la
+materialidad o el alcance del proyecto
+el acotar cto entonces por ahí es como
+personalmente siento El desafío en este
+momento
+Entonces esta idea de que por ahí bueno
+de alguna forma Víctor a ser nuestro
+arquitecto nuestro constructor de por lo
+menos arquitecto cambio cambio no cambio
+r un poquito camb V a materializar
+digamos pero por lo menos sos el que
+entiende la lógica del proyecto en comoo
+Cómo se puede materializar Y de alguna
+forma este un poco con Jos podemos
+aportar sobre la intención no cierto
+pero
+necesitamos nosotros comprender un
+poquito qué implica esa materialización
+porque todavía es como que no sabemos
+muy bien si estamos haciendo una casa o
+un edificio digamos
+en la ignorancia de lo que significa el
+desarrollo de un
+sistema eso eso así está bueno que lo
+plantees así Perdón que te corte pero es
+para para
+clarificar yo creo que cuando eso decme
+vos yo no no estoy en tu zapato pero
+cuando te llega un cliente con una idea
+el
+cliente tiene una idea de que quiere
+hacer o o va y dice tengo esta plata
+para qu me alcanza o Cómo cómo
+Generalmente traduzcamos para para
+simplificar la explicación porque es muy
+similar de de lo que yo veo muy similar
+a lo que los conceptos que ustedes ya
+manejan yo lo que lo podemos hacer la
+analogía de cambio de nombre después de
+Qué significa cada cosa y yo Les explico
+dentro de lo que conozco No es cierto
+pero cuando va un cliente al estudio de
+arquitectura o cuando quiere hacer su
+casa yo me pongo en el lugar del cliente
+y voy y digo Bueno sabes qué como
+mi mi experiencia es Mira sabes qué
+tengo esta plata o Tengo este crédito
+que está por salir y necesito presentar
+los papeles para para poder sacar el
+crédito hipotecario en el instituto de
+vivienda como me pasó inicialmente
+Entonces voy al arquitecto le planteo
+eso y le digo quiero hacer esto pero hoy
+puedo hacer esta parte y dentro de X
+cantidad de tiempo o en algún momento
+voy a hacer la otra parte pero me voy
+con una idea de querer saber qué tipo de
+edificación o qué tipo de proyecto
+quiero hacer Igual que un inversionista
+que va a hacer Mirá bueno Tengo este
+terreno y quiero hacer 12 duple quiero
+hacer un edificio quiero hacer un
+quincho un quincho un galpón o lo que
+fuera como que el
+cliente va con esa idea ahora vamos a
+tratar de clarificar Cuál es la idea que
+tienen ustedes o desde el punto de
+vista que necesitan más que lo que
+tienen porque en realidad ahí está el
+tema que qué es lo que necesitamos para
+que sea comercialmente
+eh rentable o sea que que sea un negocio
+porque para es el mejor producto que a
+nosotros nos quepa o nos parezca Pero al
+final tenemos como contaba José la vez
+pasada tenemos 10 20 productos que que
+compiten en el mismo Rango por menor
+precio Pues ya están asentados no tienen
+costo de desarrollo o sea acá Tenemos un
+montón de variables que que son todas
+muy
+subjetivas
+porque lo lo que pasa con con la
+ingeniería en sistema con el desarrollo
+de sistema en general es que es todo muy
+abstracto O sea no tenés casi nada
+material entonces
+cuesta que que eso sea tangible que vos
+lo puedas medir de alguna manera porque
+es como decir para para el usuario final
+es lo mismo un software que tiene el
+costo de desarrollar de un edificio que
+que el Software que tiene el costo de
+desarrollar de una casa Sí porque lo
+importante por ahí la pantalla inicial
+es la misma o sea la fachada va a ser la
+misma pero adentro vas a tener mucho más
+módulos más complejidad de de procesos
+vas a interactuar con otros sistemas vas
+a dependiendo qué quiera qué querramos
+hacer entonces si si vos me imagino que
+estos días que estuviste tratando de
+hacer este esta esta presentación no sé
+hasta qué punto llegaste o qué es lo que
+nos queres
+Mostrar bajaste un poco a tierra de cuál
+es tu punto de vista y cómo vos querés
+que se vea tu casa o o el proyecto que
+vos te imaginas después iremos diciendo
+bueno sabes qué por ahí no conviene esta
+ventana acá porque está muy expuesta el
+sol te pega del otro lado te conviene
+tener el la ventana del otro lado viste
+qué s yo dar un un tipo de sugerencia
+desde mi punto de vista Pero lo vamos
+conversando no sabes qué me importa
+[ __ ] no quiero que me dé el sol en en
+la pieza quiero que me dé el sol en el
+en el livi entonces bueno va V vamos
+acomodando esas cosas y ahora te dejo
+continuar pero pero era solo para
+clarificar que la idea del proyecto la
+tendrías que que
+que bajar a tierra eh
+en algún punto vos inicialmente que yo
+creo que lo tenés o sea por ahí nada
+tenemos que que afinar el lápiz y decir
+Bueno Este sí lo que te digo y lo que
+decía Jos ot esta ventana Sí este puerta
+no qu ir Ajustando algunas cosas de lo
+que es conveniente a nivel comercial del
+producto pero me puedo equivocar
+Tendremos que consultar y asesorarnos y
+por ahí Jose tiene mejor mejores
+herramientas para para que para que eso
+lo lo afinos No es cierto Está bien sí
+varias cosas con está muy bien Víctor lo
+que vos planteas y por ahí o sea como
+conclusión general por todo eso que pras
+pasa la Macro de la problemática por un
+lado la definición de qué estamos
+aspirando si una casa o un edificio el
+primer desafío que se plantea En ese
+sentido para para para mí personalmente
+tranquilo sab comentario No decía Víctor
+el primer desafío es que si bien el
+cliente
+Generalmente viene y quiere quiere la
+casa del country para la casita del
+barrio es así pero en escala el cliente
+sabe que el edificio no puede hacerlo
+porque en la construcción la diferencia
+de esto que estamos que hay algo
+tangible digamos hay una
+escala en este mundo nosotros vemos
+pantallas y esas pantallas si yo bien sé
+que ustedes pueden cuantificar cosas en
+base a las pantallas pero el diseño
+digamos nosotros no sabemos todo lo que
+hay detrás del backend digamos de toda
+esa
+cuestión en mi caso personal no s Jos
+por maneja más pero no no sabemos muy
+bien entonces el primer problema que
+aparece es que no podemos dimensionar la
+escala de la idea ese es un primer
+problema por eso este un ejercicio y
+volviendo a la analogía de
+eh de la construcción un ejercicio que
+yo hago con mis clientes cuando no saben
+muy bien ponerle ya sabemos que vamos a
+hacer una casa pero no sabemos un poco
+la escala de la casa si va a ser una
+casa de 500 m cu o una de 60 m cu un
+ejercicio que te hago es decirle bueno a
+ver cuál es tu casa final de y el tipo o
+la familias empieza a describir digamos
+las máximas pretensiones aspira para
+luego poder acomodarlo dentro de de lo
+que se puedan hacer dentro de ese
+presupuesto pero es como que es como que
+estamos en esta etapa en donde tenemos
+que coordinar esos engranajes para que
+vos puedas entender y después bueno
+puedas dar un feedback Bueno mira para
+hacer esto no va implicar esto esto y
+esto está bien Estamos como en
+es segundo problema importante que surge
+acá es que nosotros personalmente yo
+tengo la idea de la casa Pero quizás la
+casa de 500 Met
+cu no es lo que va Y ahí aparece Jos con
+todas las investigaciones paralelas
+deción y de cosas que está haciendo En
+donde a lo mejor no es una casa lo que
+tenemos que hacer sino que tenemos que
+hacer duplex o tenemos que hacer una
+casa ampliable o tenemos que hacer
+una cosa que parezca una casa y que sean
+tres casitas Mira Ah te tiro el concepto
+que me parece justo para aplicar en este
+momento es una casa o un proyecto
+modular
+ser por decir un barrio modular nada
+barrio cerradito Ten un terreno de 3000
+Met cuad y vas poniendo módulo módulo no
+sabes cuántos módulos te van a entrar
+pero vos queres que tu módulo tenga esta
+característica un módulo que tenga
+el otro que tenga una el otro que tenga
+una pileta chiquitita qué s estoy
+diciendo pavada pero cada módulo de esos
+es diferente Y vos vas a después cuando
+ir lo podemos ir construyendo de uno el
+siguiente lo vamos haciendo por parte y
+y lo vas haciendo en el caso de sistema
+no van a ser todos los módulos iguales
+porque obviamente cada módulo tiene una
+funcionalidad diferente Pero veámoslo
+así como que agarramos un terreno el que
+tenemos que conseguir construir x
+cantidad de cosas para que sea rentable
+y construyamos el primer módulo
+definamos Cuál es el módulo inicial el
+módulo inicial es la gestión de de obra
+en
+en Cómo se llama la gestión de obra
+después tener la gestión de compra
+después tener el punto de vista de ese
+mismo módulo que tenés dos puntos de
+vistas porque tenés uno para
+el el dueño del proyecto el el
+inversionista y después tenés otro para
+El ejecutor del proyecto que es el
+constructor Entonces si bien ven los
+mismos datos por ahí la forma que se le
+presenta la forma de gestionar esos
+datos son diferentes entonces hay que
+definir si ese módulo es el mismo para
+ambos o son diferentes que consultan los
+mismos datos se entiend por Por qué mi
+mi planteo de que definamos Cuáles son
+los datos que necesitamos almacenar Esto
+va a ser posterior a que tengamos esta
+charla y otra charla seguramente hasta
+que definamos bueno vamos por acá
+definamos los datos Y después le damos
+el enfoque para consultar esos datos
+bueno que datos conoce Jose por ahí
+mucho más que yo en el sentido de
+análisis de datos pero en el cuento de
+trabajar de la la gestión del dato en sí
+de de la operatoria por ahí en base a la
+experiencia que yo tengo te puedo decir
+bueno no nada para este nada va una
+aplicación móvil para hacer tal cosa
+para el constructor pero el el gerente o
+el arquitecto lo va a ver de otro punto
+de vista el constructor lo va a desde
+otro punto de vista
+nada eso eso solo y ahí vos me decías
+que Perdón que te corté otra vez no eso
+está claro Víctor y justamente lo que
+trataba de poner es que
+lo que estamos tratando es de llegar a
+un
+acuerdo más que un acuerdo de poder
+entendernos de poder expresar
+digamos el alcance total para poder
+hacer los recortes y poder definir
+posteriormente el tema de mulo eso todos
+sabemos que esto va a tener etap
+habilidad este que va a ser muy difícil
+poder aspirar a todo y bueno José el
+otro día no decía de que la obra tiene
+muchas etapas
+y nosotros de esas etapas podemos tener
+muchos módulos o bien Podemos tener
+parcialidades de módulos por etapa
+entonces definir todas estas cosas
+implica una comprensión en Macro de el
+proyecto de de los tres cierto para que
+digas vctor si es viable de
+materializarlo y
+para estoy poniendo así como nombre
+específico pero todo lo vamos a discutir
+noo se puede evaluar también si si esos
+módulos son aspira bles a a ser
+comercializa o o a lo mejor ya están
+contra resuelto en otros sistemas y la
+verdad que sería una lo justifica la
+justifica Sí pero en todos los casos
+nosotros tenemos que tratar de entender
+eh el Macro del problema digamos Y a
+partir de ahí poder hacer las
+verificaciones pertinentes digamos y
+poder hacer el recorte Hacia dónde vamos
+a actuar cierto esa Esa fue un poco la
+la la conclusión que yo llegué digamos y
+por eso era mi preocupación por tratar
+de mostrarlo un poco más claro hacia
+Hacia dónde para mí iba el proyecto y
+poder tener un Fil de ustedes y y poder
+empezar a a checarlo no ajustarlo O a
+cambiar
+no Okay J ten algún comentario sí eh
+justamente está ese el camino
+eh Para mí hay hay dos temas acá tenemos
+lo que tenemos que hacer ahora la
+siguiente paso para descubrir cuál es no
+descubrir pero empezar a descubrir
+porque así como dijiste Víctor que este
+es un camino que ir y
+volver ir y volver ir volver y volver y
+uno va
+Ajustando el producto que mejor va a
+funcionar para para el mercado que
+queremos apuntar reajustar el mercado
+cuando el mercado no es correcto
+eh los siguientes pasos son empezar a
+entrevistar empresa estamos investigando
+Estoy investigando bastante pero el
+siguiente paso es entrevistar gente
+específica ir cerrando ya
+ese y para para ver Hacia dónde podemos
+apuntar Ya Pablo nos tiró algunas ideas
+muy claras que está muy buenas y capac
+podemos uesto
+también quizás con esas esas
+herramientas no que quizás con esas
+herramientas vamos a ir definiendo
+exitando haciendo encuestas preguntando
+ofreciendo diciendo esta solución que te
+parece esta solución que te parece Hay
+algún lugar en tu empresa que vos tengas
+un problema específico que pues resolver
+mejor y y vamos cerrando Cuáles son las
+ideas que serían más accesibles O sea
+que el mercado necesita y ahí
+traducirlas a Cuáles son las que
+nosotros podemos
+desarrollaro esas dos o tres ideas
+un poquito más claro y ahí cerramos
+empezamos a cerrar por primera
+vez nuestro segundo
+punto cre el siguiente paso la pregunta
+AC vor
+para yo te veo preguntándonos mucho
+Sobre qué quieren ustedes no es
+cierto mi pregunta hacia vos es vos te
+queres dedicar exclusivamente a resolver
+la
+solución es que tengamos definida la no
+definida pero la empecemos a tener más
+definida pao y yo la herramienta vos
+querés participar de esta última etapa
+de ir cerrando el romito de seguir
+investigando y terminar de desarrollar
+estrategia o queres que nosotros hagamos
+la investigación con la gente de la
+construcción y vos nos ayudas a
+hacer la verdad que yo no estoy muy
+metido en el rubro acá localmente
+conozco un par de personas que se
+dedican maestro mayor de obra puedo
+indagar en algún estudio no y no me
+refiero solo yo refiero participando con
+nosotros o
+sea yo creo que para para Para
+aprovechar el recurso Me parece
+que una sugerencia No
+creo no no no perdamos por ahí o mejor
+dicho entendamos Que la idea de hacer
+esto es es la idea desarrollar
+independientemente proyecto
+este proyecto puede ser otro que se nos
+ocurra porque este no anduvo poner
+dentro de TR meses como dijimos una vez
+con analicemos un mes dos meses veamos
+si el proyecto es factible es
+comercialmente viable y Si vemos que no
+dejamos esto y posiblemente pueda surgir
+otra cosa futur o sea si tenemos la idea
+hacer un emprendimiento junto el que sea
+que surja de este análisis se avance no
+perdamos el foco de que termina siendo
+software y es para
+desarrollarlo tiene cierta complejidad
+que dentro de lo que es el
+el
+el el proceso hasta que lo veamos eh
+operativo como que tenés muchas muchas
+etapas primero tenés Obviamente el
+análisis funcional etcétera del producto
+que queremos ver pero abajo de eso
+tenemos el análisis funcional y eh el
+desarrollo puesta en producción eh
+testeo pruebas de campo ver si el suelo
+está en condiciones un montón de cosas
+que por ahí ni siquiera tiene sentido
+que se la traslado ustedes se los
+comento se lo digo se lo puedo Le puedo
+hacer una presentación vamos por esto
+necesitamos esta capa de acá desp o sea
+yo creo que si separamos la tarea y
+ustedes que conocen de esto niar que
+están super formado en esto y tiene un
+montón de experiencia no sé si le puedo
+sumar mucho en lo que es
+de la funcionalidad del producto final
+ahí Ahí va mi siguiente comentario eh yo
+creo que vos ten tenés mucho para sumar
+mientras estamos haciendo a qué me
+refiero m Me parece que cada uno en su
+rol justamente aporta un poco más Ah
+perfecto yo no tengo
+problema parece que lo mejor sería que
+todos nos acompañemos No no es
+justamente es lo que un poco lo que voy
+a decir nos acompañemos para entender
+Qué pasa detrás de lo otro no es cierto
+y paso Vamos a ir aprendiendo porque
+cuando vos empiezas a desarrollar el
+Software que como decí ahí ya es tu área
+y es son las cosas que vos sabes a mí me
+gustaría participar en el sentido de
+quiero entender qué está pasando y voy
+aportando en eh en lo que yo voy viendo
+y vos me vas
+vas o el equipo que vamos vamos conendo
+o sea como sea el
+formato Entonces es una ida y vuelta de
+comunicación No es cierto seguramente
+haer entonces A eso me refiero con vos
+participando me refiero a vos
+ahí entendiendo y diciendo te digo para
+ponerte al
+frente pero justamente para
+entend verdad que el
+participar si ustedes creen conveniente
+aportar algo estoy disponible y podemos
+sumar en lo lo poco que que entiendo ya
+te digo más de mi de mi punto de vista
+de de de usuario final o de cliente o de
+dueño no sé de otro de otro de otro que
+que tranquilamente eso le podemos poner
+preguntar a cualquier persona que
+construyó una casa hacemos una encuesta
+y hacemos un relevamiento y Y tenemos
+esa información no es queo vaya a
+aportar mucho eh No lo que estoy viendo
+que por ahí el volumen de trabajo que
+hay del lado del sistema Es realmente
+importante no Porque el otro no lo sea
+pero es como que la parte de Definir la
+definiciones iniciales sobre las cuales
+se va a trabajar el desarrollo del
+sistema que va a llevar se meses vamos
+vamos a ponerle tiempo para para tener
+una idea de de dimensiones O sea
+supongamos que encanta me encanta me
+encanta que nos ayudes a ir
+entendiéndolo para eso son estas charlas
+funciona o sea yo me pongo al lado de un
+cliente que necesita un sistema o cómo
+viene y nos plantean los Víctor eh o
+tenemos este sistema y lo queremos
+migrar o tenemos este sistema que no
+existe y lo queremos desarrollar este
+sistema tiene que hacer tales cosas bien
+pa en base a eso se releva la
+funcionalidad cómo trabaja la gente por
+ejemplo queremos digitalizar este tarea
+que se hace en estos pasos hay que
+cargar esta información después de esto
+pasa esta etapa después cada una de esas
+etapas pueden ser diferentes pantallas
+capaz que no capaz que varias etapas se
+simplifican en un solo pantalla con
+diferentes procesos y se le simplifica
+lo que hoy hace en 10 pasos queda
+simplificado en tres más o menos se
+trabaja así estamos hablando un trabajo
+administrativo en un área específica De
+nada de una empresa estoy hablando un
+sistema global como el que estamos
+queriendo hacer nosotros sí eso se
+releva el plazo el perdón el plazo de
+relevamiento te lleva una semana dos
+semanas en base a eso se valida con el
+usuario final y se empieza a trabajar se
+definen etapas de de de devolución de
+avance que puede ser cada 15 días cada
+semana dependiendo del tiempo del Sprint
+que se defina y se devuelve en en en en
+un en
+un una aplicación que está
+eh pseud funcional O sea casi funcional
+en el sentido que tienen validaciones
+tiene una operatoria pero no no está
+finalizada cuando el cliente final lo
+vea eso que sería la maqueta esta que el
+otro día preguntaba Pablo maqueta de ese
+módulo puntualmente le el cliente le da
+el Ok y se termina de agregar las
+validaciones correcciones por ahí en vez
+de tener un campo de de 10 caracteres eh
+necesitabas que sea de 50 caracteres de
+100 caracteres de numérico en lugar de
+fecha qué sé yo ese tipo de cosas se van
+corrigiendo en la siguient etapa de de
+de de del desarrollo anterior pero a su
+vez vos ya largaste con un módulo nuevo
+que está en etapa de análisis
+relevamiento como que como que podes ir
+encarando diferentes niveles de avance
+para diferentes módulos que pero
+necesitamos tener Claridad de las
+funcionalidades creo ustedes tienen más
+que sobrado de cómo debería funcionar
+aparte tenemos ejemplo también de los
+los sistemas que tienen o sea
+eh No sé cómo transmitir el punto de
+vista que tengo yo creo que con con el
+conocimiento que tenemos de dos tres x
+cantidad de sistemas que funcionan o
+tienen cierta información y la idea que
+tenía Pablo originalmente de darle un un
+un enfoque más de llegada al usuario
+final al
+al constructor sería el propietario
+eh era era Era me parecía un un lugar un
+Nicho que no estaba cubierto porque como
+vimos la mayoría de los sistemas grandes
+esto no no vi no analicé muchos sistemas
+chiquitos pero los sistemas grandes
+están enfocados básicamente en la
+gestión del proyecto global y Los costos
+y todo de de bueno obviamente obras muy
+grandes pero no en el día a día dec
+bueno Necesito que me pinte Esta pared
+necesito que me haga un muro afuera
+Necesito que ampliar dos habitaciones O
+sea que por ahí ese mercado el que no no
+está cubierto hoy por qué s
+yo yo le había entendido a Pablo en un
+momento que era parte del laburo que él
+hacía cotidianamente y que veía una
+falencia en la gestión y para eso y para
+eso creo que la información con la que
+contamos ahora
+eh que contamos en la cabeza de usted en
+la cabeza de Pablo como é con toda la
+información de los y eso ya la tenemos o
+sea es darle forma ir generando alguna
+funcionalidad Mostrar algún bet tester
+para que bet tester digo algún alguna
+empresa mía que le diga sí esto puede
+funcionar esto no O pero que Pablo lo
+pruebe dentro del estudio o no sé
+avanzar esa era mi idea inicial porque
+íbamos estar Pablo y yo entiendo lo de
+hacer un análisis más acabado de hacer
+una una comparación un estudio de
+Mercado más fiel porque no va dar cierto
+marco teórico de de respaldo para para
+sacar con un producto comercial pero
+creo que se nos va a dilatar el tiempo a
+ver para para tratar de acar un poco
+esto una cosa importante Jos un poco lo
+que trata de expresar Víctor
+inicialmente es como que el proyecto
+surge una necesidad concreta una
+voluntad de Víctor de de tratar de ver
+cómo se puede traducir esa necesidad y
+generar algo digamos donde él tenga una
+participación de desarrollo digamos y
+tener como un entregable usable y
+después ir testeando y que es usable si
+lo vendemos mejor eh un poco digamos
+Esto fue mutando Sí con con tu tu aporte
+acá también Jose con con la mirada
+digamos así no para no podemos
+este perder tanto tiempo y energía acá
+puede haber algo un poco más interesante
+que que el resolverle la planilla
+Pao digamos Y empezamos a pensar en algo
+que pueda ser interesante para todos no
+para Víctor como desarrollador
+para especialidad y para m también como
+un producto comercial
+alternativo me seduce digamos y me
+parece interesante porque la verdad que
+no veo como una respuesta concreta a un
+problema que está general tampoco lo
+puedo encuadrar bien al problema por eso
+apare esta idea de
+ideas para que entre todos podamos
+visualizarlo y que estas palabras se
+diluyan digamos en lo concreto decir a
+lo mejor yo muestro algo y decí bueno
+no O eso está buenísimo tomamos una
+parte no sé Entonces esta maqueta que
+dice Víctor él me mostró en algún
+momento una
+maqueta eran dos pantallitas con la como
+el enfoque de un proyecto y con su
+tareas y creo que algo más vinculado
+etcétera después ahí accedo y se lo
+mostramos un ratito pero para Víctor y
+no me quiero ir porque me parece
+importante que podamos porque son todas
+ideas que un poco ya la fuimos hablando
+y me parece que en todo caso engran la y
+demos un paso más digamos entonces el
+problema está en que esto que decíamos
+que hoy en día empezó a mutar un poco la
+idea del proyecto y el proyecto empieza
+a ser más que habilidad de Pablo empieza
+a ser un proyecto ya comercial que nos
+permita a los tres como socios digamos
+tener algún tipo de de rentabilidad a
+mediano largo plazo de esto no es cierto
+y por eso también le estamos dedicando
+todas estas cosas no es cierto y estamos
+tratando de estudiar un producto que
+realmente sea
+viable yo también estoy lo que dice
+Víctor de decir Bueno si esta no va
+Vamos por otro viste pero la verdad que
+creo que tenemos un equipo
+potencialmente muy muy potable y que
+está bueno que por lo menos caminar noos
+en esa entonces vuelvo Al foco anterior
+Dale primer problema no sabemos si es un
+edificio o una casa todavía no es cierto
+y segundo problema Por más que podamos
+acotar eso no
+sabemos el costo y la distribución y la
+distribución de El gran el gran desafío
+que va a ha ser acá es y y es a lo que
+yo quiero llegar a saber el costo y
+tiempo que son las dos preocupaciones
+que tengo Digamos como un poco
+organizador de esto es costo y tiempo
+para poder a partir de ahí tomar
+decisiones los costos Los costos yo creo
+que te compartí en la plantilla esa de
+que que te había mandado la vez pasada
+si quieres la la comparto ahora claro
+Víctor pero déjame que te trate de decir
+la idea
+eh No sé de qué estamos hablando de
+costos y de tiempos digamos en relación
+al producto que vamos a jar porque si no
+sabemos si es un edificio un edificio un
+costo y si es una casa va a tener un
+costo Y si vamos a hacer una habitación
+o un sector de la casa tiene otro costo
+Entonces nosotros tenemos que generar un
+primer
+encuadre un primer
+enmarcado en donde nos pongamos de
+acuerdo y que vos nos digas
+específicamente esto puede llevar
+alrededor de tanto tiempo y puede valer
+tanta guita y puede implicar estos
+recursos a ver esp vamos de vuelta
+por porque vos me estás pidiendo a mí
+que te dé una estimación de tiempo y de
+costo sobre algo que no sabemos que
+vamos a hacer acabas de decir que no
+sabemos si es una casa y si es escuchame
+un poquito antes de cord por favor la
+exposición que voy a hacer
+eso aspira a esa búsqueda y la charla
+que estamos teniendo aspira a eso a
+generar un recorte para que en el
+próximo paso tengamos podamos acotar no
+y tener una idea de acuerdo entre los
+tres dec va por ahí el tema y dec bueno
+encuad por
+acá coso es
+eso que unos bueno muchacho Este es el
+cis y ahora s se parece má un edificio
+una
+casa Esa es la
+idea creo que todos estamos de acuerdo
+en eso no estamos
+entendiendo hab quedado colgado Un paso
+atrás
+les parece si si cortamos y nos volvemos
+cortamos y ahí le paso déjame que busque
+la otra el otro enlace antes de que
+cortemos de [ __ ] está el otro enlace d
+dale ahí está Ah ahí lo busco y se los
+paso y O creo una nueva igual
+ahí ahí se lo después acordate Jos si
+llegas
+a a
+[Música]
+tener bueno ahí le paso en el WhatsApp
+tener qué a tener la cuenta Esta que
+dijiste que por
+ahí
+hacer te Ah por también lo
+mismo que tengo
+tiemp pare que bueno estoy acostumbrado
+este práctico ahí pas el otro enlace
+cuando quieran cortamos lo conectamos
+ahí buenísimo Dale

@@ -1,0 +1,798 @@
+un
+[Música]
+segundo bueno V ven esta suerte de
+gráfico
+[Aplausos]
+no
+Hola
+Bueno un
+poco tratando de ordenar esto es un
+esquema que fui Armando como para
+tratando de ordenar información que
+tenemos para para tratar de darle
+matices y y ver de qué forma podemos
+generar esta maqueta que plantea
+vor yo parto de de esta idea que tiene
+que ver con
+[Aplausos]
+la có sería
+como a ver como
+la como la la estructura de división de
+trabajo que nosotros proponemos digamos
+Eh Esto que dice zona zona rubro tarea
+subtarea es la división de trabajo que
+nosotros estimamos desde nuestra
+planilla original digamos planilla de
+cómputo y
+original
+eh Hola Sí sí yo no los veo me no
+tranquilo voy hablar más si si ve que
+est una hora hablando solo pues ya nos
+fuimos okay Bueno ahí de ahí nosotros
+básicamente lo que sacamos de nuestra
+planilla de licitación o de cotización o
+de base este este concepto que vos
+decías Jos hoy no me acuerdo
+pero como el precio base sería No es
+cierto nosotros sacamos el qué Sí sí
+precio base el precio base nosotros
+sacamos como un costo total
+presupuestado digamos es que Qué es la
+base de del Análisis No es cierto y ese
+ese ese costo presupuestado viene
+básicamente el presupuesto de oficial o
+de la planilla de licitación o de los
+rubros que nosotros le pidamos a
+distintos proveedores que nos digan
+Cuánto cuánto va a salir esta esta
+tarea sean los distintos contratistas
+que van a proer nuestro proyecto esos
+presupuestos van a estar en relación a
+los recursos que nosotros vamos a
+estimar
+yo describí algunos después habrá que
+sintetizar esto pero este Los costos de
+mano de obra Los costos de materiales
+Los costos de equipo costo de
+instalaciones costos de subcontratistas
+o consultores
+viáticos contingencias gastos generales
+o
+impuestos una serie de de costos que en
+sumatoria van
+[Música]
+a nir digamos de
+base a cuánto sale cada una de las
+tareas que hacen a nuestro a nuestro
+proyecto o a nuestro grupo a nuestro
+programa teniendo teniendo digamos un
+costo
+presupuestado un cesto base nosotros
+entramos en esta en esta idea de lo que
+era la la ingeniería de
+valor yo lo que entiendo es
+que en la idea ingeniería de valor
+nosotros podemos como analizar
+eh el proyecto Macro es decir todo el
+proyecto comparando distintas
+alternativas del mismo proyecto o
+podemos analizar este la etap habilidad
+o podemos analizar este alguna de las
+tareas específicas que
+hacen para eso Por supuesto habrá que
+determinar Cuál es el impacto de cada
+cada una de estas tareas o rubros o
+zonas que que hablábamos anteriormente
+digamos dentro del total de Eh entonces
+yo creo que el el experti de nuestro de
+nuestro sistema tiene que estar en que
+nosotros podamos
+analizar mediante alternativas
+tecnológicas es decir qué pasa si yo en
+vez de hacer con muro de ladrillo común
+hago con un sistema ste frame por
+ejemplo cómo me
+varía en el
+proyecto la tendencia de lo que yo tenía
+como presupuesto base o alternativas de
+proveedores Qué pasa si Este muro de
+ladrillo yo lo hago con Pablo o con otro
+contratista más le compro la cosa en El
+Corralón más allá gener como escenario
+cierto de acuerdo proveedores
+o generando cambio o alternativas
+funcionales esto que planteaba un poco
+Jos decir bueno Qué pasa si este piso
+completo no lo hago cómo me impacta
+dentro del
+proyecto entonces un poco la idea de
+este estudio de variantes o escenario
+por ahí implica digamos
+este tener algunas pantallas dentro del
+sistema que de alguna forma uno pueda
+tabular digamos este unos parámetros que
+posteriormente nos permitan a generar
+combinaciones entre sí para
+este llegar a un escenario que nos ayuda
+a tomar una
+decisión esos
+escenarios van a estar matizados por
+impactos eso esos escenario que nosotros
+podamos expresar este con con algún tipo
+de metodología digamos ahí ahí la parte
+de sistema yo No sabría có hacer quate
+tranquilo que yo tampoco sé cómo hacer
+eso que estás queriendo pero vamos vamos
+vamos a escular vamos vamos a encontrar
+un camino para Está bueno no estoy no sé
+cómo hacerlo por la complejidad que
+tiene digo o sea esto hasta que
+no se entiende claramente la idea Jose
+yo te mé porque estaba metiendo ruido
+así que si estás hablando no te vamos a
+escuchar tenés que habilitar el
+micrófono meendo ruido está metiendo
+ruido el teléfono o algo de ahí de tu de
+tu con
+eh No no la está buenísimo pero esa Esa
+era la parte compleja que llegamos la
+vez pasada que se podían armar n
+cantidad de variables o de opciones o de
+escenarios como le pusiste vos que me
+encantó el nombre que lo podemos tomar
+así
+y y bueno va a depender un montón de
+cada cambio en alguna de esas cosas te
+va a afectar la visualización o la forma
+de trabajar que va a tener cada pantalla
+porque no cada pantalla tiene su su
+parametrización dependiendo de ya te
+digo de de si vas a trabajar con un solo
+proveedor o si vas a variar la
+alternativa tecnológica o o o si vas a
+estar trabajando sobre la parte
+funcional como que son funcionalidades
+cada cambio de eso cada por donde lo
+quieres encarar al cambio o la o
+la actualización del costo del proyecto
+dependiendo de Por qué línea de esas
+tres que quieras trabajar que te va a
+afectar todo lo otro va a ser una
+dinámica u otra
+O sea no se me ocurre Cómo integrar todo
+en una sola función no s
+si está bueno eso porque Fíjate join lo
+que hacía era no hacía un estudio de
+variantes lo que hacía era como un
+trabajo lineal entonces este em se
+aprueba se desaprueba y cuál es el
+cambio en el presupuesto de acuerdo a
+los em que yo agrego o des agrego por
+ahí podemos intentar ir por ese lado
+billo Sí sí era bastante sencillo es esa
+forma sí Entonces era porem pero te
+limita a lo que está queriendo Pablo o
+sea con eso con esa forma no vamos a
+poder hacer esto sí
+noar esto es como una como una toma una
+toma de decisión previa a lo que es join
+digamos Ah okay porque vos acá estás
+comparando se cortó se cortó
+la la Cómo se llama el la compartida la
+pantalla compartida Sí sí sí que porque
+quería compartir otra cosa mientras
+estamos hablando pero eh igual eso vos
+lo ponés después en la carpeta o algo
+así lo en el grupo lo tirá sí es un
+programita que esto voy a pasar un link
+no sé muy bien cómo se administra porque
+me puse a jugar con esto está bien
+eh y y te permite hacer gráficos y bueno
+es como que tratar traté de ir ordenando
+la la la idea
+con eso pero Espera Dame un
+segundo en un ratito se corta igual así
+que vamos a tener que conectar le paso
+Rito lo
+hago a ver comparto de nuevo s
+Dale
+ventana acá
+bueno Esta es la planilla
+que más o menos y había mostrado comoe
+en donde nosotros tenemos una suerte
+lineal como dice
+Jos la
+idea ru o tareas que era lo que decía el
+otro día cierto y ten una serie de
+actividad
+Enton est
+acuerdo a los parámetros que vos vayas
+vayas agregando acá va a definir si tu
+si tu propuesta de costo está en
+relación a una
+estimación
+o o algo que se adoptó como como como un
+presupuesto aprobado es decir si tuvo el
+Ok digamos o algo que fue como un
+presupuesto base como una referencia
+acuero
+anlis eso está como Hum lineal mod
+lineal Pero la idea es que con esta
+información que yo creo que deberíamos
+poder ordenarla
+sistemáticamente nosotros podamos llegar
+a este tipo de cosas de gráficos en
+donde podamos comparar Cómo estamos
+con distintas distintos tipos de
+presupuest
+un presupuesto en
+relación a lo proyectado o cuál es la
+tendencia de nuestro presupuesto
+original que hicimos en base a los
+cambios que hemos
+realizado como hacer filtros por por
+línea
+ir con elare
+[Música]
+[Aplausos]
+presupuestos que después se junten y
+puedes hacer gráfico de cada tipo de
+presupuesto que vas haciendo es lo quey
+est diendo Exacto
+Entonces yo qu digo por ejemplo nosotros
+tenemos voy voy a ir voy a compartir
+otra planill
+[Música]
+acá Bueno qué digo
+Víctor Si nosotros nuestro sistema le
+podemos cargar de algún modo esta
+planilla eso eso olate que acordamos que
+es digamos un lenguaje bastante
+universal Dentro de este nuestro mundo
+en donde vamos a tener rubros vamos a
+tener tareas vamos a tener subtareas o
+de de de rubros Digamos si nosotros
+podemos de alguna forma dinámica cargar
+esta información vamos a tener
+cantidades y vamos a tener un precio
+base Si se quiere que es nuestro nuestro
+presupuesto eh de referencia más luego
+nosotros decir Bueno voy a ir por
+ejemplo a losa de hormigón armado la
+losa de hormigón armado me significa un
+22 de El costo de del proyecto y yo sé
+que mi proyecto Vale qué s yo
+447000 pes pero yo en realidad tengo
+200000 entonces tengo que empezar a ver
+en qué punto puedo
+mejorar entonces digo voy a este ítem
+que que tiene un peso importante el
+proyecto voy a ver genero doble clic me
+abre una ventana para empezar a armar
+escenarios
+posibles Ajá y generamos esos escenarios
+de decir bueno a ver de qué modo pienso
+abordarlo Esto bueno cambiando la
+tecnología bien me abre voy a la ventana
+cambiando la tecnología y digo Bueno
+cambiando la tecnología De qué modo
+puedo hacer la
+losa alternativa un losa de hormigón
+alternativa dos entre piso de madera
+alternativa TR este
+no y que uno tenga un lugar donde agrega
+cada línea puede agregar distintos tipos
+de tecnología en esa sección que es
+tecnología
+digamos cantidad los parámetros Cuáles
+van a ser los parámetros una descripción
+En qué consiste el em tecnología para
+poder compararlo y cómo se va a componer
+el
+costo de esa tecnología Posiblemente sea
+estimado y posiblemente devenga de otro
+software o de
+otr claro o Vos mismo la cargaste vos la
+cargas claro entonces simplemente vos
+tenés tres alternativas en base a la y
+uno sale cantidad ot y v le puedes
+agregar los riesgos que implica eso en
+cada una de la
+tecnología las variantes que puedan
+tener en tiempo o las variantes que
+puedan tener en calidades digamos cierto
+Entonces nosotros podemos llegar a
+tabular esa ventana pero básicamente la
+comparativa final va a aparecer en
+alguna pantalla donde diga los armado
+los tres escenarios propuestos y alguien
+tendrá que validarlo alguien tendrá que
+decir el propietario decir Bueno vamos
+por este
+camino aprobado
+desaprobado claro entonces de alguna
+forma Mostrar y bueno vos vas a
+tecnología un y de alguna forma Ves cómo
+te va a cambiar
+este a ver ahí tengo una pregunta porque
+sí está entiendo y me me gusta la idea
+eh pero estoy viendo cómo eh Te
+repercute el cambio de esos 170 Met
+de cómo te afecta de losa cómo te
+afectan el resto de los de los eh em o
+de las líneas de de Cómo se llama de los
+rubros
+de dentro de hormigón armado o sea te
+afecta directamente en algo o no Porque
+vas a necesitar menos cantidad de Viga
+vas a necesitar menos cantidad de zapat
+vas a Ne es probable que sí es probable
+que sí ese cálculo vas a lo lo tenés que
+hacer manualmente vos o sea cómo cómo lo
+estás en el vas a tener que tener atrás
+de de esta planilla una una un entramado
+de relaciones entre cada rubro Y cómo te
+afecta porcentualmente cada uno con el
+el otro para que al tocar uno te
+recalcule
+más o menos porcentualmente es muy
+difícil no no lo va a poder hacer No no
+no tenés que hacerlo ap parte hac eso
+eso es lo que decía Jos de decir Bueno
+este escenario uno eh voy a eso ya es un
+cambio funcional este piso no lo voy a
+ejecutar Exacto Entonces en vez de 170
+Met cuad de losa voy a hacer el
+escenario uno voy a hacer este 100 m cu
+Sí sí pero ten que tocando uno por uno
+todos los otros em que están ese
+escenario ese escenario vos lo armaste y
+al pie en algún lado en tu planilla base
+este pueden aparecer los cambios de
+escenario y cómo
+repercute este precio final en cada uno
+de es escenari si es un escenario
+funcional sea un escenario tecnológico o
+simplemente un escenario de cambio de
+proveedores por ejemplo y
+Bueno después V ha un clic en cada uno
+de esos y v la profundidad o las notas o
+los
+precios claro capaz que funcional
+tecnológico proveedores lo puedes poner
+como una como un tag como una etiqueta
+en cada línea que vos vas cambiando
+agregando parte del escenario que V
+armaste
+no decir elimin un piso un cambio
+funcional
+[Aplausos]
+estamos
+s
+estamos no estaba pensando pensando en
+voz
+alta esos tres puntos que vos está
+diciendo esas
+tres tipos de
+cambios está bien identificado lo que
+está diciendo son tres tipos de cambios
+que lo podemos capaz manejar como una
+columna más como un tag o como algo que
+está bueno veré tipo de cambio es cada
+línea tal cual tal cual A ver es es eso
+eso tiene que ver mucho con la
+visualización digamos en donde có a lo
+mejor a lo mejor si estamos hablando de
+de del
+cambio
+tecnológico como dice como dice Víctor
+eso puede A lo mejor eso ya nos permite
+saber previamente a nosotros de que que
+puede afectar multiplicidad de rubros no
+solo la losa sino a lo mejor puede
+afectar las columnas o las fundaciones
+Entonces el sistema A lo mejor
+Simplemente te puede alertar esa
+posibilidad no pierda el
+foco este no te va a decir que si es un
+cambio funcional Exactamente lo mismo A
+lo mejor te afecta ya paquetes de rubros
+cierto pero si es cambios de de de
+proveedores Es sobre la misma línea
+porque básicamente No no es esa es la
+más fácil el tema de tener multipr
+veedores es la más fácil la complejidad
+por ahí me parece que viene con esto que
+aclaraba recién vos el tema de los
+grupos de rubros como cuando estén
+vinculado pero ahí se Ah ahí con ese
+término que ocupaste grupo de rubro que
+ya lo habías mencionado Hoy está bueno
+porque por ahí con un trabajo más fino
+se pueden se pueden Armando ese concepto
+de grupo de rubro que para que o te
+alerte o en una siguiente versión del
+Software te permita automatizar ese
+ajuste en algún porcentaje
+claro enti o sea vos tenés rubo
+vinculado o o o no ha acciones sino e no
+está bien
+rubros quiero mostrar una última cosa
+fíjate fíjate lo que me pasó comentario
+para que para ilustrar Víctor lo que me
+pasó en Armenia Pablo tenía me como eran
+dos proyectos diferentes en realidad son
+tres proyectos diferente que nos estamos
+manejando uno es el cambio de aire
+acondicionado que lo tomó el propietario
+porque que seos entonces el equipo lo
+compra el propietario después tener el
+trabajo de mejoras que es arreglar la
+reja hac la bicion un poco albañilería
+cosa que quer mejorar en el edificio un
+edificio Víctor que vandalizaron los
+aire acondicionados y se robaron todos
+los cables es subterráneo desastre es
+ahí
+ahí corri en corriente y después está la
+parte de que paga el Seguro que es el
+cambio de aire todo lo que se robaron lo
+pago el seguro Sí y lo que rompieron
+pero hay cosas que el propietario arg
+Espera que te tengo que decir algo Elo
+viene de allá de Uta de Texas del
+edifici de 2000
+palos los cacos con los
+cables boludo se impresionante lo que
+vos estás describiendo vítor te estás
+imaginando muy bien porque son unos
+equipos de aire acondicionado viste esos
+RT que van arriba los techos los grandes
+y los tipos con un nivel de crotera pero
+a su vez de ingeniería no no boludo pero
+lo no Se tomaron el tiempo y lo lo lo
+desarmaron totalmente y y y es tal lo
+que voy decir la cuestión de los cacos
+que decí que dejaron tres chapas paradas
+así como que voy decir bueno acá H un
+aire o sea hubiera sido menos agresivo
+si se llevaban el equipo
+completo una camisería
+no no pero
+pero me da pena
+J TR meses en la
+NASA diente es diferente me
+vol
+que
+dale Entonces te decía eran esos o sea
+son dos proyectos diferentes vamos a
+decir Grand qué pasó se cotizaron los
+proyectos Pero uno
+me ganó un contratista y el otro ganó
+otro
+contratista y un contratistas se bajó
+del proyecto de mejora el que tenía el
+mejor precio Pero qué pasó Me quedaron
+igual dos contratistas diferentes pero
+me genera un problema de coordinación yo
+no tengo no me dan recursos a mí en
+mantenimiento a Para coordinar los
+contratistas lí Y entonces le llamo al
+contratista y le digo che
+pasa si te doy los dos proyectos
+entonces é me dice Te bajo el precio
+listo pasame tu propuesta nueva Entonces
+el tipo me baja el precio y ahí ya se me
+generan dos escenarios diferentes una es
+con el este proyecto viste que tenía las
+tablitas de distintos edificios vist
+poner Proyecto Uno proyecto dos en el
+proyecto uno tengo el escenario de este
+contratista el proyecto dos no son
+escenario diferentes me refiero a
+proyecto me refiero a distintas tareas
+en el edificio Entonces el proyecto las
+tareas del proyecto un me sale este
+precio tarea proo este precio Pero como
+este este propietario Si gana los dos
+proyectos me propone un precio diferente
+este
+contratista mi precio varía mi precio
+total y ahí tengo los escenarios y los
+puedo mostrar al cliente decir estos son
+los
+escenarios así así es la mejor forma mi
+caso es muy sencillo Porque son dos
+opciones
+está buenísimo lo que j y meo a decir
+que a vos te toca Esta última etapa de
+la toma de decisiones en donde estás
+dando una vuelta rosca más digamos pero
+ese
+proyecto que por yo participé en la
+etapa proyectual tuvo mayor
+complejidad por dos puntos primero
+porque justo Había otro administrador
+antes que Jos Víctor El tipo se
+encontraba con la problemática de que
+ante una necesidad específica que era
+refrigerar el edificio y alimentar
+eléctricamente el
+edificio tenía algunos aspectos que el
+seguro le iba a cubrir y otros aspectos
+que lo tenía que hacer por métodos
+propio porque necesitaba generar más
+seguro para más seguridad para no sufrir
+Eh vandalismo vandalismo entonces ya
+inicialmente la persona que tenía que
+que promover esa Esa esa idea de que
+decí hasta cuánto mebre que me cubre el
+seguro y que no me cubre el seguro te
+tuvo que generar dos escenarios distinto
+por un lado un proyecto de cosas que le
+va a cubrir el seguro y por otro lado un
+proyecto que era lo que mejoraba la
+seguridad de de lo instalado de los
+equipos que tiene dos alternativas
+funcionales una era generar una
+plataforma y poner los equipos más
+elevados para que lo para que no suf
+ismo o bien la otra alternativa que creo
+que es la que va a hacer Jos de ponerlo
+a nivel de piso con una con una reja
+digamos
+este para que también tenga menos robo y
+a lo mejor unas cámaras es decir si
+cambia ante una misma necesidad dos
+escenarios totalmente
+funcionales tomada esa decisión la misma
+problemática se vuelve a desloar con
+esto que dice Jose porque ya aparece
+dos nuevos escenarios en base a
+proveedores ya no funcional porque hay
+una toma de decisión en base a lo
+funcional pero ahora tiene el desafío
+decir como lo ejecuta si lo ejecuta con
+dos proveedores distintos o unificando
+los do proveedores y consigue algún tipo
+de
+descuento creo es muy apropiado el
+ejemplo que es es el ejemplo ideal como
+para que trabajemos en armar un sistema
+que pueda resolver este caso
+vos sabes cómo lo presentan pa sabes
+cómo lo presentan haciendo poniendo
+haciendo un powerp hoy en día eso es un
+powerp de la plan coción vas poniendo
+los escenarios y lo ponen en un
+Powerpoint es super manual el trabajo y
+bastante un tipo se tiene que poner a
+reunir todas las planillas de de Ah
+decir como ten que justificar y
+presentarlo al cliente eso A eso se
+refieren un Power y me pasa Le llamé un
+contratista y le digo Pásame tu
+presupuesto no sé cuál es me dice pero
+si vos ganaste la obra hice tanto
+presupuesto que no sé cuál es el que Que
+gané decirme vos me dice viste no puede
+ser permiso el chico lo busco a mi hijo
+está esperando afuera y me sumo para
+cerrar Dale
+dale no puedo creerlo el presupuesto
+bueno viste que decía tracking viste el
+tema de
+la el seguimiento del historial de los
+cambios porque momento que no sab Cuál
+es el presupuesto porque lo revisá
+50,000 veces y tené un montón de
+planillas
+ya Hola sí no eh
+El queda mucho más claro a lo que
+apuntamos o sea la Cuál sería la
+solución pero no porque quede más claro
+es más sencillo de
+hacer como que que la veo la veo con
+cierta complicada es complicado o sea
+era una cosa lo que habíamos hablado
+inicialmente inclusive Cuando vos te la
+primera parte que que vos te sumaste Y
+eso de una gestión de proyecto básica
+que por un lado tenés la articulación
+del proyecto etcétera etcétera A a este
+desglose funcional del sistema que te
+tiene que resolver una problemática
+general de toda del 80% de las obras eh
+está genial si logramos
+eh hacer pie estás muteado
+paulito estás muteado porque te está
+metiendo ruido tu micrófono
+eh está muteado Sí está bien dice que no
+va no No lo que decíamos acá con Jose es
+que si llegamos a
+resolver este problema tenemos un
+80% de las obras o un poco menos poner
+un 70 60 que necesitan en algún punto de
+toda la vida del proyecto resolver esto
+O sea tendríamos que enfocar
+Tenemos muchos clientes Tenemos muchos
+clientes para tenengo que apuntar algo
+sencillo que puede resolver esa esas
+tres
+etapas no te digo de la misma forma pero
+o contemplar las tres etapas esa con con
+las diferentes opciones y alternativas
+para cada una pasa que cualquiera de esa
+te significa un montón de carga de
+información vos tendrías que tener
+volcado dentro del sistema toda la
+información del proyecto por rubro por
+clasificado diferent para poder hacer el
+análisis entonces
+eh Tenemos que tener toda la primer
+parte de gestión de proyecto básica más
+este esta ingeniería de valor que es Y
+apuntalar eso No no vamos a tener un
+trabajito ahí interesante Sí a ver
+Víctor eh yo yo creo que que sí está
+bien información va a ser
+necesaria
+Pero hay una información base que es la
+la la que nosotros partimos que es el
+cómputo y presupuesto o sea nosotros
+tenemos esa información que que
+cualquier proveedor ante cualquier
+proyecto medianamente serio tiene
+Entonces yo creo que hay un primer
+desafío de poder volcar esa y su
+información a nuestro sistema más luego
+yo digo esto muestro una última cosita
+no más que un detalle
+para
+ventana ahí
+puede Dale pued visualizarlo no sí sí se
+ve
+Entonces si nosotros tenemos acá nuestro
+listado de tareas que se acuerdan que yo
+les decía que qu s
+yo tarea uno tarea dos
+eh Si nosotros llegábamos a a poder
+poner digamos de que se generaban
+dependenci estas tareas a un rubro cosas
+así Ajá nosotros tenemos tareas rubros
+zonas todo lo que vayamos pudiendo
+definir nuestro coso la idea sería acá
+nosotros vamos a tener este costo Si se
+quiere tiempo bueno eso será para otro
+proyecto a lo mejor el tema de tiempo y
+de alcance pero por lo menos costo que a
+donde estamos apuntando enería valor
+este y más luego haciendo un doble clic
+en cada una de esas tareas o de esos
+rubros nosotros tendríamos que tener la
+posibilidad de de poder generar esos
+escenarios esas cosas no cierto
+eh Y esos escenarios cuando nosotros le
+cargamos una serie de de datos por
+ejemplo en este caso uno puede generar
+Qué pasa si hago con recursos cambiando
+los recursos o si hago con cambiando la
+tecnología o si hago cambiando las
+funciones digamos de alguna forma esos
+valores en alguna de esas columnas Se
+podrían ir
+Y con esos datos nosotros Podríamos
+sacar gráficos diamos es
+decir dejemos el tema de los gráficos lo
+más sencillo de todo poito porque eso ya
+al tener la Data vos armar gráfico
+en dos días pero la más relativamente
+fácil enfoquémonos te digo porque es la
+información que necesito para poder
+avanzar enfoquémonos en esto que vos
+estás mostrando ahí me resulta más útil
+porque ya lo habíamos visto la vez
+pasada en la reunión Pero ahora con esto
+que vimos de la presentación de Jose de
+lo que hablamos del ejemplo este tanto
+de la aplicación de Jose como la tuya de
+la parte inicial de del proyecto del
+robo del aire
+acondicionado como se me hace una idea
+completa de A dónde apuntar y y está
+bueno así yo arrancaría por algo tan
+sencillo como eso que vos estás
+mostrando el project Ah armemos algo
+sencillo como eso que podamos tabular de
+alguna
+forma simple o sea que podamos
+seleccionar varias tareas agrupar un
+rubro tener grupo de rubro ver cómo
+podemos agrupar varios proyectos porque
+esto que hablábamos si bien es una obra
+única son diferentes proyectos para la
+misma obra encontros la vuelta Cómo
+Cómo darle alguna
+visión materializar algo de esto no
+salirnos mucho más de acá ya tenemos la
+idea de A dónde queremos
+ir cuando hagamos funcionar esto de
+forma sencilla que podamos cargar
+algunos datos
+básicos Proyecto Uno proyecto dos este
+proyecto vinculado con el otro cliente
+uno etcétera cuando tengamos esa base
+avancemos a un siguiente nivel Okay sí
+Así vamos trabajando ya sobre algo más
+concreto porque yo creo que la idea Está
+dijo meno era la base está el Bambino el
+Bambino y se com la vuelta la esquina
+hijo de Pero bueno nada Lo
+importante es la filosofía Oriental más
+que las
+personas la base
+está hagamos andar eso cuando tengamos
+eso
+funcionando el siguiente paso para ajust
+a ver esto no nos va a llevar un
+tiempito pero vamos a tener algo más
+concreto sobre qué sobre qué seguir
+trabajando o sea resolvamos el tema de
+la carga inicial del proyecto que es la
+planilla de
+costos que tenga Obviamente que tenga la
+posibilidad de de de ver la planilla de
+costo de la opción seleccionada del
+escenario seleccionado actualmente y la
+posibilidad de agregar diferentes
+escenarios para cada rubro o
+tarea Okay hasta ahí
+lleguemos les parece o se avancemos con
+esto Yo ya me voy en base a lo que
+estaba trabajando voy haciendo los
+ajustes que necesitamos para ver esto y
+tratemos de de de ver algo eh Okay así
+así Bueno vamos sumando y dejando y lo
+que si hay que tirar todo de vuelta y lo
+hacemos de vuelta no hay problema el
+tema es que ya sabemos la O sea me
+parece que sería esa un poco la idea
+para para poder avanzar sobre sobre algo
+más concreto Okay s s s gracias buen el
+lunes seguimos a hacemos el lunes el
+lunes seguimos como para ir viendo a ver
+qué información podemos ir puliendo que
+yo yo no le sumaría más información
+Pablito yo te digo me gustaría más o
+menos voy a tratar de hacer un un cqui
+sería un algo básico a nivel de datos
+para decirte Mira vamos a almacenar
+estos datos en base a los datos que vos
+tenés en tu planilla o sea toda esa
+planilla que vos tenés de rubro Y eso lo
+voy a bajar a nivel de Estructura de
+datos de base de datos para para tener
+una
+idea como te había compartido en un
+momento Cómo se rel el objetos bajo
+eso y le explico Cómo cómo quedaría la
+interrelación de esos objetos la
+entidades sería cuando ustedes me dian
+bueno por ahí no va a faltar en vez de
+tener unidad me va a hacer otro otra
+colum plataforma ajustamos eso y y ahí
+armamos en la maqueta y vamos trabajando
+así la semana que viene no te digo para
+el viernes pero para el otro lunes
+podemos tener algo para empezar a a
+meter datos y por lo menos ver la
+dinámica esa de de poder reasignar las
+tareas reasignar Los rubros vemos
+trabajar con los proyectos Dale pero
+junté el lunes por lo menos un ratito
+para ver tenemos para veralta podemos
+hacer para lunes vamos me comprometo a
+tener esto
+listo doy prioridad eso as avanzamos un
+poco más ágilmente
+gen i

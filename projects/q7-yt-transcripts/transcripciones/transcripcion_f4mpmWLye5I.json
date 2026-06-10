@@ -1,0 +1,602 @@
+[
+  {
+    "text": "o deben ser nuestros potenciales",
+    "start": 0.0,
+    "duration": 3.04
+  },
+  {
+    "text": "clientes",
+    "start": 1.719,
+    "duration": 3.801
+  },
+  {
+    "text": "eh En vez de apuntarla a un solo",
+    "start": 3.04,
+    "duration": 4.08
+  },
+  {
+    "text": "segmento pueden ser cualquiera de esos",
+    "start": 5.52,
+    "duration": 5.999
+  },
+  {
+    "text": "tres eh móviles y cuál va a ser el",
+    "start": 7.12,
+    "duration": 6.28
+  },
+  {
+    "text": "expertiz algo que vos me mencionaste el",
+    "start": 11.519,
+    "duration": 3.481
+  },
+  {
+    "text": "otro día Jos cuando me",
+    "start": 13.4,
+    "duration": 5.16
+  },
+  {
+    "text": "explicaba cuando el desarrollador compre",
+    "start": 15.0,
+    "duration": 6.08
+  },
+  {
+    "text": "nuestro sistema va a tener la",
+    "start": 18.56,
+    "duration": 5.84
+  },
+  {
+    "text": "posibilidad de ofrecerle al arquitecto y",
+    "start": 21.08,
+    "duration": 6.32
+  },
+  {
+    "text": "al contratista el uso de su licencia",
+    "start": 24.4,
+    "duration": 7.52
+  },
+  {
+    "text": "para el desarrollo de su propio proyecto",
+    "start": 27.4,
+    "duration": 4.52
+  },
+  {
+    "text": "en modos limitados entonces eso puede",
+    "start": 32.239,
+    "duration": 6.721
+  },
+  {
+    "text": "generar una comunicación en red en donde",
+    "start": 36.04,
+    "duration": 5.359
+  },
+  {
+    "text": "si es lo suficientemente bueno nuestro",
+    "start": 38.96,
+    "duration": 5.4
+  },
+  {
+    "text": "sistema puede llegar a generar la",
+    "start": 41.399,
+    "duration": 4.64
+  },
+  {
+    "text": "inquietud del arquitecto de los",
+    "start": 44.36,
+    "duration": 4.32
+  },
+  {
+    "text": "contratista para poder adquirir también",
+    "start": 46.039,
+    "duration": 6.921
+  },
+  {
+    "text": "el mismo software digamos y",
+    "start": 48.68,
+    "duration": 6.719
+  },
+  {
+    "text": "y con mayor cantidad de posibilidades",
+    "start": 52.96,
+    "duration": 5.399
+  },
+  {
+    "text": "funcionales cierto por ejemplo análisis",
+    "start": 55.399,
+    "duration": 5.041
+  },
+  {
+    "text": "de costo de material análisis de",
+    "start": 58.359,
+    "duration": 3.601
+  },
+  {
+    "text": "materiales seguimiento de materiales que",
+    "start": 60.44,
+    "duration": 5.679
+  },
+  {
+    "text": "era lo que está diciendo exa",
+    "start": 61.96,
+    "duration": 7.64
+  },
+  {
+    "text": "exact exactamente y cada uno de estos",
+    "start": 66.119,
+    "duration": 6.241
+  },
+  {
+    "text": "usuarios debería tener si bien la",
+    "start": 69.6,
+    "duration": 4.68
+  },
+  {
+    "text": "información del proyecto siempre va a",
+    "start": 72.36,
+    "duration": 4.2
+  },
+  {
+    "text": "ser para todos la misma No es cierto",
+    "start": 74.28,
+    "duration": 5.96
+  },
+  {
+    "text": "pero debe tener como una relación visual",
+    "start": 76.56,
+    "duration": 5.64
+  },
+  {
+    "text": "con el sistema",
+    "start": 80.24,
+    "duration": 5.08
+  },
+  {
+    "text": "diferente entonces por ejemplo la página",
+    "start": 82.2,
+    "duration": 4.72
+  },
+  {
+    "text": "principal con herramientas configuradas",
+    "start": 85.32,
+    "duration": 5.36
+  },
+  {
+    "text": "por el usuario por ejemplo quizás al",
+    "start": 86.92,
+    "duration": 6.479
+  },
+  {
+    "text": "desarrollador no le importa mucho un",
+    "start": 90.68,
+    "duration": 4.799
+  },
+  {
+    "text": "cómputo minucioso de",
+    "start": 93.399,
+    "duration": 5.481
+  },
+  {
+    "text": "materiales pero sí le importa el control",
+    "start": 95.479,
+    "duration": 6.201
+  },
+  {
+    "text": "de los tiempos de la obra y el control",
+    "start": 98.88,
+    "duration": 5.64
+  },
+  {
+    "text": "de eh los desvíos de costo que puede",
+    "start": 101.68,
+    "duration": 4.28
+  },
+  {
+    "text": "haber es",
+    "start": 104.52,
+    "duration": 5.36
+  },
+  {
+    "text": "cierto Quizás eh al arquitecto le",
+    "start": 105.96,
+    "duration": 6.36
+  },
+  {
+    "text": "interese más que las comunicaciones",
+    "start": 109.88,
+    "duration": 5.839
+  },
+  {
+    "text": "oficiales eh de cada una de esas tareas",
+    "start": 112.32,
+    "duration": 5.52
+  },
+  {
+    "text": "que se van a ejecutar sean lo más",
+    "start": 115.719,
+    "duration": 5.281
+  },
+  {
+    "text": "precisas posible el control de cambios",
+    "start": 117.84,
+    "duration": 6.16
+  },
+  {
+    "text": "el control de las calidades de tareas",
+    "start": 121.0,
+    "duration": 4.92
+  },
+  {
+    "text": "también por qué no el control de plazos",
+    "start": 124.0,
+    "duration": 5.599
+  },
+  {
+    "text": "No es cierto y quizás al contratista lo",
+    "start": 125.92,
+    "duration": 6.0
+  },
+  {
+    "text": "que más le interesa es que la obra no se",
+    "start": 129.599,
+    "duration": 4.441
+  },
+  {
+    "text": "le desmadre digamos en los costos tanto",
+    "start": 131.92,
+    "duration": 4.64
+  },
+  {
+    "text": "en la etapa de previsión como en la",
+    "start": 134.04,
+    "duration": 5.8
+  },
+  {
+    "text": "etapa de ejecución cierto Entonces si",
+    "start": 136.56,
+    "duration": 6.12
+  },
+  {
+    "text": "bien a todos le interesa exactamente el",
+    "start": 139.84,
+    "duration": 5.64
+  },
+  {
+    "text": "mismo producto final Como terminado cada",
+    "start": 142.68,
+    "duration": 5.12
+  },
+  {
+    "text": "uno de estas patas puede llegar a ser",
+    "start": 145.48,
+    "duration": 3.92
+  },
+  {
+    "text": "mayor cantidad de foco en algún punto",
+    "start": 147.8,
+    "duration": 3.64
+  },
+  {
+    "text": "esp",
+    "start": 149.4,
+    "duration": 4.96
+  },
+  {
+    "text": "y eso me parece interesante que podamos",
+    "start": 151.44,
+    "duration": 4.32
+  },
+  {
+    "text": "entender",
+    "start": 154.36,
+    "duration": 5.68
+  },
+  {
+    "text": "cierto bueno acá viene mi",
+    "start": 155.76,
+    "duration": 4.28
+  },
+  {
+    "text": "interfaz",
+    "start": 162.599,
+    "duration": 4.64
+  },
+  {
+    "text": "en",
+    "start": 164.239,
+    "duration": 3.0
+  },
+  {
+    "text": "genial pasa que llegó muy de pensé que",
+    "start": 167.28,
+    "duration": 5.679
+  },
+  {
+    "text": "tenía algo",
+    "start": 170.319,
+    "duration": 2.64
+  },
+  {
+    "text": "Antes",
+    "start": 174.159,
+    "duration": 6.121
+  },
+  {
+    "text": "mal Bueno",
+    "start": 176.28,
+    "duration": 4.0
+  },
+  {
+    "text": "O sea ya ya se empezaron a ahorrar la",
+    "start": 185.36,
+    "duration": 5.72
+  },
+  {
+    "text": "risa en esta etapa",
+    "start": 188.12,
+    "duration": 2.96
+  },
+  {
+    "text": "deor",
+    "start": 191.879,
+    "duration": 4.36
+  },
+  {
+    "text": "l",
+    "start": 193.84,
+    "duration": 6.0
+  },
+  {
+    "text": "fuerte la idea fue",
+    "start": 196.239,
+    "duration": 3.601
+  },
+  {
+    "text": "impactar Qué pensé yo pensé esta idea",
+    "start": 203.519,
+    "duration": 8.041
+  },
+  {
+    "text": "ahora le muestro al final eh Para mí el",
+    "start": 208.12,
+    "duration": 5.759
+  },
+  {
+    "text": "sistema tiene que tener básicamente el",
+    "start": 211.56,
+    "duration": 4.92
+  },
+  {
+    "text": "control de de los tres ejes que yo le",
+    "start": 213.879,
+    "duration": 5.201
+  },
+  {
+    "text": "decía en realidad Son seis pero digamos",
+    "start": 216.48,
+    "duration": 4.959
+  },
+  {
+    "text": "el control de las tareas el control de",
+    "start": 219.08,
+    "duration": 5.28
+  },
+  {
+    "text": "los costos de los tiempos y",
+    "start": 221.439,
+    "duration": 6.281
+  },
+  {
+    "text": "agregaría la parte de recursos y los",
+    "start": 224.36,
+    "duration": 6.04
+  },
+  {
+    "text": "otros dos que faltan es la parte de",
+    "start": 227.72,
+    "duration": 5.0
+  },
+  {
+    "text": "calidad",
+    "start": 230.4,
+    "duration": 2.32
+  },
+  {
+    "text": "y o sea la el control de calidad y Me",
+    "start": 232.76,
+    "duration": 5.559
+  },
+  {
+    "text": "está faltando una pata que no me estoy",
+    "start": 236.599,
+    "duration": 3.64
+  },
+  {
+    "text": "acordando ahora",
+    "start": 238.319,
+    "duration": 3.401
+  },
+  {
+    "text": "Pero bueno ahora se me va a venir a la",
+    "start": 240.239,
+    "duration": 4.2
+  },
+  {
+    "text": "mente y la la vuelvo a",
+    "start": 241.72,
+    "duration": 6.2
+  },
+  {
+    "text": "mencionar eso Serían como",
+    "start": 244.439,
+    "duration": 8.401
+  },
+  {
+    "text": "los los elementos principales digamos",
+    "start": 247.92,
+    "duration": 8.08
+  },
+  {
+    "text": "que que van a que debe administrar",
+    "start": 252.84,
+    "duration": 5.44
+  },
+  {
+    "text": "nuestro sistema entonces La idea es que",
+    "start": 256.0,
+    "duration": 4.88
+  },
+  {
+    "text": "vos aprietes por ejemplo el botón en la",
+    "start": 258.28,
+    "duration": 5.72
+  },
+  {
+    "text": "parte de alcance que básicamente la",
+    "start": 260.88,
+    "duration": 7.4
+  },
+  {
+    "text": "definición de las tareas y aquí arriba a",
+    "start": 264.0,
+    "duration": 7.28
+  },
+  {
+    "text": "vos te aparezcan unas serie de subtareas",
+    "start": 268.28,
+    "duration": 5.08
+  },
+  {
+    "text": "que vos puedas hacer en el sector de",
+    "start": 271.28,
+    "duration": 5.16
+  },
+  {
+    "text": "alcance por ejemplo Entonces qué qué va",
+    "start": 273.36,
+    "duration": 4.399
+  },
+  {
+    "text": "a ser lo importante en la parte de",
+    "start": 276.44,
+    "duration": 4.72
+  },
+  {
+    "text": "alcance bueno la parte de seguimiento",
+    "start": 277.759,
+    "duration": 6.681
+  },
+  {
+    "text": "del plan o sea el planteo del plan el",
+    "start": 281.16,
+    "duration": 6.039
+  },
+  {
+    "text": "seguimiento el checklist de tarea las",
+    "start": 284.44,
+    "duration": 4.84
+  },
+  {
+    "text": "comunicaciones el repositorio de",
+    "start": 287.199,
+    "duration": 5.081
+  },
+  {
+    "text": "archivos y algunos reportes entonces que",
+    "start": 289.28,
+    "duration": 6.359
+  },
+  {
+    "text": "vos vayas apretando botones que nosotros",
+    "start": 292.28,
+    "duration": 5.88
+  },
+  {
+    "text": "definamos yo yo puse chicos como algunas",
+    "start": 295.639,
+    "duration": 4.481
+  },
+  {
+    "text": "ideas rápidas que me fueron se me fueron",
+    "start": 298.16,
+    "duration": 4.52
+  },
+  {
+    "text": "ocurriendo como para tratar de de de de",
+    "start": 300.12,
+    "duration": 5.44
+  },
+  {
+    "text": "acotar la propuesta no",
+    "start": 302.68,
+    "duration": 6.0
+  },
+  {
+    "text": "eh Bueno y lo mismo cuando vayamos a la",
+    "start": 305.56,
+    "duration": 5.4
+  },
+  {
+    "text": "casa de a la parte de costo también",
+    "start": 308.68,
+    "duration": 5.12
+  },
+  {
+    "text": "vamos a tener el costo planificado el",
+    "start": 310.96,
+    "duration": 6.32
+  },
+  {
+    "text": "seguimiento la caja de la obra análisis",
+    "start": 313.8,
+    "duration": 6.04
+  },
+  {
+    "text": "de categoría estimaciones de presupuesto",
+    "start": 317.28,
+    "duration": 6.039
+  },
+  {
+    "text": "archivos y reportes bueno los plazos los",
+    "start": 319.84,
+    "duration": 6.24
+  },
+  {
+    "text": "mismo plan seguimiento el seguimiento de",
+    "start": 323.319,
+    "duration": 5.32
+  },
+  {
+    "text": "desvío archivos reporte y bueno y",
+    "start": 326.08,
+    "duration": 4.72
+  },
+  {
+    "text": "algunas cosas que que sean importante en",
+    "start": 328.639,
+    "duration": 4.801
+  },
+  {
+    "text": "la parte de Plaza No es cierto recursos",
+    "start": 330.8,
+    "duration": 4.56
+  },
+  {
+    "text": "lo mismo No es cierto gestión de",
+    "start": 333.44,
+    "duration": 4.879
+  },
+  {
+    "text": "materiales",
+    "start": 335.36,
+    "duration": 2.959
+  },
+  {
+    "text": "con sí",
+    "start": 343.84,
+    "duration": 6.55
+  },
+  {
+    "text": "[Música]",
+    "start": 347.27,
+    "duration": 3.12
+  }
+]

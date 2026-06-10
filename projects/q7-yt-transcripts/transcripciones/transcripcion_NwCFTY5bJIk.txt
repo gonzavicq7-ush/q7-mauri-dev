@@ -1,0 +1,395 @@
+Sí ahí hay un punto que que como repulo
+digamos el tema es yo básicamente definí
+tres ejes de trabajo vos ya tocaste
+alguno digamos pero tres o cuatro ejes
+de trabajo uno que tiene que ver con el
+alcance del trabajo que es la definición
+de esto que vos está diciendo tareas o
+etapas o que ahora te lo amplío el otro
+son los tiempos y el otro son los costos
+Son son los tres elementos que que que
+serían necesario para para la para la
+gestión
+dig y aparte un cuarto elemento si se
+quiera que es la gestión de de esos de
+esos tres elementos preliminares cierto
+pero no no alcance primero alcance
+alcance costo y tiempo Sí bueno
+Eh Esto que tiene que ver con la etapa o
+con las tareas tiene que ver con el
+alcance Sí o sea el alcance básicamente
+sería la definición de qué es lo que
+vamos a ejecutar
+Sí entonces ahí
+eh un poco a modo de
+trabajo existiría como en una primer
+línea una primer línea yo le le llamo
+listado de actividades o actividades a
+ejecutar que van a estar definidas por
+un verbo y por una acción entendés
+Entonces por ejemplo por ejemplo
+este el alcance de Víctor es
+este ampliar mi casa es eso Víctor
+quiere ampliar la casa No es cierto
+entonces bárbaro para poder ampliar esa
+casa que sería como el objetivo final o
+sea ampliarlo en tanto metros cuadrados
+por un presupuesto que no pase tanta
+guita ese sería como el objetivo No es
+cierto de Víctor nosotros necesitamos
+generar un listado de actividades
+Entonces en ese listado de actividades
+vamos a decir bueno bárbaro para ampliar
+primero vamos a tener que mudaro a
+Víctor sí vamos a tener que mudar el
+historio Entonces tenemos eso va a
+implicar una serie de tareas eh Como
+hacer un equipamiento nuevo
+reacondicionar un espacio nuevo para que
+Víctor pueda seguir trabajando eh una
+serie de cosas o sea la el listado de
+tareas como un Tab como un subíndice
+como un como una partida diferente del
+listado de actividades sí la actividad
+es como más genérica No es cierto
+Entonces vamos a tener mudanza de Víctor
+por otra parte vamos a tener que hacer
+unas demoliciones Por otra parte vamos a
+tener que hacer todo lo que sea la
+envolvente Por otra parte vamos a tener
+una serie de cosas de actividades que
+que podamos ir definiendo el
+Macro y que esas
+actividades se van a subdividir
+posteriormente en un listado de tareas
+Sí pero para Víctor que no es
+especialista en en en construcción y no
+sabe punto
+específico cada una de las tareas que
+que van a implicar el proyecto
+porque a lo mejor vos no sabes eh qué
+tipo
+eh de albañilería o o o o o qué tipo de
+sellados vamos a utilizar para para una
+cubierta a lo mejor no soos idóneo en la
+materia No es cierto entonces vos
+necesitas un campo previo que son el
+estado de actividades es el estado de
+actividades que comprenden un montón de
+tareas es como lo que uno comparte en la
+cédula del proyecto en este contrato y
+decir esto es lo que te vamos a hacer
+Esto es lo que nosotros te proponemos
+generar en tu proyecto sí es lo es lo
+medible por el propietario que no es
+idóneo o profundamente idóneo en la
+materia más luego más luego viene
+este la obra generalmente se organiza
+por
+rubros generalmente se organiza como un
+subíndice No es cierto de las
+actividades rubros en donde van a haber
+distintas
+especialidades por ejemplo va a haber
+rubro de
+albañilería rubro de techados rubro de
+instalaciones sanitarias rubros de
+instalaciones eléctricas y demás cierto
+y cada uno de ese de ese de esos rubros
+tiene una
+tarea se entiende o no es decir que
+nosotros debería tener
+por muchas tareas por ejemplo a lo mejor
+de instalación sanitaria para la
+ampliación de la casa de Víctor solo es
+necesario extender un caño para el baño
+nuevo pero a lo mejor si dentro de la
+ampliación implica hacer una cocina y un
+baño nuevo entonces vos la cantidad de
+tareas que vas a tener dentro del rubro
+instalaciones sanitarias son mucho más
+amplias entendés
+este también para para un proyecto nuevo
+son las tareas son de un modo y para una
+ampliación o una modificación las tareas
+son
+distintas no
+no se podría
+canciones
+parte de acá parte de acá si si tenemos
+que capacitar este es el lenguaje común
+o
+sea claro cualquier profesional
+cualquier
+profesional conoce lo que es un rubro un
+ítem un rubro y conoce lo que es un
+listado de tarea se puede llegar se
+podría llegar a hac viste Cuando vos
+compras como un software de diseño
+ponerle o a veces tenés plantilla
+entonces Se podrían llegar a hacer
+plantillas en esto que vos decí
+repositorio pero pero tiene que ser
+flexible por qué porque porque la
+ampliación de la casa de Víctor no tiene
+nada que ver con la ampliación de la
+casa de Pablo
+entend Pero pero conceptualmente parte
+de acá lo que nosotros estamos
+proponiendo como algo
+diferente que está
+fuera del lenguaje común pero para mí me
+a mí me parece como algo importante a
+tener en cuenta es este listado de
+actividades que estaría como en un nivel
+superior porque el listado de
+actividades sería
+como el poner enfoco al propietario o al
+inversor
+o
+digamos
+amigable claro entonces yo te digo
+es super conceptual y y y lo que sí sí
+lo que tenemos Es algunas ideas de cómo
+definir esas actividades Generalmente
+Tratamos de de ordenarla por
+paquetes digamos y entendemos que cada
+una de esas
+actividades son totalmente abiertas
+conceptuales como decir pero que cada
+una de esas actividades va a tener
+distintos intervenciones de rubros y o
+este
+tareas por eso te armo la cascada de
+actividades rubros y tareas
+digamos
+tres subíndice
+sería nada más que por
+ahí Generalmente cuando ordenamos la
+información en rubros y luego tareas
+Generalmente hay una cadena de de
+consecuencia en cambio una actividad
+puede
+implicar la aplicación de distintos
+tipos de rubro sin la necesidad que sean
+cadena más que más con este tipo de
+flechas que vos decís y no con un Gan
+totalmente lineal digamos no es
+cierto Sí pero Generalmente las tareas
+pertenecen a un rubro
+y y nuevo rubro y nuevos rubro Sí
+sí
+sí Exacto Así es bien lo de la
+etapa lo de la etap habilidad tiene que
+ver ya con un grado de
+planificación porque o sea yo una vez
+que defino qué es lo que quiero hacer
+generalmente la etapa o la etap
+habilidad está orientada a un tema de
+tiempos sí
+eh o costos o costos por ejemplo por
+ejemplo la ampliación de la casa de
+Víctor Nosotros sabemos que lo que sea
+obra húmeda o gruesa solamente la
+podemos generar en el verano ahí aparece
+una cuestión que tiene que ver con
+tiempo no con costo Porque si lo hacemos
+en el invierno se nos congela el
+hormigón y no podemos
+ejecutarla Exacto o tiempo costo o
+tiempo No necesariamente porque porque
+Bueno sí claramente la etapa ya implica
+tiempo de por sí conceptualmente sí pero
+lo que quiero decir
+un factor externo un factor externo
+claro lo que trato de decir es que la
+etapa puede estar ordenada en base a un
+plan con factores eternos o bien puede
+estar condicionada a costos entonces
+eh nosotros ahora para hacer la casa de
+Víctor necesitamos hacer la etapa uno
+porque no a lo mejor a Víctor no le
+alcanza la plata para terminarla
+entonces hacemos la etapa uno que es la
+envolvente y la etapa dos que va a ser
+las terminaciones ahí ya el no es un
+factor externo sino que tiene que ver
+con un un tema
+financiero Eso me parece importante
+clarificar entender O sea la tabilidad
+tiene que ver con el plan de acción
+no eso no más
+que
+sí
+totalmente
+así tiempos
+Exacto está claro
+es PDF
+H
+H
+HM
+Hmm H
+s por ahora sería un repositorio
+Sí yo yo creo que a los fines del
+proyecto este es así Víctor o sea PDF y
+eventualmente como decí algú una
+posibilidad de generar comunicaciones
+internas y convertirlo PDF como modo de
+firma pero un repositorio o una foto
+sería ideal
+también
+claro
+tamaño
+sí precio
+Claro claro
+claro de nam
+cuenta de banco me decía
+sí no escuché escuché sí se
+me una caja
+sí por ahí para para países un poco más
+ordenados como puede ser Paraguay en ese
+sentido hoy son herramientas muy
+interesantes
+porque nosotros en Argentina tenemos el
+problema trabajamos mucho en negro viste
+pero acá se vinculan las cuentas
+bancarias y los gastos es mucho más
+posiblemente en Argentina en algún
+momento también lo sea no
+pero los cambios claro
+hay que pensar me gustó esa idea que vos
+dijiste de si se puede llegar a hacer
+multiplicidad de monedas o de bienes de
+cambio o vaca como dijiste vos viste que
+que mi planteó eso está buenísimo
+c'est
+P
+no está clarísimo y está bábaro está
+bárbaro
+nu
+todas
+lasas aprend coner
+o
+No eso es cada proyecto es así Víctor
+k
+yo
+claro clo
+yo yo lo asocio de este modo yo lo
+asocio de este modo entonces el proyecto
+puede
+ser el proyecto puede ser
+este ampliación de vivienda de Víctor
+vamos con lo mismo pero a lo mejor
+aparte yo aparte de ser el arquitecto
+que voy diseñar y llevar adelante la
+ampliación apartar a lo mejor por decir
+una tontería Yo le proveo el piso y la
+colocación o sea es un rol diferente y
+no es un proyecto espec o sea es parte
+del proyecto Macro pero es un
+subproyecto es un subproyecto para mí y
+como en este caso lo administro para mi
+rol es un subproyecto sí
+claro a ver Quiero quiero ir a esto por
+ejemplo proyecto ampliación de
+Víctor el proyecto madre es el encargo
+de Víctor específico si ahí aparece un
+constructor aparezco yo como
+arquitecto pero aparte yo tengo un
+subproyecto que puede ser la
+piso la gestión de la colocación del
+piso para
+Víctor
+entend para el mismo proyecto anterior
+es un subproyecto es un proyecto bajo
+pero aparte de
+eso porque porque es un proyecto
+específico para m para Víctor el
+proyecto total es la ampliación de la
+casa y posiblemente su otro proyecto sea
+ganar dinero para poder pagarle la casa
+la ampliación de la casa y a lo mejor
+otro proyecto sea
+conseguir una casa en Paraguay para
+venirse a vivir dentro de 5 años no sé
+Víctor tiene su propi proyecto pero yo
+en el proyecto de la ampliación de
+vivienda de Víctor tengo que hacerle la
+casa a Víctor y aparte de eso tengo que
+venderle mi subproducto o mi mi tengo
+otro proyecto como vendedor por ejemplo
+Entonces es un subproyecto para mí Te
+estoy dando un ejemplo No es cierto pero
+puedo ocurrir ocurre Generalmente que yo
+aparte de ampliarle la casa a Víctor
+tengo que hacer otras cosas entonces
+tengo que eh el proyecto para cop en en
+Paraguay el proyecto de
+eh vivienda de de Tati en resistencia el
+proyecto de
+mi vivienda particular en resistencia yo
+tengo una serie de proyectos también
+particulares que son los que quiero
+administrar a esa serie de proyectos que
+cada uno va a tener un presupuesto un
+alcance y un tiempo específico esa serie
+de proyectos yo le llamo
+portafolio que es un conjunto de
+proyectos que yo
+administro portafolio ser
+el Entonces qué Me permite a mí es tipo
+de cosas en mi caso yo hago análisis
+anuales pero podría con un sistema
+podría hacer anuales
+o o semanales o no sé podríamos generar
+cualquier tipo de datos Porque en mi
+caso hago anuales porque mis planillas
+de Excel están preparadas para trabajar
+por año
+la
+histórico claro Entonces yo por año
+qué evaluo en mi portafolio va a estar
+el proyecto de Víctor el proyecto de la
+casa de Pablo la casa de
+Tati una serie de proyectos que
+administré y que evaluo Cuál fue el
+beneficio que me dejó hacerle la
+vivienda Víctor Si me dio ganancia si
+perdí si si empat Cuál fue el beneficio
+que me dio hacerle la vivienda Tati o
+sea yo debería tener un control del
+portafolio un control de la suma de
+proyectos
+vos podrías tener multip portafolio Pero
+bueno creo que que nosotros hasta hast
+hay un nombre técnico que se le llama No
+me acuerdo cómo se cómo es pero pero
+Generalmente es como que el portafolio
+lo que tiene es una sumatoria de
+proyecto
+el
+administrador
+Exacto Claro claro
+claro Así lo entiendo Yo hoy voy a
+investigar en profundidad y después si
+otro nombre Pero así tal cual lo que voy
+a decir es el nombre
+x
+Sí
+sí
+sí pueden
+ser pueden ser dos independientes o
+pueden o su proyecto sí está
+buenísimo
+alcable claro
+está clarísimo sí sí sí
+y estoy estudiando boludo estoy
+realmente pero estoy super copado con
+esto y y eh Mira te voy a
+mostrar estoy con este libro viste que
+es administración de exitosa de
+proyectos y
+y
+bueno bueno nada es un libro O sea un
+libro es Cómo hago para ver la
+presentación más amplia yo

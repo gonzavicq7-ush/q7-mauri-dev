@@ -1,0 +1,1066 @@
+que sean puntuales del mismo estilo Y
+tenemos los datos dentro de esto esto
+que dice
+sofit son como las los grupos vamos de
+condición pared paredes tenemos los
+distintos tipos de elementos que tienen
+datos adentro y acá donde dice qty y 1
+es quantity puede ser linear larit lales
+y a la izquierda van a ver la altura a
+la derecha otro tipo de cantidad o de
+cosas que tienen varios tipos de
+cantidad vamos a seguir con el video
+para que se vea un poquito más está
+tomando una condición lineal que es la
+pared que lo tomó al costadito
+de uno de los tipos de elemento Entonces
+por ejemplo esto puede ser la pared de
+eh durlock con placa de 12 y conación
+acústica interna y sello acústico
+esa va ser la condición y medimos la
+cantidad de esas paredes que hay y te va
+tomando
+automáticamente los metros lineales y te
+calcul los metros
+cuadr eso que está por hacer ahí es una
+condición de superficie un elemento
+de un
+polígono midiendo la superficie
+no s por saltó la ventana esa Pero
+bueno Ah está mostrando Cómo se puede
+hacer
+[Aplausos]
+formas
+ar claro puede ser curvado si lo
+v y
+como autoc
+[Música]
+3oc prama bim este mide superficie este
+mide volúmenes Pero algo muy sencillo
+obviamente antes de empezar a trabajar
+tenes que darle la escala a cada lámina
+porque como es una lámina en PDF ten que
+ponerle esta distancia mide tantos
+[Música]
+Met que lo tomas de las cotas no cierto
+Ah te hac es una primer línea
+que con eso marca la escala y en base a
+eso va siendo
+elut exactamente exactamente y hay
+varios Software que hacen esto este on
+screen es uno muy conocido y después hay
+un par más también que son muy conocidos
+este me lo acordé rapidito porque es el
+que yo
+Us s sencillo verad que Pero bueno un
+programa muy gráfico ya hay varios que
+fun son muy famos lo que
+hacen los Software que estuve mirando
+para pasar la parte de ingeniería de
+valor es que uno le carga el costo o el
+valor el costo eh a los elementos costo
+unitario a los elementos y después lo
+Calcula pero la forma gráfica es muy
+básica es como esta vamos a ver
+acá es como esto vos lo ves haciendo un
+costadito
+y lo ves precio por precio y después te
+pone te muestra un resumen como muy
+rudimentario no hay nada que sea visual
+y gráfico como lo que estuvimos hablando
+nosotr entonces quiere decir que no hay
+mucho se también exclusivamente la
+ingeniería Val estamos hablando nosotr y
+lo están trando de incorporar a est
+jugar pero no son muy amigables tod
+claro Y eso vos vas Armando el listado
+de de
+tareas vos vas escribiendo y v decir
+Bueno si es un elemento puntual está
+buena está buena esas tres categorías
+digamos superficie línea punto volumen
+podría haber una más hay una hay una de
+volumen pero básicamente son todas
+mensurables digamos y y básicamente lo
+que
+un programa
+deut prama
+de y ahí pues combinarlo con tu
+presupuesto que en
+otro porque est son buenos para hac
+presupuestos
+to
+uesto de manera un poquito separ y se
+enfocaron más en
+esto enut son muy
+buenos la parte gráfica es genial son
+todavía
+sencillos pero
+[Música]
+[Aplausos]
+funcionan así hay
+llama sirve más que nada que hace lo
+mismo puedes hacer el
+yo pero es más una herramienta de
+comunicación y de corrección de planos
+para hacerle marca con un grupo de
+gente el grupo de profesionales que
+revisa los planos y los va marcando les
+va corrigiendo y puedes exportar un
+archivo de Excel muy detallado con lases
+que al
+proyecto
+grandes entonces como que le van
+encontrando distintas funciones a lo
+mismo hacerle marcas sobre un
+pero es p porque en Estados Unidos ahí
+donde se Tom en serio el tema de la
+licencia como no quieren tener licencia
+de autoc
+usan me aparece una primer
+pregunta para antes que nada una
+aclaración para ver si estamos
+entendiendo esto vos lo comprend es lo
+que
+harw pero nosotros no vamos a poder
+hacer eso tan fácilmente
+es no no la pregunta es si lo comprendes
+n más no no la idea no es emular esto
+pues nuestro nuestro trabajo va para
+otro lado Sí sí esto es una etapa previa
+es algo que se hace antes de lo que
+nosotros queremos hacer entonces yo le
+estaba mostrando ese software porque vi
+otro que no lo voy a encontrar ya lo o
+capaz que sí pero lo lo estaba mirando
+hace un rato que lo que hace es tomar
+ese cómputo y te muestra como en forma
+muy cómo sería tímida
+eh la parte de presupuesto que lo toma
+de los precios unitarios que vos vas
+cargando al al programa te acuerdas que
+que Pablo te mostró la columna de
+precios unitario MC por el volumen y te
+eso es lo que vi que que se mueve
+entonces y y lo muestran como value
+engineering no es cierto pero eso es
+parte de value engineering pero no es
+una herramienta con la que yo voy a
+mirar y voy a tomar una decisión eh
+fuerte
+eh hay otras herramientas Hay una que
+estuve mirando que está muy interesante
+que podríamos seguir estudiando que ya
+está más desarrollada pero no es
+exclusiva de la construcción es
+esta quiero hacer poco en lo anterior
+solamente para ponerlo en contexto a
+Víctor ese
+sofware nos muestra J básicamente
+vos recordarás la la planilla que yo
+mostré la de comput y presupuesto eh en
+esa planilla que que yo le doy como una
+una fuerza importante porque es como la
+madre de salida digamos dijimos que es
+bastante universal O sea que es parte de
+lo leen tanto el constructor como el
+desarrollador como el arquitecto o el
+ingeniero digamos es como un lenguaje
+bastante uniforme digamos y por un poco
+lo que nos contaba Jos de acuerdo a su
+experiencia
+también más o menos distintos países más
+o menos se respetan los mismos patrones
+Entonces es una planilla en donde
+estaban descritas las tareas y después
+había un sector donde estaban las
+unidades luego las
+cantidades este software básicamente lo
+que haría es ayudar a definir las
+cantidades cierto luego había un
+apartado donde estaban los precios
+unitarios Enton idades los precios
+unitarios generaban lo que era el
+sub entendí entendí perfectamente lo vi
+lo que iba generando en base a la
+selección de de cada tipo de por lo
+menos base linealmente a lo que iba
+seleccionando de las paredes y eso
+pero como que
+es la herramienta está buenísima pero es
+como para un paso no s la practicidad
+que tiene No olvidate no vamos a
+desarrollar eso no vamos a desarrollar
+eso pero sí quiero que entiendas lo que
+lo que nos está mostrando porque de acá
+sí podemos sacar algo interesante para
+mí que esa esta forma de la de lo que
+José mostraba esa planill al costadito
+donde vos tenías básicamente lo que
+estás teniendo allí son tareas y rubros
+digamos este porque había como un
+itemizado Que aparecía con color negrita
+y después hacían
+tareas entonces solamente lo que quería
+expresar entendiendo eso es que con
+distintas herramientas siempre estamos
+llegando al mismo punto que es la
+definición de rubros tareas
+posteriormente unidades cantidades
+precios digamos o sea era como para
+poner que entendamos esa lógica para que
+vayamos viendo si lo que nosotros vamos
+a desarrollar podemos tomar algo de allí
+no no no clarísimo clarísimo Perdón Jos
+esa era mi aporte no sé si tiene
+algo se te corta un poco el micrófono
+José no no se te no escucho eso yo
+tampoco no lo perdimos J no pero tiene
+prendido el
+micrófono no te está tomando el
+micrófono
+como medio cortado como que se por ahí
+una palabra s y después el resto de las
+palabras
+no pero recién se te escuchado
+[Música]
+bien Ahí va parece Ah ah Ahí
+va
+genial si ven esta página
+de decision l se llama
+un programa que está
+enfocado integrated planning for better
+faster decision making es a donde
+nosotros queremos ir
+sí parece que esta empresa se enfocan en
+empresas públicas en Estados Unidos eh
+Para con datos tomar decisiones sobre
+sus proyectos y distintas cosas no
+parece que esté solo enfocado en
+construcción un poquito más general pero
+está interesante empezar
+por
+ejemplo trans
+[Música]
+a un proceso integrado aprovechando
+experiencia en ciencia de la toma de
+decisiones hemos creado una
+[Música]
+solu avanzado
+[Música]
+la ci de
+deca recopil de datos marco anal ent que
+muestra
+[Música]
+aco mu gráfico para datos y tomar
+decisiones
+de proyect Prado limitación de recursos
+objetivos estratégico para decisiones
+presupuestarias avanzadas en datos
+planificación de escenarios este es lo
+que llama
+[Música]
+inglés
+frase
+escenario son distintos escenarios que
+hacer por ejemplo lo que hac con
+[Música]
+di Monte Carlos yo te que vos poner
+varios escenarios en Monte Carl te hace
+como miles de escenarios pero también
+puede hacer tres cuatro cinco escenarios
+este con este software vos podés ir
+modificando distintos parámetros y te eh
+Calcula distintos escenarios que es un
+poco lo que vos me parece cu lo que lo
+que querías hacer es la búsqueda eso es
+la búsqueda genial asignación y
+programación de recursos esto es como
+algo adicional que nosotros todavía no
+habíamos pensado que el tema de recursos
+la visualización diseñada
+específicamente proporciones visible de
+recursos para identificar desequilibrios
+en la
+asign buo si vamos a constucción de
+presupuesto
+en
+español bien un enfo estructur flexible
+para la elaboración de presupuesto y
+[Música]
+estanes con prioridades
+un poco de publicidad eso integración
+priorizada de proyectos incorporar
+listas de proyectos priorizados en el
+proceso presupuestario asegurando que
+los recursos se asignen a las
+iniciativas más importantes esto como te
+decía muestra un poquito más generalista
+Sí pero por ejemplo definir presupuesto
+recursos categorías el análisis de
+escenario Entonces por ejemplo est pone
+Tres imágenes con los escenarios que vos
+a marcando eh
+y y acá repite lo mismo poquito lo mismo
+Habría que ver có lo grafica Pero se ve
+que es una herramienta bastante gráfico
+uno hace su análisis de escenarios Anis
+presupuesto y su análisis de recurso una
+forma bastante gráfica
+[Aplausos]
+[Música]
+cargar y eso es lo que se ve desp tengo
+que pedir demo
+vamos a ver si hay algún video acá en
+YouTube lens
+demo
+eh ese el que pasó
+arriba Cómo Ese es el logo decision este
+logo s dice acceler
+no es el
+mismo Sí el Lito Sí pero no sé si es el
+algún módulo puntual capaz esa lo que me
+referí no sé si es el mismo módulo o es
+otra cosa adelantar un
+poquito no quiero son 10 minutos de
+video manual
+planning habla un poquito de
+planificación Yo sé que le agrega una
+parte de de lo que es sked o sea
+cronogram y cosas así claro aparece
+mezclado con lo que es este
+Pro claro un poquito como lo que es
+project exactamente p eso es el project
+manager sensitivity analisis Bueno
+este Esta es una vista que está buena
+sensitivity analisis tiene que ver con
+la toma de decisiones
+también es parecido al que vimos recién
+no es lo mismo pero es parecido al
+escenario de
+análisis si haby algo más acá
+Entonces se ve que toca esas partes del
+proyecto el valor el costo el
+riesgo distintas
+formas
+recursos Anis
+mir distintos escenarios que te lo vaya
+comparando uno al lado del otro con
+distintas
+prioridades en forma gráfica
+y bueno eso es lo
+ano a lo que nosotros queremos hacer
+el dejo
+compartir es lo más cercano que he visto
+hasta ahora
+eh muy poco he visto de que haya
+Software que estén haciendo ingeniería
+de valor y que sea realmente ingeniería
+de valor decí hago este análisis muevo
+las linitas hago este estte proyecto
+menos esta parte cono no hay mucho que
+haga es
+hay Está interesante porque cada vez más
+un potencial
+ahí porque laa de valor tiene otro tipo
+de alcance la construcción
+y es eso va a
+servir tres
+diseñador en su momento de diseño para
+el constructor en el momento ejecutivo
+muchas ve propone alternativas digamos y
+y también para el promotor
+digamos
+claramente Hacia dónde va su proyecto
+digamos necesita saber tantos desos
+tiene permanentemente reno
+me pareció como más una una
+funcionalidad una herramienta más viable
+como para que desarrollemos algo
+parecido si bien no se vio mucho se vio
+los recuadro bosquejado no más no no una
+funcionalidad operativa No es cierto más
+el concepto lo que estaban
+mostrando Me parece que
+interesante para
+tratar de
+hacer un módulo una una característica
+del Software que te permita hacer esta
+esta múltiple opción
+de de
+estimación
+pero tendríamos que ver cómo implementar
+para que cada sobre el mismo proyecto en
+el cual accedan diferentes roles de
+usuario cada uno
+pueda urar en forma aislada aislada o
+privada porque Obviamente
+el el
+constructor va a subir ahí sus
+costos y lo que le tiene que llegar al
+al profesional o al dueño del proyecto
+va a ser el costo final Que decida el
+constructor o cómo se lo imaginan
+ustedes cómo sería la interacción o sea
+porque yo yo lo que veo desde cada esto
+que vos mencionaste para todos le sirve
+pero cada uno tiene su interés diferente
+y obviamente en cada interés en cada
+punto subjetivo de vista va a tener dos
+tres o una opción y esa opción la que la
+que plasme sobre el proyecto que del que
+estamos hablando
+eh suponiendo que todos están trabajando
+en el mismo proyecto que es la
+construcción de la vivienda de Víctor
+claro yo tengo mis intereses y tengo
+tres opciones porque tengo un
+presupuesto por acá un presupuesto por
+allá puedo tener dos profesionales puedo
+tener dos empresas
+constructora y por otro lado el
+constructor que está integrado a este
+proyecto porque le di yo un acceso o él
+tiene su licencia y se puede sumar al
+proyecto salvando la distancia va a
+tener sus propios intereses y él va a
+tener sus costos y va a decir Yo puedo
+trabajar con este equipo que me tarda 15
+días o con este que me tarda TR meses y
+esto me sale Y estos productos me salen
+tanto pero todo va a parar a la misma
+base de datos en cuanto a costos de cada
+sujeto Toc vos tocaste varios temas muy
+importantes que van ahí viste que yo
+mostré tres
+partes software mostraba tres partes uno
+era la construcción del presupuesto
+construcción del presupuesto
+planificación de escenarios y asignación
+y programación de recursos No es cierto
+y hay ciertas cosas que tienen ciertas
+cosas que tienen distinto nivel de valor
+No es cierto y en la construcción vos
+tenés en cualquier proyecto tenés tres
+cosas que son muy importantes que son el
+tiempo el costo y la calidad No es
+cierto Y vos vas balanceando Los tres de
+acuerdo a tus prioridades si vos vas a
+hacer tu casa capaz te interesa mucho la
+calidad o te interesa menos la calidad
+si vos tenes más presupuesto interes
+mala calidad lo balancea un poquito
+diferente No es cierto Entonces esta
+herramienta que la que estamos pensando
+podríamos quizás basar en esas tres
+balanzas
+eh Y decir okay Qué valor le doy a cada
+parte y son herramienta de toma
+decisiones en comunicación porque vos se
+la puedes vender al constructor o se la
+puedes vender al al al desarrollador al
+cliente y puede servir para un lado des
+un lado de del otro pero es para que
+entre todos tomen una buena decisión
+como dijiste el que carga los datos es
+el constructor él
+es Pero va a cargar distintos tipos de
+datos de acuerdo a lo que el cliente le
+vaya diciendo Yo quiero más cida acá Yo
+quiero este material quiero este
+material quiero este material y después
+cuando el constructor le tire le vaya
+cargando los datos van a empezar a mirar
+juntos y van a decir Okay Eh me sale 20
+millones de dólares en realidad no tengo
+Tengo 10 qué podemos sacar qué podemos
+ajustar para mí es más importante eh la
+calidad de la fachada Entonces está
+fachada est va a ser la calidad fachada
+y lo que voy a bajar la calidad es en la
+pintura cuánto me baja el costo de la
+obra si si cambia la pintura esta opción
+y ahí lo vas manejando pero sin que te
+elimine datos sino que guarde todo
+guarde todos los datos Y vos vas
+cargando y después simplemente vas
+modificando
+escenarios cuando vas modificando
+escenarios te va cambiando el número
+final y como dec capaz el tiempo también
+dec este capaz si vgas dat
+de tiempo de duración la estura de este
+tipo me cuesta un año pero si la hago de
+otro tipo me cuesta se meses y ahí lo
+vas cambiando también de acuerdo a a tus
+prioridades no s estoy pensando en algo
+así el ejercicio de ir
+ha qué pensas Pao no que está muy bien
+está perfecto lo lo que planteas o sea
+tocaste dos cosas importantes digamos
+uno que son los tres factores que que
+nos importan para el proyecto digamos y
+que lo vamos a desarrollar en
+profundidad en distintos módulos pero
+que ya en este módulo comparativo tienen
+un peso específico porque básicamente
+cuando estamos tomando la decisión
+justamente estamos analizando los
+riesgos de que implica no solo el valor
+económico sino Cómo afecta eso en los
+plazos del proyecto y la calidad o sea
+esos tres puntos está buenísimo Y de
+alguna forma en la parte gráfica vamos a
+tener que definir gráficos que que que
+puedan
+expresarlo pero con respecto a lo otro
+que es un poco la preocupación de vctor
+Y eso que también trataba definir decir
+cómo cargamos los datos digamos có
+generamos esa dinámica entre distintos
+roles y yo creo que lo que podemos sacar
+en limpio es que el sistema va a estar
+orientado a cualquiera de las tres patas
+que principalmente habíamos hablado el
+desarrollador el contratista o el equipo
+de proyecto cualquier esas tres patas
+pueden ser
+adquirir el sistema depende quién lo
+adquiera lo administrará y podrá generar
+digamos licencia
+proy para distintos
+usuarios para MS o menos por ese
+lado una alternativa el segundo
+eje o sea eso que tiene que ver quiénes
+van a administrar el segundo eje tomando
+lo último que dijiste Jos claramente
+tiene que ser un único proyecto Entonces
+al ser un único proyecto cualquiera de
+las personas de acuerdo a las
+asignaciones que se genere van a poder
+cargar datos per
+sobre un único proyecto y allí aparece
+algo que para mí puede ser interesante
+tratar de que nosotros lo vayamos
+redondeando entendiendo que tiene que
+ver con los
+momentos Por qué
+eh el proyecto arranca con con un
+presupuesto si si yo soy el
+arquitecto yo presup que la obra de
+Víctor va a salir
+mill pero ese presupuesto que acordado
+en base a los metros cuadros que
+diseñamos de acuerdo a los
+requerimientos que nos pasó o quizás de
+acuerdo al monto que tiene disponible
+para poder poder enfrentar digamos No
+necesariamente lo real entonces aparece
+un segundo momento es el
+presupuesto presupuesto
+aprobado ese presupuesto aprobado va a
+ser la decisión final que se tome sobre
+el it sea en lo total estructural o en
+lo y para llegar a ese presupuesto
+aprobado del
+contratista nosotros debimos pasar por
+un momento intermedio que tiene que ver
+con este análisis previo preliminar de
+análisis de Val en donde antes de que
+Víctor tenga el presupuesto del
+contratista x nosotros analizamos dos o
+tres
+alternativas Entonces tenemos un
+presupuesto inicial que es lo que
+definimos como como un inicio del
+proyecto que debe valer aproximadamente
+esto tenemos un estudio de alternativas
+que que es básicamente el estudio de
+valor de un segundo momento y un tercer
+momento que es lo
+apr teniendo como esos tres momentos Por
+decirlo posteriormente en lo ejecutivo
+pueden surgir cambios o pueden surgir
+análisis de valor puntuales sobre cada
+uno de los rudos entonces Víctor aprobó
+un presupuesto para hacer la casa llave
+en mano esa casa tenía carpinterías de
+aluminio pero en el
+[Música]
+proceso él sabe cuánto le va cuánto el
+contratista
+aprobado le dijo que va a salir la
+carpinterías de aluminio tiene el
+impacto de estas carpinterías dentro del
+proyecto Total que Qué porcentaje sirve
+dice este ítem quiero revisarlo porque a
+lo mejor quiero poner o carpinterías de
+PVC que a lo mejor no sale más dinero o
+quiero reducirlo porque sal no importa
+quiero revisarlo Quiero ver un ítem y
+quiero revisar y ese ítem ese rubro esa
+sub es es subtarea Es esas cosas que
+hablábamos la vez pasada
+vuelve a tener un momento de análisis un
+momento de ingeniería de valor Entonces
+es como que apartamos ese em y
+analizamos alternativas alternativas
+nuevo con proveedores terceros
+alternativas nuevas con distinto tipo de
+materialidades o alternativas con
+distintas combinación de proveedores y
+prisión de materiales digamos no s esos
+escenarios que que planteaba j hoy
+cuando no explicaba vuelve ser a
+sometido a partir de ahí aparece una
+nueva
+decisión o sea ya estaba aprobado el
+proceso el proceso estructural del
+proyecto o sea el presupuesto aprobado
+que ya había pasado por una serie de
+filtros Entonces ahora nos concentramos
+solamente en las tareas carpintería
+aparece un cambio bueno esa nueva
+decisión se debe meter al proyecto
+inicial aprobado un cambio en donde va a
+tener una economía o una demasía en base
+a lo que
+se Entonces nosotros siempre vamos
+teniendo una
+comparativa de lo real final con lo lo
+proyectado inicialmente Y tenemos esta
+fase intermedia que es básicamente la
+ingeniería de valor que nos debería
+permitir poder tomar la decisión más
+conveniente para
+proy esa para M es la un la la clave de
+esto que nosotros tengamos podamos
+analizar los tres momentos en cualquier
+momento de la obra o sobre cualquier
+rubro o sobre cualquier tarea y Y creo
+que eso es sería una herramienta digamos
+que sí muy útil me
+parece Me parece que contándolo así
+conceptualmente está muy buena
+la me parece super útil ahora es eh
+de vuelta llevarlo a la práctica
+eso tener la
+capacidad simplificarlo al uso que sea
+lo más usable posible para redundar en
+el
+término sin sobrecargar el tema de la
+carga de datos
+etc que la dinámica de funcional de la
+aplicación sea ágil en ese sentido y el
+otroa actúan los diferentes actores en
+cada una de esas
+etapas sup Eh mi pregunta siempre va a
+la la situación más compleja es que
+nosotros poniéndome poniéndonos cada uno
+de nosotros en un rol diferente por
+ejemplo
+eh yo como en mi casa es sería el el
+el por fa
+el desarrollador el desarrollador por
+ejemplo el desarrollador eh Jos el
+profesional arquitecto Y vos Pablo s el
+constructor el
+constructor y los tres tenemos acceso a
+a al software a vector o sea cada uno
+para un uso diferente justo sea la
+casualidad que tenemos que trabajar en
+este proyecto bueno Yo vengo de afuera
+Yo vengo porque quiero hacer mi casa
+contrato el software y bueno me
+recomendó Jos que contrate el software
+así trabaj juntos y bueno yo entro y
+digo generar proyecto nuevo mi casa mi
+casa va a tener 200 Met cuadrado dos
+habitaciones qu s yo estoy diciendo una
+pavada puede ser de esa dinámica o J
+cargó
+todoo va partir esto debe
+partir de un análisis de
+tareas o sea acá lo que ya estamos
+trabajando es sobre ese cuadrito que Jos
+planteaba en el primer Software que no
+mostró
+son rubros las tareas subtareas y
+eventualmente las
+zonas esa carga de dato Generalmente va
+a ser exportación
+de por porque cualquier profesional
+trabaja con Excel
+ent se corta un
+poquito no se corta se corta de vuelta
+no te
+[Música]
+escuchamos es como que se queda
+silenciado el micrófono
+un poquito
+más
+no no es acá te muestra como que está
+hablando pero no se te
+[Música]
+[Música]
+escucha ponete Jos Pablito un ratito a
+pemos nosotros est
+ahora
+Ah no lo que vctor parece que quería ir
+más atrás y entender Cómo es el proceso
+de la primeras charlas con el
+profesional y después cómo llegas a es
+es ese listado que
+hablando Ros
+y presupuesto
+Cuando vos estás estimando en forma
+general tu proyecto Víctor para decir
+quiero fondear mi proyecto vos lo puedes
+estimar de forma general con valores del
+mercado del metro cuadrado de lo que
+vaya a construir por ejemplo aj Entonces
+dec yo quiero construir una escuela de
+500 Met cuad con la calidad mediana el
+mercado te dice más o menos cuánto sale
+esa construcción entonces vos podes
+hacer una estimación en el mismo día en
+la
+mañana de cuánto te puede salir vos pías
+una estimación que tiene un error del 30
+40% o el 20 una cosa así y después
+cuando vos ya empezas a diseñar y tenés
+Un diseño un anteproyecto como llamamos
+que es antes de tener todo el listado
+todo un detalle de
+planos bien detallados vos ya podes
+generar un listado de
+rubros muy
+específicos donde puedes ponerle
+metr lineales metros
+cuadr la cantidad de materiales que usar
+de cada
+cosa sin ser demasiado detallado pero ya
+puedes
+tener y cuando vos ten tu proyecto final
+aprobado que todavía puede sufrir
+cambios vos lo ten más detallado todavía
+y
+ahí primera etapa no es una etapa en la
+que vas
+a esa es una etapa en la que V groso
+modo pero después ya empezar el diseño
+hecho un diseo que todavía lo pued
+modificar perfectoo simplemente una
+aclaración así para ir un poquitito
+antes y Eso está bueno lo que dec Jos
+porque
+poito muy bueno porque
+flexible el el sistema nosotros no
+podemos condicionar específicamente a
+que todo se cargue de acuerdo a un
+cómputo final de un proyecto ajustado
+entonces puede puede que ese presupuesto
+inicial si lo hace un desarrollador sea
+un presupuesto estimado en base
+a una a lo mejor no tiene la sucesión de
+ítem que va a tener el proyecto y el
+tipo simplemente dice Bueno yo yo quiero
+invertir para este proyecto 10 millones
+porque entendió que el vecino construyó
+una casa por 10 millones digamos no
+cierto y lo interesante va a ser ahí que
+en el el proceso Si se quiere de
+análisis o de ingeniería de valor va a
+orientar a que todas las tomas de
+decisiones traten de que el proyecto se
+ajuste a ese único ítem que es casa de
+vor 10 millones de
+pesos pero en el análisis de valor ya va
+ya va a tener que hacerse algún tipo de
+estudio a ver cómo hago bueno el
+arquitecto no me hizo un computo bien
+definido de todo esto pero yo tengo 10
+millones directamente le doy a una
+empresa constructora la empresa
+constructora le doy el dibujito que me
+hizo la
+arquitecto y la empresa constructora me
+hace este listado un poco más detallado
+porque le di un anteproyecto y con ese
+listado más detallado dice Esta obra va
+a salir este 9 millones de pesos
+[Aplausos]
+entonces a partir de ahí empieza una
+primera ingeniería y Qué pasa si yo te
+proveo los materiales solo me hac la
+mano de obra buo esa
+alternativa Y vos tendrs que hacer un
+cómputo con vos oando arquitecto para
+que te desarr y ya empez armar
+escenari sabes queda claro todo esto que
+estamos hablando Me
+gustaría hacer una simula
+por experiencia de ustedes cada
+uno lo que le tocó Cuál es armar un
+Excel en el cual tengamos un Obviamente
+que no va a ser estrictamente vamos a
+tomarlo de base simplemente comp decir
+bueno Cuáles son las combinaciones de
+situaciones las cuales esto que hablaba
+el otro día bueno uno metro cuadrado Met
+cuadrado de construcción El otro es
+por mano de obra solamente de la empresa
+constructora y yo proveo como
+desarrollador proveo los materiales me
+encargo de la compra esto
+esto Cuáles son las alternativas y las
+combinaciones
+posibles porque en base a eso vamos a
+tener que poder visualizar los datos
+para mostrárselo a a las diferentes a
+los diferentes actores o sea no sé si me
+logro explicar lo
+que está muy bien eso porque ten
+distintos parámetros son diferentes
+parámetros Esto me impacta solamente a
+esta parte y esto me impacta a todo a
+todo el rubro por ejemplo y esto me
+impacta solamente a estos ítem o a estos
+subitem y y como
+que parece yo creo yo entendí otra cosa
+yo entendí otra cosa yo entendí que vos
+tenés todo digamos tabulado en algún
+punto de todo lo que va a implicar la
+obra y vos podés tomarlo en cada o por
+subtarea o por tarea o por
+hacer esis Sí pero V acordate que cada
+dato que vos almacenes por cada una de
+esas supuestas alternativa lo tenés que
+almacenar en algún lugar y eso te tiene
+que quedar un dato histórico para que
+vos puedas consultar Por más que tengas
+tres o cuatro variaciones posteriores
+almacenamiento de datos histórico lo
+tenemos que guardar de alguna forma
+coherente para que sea rápido para para
+graficar y para dibujar Porque si
+tiramos tod una bolsa de gato y tenemos
+o sea es
+que necesitaríamos tener más o menos una
+idea Cuáles son las alternativas más
+comunes por lo menos para decir Bueno
+después vemos cómo resolvemos las que no
+las que surgen de alguna empresa grande
+que necesita manejar de otra manera y qu
+eso se me ocur pero pero en principio
+las que ustedes consideran que que son
+la las cinco opciones más comunes que te
+digo esto
+eh No no s ocupar bien los términos por
+ahí no quiero decir una burrada No es
+cierto pero ya te digo por un lado lo
+que sería que la empresa constructora
+provea todo o o la posibilidad de tener
+tres cotizaciones de tres empresas
+constructoras diferentes dentro de la
+cotización que se le da al cliente final
+o sea con la empresa uno va Sale este
+costo con esto este costo pero me afecta
+estos diferente em entonces cada uno de
+esos va a ser un presupuesto
+completamente diferente con los mismos
+rubros ítem etcétera con diferente
+valoración Pero provisto por diferentes
+pero visualmente nosotros tenemos que
+darle alguna eh
+coherencia para que sea entendible que
+se sepa que que porque te puede pasar
+que en el primer como hablamos el otro
+día puede ser que vos te vas a un
+corralón y tengas la mitad de los
+materiales y te vas al otro corralón y
+tiene el 100% de los materiales y y toda
+esa esas variantes que tenemos cómo lo
+visualizas o sea cómo cómo se le ocurre
+a ustedes visualizar porque hoy la carga
+manual vos sabes que cargas una cosa
+carg los datos que vos vas seleccionando
+pero a nivel sistema deberíamos poder
+almacenar todo y verlo de alguna forma
+coherente esa parte por ahí se me está
+complicando a m
+visualizarla en cuanto a la operatividad
+diaria del
+usuario
+teng esto
+igual por ahí
+meando mayor desafío pasa por esto que
+diciendo
+la mayor yo por lo menos dat papi
+silencio la mayor cantidad de problemas
+que yo visualizo con este tipo de cosas
+es que eh las cargas de datos suelen ser
+imparciales y generan muchas veces toma
+decisiones
+erróneas Entonces por ejemplo fuiste al
+eh corralón 1 solamente te va a
+focalizar en Materiales porque Eh ya
+tenés resuelta la mano de obra entonces
+fuiste al corralón uno y de los 10 ítem
+que vos necesitabas el tipo tiene
+ocho y sí ya te salió más barato pues te
+está vendiendo es lo que te vo a decir
+sí me sale más barato pero lo tengo dos
+y los otros dos lo tenés que comprar en
+otro proveedor que por venderte dos
+rubros no más ya te termina saliendo
+costoso posiblemente porque es más
+logística sobre todo para obrar para
+tener flete tener más flete tener qu
+todos juntos y tener un descuento qué s
+yo variación cl mientras vos mientras
+vos lo más o menos tirabas esa pregunta
+A mí se me ocurren algunos algunas ideas
+que que la planteo en el aire por
+ejemplo alguna de las variantes pueden
+ser por ejemplo tipos de proveedores
+eh tiempos de provisión
+eh tipo y calidad de materiales porque a
+lo mejor es un cambio de tecnología el
+que est sí sí sí para el rubri y para el
+ítem es el mismo pero la calidad es
+diferente por eso el costo más caro
+exactamente modos de pagos porque por
+ahí un te sale un poco más caro pero te
+da en 12 cuota en 12 cuota coso
+logística que también tiene que ver si
+vos tenés que comprar el flete aparte o
+el coso y yo creo que esos son algunos
+de los elementos que rápidamente
+describí yo debe haber un montón más y
+nosotros vamos a tener que acotar
+digamos que me parece que está orientada
+a la pregunta que vos hacés No ese lado
+no ahí va a parce lado justamente chicos
+perdón pero lo tengo que llevar a mi
+nene a inglés ahora si no no llego por
+el tema de que está medio complicado la
+el tránsito pero bueno me quedo con la
+idea de que estamos encaminados en
+cuanto a dónde vamos el tema sería
+desarmar el ovillo este de de esta
+complejidad que estamos hablando de cóm
+miércoles vos quejamos se me ocurria un
+Excel como los tres más o menos tenemos
+idea Cómo manejar y poner la la la
+cantidad de combinaciones que se pueden
+dar en cuanto a no sé cómo armarlo pero
+por
+ejemplo diferentes proveedores
+diferentes rubros diferentes la
+complejidad que ustedes crean que que se
+puede ir dando y bueno V Pablo que está
+en eso todos los días sab Cuáles cuáles
+son las que más eh pueden
+eh usarse
+y y y nada bueno tratar de acotar por
+ahí la cantidad de de alternativas y
+combinaciones en base a eso definir a
+ver cómo se puede almacenar toda esa
+información y cómo la tendríamos que
+visualizar sí sí son muchas preguntas
+que la tenemos que ir desovando
+digamos sí totalmente no porque parece o
+sea hablándolo se entiende el concepto
+pero después para que para que le sea
+útil a un usuario de cualquiera estamos
+estamos considerando que que el nivel de
+entendimiento de la funcionalidad de la
+herramienta no va a ser lo mismo para el
+constru
+para el profesional para el arquitecto o
+para el desarrollador o sea cada uno va
+a tener su su Obviamente el
+desarrollador el que por ahí menos va a
+conocer de los términos y y tiene que
+ser usable para él también No es cierto
+que tiene que ser entendible para él
+bueno todas esas variantes que capaz que
+en un lugar se puede llamar rubri y en
+el otro
+se etapa o ponerle algún tipo de de
+sinónimo para que para que el usuario
+final siendo desarrollador lo entienda
+qué s yo no s se me ocurren todas esas
+cantidad son muchas preguntas yo creo
+que ahora esto un poco haciendo también
+vamos a ir Desatando un poco nudo
+No yo con esto ya tengo para ir Armando
+algo ya estuve bosquejando en base a lo
+de la reunión pasada no volque nada
+todavía porque tengo tengo dudas tengo
+dudas y no quiero laburar tres veces
+sobre lo mismo prefiero que le demos
+tiempo
+tiempo de escular un poco esta parte por
+ahí Perdón por la expresión pero era la
+primera que se me vino a la mente y la
+bueno y y bueno tratar de de de cuando
+tengamos esto más o menos más o menos
+Claro una idea de
+esto porque por ahí a ver capaz que
+nosotros definimos dos tres o cuatro
+opciones y con eso ya no alcanza para n
+cantidad de opciones porque ya lo
+resolvimos al problema se entiende
+porque no no va a ser necesario rehacer
+el sistema porque se nos ocurrió otro
+tipo de combinación de de de de de
+compra o de adquisición o de lo que más
+me preocupa a mí es la visualización O
+sea cuando tengamos el presupuesto
+inicial el aprobado el dos el TR el cuat
+el c Cómo verlo e eh en una línea de
+tiempo y que sea ordenado prolijo y que
+el dueño el constructor y el
+profesional lo entienda perdón si le
+erro con algún tema técnico pero la idea
+es lo que me qued dando vuelta la cabeza
+hay hay que sentarse y seguir mirándolo
+un poco J te pregunto hablaste de la
+posibilidad de bajar un
+demo lo ves como viable para operar un
+poquito entonces también partir de algo
+hecho a lo mejor da un poquito más de
+luz sobre el tema
+capaz que tenga que terminar hablando
+con un vendedor pero de hab hablado de
+otro software en algún
+momento pero no déjame lo que voy a
+hacer es contactar a mis amigos que
+están en esa empresa y le voy a pedir
+que me den una
+mano estoy encontrando as eso voy hacer
+y Bueno voy a tratar de
+ir dále un poquito más de luz conceptual
+a esto como por lo menos una mirada
+nuestra como para que lo podamos
+discutir el viernes y y tratamos ya de
+ahora que como dice Víctor tenemos más o
+menos un norte de ir viendo cómo
+destrabando estos puntos que se van a ir
+presentando como conflicto y ir
+mezclando con el acer posteriormente No
+sí señor eh Bueno me voy chicos si no l
+cordinamos el viernes un horario si
+existe la posibilidad un poquito más
+temprano la verdad que Estaría bueno
+pero bueno yo voy a estar en rí grande
+porque estoy con la instalación de unos
+Access Point ahí en el hotel del casino
+Así que calculo cinco seis por ahí me
+puedo estar desocupando pero 63
+63 bueno vemos como está también
+hablamos por los
+mensajes chicos gracias Nos vemos chao
+chao

@@ -64,7 +64,7 @@ def extraer_id_de_url(url: str) -> str:
     return None
 
 
-def descargar_transcripcion(video_id: str, guardar_json: bool = False) -> dict:
+def descargar_transcripcion(video_id: str, guardar_json: bool = False, registro_file: Path = None) -> dict:
     """
     Descarga transcripción de un video.
     
@@ -89,20 +89,27 @@ def descargar_transcripcion(video_id: str, guardar_json: bool = False) -> dict:
     }
     
     try:
-        # Obtener transcripción
-        transcript = YouTubeTranscriptApi.get_transcript(video_id, languages=LANGUAGES)
+        # Obtener transcripción (API v1.2.4+ requiere instancia)
+        api = YouTubeTranscriptApi()
+        transcript_obj = api.fetch(video_id, languages=LANGUAGES)
         
-        # Detectar idioma usado
-        primer_texto = transcript[0].get('text', '') if transcript else ''
-        resultado['language'] = detectar_idioma(transcript)
-        resultado['lines_count'] = len(transcript)
+        # Convertir objeto TranscriptList a lista de dicts
+        transcript_list = []
+        for segment in transcript_obj:
+            transcript_list.append({
+                'text': segment.text,
+                'start': segment.start,
+                'duration': segment.duration,
+            })
         
-        # Formatear a texto plano
-        text_formatter = TextFormatter()
-        texto_plano = text_formatter.format_transcript(transcript)
+        resultado['language'] = LANGUAGES[0]  # El primero que funcionó
+        resultado['lines_count'] = len(transcript_list)
         
-        # Guardar TXT
+        # Crear output dir
         OUTPUT_DIR.mkdir(exist_ok=True)
+        
+        # Guardar TXT (texto plano)
+        texto_plano = "\n".join([seg['text'] for seg in transcript_list])
         filename = OUTPUT_DIR / f"transcripcion_{video_id}.txt"
         with open(filename, "w", encoding="utf-8") as f:
             f.write(texto_plano)
@@ -110,14 +117,13 @@ def descargar_transcripcion(video_id: str, guardar_json: bool = False) -> dict:
         
         # Guardar JSON raw (opcional)
         if guardar_json:
-            json_formatter = JSONFormatter()
             json_filename = OUTPUT_DIR / f"transcripcion_{video_id}.json"
             with open(json_filename, "w", encoding="utf-8") as f:
-                f.write(json_formatter.format_transcript(transcript))
+                json.dump(transcript_list, f, indent=2, ensure_ascii=False)
             resultado['json_filename'] = str(json_filename)
         
         resultado['success'] = True
-        print(f"✓ {video_id} — Guardado: {filename} ({len(transcript)} líneas, {resultado['language']})")
+        print(f"✓ {video_id} — Guardado: {filename} ({len(transcript_list)} líneas, {resultado['language']})")
         
     except Exception as e:
         resultado['error'] = str(e)
@@ -213,17 +219,8 @@ def main():
         action='store_true',
         help="Guardar también archivos JSON raw"
     )
-    parser.add_argument(
-        '--registro', '-r',
-        default=str(REGISTRO_FILE),
-        help="Archivo CSV de registro (default: registro_historico.csv)"
-    )
     
     args = parser.parse_args()
-    
-    # Actualizar registro file si se especifica
-    global REGISTRO_FILE
-    REGISTRO_FILE = Path(args.registro)
     
     # Obtener lista de IDs
     if args.id:

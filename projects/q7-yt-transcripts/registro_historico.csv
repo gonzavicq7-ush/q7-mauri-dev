@@ -1,0 +1,52 @@
+fecha_hora,video_id,estado,idioma,lineas,archivo,error
+2026-06-10T23:16:02.234304,93QocSYS0is,FALLIDO,,0,,type object 'YouTubeTranscriptApi' has no attribute 'get_transcript'
+2026-06-10T23:16:02.234453,qDtrikXOexo,FALLIDO,,0,,type object 'YouTubeTranscriptApi' has no attribute 'get_transcript'
+2026-06-10T23:16:02.234500,QcSeW-jIL_g,FALLIDO,,0,,type object 'YouTubeTranscriptApi' has no attribute 'get_transcript'
+2026-06-10T23:16:02.234541,mD9S__Cv4v4,FALLIDO,,0,,type object 'YouTubeTranscriptApi' has no attribute 'get_transcript'
+2026-06-10T23:16:02.234583,X-4zxeL05NY,FALLIDO,,0,,type object 'YouTubeTranscriptApi' has no attribute 'get_transcript'
+2026-06-10T23:16:02.234622,dvYb_9bEbI0,FALLIDO,,0,,type object 'YouTubeTranscriptApi' has no attribute 'get_transcript'
+2026-06-10T23:16:02.234659,KF6nSUxGVJg,FALLIDO,,0,,type object 'YouTubeTranscriptApi' has no attribute 'get_transcript'
+2026-06-10T23:16:02.234702,ZTJFSgeIr3Q,FALLIDO,,0,,type object 'YouTubeTranscriptApi' has no attribute 'get_transcript'
+2026-06-10T23:16:02.234744,0FLm9Egb4ac,FALLIDO,,0,,type object 'YouTubeTranscriptApi' has no attribute 'get_transcript'
+2026-06-10T23:16:02.234782,t5kW1qQOvIE,FALLIDO,,0,,type object 'YouTubeTranscriptApi' has no attribute 'get_transcript'
+2026-06-10T23:16:02.234819,FXT10isQIU4,FALLIDO,,0,,type object 'YouTubeTranscriptApi' has no attribute 'get_transcript'
+2026-06-10T23:16:02.234868,f4mpmWLye5I,FALLIDO,,0,,type object 'YouTubeTranscriptApi' has no attribute 'get_transcript'
+2026-06-10T23:16:02.234905,0WZAelOsW2E,FALLIDO,,0,,type object 'YouTubeTranscriptApi' has no attribute 'get_transcript'
+2026-06-10T23:16:02.234940,X4u8UJ_4jGY,FALLIDO,,0,,type object 'YouTubeTranscriptApi' has no attribute 'get_transcript'
+2026-06-10T23:16:02.234975,ZSMOVpAm2TE,FALLIDO,,0,,type object 'YouTubeTranscriptApi' has no attribute 'get_transcript'
+2026-06-10T23:16:02.235010,NwCFTY5bJIk,FALLIDO,,0,,type object 'YouTubeTranscriptApi' has no attribute 'get_transcript'
+2026-06-10T23:16:02.235045,8oStJwuCAdE,FALLIDO,,0,,type object 'YouTubeTranscriptApi' has no attribute 'get_transcript'
+2026-06-10T23:17:04.749278,93QocSYS0is,FALLIDO,,0,,YouTubeTranscriptApi.fetch() missing 1 required positional argument: 'video_id'
+2026-06-10T23:17:04.749361,qDtrikXOexo,FALLIDO,,0,,YouTubeTranscriptApi.fetch() missing 1 required positional argument: 'video_id'
+2026-06-10T23:17:04.749402,QcSeW-jIL_g,FALLIDO,,0,,YouTubeTranscriptApi.fetch() missing 1 required positional argument: 'video_id'
+2026-06-10T23:17:04.749436,mD9S__Cv4v4,FALLIDO,,0,,YouTubeTranscriptApi.fetch() missing 1 required positional argument: 'video_id'
+2026-06-10T23:17:04.749469,X-4zxeL05NY,FALLIDO,,0,,YouTubeTranscriptApi.fetch() missing 1 required positional argument: 'video_id'
+2026-06-10T23:17:04.749500,dvYb_9bEbI0,FALLIDO,,0,,YouTubeTranscriptApi.fetch() missing 1 required positional argument: 'video_id'
+2026-06-10T23:17:04.749533,KF6nSUxGVJg,FALLIDO,,0,,YouTubeTranscriptApi.fetch() missing 1 required positional argument: 'video_id'
+2026-06-10T23:17:04.749569,ZTJFSgeIr3Q,FALLIDO,,0,,YouTubeTranscriptApi.fetch() missing 1 required positional argument: 'video_id'
+2026-06-10T23:17:04.749607,0FLm9Egb4ac,FALLIDO,,0,,YouTubeTranscriptApi.fetch() missing 1 required positional argument: 'video_id'
+2026-06-10T23:17:04.749639,t5kW1qQOvIE,FALLIDO,,0,,YouTubeTranscriptApi.fetch() missing 1 required positional argument: 'video_id'
+2026-06-10T23:17:04.749676,FXT10isQIU4,FALLIDO,,0,,YouTubeTranscriptApi.fetch() missing 1 required positional argument: 'video_id'
+2026-06-10T23:17:04.749706,f4mpmWLye5I,FALLIDO,,0,,YouTubeTranscriptApi.fetch() missing 1 required positional argument: 'video_id'
+2026-06-10T23:17:04.749735,0WZAelOsW2E,FALLIDO,,0,,YouTubeTranscriptApi.fetch() missing 1 required positional argument: 'video_id'
+2026-06-10T23:17:04.749765,X4u8UJ_4jGY,FALLIDO,,0,,YouTubeTranscriptApi.fetch() missing 1 required positional argument: 'video_id'
+2026-06-10T23:17:04.749794,ZSMOVpAm2TE,FALLIDO,,0,,YouTubeTranscriptApi.fetch() missing 1 required positional argument: 'video_id'
+2026-06-10T23:17:04.749823,NwCFTY5bJIk,FALLIDO,,0,,YouTubeTranscriptApi.fetch() missing 1 required positional argument: 'video_id'
+2026-06-10T23:17:04.749859,8oStJwuCAdE,FALLIDO,,0,,YouTubeTranscriptApi.fetch() missing 1 required positional argument: 'video_id'
+2026-06-10T23:17:24.643659,93QocSYS0is,OK,es,26,transcripciones/transcripcion_93QocSYS0is.txt,
+2026-06-10T23:17:25.956111,qDtrikXOexo,OK,es,798,transcripciones/transcripcion_qDtrikXOexo.txt,
+2026-06-10T23:17:27.283581,QcSeW-jIL_g,OK,es,1066,transcripciones/transcripcion_QcSeW-jIL_g.txt,
+2026-06-10T23:17:28.447278,mD9S__Cv4v4,OK,es,1425,transcripciones/transcripcion_mD9S__Cv4v4.txt,
+2026-06-10T23:17:29.432470,X-4zxeL05NY,OK,es,895,transcripciones/transcripcion_X-4zxeL05NY.txt,
+2026-06-10T23:17:30.571882,dvYb_9bEbI0,OK,es,1439,transcripciones/transcripcion_dvYb_9bEbI0.txt,
+2026-06-10T23:17:31.683248,KF6nSUxGVJg,OK,es,981,transcripciones/transcripcion_KF6nSUxGVJg.txt,
+2026-06-10T23:17:32.707544,ZTJFSgeIr3Q,OK,es,660,transcripciones/transcripcion_ZTJFSgeIr3Q.txt,
+2026-06-10T23:17:33.702790,0FLm9Egb4ac,OK,es,529,transcripciones/transcripcion_0FLm9Egb4ac.txt,
+2026-06-10T23:17:34.695081,t5kW1qQOvIE,OK,es,1126,transcripciones/transcripcion_t5kW1qQOvIE.txt,
+2026-06-10T23:17:35.753129,FXT10isQIU4,OK,es,1106,transcripciones/transcripcion_FXT10isQIU4.txt,
+2026-06-10T23:17:36.699792,f4mpmWLye5I,OK,es,120,transcripciones/transcripcion_f4mpmWLye5I.txt,
+2026-06-10T23:17:37.699811,0WZAelOsW2E,OK,es,733,transcripciones/transcripcion_0WZAelOsW2E.txt,
+2026-06-10T23:17:38.753451,X4u8UJ_4jGY,OK,es,707,transcripciones/transcripcion_X4u8UJ_4jGY.txt,
+2026-06-10T23:17:39.734618,ZSMOVpAm2TE,OK,es,807,transcripciones/transcripcion_ZSMOVpAm2TE.txt,
+2026-06-10T23:17:40.800529,NwCFTY5bJIk,OK,es,395,transcripciones/transcripcion_NwCFTY5bJIk.txt,
+2026-06-10T23:17:41.764073,8oStJwuCAdE,OK,es,218,transcripciones/transcripcion_8oStJwuCAdE.txt,

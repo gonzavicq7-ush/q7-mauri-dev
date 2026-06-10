@@ -1,0 +1,1106 @@
+es un sistema
+que por lo que me explicaba Jos está muy
+orientado a lo que es comunicación de
+hecho se origina como un medio de
+comunicación específico
+y tiene
+alguna en ese mundo de la comunicación
+básicamente aparece el flujo de planos
+en donde vos tenés siempre los planos
+más actualizados dentro dentro del
+sistema y Por otra
+parte hay un modo
+de bastante estructurado por lo que
+entendí digamos
+que si no entendí mal J es como un
+método medio americano el rfi que me
+decías el método americano de
+comunicación en la obra de comunicación
+en la
+obra en donde el sistema organiza muy
+bien esa metodología digamos en donde
+cuando hay alguna duda del contratista
+por algún determinado esa persona se
+comunica determinado con el arquitecto
+Bueno hay como un método que bueno las
+particularidades por no las conozco muy
+bien pero básicamente lo que hace el
+sistema es organizar Esa esa
+comunicación digamos y orienta a que
+como es
+comunicación en el sentido de de
+solicitudes de evacuar duda o de lo que
+sea orienta que toda la documentación
+pautada esté como actualizada dentro del
+sistema es esa es como la gran síntesis
+que yo saqué Jos no sé si hay algo más
+que acotar s a grandes rasgo está bien
+traté como de explicarle a Pablo los
+puntos principales que le dan valor por
+ejemplo a su Software que el punto
+principal que le dio valor en el
+principio es no tener un conjunto en
+papel de planado si estar cambiándolo
+sino siempre lo tenés en un solo Board
+en la pantalla otro es guardar
+documentación y a poco le van agregando
+otras cosas financiera la parte de
+planificación disas cosas claro eso en
+general J el sistema te permite
+corrección de planos
+también
+Mira en este momento el mejor programa
+para corregir planos es
+blin blin blin azul como azul vi
+azul es arrancó como un Editor de PDF
+avanzado donde mucha gente podía entrar
+se armaban como sesiones y la gente
+puede entrar a editar planos en PDF y
+porque en Estados Unidos no usan editar
+demasiado en en autoc hacenos planos y
+mandan toda PF y se corri ah eh Sí por
+una cuestión
+de s de autoridad exactamente no no
+sacarle la información al arquitecto eh
+Y y cada uno tiene como un color cada
+persona que va revisor y pone notas y
+queda todo el historial de las notas y
+es es excelente para trackear Quién hizo
+cada corrección y en qué punto se la
+hace y saca informes para saber si se
+corrigió o no se corrigió ese ese ese
+esa observación en que estado esa
+observación Entonces es como es como un
+diseño colaborativo sería algo así José
+es una es una revisión colaborativa
+revisión Sí y compartir También sirve
+para compartir información pero no es
+tan bueno para traquear información de
+obra como como procor o los otros sofw
+para comunicación entonces como que no
+hay un software para todo entonces
+hablando de las grandes obras No es
+cierto entonces hay un software para
+hacer estimaciones hay un software para
+comunicación de obr para plano son
+podemos definir podemos definir Qué es
+grandes obras porque por Ah grandes
+obras para lo que manejan ustedes
+diferente de lo de grandes obr para lo
+que yo entiendo que serían grandes
+obras muy buen punto Porque después
+tenemos que dividir Cuáles son los
+clientes que un qui hacer y vamos a
+decir una obra grande una obra de 10
+millones de dólares para arriba que
+estamos hablando un edificio
+de a ver más de 20 pisos depende de D
+acá en Estados Unidos una obra chica 10
+millon pero pero sí estoy hablando para
+nivel de Sudamérica cuánto sería 10
+millones un edificio mira un un edificio
+de 9 pisos 7 pisos
+eh en Paraguay más o menos son un millón
+de dólares sí sí s sí 10 millones Yo
+calculo un edificio de 20 niveles con
+con tecnología digamos sí s claro Ahora
+sí puede ser como decir mínimo 10
+millones yo diría creo que lo ideal sera
+una hora de 50 a 100 millones arriba cl
+estamos hablando medio de estadios o o
+complejos habitacionales grandes claro
+bueno Ah ahí
+aparecía una dos puntos importantes
+digamos a a revisar de Por qué el procol
+a pesar de ser una herramienta muy muy
+muy potente
+eh diaría de ser una competencia para
+nosotros Porque por ahí nosotros podemos
+llegar a aspirar a otro tipo de Mercado
+digamos a la escala inferior no
+e el ese tema tiene que ver bueno de de
+primero para el cupo de obra que que se
+necesita como para tener ese tipo de
+comunicaciones en donde los cambios son
+muy muy permanente Y en donde hay muchos
+rubros interactuando en el mismo momento
+durante mucho periodo de obra eh Por
+ejemplo Víctor eh Me explicaba José que
+que en Estados Unidos los planos de obra
+lo desarrolla cada especialidad entonces
+supongamos vos le das para al
+electricista para que te haga tu el
+proyecto de Electricidad de ese edificio
+y el mismo electricista tiene capacidad
+operativa o técnica para poder
+desarrollar eso no son los típicos
+pelacables que tenemos acá en Sudamérica
+cierto lo mismo el plomero lo mismo
+todas las cosas y pero la base el plano
+ese sobre el que se trabaja lo da el
+ingeniero el arquitecto o cada uno ha la
+base sí la base Sí por eso por
+eso los planos de taller que le llaman
+ahí sería como un preliminar sin tant
+det son los planos con los que voy a
+construir el arquitecto hace planos de
+diseño y el constructor tiene lo que
+pasa es que arquitecto en Argentina
+tiene un poquito más
+de de responsabilidad en Estados Unidos
+tiene responsabilidad prácticamente o
+sea responsable el constructor Entonces
+ellos tienen que decir cómo van a
+construir y el arquitecto le da
+como per Man
+Met Es una diferencia fundamental porque
+V ten mano de obra calificada los
+subcontratos son calificado Imagínate
+que tienen esta capacidad de poder
+desarrollar documentación
+técnica de obra cierto no es el caso de
+Sudamérica eventualmente alguna empresa
+constructora deberá podrá tener
+capacidad Técnica para hacer planos
+conforme a obra o lo que sea pero es muy
+difícil que un electricista un plomero
+chico tenga esa esa posibilidad entonces
+ahí yo creo que ya hay una distinción
+muy importante entre el software
+porque el Proc digamos estos software de
+alta Gama necesitan que esa comunicación
+sea muy muy muy rigurosa
+porque son muchas personas las que
+participan del proyecto del proyecto
+entend y varias especialidades que que
+no necesariamente dependen una de la
+otra entonces ese tipo de coordinación
+es muy debe ser muy precisa No es cierto
+eh ahí aparece un primer punto y el otro
+punto diferente para mí eh es la rigidez
+que tiene la la comunicación digamos
+en donde José me explicaba que está todo
+muy protocolar zado con este este
+sistema
+rfi en donde Bueno hay como una serie de
+pasos para llevar
+adelante cualquier proceso No es cierto
+y nosotros en Latinoamérica digamos digo
+latinoamérica conociendo un poco la
+experiencia de Argentina la experiencia
+de Chile de Brasil y la experiencia de
+de Paraguay digamos esto es mucho más
+amplio pero no no creo que ise demasiado
+No no creo no no imagínate ten Bolivia
+Colombia que tenés como per cl
+Uruguay México ponerle pero igual está
+en la misma sí no entonces acá viste qué
+s yo compartimos documentación por
+WhatsApp este damos directiva por
+WhatsApp sacamos un videíto ahí en obra
+lo compartimos es mucho más Dinámico
+elijo
+eh Y y yo creo que eso que eso está
+buenísimo Porque si nosotros podemos
+capitalizar eso podemos simplificar sin
+quitar los medios lógicos de
+comunicación que que tiene la gente acá
+vist o sea acá cualquier obrero te puede
+llevar en el celular la la Data de la
+obra viste y en todo caso el desafío
+puede aparecer en Cómo ordenar para que
+esa Data sea la precisa digamos y que de
+alguna forma también tenga como
+un dentro de lo que puede llegar a ser
+un caos algún tipo de Estructura No es
+cierto pero con una lógica diferente Una
+lógica
+diferente Eso es lo que yo pensé No sé
+Jos si vos estás de acuerdo con esa
+mirada viste pero no No
+justamente lo que hay que hacer hablando
+de la mirada estratégica No es cierto de
+negocio es buscar cuál es el cliente que
+no está servido no es cierto y segundo
+después de eso es cuánto puede pagar por
+un servicio ese ese cliente o qué modelo
+de negocio funciona mejor para ese
+cliente Si una suscripción si te
+conviene venderle
+publicidad sea cómo cómo sería mejor
+sacarle el negocio digamos ese tipo de
+clientes de acuerdo al nivel
+Y capacidad de gasto Así que está
+perfecto lo que V está diciendo es bueno
+Ahí lo que vos estás planteando José
+justamente para hacer un comentario
+que tiene que ver como es la cuestión
+estat y la cuestión digamos eh
+básicamente estratégica que tendrá que
+ver su pata financiera y su pata de
+marketing o su parte de venta si se
+quiere va a estar un poco definida en
+base a la acotar o a esta investigación
+que estamos haciendo algún tipo de
+investigación sea desde cuánto va a
+pagar este cliente o desde qué nivel de
+desarrollo va a tener nuestro producto
+No es cierto
+pero yo creo que justamente eso eso es
+un poco la la idea que tendríamos que ir
+eh modelando en estas próximas charlas
+que en esta y en y un par más que nos
+queden digamos eh Y por eso yo quería
+mostrarles algunas algunas pantallas
+algunas cosas que que yo fui sacando
+sobre sobre mi idea del sistema como
+para tratar de darle un poquito más de
+especificaciones a Jose de algo que le
+mencioné muy a lo último en la charla y
+también un poco a voz Víctor digamos es
+como una reflexión en voz alta Entonces
+es la idea de mostrar y que después
+podamos en base a esto hacer algunas
+críticas y ir acotando un poco la idea
+del producto
+dale a ver abro este
+vamos Acá está lloviendo un montonazo
+esos son truenos truenos son
+truenos Mira estoy estoy para que sepa
+pa estuve mirando un poco más eh bajé la
+mirada y me puse a mirar un poquito más
+que en el mercado de medio hacia España
+y latinoamérica y encontré un par de
+datos Ah Bien bien bien pero recién
+arranqué por ejemplo encontré uno que se
+llama Arquímedes que está enfocado en
+Latinoamérica por dice que el precio
+está entre 20 y 80 por usuario por mes y
+se enfoca en estimación presupuesto y
+certificación se ve que está viendo
+algunos intentos lo cual es bueno o sea
+es bueno saber que hay gente que se está
+queriendo meter claro quiere decir que
+están encontrando un mercado claro Sí sí
+seguro no debe haber por ahí y es lo que
+pasa que son todos tiros en el aire
+digamos que tienen un pequeño Nicho
+viste y bueno no sé habrá que
+pronunciarse un poco más a ver si si hay
+algo un poco más desarrollado pero yo yo
+lo que quería Mostrar es por lo menos
+algunas cositas este que que fui sacando
+como en limpio en base a la Data que
+pasó Víctor y sí sí sí yo aparte aparte
+de lo que vos est antes o sea comentario
+antes y totalmente descentrado de lo que
+V está diciendo para cerrar lo que
+estábamos hablando antes okay okay Bueno
+no sé si ven ahí la pantalla Sí sí Bueno
+voy a hacer solamente algunos
+comentarios muy rápidos y un poco
+desordenado en esta primera parte Pero
+bueno este fue como el primer una una
+captura del primer sistema que que vos
+nos pasaste Víctor sí sí
+yo lo que sacaba como como limpio acá es
+que
+tenés el llega a ver o
+no bueno como que ten este lado
+izquierdo una serie de no sé como de
+recursos digamos que están para mí un
+poco desordenados no tienen como un
+criterio muy lógico digamos porque
+aparece la parte de la compañía como
+Uy mira lo que el trueno es
+treno este como una serie de datos de
+datos ahí que ya implican un
+conocimiento de abordaje al sistema muy
+particular es como que como que alguien
+te tiene que capacitar para usar esto a
+ver no perdamos ese punto para seguirlo
+después Pablo el tema y y anda
+apuntándolo Anda apuntándolo Entonces
+porque yo estoy sacando como
+conclusiones muy superficiales viste y
+rápidas en base la interfaz no pregunta
+qué pantalla está de dónde salió la
+pantalla
+imag no yo yo lo que hice fue viste que
+Víctor nos compartió unos links de unos
+sistema con un usuario de contraseña y
+yo traté de entrar y traté de armar como
+un proyecto rápidamente como para tratar
+de entender haciendo pasos rápidos a ver
+hasta dónde podía llegar sin mucha
+información digamos viste Entonces es
+eso no es cierto eh pero la conclusión
+es este el construction online que tiene
+como esta esta est esta serie de datos
+al costado que que son como un poco
+específicos como un poco condicionados
+digamos después tenés Esta esta este
+elemento para nuevo que está bueno
+porque inmediatamente Te indica que vos
+ahí tenés la posibilidad de generar un
+proyecto nuevo y v generar proyecto y
+aparecen este una serie que esto también
+me pare Interesante como
+de pestañas No sí tiene pestañas ahí y
+tiene pestañas arriba tambén arriba No
+es cierto y estas pestañas eh nosotros
+Tendremos que definir Qué tipo de cosas
+le podemos dar pero acá los gráficos son
+muy elocuentes Están buenos porque tiene
+la parte de tarea programada tareas
+pendientes que que siempre son
+importantes eh la administración de
+órdenes de cambio que es una etapa una
+fase muy importante de los proyectos
+Porque todos los proyectos tienen cambio
+este de solicitud de información partes
+gráficas demás O sea me pareció
+interesante y después la parte de arriba
+tiene como otr serie de
+archivos pero A mi criterio y como un
+pantallazo primario no tienen como un
+orden lógico toda la información No es
+cierto Entonces como tiene como que
+tiene toda la información pero
+desordenada
+desordenada por ejemplo aparece tareas
+tareas programad la parte de aparece
+financias o la parte de comunicación y
+la orden de cambio no deja de ser
+comunicación viste calendario cronograma
+arriba y acá aparece tareas programadas
+viste no sé calculo que si alguien se
+capacita en usar el sistema va a poder
+rápidamente apropiarse esas herramientas
+pero como una primera reflexión que
+saqué acá es que digo me parecería
+importante que lo que hagamos tenga como
+una interfaz Digamos como una
+experiencia
+digamos para porque eso también nos
+puede ayudar en la estrategia de venta
+como para mostrar el producto diamos que
+con muy pocas indicaciones las personas
+puedan acceder a esa experiencia de
+uso bueno acá yo lo que hice fue este
+toqué la pantalla que hice nuevo con el
+más y te aparece esta segunda pantallita
+te da dos
+opciones te dice como crear un proyecto
+a partir de una nuevo o a partir de una
+plantilla eso no me parece mal Digamos
+como una
+ventana y para generar el proyecto te
+genera una serie de
+pasos Esto para mí ya es bastante
+condicionado e porque a
+veces algunos proyectos Está bueno está
+bueno que el proyecto se genere digamos
+con con una suerte de cédula de proyecto
+con una con una suerte de de contrato de
+partes en donde haya una serie de datos
+Y de alguna forma también se pueda
+establecer el alcance de ese
+producto es esa cédula de proyecto de
+alguna
+forma es un acuerdo entre las partes no
+cierto arquitecto desarrollador o o
+contratista cierto pero bueno yo yo lo
+pensaría como algo
+simplificado este como que algo se pueda
+empezar partiendo un nombre algunas
+cosas digamos y algunos datos claves que
+se puedan ir agregando en Elo
+posterior acá acá aparece Cuando vos vas
+pasando la parte de detalle llegas a la
+segunda parte que es la parte de alcance
+la parte no sé hay como dos códigos dos
+modos para codificar el proyecto eso La
+verdad que desconozco A lo mejor sab
+trata elegí código para este
+proyecto el código de costos código de
+no sé esta página de España capaz que
+tenga que ver con eso puede ser no sé un
+sofware americano
+este
+americano Bueno después puedes crear
+como distintos tipos de usuarios digamos
+y y bueno es como que ahí generas el
+proyecto noo pensaría como algo fácil No
+es cierto más sencillo para armar el
+proyecto luego este Esta es otra
+interfaz de del mismo Software que me
+pareció interesante
+porque en este
+mismo en este mismo en la misma lógica a
+la pantalla aparecen estas estos
+gráficos siempre en en todo lo que tenga
+que ver con la arquitectura y con los
+desarrollos y con la construcción yo
+creo que los gráficos son muy muy
+importante Digamos si podemos dar con la
+simbología apropiada
+eh creo que que puede ser muy muy muy
+interesante para el proyecto pero por
+ejemplo acá me aparecen los gráficos con
+un diseño muy particular y fíjense que
+acá están los rfi eh rfi eh las
+comunicaciones las órdenes de cambio que
+son todas las mismas pestañas que
+estaban al principio desde este
+lado donde dice tareas pendente y acá
+aparece con una gráfica diferente No es
+cierto entonces ahí me parece que eh ese
+sería otro punto también que nosotros
+deberíamos tener en cuenta que tiene que
+ver con el diseño de de la lógica de la
+pantalla Más allá de la lógica del
+sistema de
+uso bueno Esto no no sé Ah esto Esto sí
+me pareció interesante la el el tipo de
+tareas que se puedan trabajar como con
+estas
+tipo
+c estas tarjetas que se van moviendo
+puede haber otras metodologías pero como
+no dejan de ser tarea que se encuentran
+en fases de espera en fase activa o en
+fase de
+finalización es algo fácil entiendo yo
+de poder configurarlo
+momento Bueno Este es otro
+sistema
+llama digamos tiene la el diseño de la
+pantalla es bastante parecido pero la
+lógica de uso es bastante
+diferente Esto está más orientado a lo
+que es la gestión de proyectos sencillos
+de software
+permiso cl esto es software no
+construcción directamente no no
+exactamente exactamente Es un se nota
+ahí por por los nombres de los sí sí sí
+de las tarjetitas
+esas Hola
+Hola Perdón Ah bueno ahí dijiste algo
+importante
+Víctor que yo no sabía o sea esto es
+para
+sistemas pero es independiente
+esto la idea más que nada era mostrarle
+a
+ustedes qué interfaz de usuario
+potencial podríamos
+tener bueno con nuestro desarrollo claro
+o sea podríamos ir a
+algo salvando
+la las denominaciones los nombres como
+quieras llamarlo el contenido pero bueno
+sería una estética parecida a esta la
+interfaz usuario sería parecido a esto
+claro
+esta anterior es como muy técnica y y y
+esta a mí me dio la impresión de un poco
+más abierta al mundo digamos mundo nuo
+más simple tiene menos información que
+la otra obviamente pero la dinámica de
+funcional Está buena por eso lo
+compartí como que es un modelo de base
+que que tiene la herramienta con la que
+trabajo ejemp de ejemplo es este pack
+que justamente es para para que cuando
+vos vas ingresando en los diferentes
+proyectos vos no sé si lo tenés abierto
+ahí Pablo no no no captura de
+pantalla como que te va dando la
+dinámica y
+la interacción e integración que tiene
+cada objeto del sistema con las otras
+partes y te permite Navegar entre cada
+una de ello me parece bastante
+sencillo comparando obviamente vuelvo a
+decir tiene mucho menos detalles y
+información técnica de de lo que
+estábamos viendo del construction online
+Pero pero bueno podríamos arrancar con
+algo algo minimalista s Por decirlo de
+alguna forma y y después ir viendo
+funcionalidades está buenísima la
+aclaración y y y bueno Me parece muy
+pertinente porque F justamente fue un
+poco lo que observé no O sea el hecho de
+que esto sea como más sencillo esto da
+impresión de que puede ser aplicable al
+celular Por ejemplo que este que alguien
+desde un celular pueda administrar
+fácilmente no sé
+eh algunas ideas no
+eh aparece esta cosa No es cierto Este
+es otro esto es otro sistema en donde
+también yo lo vi como muy sencillo en
+donde aparece como un un listado de
+tareas aquí al costado y después ya aquí
+como adentro del proyecto un listado de
+tareas o rubros digamos
+este en forma horizontal bueno el pensar
+en cuestiones sencillas yo creo que
+puede ser una algo importante para para
+el
+desarrollo Bueno y este también es esto
+no tiene nada que ver con el software O
+sea no tiene nada que ver con un gestor
+de proyecto pero es una herramienta vi
+que tiene Microsoft
+Microsoft ión muy potente muy potente
+porque básicamente uno lo que puede
+hacer es ir creando Este es un ejemplo
+para un proyecto de de
+cumpleaños Entonces uno puede ir creando
+como una serie de tareas que pueden ser
+dependientes unas de la otra o pueden
+ser simple le puede asignar este como
+rubros a a las cuales pertenecen esas
+tareas por ejemplo y le puedes as una
+serie de atributos inclusive cuando uno
+va agregando la columna va
+parametrizando esos atributos digamos
+que le agrega esas Tas entonces me
+pareció un modo muy pero muy sencillo
+de
+planificar y me gustó la idea porque a
+lo mejor de acá también puede salir
+algo está bueno porque bueno por ejemplo
+agreg una columna y esa columna dec
+Bueno quiero que sea precio precio
+presupuestado precio o sea vos le ponés
+el atributo que vos
+quieras o que va a durar tanto tiempo
+que voy a empezar tal fecha y va a
+finalizar tal fecha o o que va a estar
+vinculada con tal tarea o que para esa
+tarea inclusive puedes en la columna de
+costado le puedes agregar fotos por
+ejemplo hay otros ejemplos en donde vos
+puedes sacar fotos de
+referencia entonces me pareció muy muy
+muy
+expeditivo eh acá por ejemplo con la
+misma el mismo software este yo hice
+como algunas como un ejercicio y fui
+inventando algunas algunos atributos de
+estas tareas este donde por ejemplo vos
+le puedes dar un grado de prioridad
+establecer En qué estado se encuentra si
+es nuevo si está en desarrollo si está
+En qué etapa quién está asignado fechas
+de origen eh inicio de imágenes digamos
+y se pueden agregando otras pestañas
+eh Me me pareció muy muy
+interesante eh eso con respecto digamos
+a algunas primeras ideas que saqué de de
+los distintos sistemas que más o menos
+fuimos viendo
+y con eso yo quería empezar a acotar
+digamos qué para mí tiene que tener
+nuestro sistema
+sí
+eh nosotros
+eh digo nosotros acá en Argentina y
+seguro que en Latinoamérica también
+siempre planteamos los proyectos en una
+serie de tareas que generalmente estar
+organizadas por rubros o o tareas
+principales No es cierto ese ese esa es
+como la el lenguaje
+básico que
+entiende cualquier profesional de arura
+o cualquier profesional de la
+construcción digamos o incluso hasta los
+desarrolladores esos rubros que engloban
+una serie de tareas Generalmente esto
+Víctor un poco lo estoy contando para
+vos creo que algunas ideas te las hab
+dicho Generalmente están asociadas
+eh Por alguna
+particularidad o por alguna mano de obra
+especializada que lleva a cabo esas
+posibilidades de tarea por ejemplo en la
+parte de mamposterías Generalmente las
+hace El albañil con su ayudante digamos
+o bien por algún material particular que
+tiene un peso específico o importante
+digamos
+eh dentro del rubro por ejemplo el
+hormigón armado porque también lo hace
+el mismo albañil pero ah ahí aparece el
+hormigón que que que que es como un
+producto muy importante y tiene mucho
+peso específico en en el costo del
+proyecto entonces a mi entender
+cualquier software de organización de
+proyecto que nosotros hacemos tiene que
+partir un poco de acá Tiene que tener la
+posibilidad de que se organicen una
+serie de tareas que de rubros que uno
+pueda especificar como tarea como rubros
+y que de esos ruos vayan pasando algunas
+tareas
+Y por qué no pensar en unas tareas
+secundarias o
+terciarias que vayan
+eh organizando la profundidad del
+proyecto cada una de esas tareas o
+rubros tareas primarias secundari o
+rubro va a tener una serie de
+atributos esos atributos son los que nos
+van a le van a dar cualidad específica a
+esas tareas o
+rubos los atributos pueden ser unidades
+de medida para poder cuantificarla
+pueden ser costos pueden ser
+especificaciones técnicas particulares
+para esa tarea o rubro pueden ser este
+eh cronología de encadenamiento o o
+diagramas de Gan digamos pueden ser una
+serie de atributos que nosotros podemos
+definirlos claramente Y que nuestro
+sistema de a permitirnos poder
+controlarlo tanto en la fase de
+planificación como en la fase de de
+seguimiento o de avance digamos o en la
+fase de cierre me sigue má menos la idea
+o no Sí ahí ahí lo único que me me quedé
+un poco pensando en lo que mostraba del
+list del de Microsoft Eh
+sí de la flexibilidad que tiene esta
+herramienta
+está genial pero llegar a replicar eso
+es bastante complejo a nivel
+eh desarrollo podríamos tener cierta
+cantidad de propiedades que se pueden o
+que se pueden agregar a una tarea por
+ejemplo a
+un vos esto lo tenés denominado la
+descripción que es
+[Música]
+el es una etapa sería la revisión
+maquetado como que sería y a cada una le
+va agregando propiedades ahí esto
+revisión de proyecto maquetado esas son
+tareas tareas que hay que hacer No es
+cierto para el proyecto a ver yo no esta
+dinámica tan
+flexible me quedé ahí pensando como a
+nivel desarrollo que que podría requerir
+para dejar un sistema
+que que quede tan abierto
+a lo mejor no a lo mejor no es lo que
+buscamos pero simplemente Gen genial yo
+lo que estoy haciendo Víctor es cuando
+vienen viste que hacíamos la analogía
+con la vivienda una de las preguntas que
+le hago a mi cliente es cómo sería tu
+casa final
+deseada y el cliente te dice Yo quiero
+abrir la ventana y ver la
+montaña y resulta Abre la ventana y
+vill Entonces no importa lo que me está
+diciendo es que cuando él se levanta
+quiere abrir la ventana y quiere tener
+la mejor visual que él pueda tener
+digamos
+viste no hace falta que hagamos una
+montaña detrás de la casa digamos
+simplemente es Mostrar
+algunas algunos elementos que a mí
+personalmente me A mí también me gustó
+cuando me compartiste el otro día la
+planilla esa me gustó
+gustó mucho pero
+bueno nada de lo que veamos no se puede
+hacer to todo lo que que veamos
+potencialmente o que nos guste tanto a
+nivel
+diseño creo que salo que sea la edición
+de planos en Autocad Que bueno que ya no
+tiene mucho sentido porque
+ya salvo esas cosas que que tienen mucho
+mucho mucho laburo
+atrás el resto de las cosas que se de
+datos No deberíamos tener problemas Pero
+puede demandar más o menos recursos
+tiempo para para tenerlo operativo
+Entonces nada me qued un poco enganchado
+porque me gusta esto pero estaba viendo
+cómo
+hacerlo para nosotros y me qu pensando
+pensando en eso
+buenamente estaba pensando en eso Pablo
+hablando de la interface del
+usuario compleja que tan sencillo no
+tiene que apuntar a hacerlo no cre que
+es una base importante de un software yo
+por ejemplo ahora estoy usando uno que
+se usan para
+administrar empresas de producción de
+carpintería cierto es si qué alcance
+tien un software para empresa de
+carpintería lo venden a 00 por cada
+empresa lo
+ven y después más otros costos ext desp
+tener costo de mantenimiento una cosa es
+puesta
+entrenimiento entrenamiento un montón de
+un montón de gas eh lo que tiene por
+ejemplo el sofware que estoy usando
+ahora es super complejo porque tiene
+muchas formas de editarlo y de agregar
+cosas sea tiene como una base que es
+está eh Como una base vamos decir la
+línea la línea del proceso del proyecto
+desde estimaciones Cómo estimar hasta
+cuando vos ganá el proyecto y después
+cuando entra producción del taller y
+después cuando producto y después de ahí
+se ramifica muchísimo y vos puedes hacer
+lo que quieras vos puedes organizar tu
+taller como quieras es super abierto
+Pero eso significa que es super complejo
+para aprender tener costo de
+entrenamiento la parametrización muchas
+veces es Es esos sistema ese costo
+calculo que el sistema ya está
+desarrollado es básicamente el
+disponibilizar el acceso de los usuarios
+y parametrizar Elo como para el uso que
+tu empresa o o esto que decía Pablo la
+visión de negocio que que tiene cada
+cada carpintería seguramente tiene su
+equipo tiene su recurso humano etca eso
+lo abren tanto Sí sí entonces est
+simplemente un comentario que me me
+parece muy interesante importante eso
+que estabas diciendo Pablo de qué tanto
+qué tan estructurado lo vas a hacer eh
+yo creo que mientras más estructurado es
+más sencillo Sí pero también limitadas
+el tema de la de cada uno decía cómo
+quiere manejarse entonces Eh vos decinos
+Víctor qué pensas digamos de de de eso
+no no a mí yo iría a un punto intermedio
+o sea iría un punto intermedio
+con a lo sumo después cuando
+estemos cuando estemos más en el baile y
+y avanzando y veamos que tenemos mucho
+muchos eh puntos críticos que nos
+enlentecen El Avance ir desestimando
+algunos algunas cuestiones puntuales
+técnicas Y dejarla para un avance
+posterior cuando tengamos más recursos o
+sea apuntaría las cosas más sencillas
+por ejemplo este la gestión de ruos
+tareas y actividades que lo había
+planteado Pablo inicialmente que ahora
+veo que no lo mencionó en el
+tema y ahora te explico por ahora te
+explico por pero
+dejamos sig
+y a ver
+ya que podemos ir diciendo este software
+por como lo pienso yo está más orientado
+a la fase ejecutiva de la obra y no
+tanto a la fase de diseño si bien Se
+puede utilizar en la fase de diseño no
+va a tener tanto potencial porque las
+tareas va a permitir administrar tareas
+y subcontratos del diseño como ser
+cálculo de
+estructura parte de o sea en vez que el
+trabajo en vez de tener rubros como
+movimiento suelo este hormigón armado o
+mambotera v va a tener una serie de
+tareas que van a ser este planos de
+instalaciones sanitarias planos de
+instalaciones eléctricas cálculos
+estructurales diseño estructural No es
+cierto y cada uno de esas tareas va a
+tener atributo porque va a tener
+recursos recursos va a tener costos va a
+tener fechas de inicio va a tener fechas
+de finalización va a tener los atributos
+que que lo van a definir como tareas
+propias de un proyecto cierto entonces
+Entonces si bien está todos los
+cualquier tipo de proyecto se puede
+hacer digamos va a estar como para mí
+más orientado a la fase ejecutiva de
+obra en donde tiene más sentido la etapa
+de planificación y de
+seguimiento bien la idea de esto un poco
+la saco del project digamos yo llegué a
+administrar un poco el Microsoft project
+y Y si bien Yo llegué a profundizar
+bastante me daba cuenta que el sistema
+era muy apropiado para la etapa de
+planificación o sea como que botan más
+unos diagramas de Gan de tiempo y que
+fantástico en el plan pero después la
+etapa de
+seguimiento ya implicaba entrar a una
+capa más al sistema y ahí era donde
+aparecían los filtros perdía interés el
+sistema para hacer un sistema que
+generalmente era hackeado No es cierto
+los Microsoft project ahora como tien
+una política más abierta para la venta
+Entonces no te permitía si bien permitía
+administración de recursos de horas
+hombre no permitía control de materiales
+control de stock control de de una serie
+de cosas que sí Se podrían poner como
+módulos para nuestra
+propuesta Pero en todos los casos como
+como la conclusión general que yo saco
+es que siempre partimos de las
+definiciones de tareas que van a
+complejizar a nuestro proyo cierto y ahí
+Yo decía bueno cuá De qué modo nosotros
+podemos lograr un lenguaje
+común para la comunidad en este caso
+profesional que interviene en una obra
+eh un lenguaje común que sea que todos
+puedan entenderlo lógicamente
+eh sin tener que
+imponerlo como como Mira este sistema
+funciona de este modo Digamos si no más
+bien Yo sé que vos hac las cosas a tu
+modo y el sistema te permite para que
+vos lo hagas a tu modo esa sería la
+lógica yo pienso
+idea
+y me pareció importante esta
+planilla esta planilla que es una
+planilla de cómputo y presupuesto no
+estamos
+viendo estamos viendo el Microsoft list
+Ah quedó trancado en el
+otro volviste en un momento pero y ahí
+Ah ahora se dejaste de compartir dejé de
+compartir ahí comparto de
+nuevo ahí está yo Bueno después
+Microsoft list me quedé en esto de
+mostrarle que el proyecto implicaba
+definiciones de tareas que solamente
+esto es un modo de trabajo mío digamos
+nosotros Generalmente definimos las
+tareas y las codificamos antes de
+cuantificar cierto pero aparece esta
+planilla que es una planilla muy común
+en el mundo de la
+construcción no sé por qu es tan popular
+pero pero se la USA bastante que en
+donde las mismas tareas que uno puede
+definirlas
+arbitrariamente ya empiezan a aparecerle
+a visualizar alguno de los atributos que
+yo menciono No es cierto entonces a la
+tarea por ejemplo en este caso aparece
+unidad de medida
+cantidades costo de materiales
+costo de mano de obra el precio unitario
+que es la sumatoria de ambos y el
+subtotal que es la multiplicación del
+precio unitario por las
+cantidades esto es una una planilla muy
+básica en el mundo de la construcción
+que se llama cómputo y presupuesto
+Víctor porque el cómputo se computan las
+cantidades y se
+presupuestan los costos de esas
+cantidades
+cierto Entonces a mí me parecía
+importante si
+sistema como como que pueda partir desde
+acá como que tenga la posibilidad de que
+yo agarro yo tengo que cotizar la obra o
+cuantificarla y agarro los planos que
+que me hizo el arquitecto y ya en la
+fase constructiva le pueda cuantificar
+en cantidades y la pueda
+eh cuantificar También en costos cierto
+que son algunos algunos de los atributos
+que pueden tener una
+tarea por qu algunos de los atributos
+porque aparte de ser mensurable También
+tienen que ser medibles en el tiempo o
+sea ti que tener fecha de inicio fecha
+de finalización relaciones con otras
+tareas si van primero si van después si
+empiezan antes o empiezan
+después descripciones técnicas en fin
+atributos seguimos un poquito con es esa
+concep bueno Esta es otra planilla igual
+a est donde también lo mismo aparecen
+los rubros Aparecen las tareas pueden
+aparecer subtareas Aparecen las
+cantidades y las definiciones de
+cierto Bueno A partir de acá nosotros
+posteriormente podemos decir bueno
+reboque impermeable grueso listo para
+recibir terminación sale 160 pes De
+dónde sale ese 160 pes por qué lo estimó
+160
+Entonces el software en algún momento en
+algún apartado posterior un módulo
+posterior debería tener la posibilidad
+de que yo pueda generar cuantificaciones
+o estimaciones de eh costos de esas
+tareas Cómo poniendo eh este materiales
+y mano de obra que llevaría cada una de
+las tareas y pudiendo arribar a un valor
+de costo es decir que el sistema el
+software me permita también porque no en
+algún momento generar análisis de
+costo se entiende más o menos lo que
+estoy haciendo O sea
+contando partimos como de tareas No es
+cierto sería lo principal y ahí es como
+que le vamos agregando atributos No es
+cierto Bueno Este es otro ejemplo
+también de de atributos nosotros
+teníamos por
+ejemplo una serie de de tareas o de ems
+que que son cuantificables No es cierto
+y nosotros con esas tareas o em podemos
+armar
+paquetes y podemos definir por ejemplo
+este Cuánto me saldría un muro completo
+de ladrillo como si le sumo la
+mampostería el reboque que lleva la viga
+de fundación digamos cuánto me sale
+finalmente un
+cerramiento con una
+y poder compararlo con otras
+tecnologías ent el sistema esto yo lo
+tengo too desarrollado en
+Excel si lo creo que se podr hacer en
+algún momento en sistema son aptitudes
+que
+rápidamente cal un país más estable que
+Argentina Pero uno puede
+tener el primer parámetro resuelto
+es preocupación de todo digamos la parte
+presupuestaria anes de
+segir interesante este punto que es el
+arranque No es cierto acá por
+ejemplo acá por ejemplo hay softwar que
+te permiten
+sobre los planos te toman las medidas No
+es cierto de dimensiones que s yo tres
+dimensiones y ahí vos sacas volúmenes No
+es cierto y vos armá tus propios
+planilla de costo de acuerdo a costo
+histórico lo que vos tengas a mano No es
+cierto acá lo que hac es trabajan con
+los subcontratistas y los
+subcontratistas le dicen voy a cotizar
+Esta obra tirame los precios entonces
+van juntando preci general para ide sac
+pero algo que me pareció interesante de
+lo que V lo que vos estás presentando
+porque puede ser un proyecto en sí
+Solamente eso generar costos de una
+forma rápida y sencilla por ejemplo
+asociándose o cargando nosotros depende
+lo que lo que sea mejor más
+factible datos de costo de otras
+personas que ya lo est están buscando
+viste que publican datos
+claro entonces vos podes hacer dos cosas
+asociarte con revista de vivienda por
+decir algo
+que te ayude te conecte sus costos y que
+automáticamente cuando salte el software
+plan te salte Los costos de revista de
+vivienda de cada zona de Buenos
+Aires la revista de Paraguay es esa es
+la idea Esa es la idea de generar
+alianzas estratégicas y cuando cuando
+vos mee lo quey a decir justamente yo lo
+un punto comercial esto esto
+necesariamente tiene una complejidad más
+elevada Entonces a lo mejor puede ser un
+módulo No es cierto pero o puede ser el
+sistema de inicio no sé Tendremos que
+definirlo y los módulos serán los otros
+lo voy lo voy a anotar Pero yo lo que
+quería decir con esto es que la
+definición de tareas a nosotros nos
+permite generar atributos y al generar
+atributos nos permite medir y comparar
+eh est esto Esta relación de costo que
+vos decías José Mi idea era por ejemplo
+asociarnos a una base de datos de que de
+ver comat por ejemplo de chamaco este y
+que ellos no
+faciliten base de datos que a nosotros
+no permitan actualizaciones dinámicas o
+como vos sugerís revista costos en
+Paraguay o no sé generar alianz
+estratégicas que realmente permitan
+actualizar Y vos ya le brindas una base
+importante para comenzar en cualquier
+proo y después que ellos puedan ir
+Ajustando sus cantidades sus tiempos su
+para mejorar su eficiencia No sí te
+pregunto ya me estoy yendo mucho ya me
+enganché con esta
+idea pero último comentario yo creo que
+hasta capaz hoy en día ya no es tan
+difícil si ellos publican los
+datos del último mes pasarlo o sea uno
+esrar toda esa información y subirla a
+uno
+mismo así es José
+es muy fácil hacer eso hasta una
+revista un screening
+con
+el te saca toda la información de la
+forma que así que
+hasta hay como muchas opciones Así
+es es es el plan y después te voy a
+contar algo cuando terminamos
+estoo Entonces est nos permite tare
+inicial nuestro desarrollo digamos este
+generar atributos Y eso van a ser los
+que van a permitir el control de nuestro
+proyecto cierto bueno acá nada
+simplemente lo único que hice es como
+que tomé una captura de pantalla y puse
+como un ejemplo esto
+visual no como algo que tenemos que
+hacer sino como que agarré un papel en
+blanco y empecé a hacer un cy viste sin
+idea lo que estaba haciendo cierto pero
+básicamente es como
+rubros tareas subtareas descripciones
+estados y bla bla bla bla la cantidad de
+atributos que claramente la vamos a
+definir antes de ejecutar pero pero
+tomemoslo así
+por
+bueno cuál
+sería Mi
+idea y esto digo mi idea como para que
+después la vayamos complementando y
+demás no cierto nosotros necesitamos
+entrar al sistema hay que loguearse y
+acá aparece una cuestión también José lo
+menciono porque va a ser
+estratégico nosotros vamos a tener tres
+patas

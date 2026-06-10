@@ -1,0 +1,529 @@
+per con un montón de cosa pero en este
+mundo aparec un montón de flujos que
+aparezcan las necesidades del
+desarrollador del invertor este la
+traducción del arquitecto o o
+proyectista digamos y
+eh la necesidad del constructor por por
+llevar hacia adelante el proyecto esos
+son como los tres Pilares o los tres
+actores principales que que deberían
+operar el sistema cierto
+y después le voy a comentar cu una idea
+también que Que bueno que ampliaría lo
+que dijo Víctor de Cómo darle un rol más
+participativo al al al descargador y le
+llamo descargador digamos a a este
+propietario que viene con con la
+inquietud de
+demand bueno Cuál cuál sería
+este la la uno del los objetivo
+principales o sea generar una
+comunicación integral entre todas las
+partes el profesional el propietario y
+el proveedor el proveedor sería el
+cont eso sería como el el
+el la comunicación sea uno de los
+objetivos principales del proyecto más
+luego este lo que haría el sistema sería
+gestionar gestión de
+procesos o sea evaluar estadíos
+eh de los procesos en la etapa de diseño
+y en la etapa
+ejecutiva esto ese sistema podía ser más
+abarcativo y no No necesariamente y
+únicamente de de proyectos de obras de
+arquitectura porque básicamente el
+lenguaje que vamos a estar usando van a
+ser este cosas que tienen que ver
+con la guía del pm Book con los
+fundamentos para para la dirección de
+proyect cuáles son los ejes principales
+de trabajo
+eso principales que con lo que vamos a
+trabajar es el alcance que básicamente
+es la es la definición de la tareas que
+hay que desarrollar en el proyecto tanto
+la etapa de diseño como la etapa
+ejecutiva los plazos
+que básicamente es un tiempo y Los
+costos
+este este es tres estos tres ejes de
+trabajo que de alguna forma son los que
+conforman cualquier tipo de
+un proyecto en
+general tienen Mucho peso digamos y
+distinta distinto
+impacto en los tres actores que van
+operar en el proyecto en distintos
+moment alcance el alcance sería la
+definición de
+tarea principales que debería poder
+operar
+[Aplausos]
+el bueno Qué es el alcance Qué sería el
+alcance básicamente
+sería la
+definición o necesidades específicas del
+[Música]
+proyecto y los factores clave que tien
+poder definir el al alcance es
+las actividades o parti o rubros en tres
+niveles de de partición tres
+niveles el alcance define la las
+cualidades específicas del proyecto
+entonces básicamente Jose en nuestro
+mundo se lo tradu un poco a vor pero
+básicamente nuestro mundo es la planilla
+de comp pero no tiene el comput
+específicamente que habla de cantidades
+sino más bien la definición de las paras
+quey que realizar para eso ser lo que yo
+entiendo
+[Música]
+como cuál serían las acciones que
+debería hacer el sistema en relación al
+alcance bueno debe poder definir las
+actividades previstas en el proyecto es
+decir en una serie de renglones uno
+puede decir
+Bueno desde un aspecto técnico eh ligas
+de fundaciones o tabiques de
+mantería un aspecto técnico lo puedes
+definir de y un aspecto no tan técnico
+uno puede definir este realizar
+ampliación del
+sanitario el alcance tiene que ver más
+con la especificación de lo que uno
+quiere
+alcanzar sería
+como tratar de dejarlo abierto dentro
+del proyecto uno lo pueda definir
+técnicamente o no tan
+técnica Bueno luego
+eh las mismas o sea estas acciones eh
+deben tener la posibilidad de asignar o
+vincular atributos s Pablo no sé si vos
+no estás mostrando la pantalla porque lo
+que estamos viendo Es el powerp pero la
+la pantallita que dice control de
+gestión solamente no estamos viendo en
+serio me pareci que estaba Ah no yo yo
+estoy y ahí ven ahí sí ahí sí Pon f5
+poner f5 poner compartir la presentación
+Sí s es que eso había puesto Ah pero te
+mandó otra
+pantalla desc compartí y compartí la
+presentación no el power Ahí está Ah Ah
+con razón Jos porque acá estaba todo
+todo lo
+otro Ahí dejé compartir dame un segundo
+tampoc lo quiero aburrir demasiado con
+eso y con los tiempos un poco rápid J
+con el tema de la eh No resulta que y
+confundí ahora tengo un poquito más de
+tiempo Dale dale buenísimo estaba
+dormido todavía cuando dijo que estaba
+ahí Ahí estamos ahora Perfecto Bueno
+entonces yo le decía comunicación
+integral entre el profesional
+propietario y proveedor la gestión de de
+procesos del diseño de la obra ahí vamos
+a hacer foco Pero puede ser gestión de
+cualquier otro proceso también y lo eje
+de trabajo Yo le decía que era el
+alcance los plazos y Los costos como
+como ejes generales no bueno y nos
+quedamos en la parte de alcance no
+Entonces yo yo había puesto Como algunos
+factores claves a tener en cuenta
+algunas acciones que a mi entender el
+sistema debería poder hacer No es cierto
+y eh lo último que le dije fue que
+aparte de poder definir estas tareas eh
+esas tareas del alcance deberían tener
+la posibilidad de asignar o vincul con
+atributos del sist es decir costos
+tiempos recursos documentos o accesorios
+cierto es decir cuál sería nosotros
+definimos una tarea
+específica ejecutar tantos metros
+cuadrados de muro por ejemplo cierto y
+yo tengo que tener la posibilidad de esa
+tarea específica asignarle un tiempo
+plazo inicio un plazo final no cierto
+poder asignarle un recurso de quién lo
+va a hacer lo va a hacer Pablo lo va a
+servir que lo va Ace J eh Y poder
+vincular documentos accesorios aa algún
+juego específico eh Este no sé algún
+plano
+que que defina cómo se se deberá hacer
+ese muro no sé esto estoy pensando como
+a lo mejor a veces pensar en voz alta
+puede confundir más Pero y si no me
+entienden no no yo te
+sig Bueno ese sería este
+la
+expectativa de que el sistema pueda
+tener el tema de El alcance no después
+luego este tendría que tener acciones de
+cambio Es
+decir
+uno aparte de definir las tareas debería
+poder definir Cuáles
+son factores claves que van a incidir en
+est entonces a lo mejor este el hacer el
+muro va a tener algunos factores clave
+como va a ser la coma del cemento porque
+a lo mejor có se hace el muro pero que
+tengo que probarle el cemento no sé
+poder especificar Cuáles son los
+factores claves y poder definir asecto
+de tarea que pueda comunicar a las tres
+partes interesadas para que cada una de
+las partes interesadas realicen la geses
+correspondientes para que est tareas se
+pueda y luego
+definir los atributos que era un poco lo
+que le decía plaz recursos costos
+y cuál sería los resultados del alcance
+entender o sea tener un listado de
+tareas generales tres niveles de
+prelación porque a lo mejor la tea
+principal puede ser
+muro muroa
+sería fundaciones
+yera una tercer tarea sería a lo mejor
+permisos particulares para la fundación
+poder definir digamos una serie de
+mínimamente y bueno y el otro es que a
+cada una de estas tareas que le puedan
+asignar buo eso con respecto más o menos
+a lo que es la definición de tarea Luego
+el tema de plazo estar vinculado con la
+tarea obviamente no hay plazo si no hay
+una
+específ
+que entonces como factor clave Yo decía
+bueno definir los plazo necesario para
+el seguimiento del proyecto en
+cualquiera de las actividades previstas
+del
+alcal como nosotros las tareas las vamos
+a definir de
+acuerdo al nivel necesario o a la
+aptitud para poder Definir la tarea que
+requi el proyecto los plazos también
+deben permitir posibilidad de adecuación
+a eso o sea si yo defino una tarea muy
+general el plazo va a ser muy general
+sobre esta
+única y si defino una tarea muy
+puntillosa o muy particular me tiene que
+generar la posibilidad de que esos
+plazos se puedan entrelazar entre sí
+para generar un tiempo total de una
+suerte como funciona el
+microsof bueno eh
+Cuáles son los resultados de esto poder
+tener una curva proyectada es importante
+la parte gráfica para m el sistema tiene
+quear gráficos que va a ser un sistema
+de comunicación básicamente y gráficos
+entendibles para tod la etapa para el
+contratista como para el arquitecto como
+para el propietario cierto entonces
+tener curva proyectada una curva
+ajustada que vaya mostrando
+se van otorgando adicionales y una curva
+real que va a est en relación a los
+avances es un poco el Macro del tema de
+plazo mucho para hablar el
+tema y luego el tercer eje el tema de
+costo
+cierto el costo para mí va a ser
+eh la frutilla del
+post el el el poder evaluar costo de los
+proyectos es
+uno no solo el coste sino el seguimiento
+de Los costos de los proyectos uno de
+los desafíos más importantes que pueden
+tener el sistema eh es lo seguramente lo
+más lo que
+más difícil va a ser que nosotros
+podamos desarrollar implementar el
+sistema pero yo creo que pue ser
+Posteriormente la frilla del postre en
+el sentido de que para cada uno de los
+actores siempre el precio el número el
+cuánto me va a salir termina siendo lo
+más importante como motivo
+inicial y también como
+verifica entonces Más allá de vender el
+entusiasmo de de qué es lo que uno
+quiere hacer cómo lo va a hacer siempre
+aparece la pregunta ulta decir cuánto no
+va salir de hecho nosotros nos
+preguntaremos por este proyecto cuánto
+nos va a salir y cuánto vamos a
+[Música]
+ganar el tema del costo va a ser como
+algo fundamental y yo creo que el tema
+de costo va a tener distintos impacto
+para
+eh los tres factores que van a
+intervenir dentro de de los proyectos
+que puede servir este sistema es cierto
+entonces voy a pensar el Macro voy a
+pensar Macro A lo mejor al desarrollador
+al inversor interesa tener el número
+final y a lo mejor
+al al constructor le interesa tener el
+número particular porque quiere saber en
+dónde aparecen los desvíos para ver si
+si su proyecto le es rentable o rentable
+la ejecu de la obra porque En definitiva
+el proyecto va a la obra pero para cada
+uno de los actores se van a transformar
+en su proyecto
+difente constructor el proyecto va a ser
+la ejecución de la obra básicamente para
+el desarrollador va a ser el proyecto
+final y para para el
+arquitecto el poder diseñar dirigir esa
+obra va ser su
+propioy entonces Los costos van a ser
+Van a impactar diferente a pesar de que
+es el Macro es el mismo para todos pero
+van a impactar diferente
+en Bueno si el sistema pudiera de alguna
+forma entesar esta
+neidad yo creo que sería un punto muy
+importante bueno eso básicamente más
+luego el sistema debería poder este
+colocar recursos
+digamos materiales mano de obra digamos
+quiénes van a ser los actores
+involucrados para la ejecución de tal
+cuá
+tarea cto
+este podría debería poder otorgar
+listados de materiales debería
+poder generar administrar recursos
+digamos Y por
+último también el tema de las
+comunicaciones No es cierto este en
+donde se
+podrían alguna forma el sistema en algún
+apartado este poder eh
+instrumentar las comunicaciones
+formales este como consenso oad
+materiales o de la últimas
+tareas que se plantearon a resolver o un
+calendario o
+informes o bien los libros de órdenes de
+servici
+este eso es un poco el el
+el esquema de lo que Fu trando el
+esquema general con con el que más o
+menos fuimos
+trabajando y bueno de alguna forma con
+esa información algo fue Armando Víctor
+estamos en este feed sí pero no porque
+también para mí es muy difícil entender
+la lógica de la programación digamos
+también es un lenguaje nuevo y y Bueno
+un poco aparece también tu tu visión de
+todo esto ahora Jos Digamos como
+como actor interesado por lo
+menos no no Gracias por Mostrarme lo que
+hicieron Ahora hay que creo que para
+hacerte muy sincero avanzaron
+mucho sin entender el mercado el esquema
+armar un emprendimiento pao
+y como hubo tanto vent cap tanta plata
+que se puso en emprendimiento se armó
+como un esquema muy muy claro de cóm vos
+tenés que emprender para saber que
+presentar a la gente interesada que va
+que va a poner la plata en el negocio No
+es cierto Entonces cómo es ese proceso
+tenés que encontrar qui encontrar un
+problema de un grupo de personas No es
+cierto después ver qué qué soluciones
+podrían eh resolver este problema sí
+Y qué tamaño es el mercado Cuál es el
+tamaño del mercado de la gente que
+necesita esa solución Y por último Cuál
+es la competencia existente en el
+mercado entonces mi experencia sería
+Volver atrás y empezar a analizar esto
+porque tiene una idea lo cual está
+buenísimo cto y y hay gente con
+conocimiento y experiencia en es en ese
+en
+ese en ese rubro Sí exactamente y está
+perfecto lo que hay que hacer ahora es
+volver atrás hacer un análisis completo
+que no es muy largo análisis completo
+del mercado y de la competencia con
+datos que nos digan si esta solución es
+la correcta o no o hay que ir o hay que
+ir Ajustando lo que vos presentaste
+Pablo es es algo muy con poca
+batería es algo muy es un software muy
+adaptativo
+eh Hay software abarcativo pero el que
+vos presentaste es más abarcativo de lo
+más abarcativo ahora por un gran
+sueño Te tiro una Data antes de que se
+nos corte Si se nos corta nos conectamos
+de vuelta En caso que puedan la misma
+mismo link funciona no
+cierto estoy de acuerdo porque estamos
+en una etapa por lo menos que tenemos
+quear no un punto No más ahí que lo
+hemos mencionado dos veces pero no
+sabíamos como articular porque como como
+no me da no me da la capacidad temporal
+ni ni de cabeza por ahí para entender
+todos estos conceptos término o
+sea literalmente Sí pero en el Macro de
+cómo lo ve Pablo hay cosas que las
+entiendo y hay cosas que por ahí me me
+superan Esa es la realidad por no
+conocer la lógica de
+negocio entonces hablamos con Pablo que
+que la idea porque he trabajado con otra
+mentoría con mentor day Que es una
+empresa de Canarias que que se dedica a
+hacer este tipo de coaching para para
+startups y lo hice Durante un mes y
+medio en el 2021 y tengo alguna dat y le
+he pasado un par de documentos a Pablo
+que que fue lo que estuve trabajando
+solo en ese momento con con la idea de
+de encaminar un una producción de
+software como servicio para diferentes
+rubros Eh entonces alguna idea de todo
+esto que vos estás comentando la tengo
+muy muy vaga por lo lejano y básica por
+el tiempo que le dediqué también al tema
+pero eh una uno de los puntos que se
+queda ahí es que hay que tratar de
+apuntar o tratar de implementar en en
+seguramente familiar el tema de la la
+reglas de pareto o ley de pareto para
+para tratar de de
+potenciar una mínima cantidad de
+característica un 20% del producto total
+que queremos desarrollar darle
+eh empuje a a que salga eso funcional y
+después ir trabajando sobre el resto de
+de de del alcance total o global del
+proyecto eso lo hablamos varias veces
+algo así Algo así te iba a decir después
+de lo que est lo que perfecto Perdón que
+te coré te dejo que termes ent per Era
+ese punto que lo hablamos varias veces
+pero no sabemos cómo articular O sea no
+hemos tenido tanto avance como para para
+decir bueno punteos esto esto lo que más
+se va a usar esto no lo vamos a usar
+nunca nos pasa con diferentes software
+de gestión como lo que habrás usado
+también vos en la construcción y que ten
+un software gigante y que usas cinco
+pantallas 10 pantallas que l usas
+continuamente pantallas digo
+funcionalidades que que son las las las
+prioritaria o principales Y seguramente
+la parte gerencial ocupará otra cada
+área tendrá su su su su demanda y Bueno
+hay que tratar de hacer foco en
+esa en esa funcionalidad iniciales Como
+para salir al con algo al mercado lo
+antes posible para ver si se llegase a
+decidir que es algo viable el producto y
+bueno Y si no nos dedicamos a vender
+helado en la playa no sé hacemos otra
+cosa no no tiene que ser la idea No mira
+eh genial genial
+genial viene totalmente al caso ese
+comentario y me gusta nosos hemos
+trabajado con mucho mucho equipo de
+trabajo acá y la verdad que así tiene
+que ser interrumpiendo y y y y opinando
+Eh bueno el NBA en realidad es así es
+todo interrumpir y opinar
+opil entr eh
+ahora entonces Tenés una idea marcaa de
+todo lo que necesita cada parte Me
+encantó eso porque vos ahí tenés
+definido distintas Burbujas de trabajo y
+ahora lo que hay que hacer es ir al
+capaz que tercera tercer paso pero uno
+de los pasos que hay que hacer es ir al
+mercado y ver qué
+productos ayudan en cada parte del de
+esa de esa vos Casi casi queb
+total la cadena de valor
+constucción Enton lo que cadena de valor
+de la
+construcción el tema de cóm se se un
+producto en cada parte de la cadena de
+valor es como un paso
+[Música]
+pas pero por
+ejemplo con lo conoc es un software de
+control de gestión de proyecto
+más orientado a la parte de construcción
+y entrega de la
+obra la parte de documentación de obra
+es muy mala Es triste no es la peor he
+visto peor porque esta parte se ve que
+es muy complica se enfocaron en la
+comunicación comunicación entre parte y
+registro de documentos la mayoría de los
+Software que yo he visto se dedican a
+esto registro de documento querían
+resolver el problema de los papeles
+es lo que vos me dijiste di eso es lo
+que quería los papel entonces están muy
+enfocados y ya hay un grupo grande que
+se dedica eso es un lado con el tema de
+los productos pero lo que hay hay que
+meterse antes que eso
+es cuál es el grupo que tiene un
+problema en este momento con esto con lo
+que vos resolver Y cuál es el mercado
+para este grupo Qué significa esto tiene
+plata para pagar un producto
+y gente con esa suficiente cantidad de
+plata está en el mercado
+para
+mercado para Argentina es para
+latinoamérica es para Estados Unidos es
+para Europa para
+Asia pero Hacia dónde quieren apuntar
+entonces lo que yo sugiero es genial Hi
+análisis lo hay que hacer análisis es
+volver atrás y el mercado qué mercado
+nos queremos enfocar y o nos gustaría
+enfocarnos y qué necesita es mercado hay
+dos formas de analizarlo con información
+primaria y secundaria con cualquier res
+No es cierto entonces una es ver qué hay
+en internet no es cierto y segundo es
+entrevistar gente hablar con gente
+hablar con gente hablar con gente esa es
+la parte que que a mí me interesa porque
+yo ahora tengo llegada mucha gente Eh a
+veces
+AC un poquito
+ent problemas yo por ejemplo en to
+que estendo hast
+ahora
+[Música]
+dado m

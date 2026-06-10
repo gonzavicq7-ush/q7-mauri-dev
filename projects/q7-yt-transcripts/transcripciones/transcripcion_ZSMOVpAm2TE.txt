@@ -1,0 +1,807 @@
+eh más o menos de ponerle de acá hasta
+por acá de acá hasta por acá
+a Yo entiendo que hay valores de
+sueldos serían exactamente valores de
+sueldo no es cierto bueno Esto nosotros
+necesitamos o sea esto tiene una serie
+de valores de sueldo que nosotros lo que
+estamos diendo básicamente aá es que con
+esta cantidad de consultores y
+desarrolladores y y
+servicios de asesores digamos nosotros
+si desembolsos de este modo vamos a Lora
+que en el mes 18 vamos a empezar a tener
+el punto de quiebre digamos y podemos
+este estimar Digamos si si yo hago una
+sumatoria sumo esto digamos porque
+porque dejo en principio
+afuera en principio Entonces supongamos
+nosotros tenemos acá una suma de 70000
+aproximadamente
+de más o menos de
+inversiones por decir estoy mirando acá
+abajo no es cierto bueno la la
+premisa la duda que por a me quedaba era
+con respecto a la a la otra planilla
+compartir í dejé de compartir y voy a
+compartir la otra planilla
+sí tenemos una opción que te dice
+compartir eh pantalla toda la pantalla
+al compartir la pantalla yo veo vas
+cambiando directamente Ah okay Ah okay
+Ahí está eh poner no volver a mostrar y
+ahí haces clic en la pantalla en el
+Excel Pon por ejemplo Ahí está
+seleccionar que ahí está ahí ahí está
+bueno claro Entonces yo qué empecé a
+tratar de hacer acá yo ayer me quedé con
+la idea de que si bien Esto es
+sintonizable tiene un un piso un piso de
+un 70 por de probabilidades de cercanía
+por lo que me lo que me qued s entonces
+a mí me costaba bueno tenía como un piso
+de 70 por y estas estimaciones no sé qué
+tan certera zombi entonces ninguna
+certeza tien
+bueno tenemos el costo más o menos lo
+que podemos ofrecer a una persona para
+que trabaje con nosotros en vez de 605
+yo creo que hoy hoy con los valores que
+se están manejando en mercado por ahí a
+todos los consultores habría que
+redondear alrededor de $800 por por por
+persona y en vez de tener tres acuerdate
+que esa progresión que tengo ahí era la
+que yo tenía proyectada para el proyecto
+anterior yo no toqué algú no ajusté
+algunas cosas
+Simplemente no sé si te a ver si
+nosotros en vez de que esos grises sean
+valores reales de
+ingreso podemos acortar en vez de irnos
+al mes nueve podemos estar en el mes nu
+el mes 17 podemos quedarnos en el mes 8
+con un producto viable se entiende Si
+esos grises lo lo valorizamos Sí o sea
+con la misma plata distribuida de
+diferentes formas podemos cortar el
+plazo de entrega al producto
+básicamente Entiendo entiendo y Bueno yo
+lo lo lo que planteaba Víctor era si es
+viable si es que se puede acá nosotros
+tenemos lo mismo que acá pero traducido
+de otro modo porque acá están las
+cantidades de horas que nos van a llevar
+a hacer el producto Estamos de acuerdo o
+no no no es así son son
+[Música]
+eh son herramientas que tienen datos que
+no están vinculados actualmente son
+datos
+completamente des asociados no están
+asociados O sea hay que trabajarlos para
+darle forma a la planilla de tesorería
+deberíamos sentarnos en conjunto o
+alguien que haga el Lauro de eso primero
+Tendremos que afinar esto afinar la
+cantidad de horas lo más posible o sea
+ver si por eso te decía Mirá eh tenés
+forma de hacer clic en el enlace de de
+que yo te pasé hoy en en uno de los es
+cortito eh eh subís Ahí está cualquiera
+es el primero el primero el PDF de
+abajo es el es el primero abrir poner
+Bueno andaste hasta ahí donde dice
+sistema de gestión viste un poquito en
+el 2.2 fíjate es el primero el 2 un
+podes agrandarlo un poquito o lo ves
+bien Ahí está fíjate Esto es lo que
+nosotros necesitamos lograr modularizar
+del sistema de obra del nuestro o sea
+poder gestión de proyectos gestión de
+documentos o sea hacer esta
+modularización a nosotros nos va a
+servir
+para para poder granular de una forma
+más entendible independientemente de los
+submódulos que tengan cada uno abajo
+poner gestión eh financiera eh Y
+contable gestión administrativa bueno
+Ver ver esos puntos entonces e más Macro
+se entiendo un poco la idea inclusive
+Hay cosas de lo que yo no estoy
+entendiendo es vuelvo a nuestra planilla
+Dale sal para mí o o lo que yo entendía
+Just ten trabajar sobre esto primero
+para mí esto eran los módulos esto eso
+es lo que yo había entendido Ah sí son
+los módulos Pero por eso esto tenemos
+que estar seguros que son los módulos
+estamos seguros estamos seguros no
+estamos en proceso estamos en proceso
+estamos en proces fíate que yo Después
+agregué la parte de gestión de calidad
+gestión de activo que eran módulos que
+no estaban contemplados en tu
+presentación pero es yo creo que son
+necesarios para para un proyecto de este
+tipo estos E eso sí sí son todos módulos
+que te llevan cierta cantidad de carga
+horaria para desarrollarlo okay Entonces
+tenemos que saber si eso lo vamos a
+poner no lo vamos a poner que capaz que
+de ese módulo de gestión de activos en
+vez de dedicarle 320 horas podos hacer
+un módulo de gestión de activos más
+chiquito por decirte a qué te referes
+vos con gestión de activos gestión de
+activos es la gestión de los recursos de
+la empresa gestión de activos le sirve
+para para eh en el en el banco se
+cualquier cualquier cosa que te permita
+a vos realizar tu trabajo un activo
+es un un algo físico o intangible pueden
+ser las dos cosas un eh A ver un
+servidor un servidor y un activo
+entiendo y está buenísimo Porque esos
+son puertas de entrada para las empresas
+digamos Exacto va para la empresas para
+constructora vos tenés tantas
+herramientas cada uno de esos es un
+activo entonces vos tenés que saber en
+qué estado está mantenimiento un auto un
+activo un vehículo de transporte un
+activo o sea todo
+eso A eso apunta está muy bien Bueno yo
+quería ver la forma de de poder
+establecer algo preliminar como lo que
+ya tenemos pero vinculado a ver a ver si
+me puedo tenemos que trabajarlo entiendo
+lo que vos querés pero no está Hoy no
+está así V me preguntas si hoy está así
+no O sea hay que trabajarlo al otro para
+que quede amoldado a lo que neces
+necesitamos acá Claro porque Qué pasa
+igual los valores por lo que estoy
+viendo no son muy diferentes porque no
+no de casualidad o sea eso es casi
+fortuito te digo porque yo yo qué hice
+qué hice multipliqué de de este resumen
+que vos hiciste acá lo último y más o
+menos para el desarrollo nos sale
+$50,000
+este con todas las otras cosas y me da
+un total de 90,000 del proyecto que más
+o menos el 8 86 que estamos viendo en el
+mes 18 del otro del otro exactamente
+exactamente Entonces si nosotros más o
+menos podemos lograr de alguna forma
+vincular esto con con lo podemos hacer
+ahora si queres para te muestro cómo
+hacerlo y después si queres lo trabajas
+vos lo Dale dale dale dale bueno tenemos
+número real nosotros acá te dice que vos
+tenés
+eh 9 Dice 24 semanas te dice 6 meses de
+desarrollo fíjate fíjate en el punto de
+desarr 59 el el de $50,000
+eh fíate en la cantidad de meses te dice
+5.99 estamos hablando que con cinco
+programadores o sea cuatro personas
+adicionales Bueno vamos a trasladar eso
+ahí Tendremos que agregar un diseñador o
+sea Son seis qué más te dice como que
+necesitamos tener en la parte bueno
+estrategia marketing poner que que la
+manejemos nosotros que no tengamos que
+que Definir la parte de diseño de
+interfaz usuario la podríamos hacer
+nosotros con alguna asistencia puntual
+ahora No eso tiene que ser un diseñador
+gráfico Sí o sí o no inicialmente No
+porque en realidad esta herramienta qué
+te permite que nosotros podamos hacer
+toda la parte funcional y después el el
+maquetado de diseño puede venir un tipo
+y hacerlo en un mes y nosotros
+básicamente trasladamos Ese diseño a lo
+que ya está funcionando y lo aplica Okay
+entonces obviamente hay hay hay
+cuestiones de
+de esta herramienta está bien pensada
+para la parte de que que casi de forma
+estándar o por defecto es bastante
+amigable con el usuario entonces
+obviamente vamos a tener que hacer cosas
+ajuste de colores tamaño de letra ese
+tipo de cosas son muy fácil de de de de
+aplicar a todo el proyecto no hay que
+tener que ir haciéndolo página por
+página se entiende Sí entonces por ahí
+va Vamos a cambiar en vez de tener una
+grilla que te aparezca de tal forma va a
+decir tipo no sabes que esta grilla si
+no te sirve vamos a tener que hacerlo de
+tal manera o por ahí hacer el diseño
+para lo que es la aplicación móvil sí eh
+para que sea más fácil y no tenés un
+tipo trabajando se meses con en el
+diseño tenés un tipo que viene y hace un
+laburo de un mes o pu le pagas por
+trabajo y le decí mira necesito ajustar
+es el tipo te hace laburo y te cobra 00
+y te mandó toda la maqueta del proyecto
+Y vos ya trabajas en base a Ese diseño
+no es una persona que le tenés que pagar
+mes por mes se entiende más o menos como
+después si queré ir haciendo consultoría
+para ir haciendo ajustes lo puedes tener
+pero o sea inicial
+hagamos cuenta que no necesitamos el
+diseño los programadores s Pero eso
+esimportante lo que vy decir del diseño
+no es importante pero no necesitamos
+tenerlo en la plantilla de trabajo
+mensual digo podes pagarlo una vez a una
+empresa que se dedica a hacer igual que
+la parte de marketing no meterlo dentro
+de la empresa esto Esto es muy
+importante en lo
+que en la aceleradora esta decía vos
+tenés que tratar de tener la menor
+cantidad de gente
+adentro de la
+empresa o sea dependiente con sueldo
+fijo es preferible tener una por ejemplo
+el servicio contable o legal que vamos a
+necesitar también es preferible
+tenerlo contratado
+tercerizado no pero estamos Totalmente
+de acuerdo Ah bueno lo mismo para este
+caso puntual del diseño porque no una
+persona que va a estar
+completamente trabajando el día a día
+con nosotros sea porque él hace su
+aporte
+o la parte marketing o de venta hace
+soporte inicial o soporte del 70 por y
+después va haciendo ajuste a través del
+tiempo dependiendo de los módulos que
+vayamos sacando Pero bueno no no te
+preocupes por eso saquemos
+ahora confía confía mí que por ahí hoy
+no necesitamos tener esa pata para
+arrancar la parte de marketing cómo te
+parece a vos que manejemos no eso va a
+ser muy necesario Bueno marketing
+entonces en vez la estrategia comercial
+por ahí la podemos canalizar con Jose
+pero pero marketing creo son estrategias
+diferentes viste Bueno entonces ahí en
+vez de tener dos personas Pon una sola
+Ok pamos una sola una sola en
+requerimiento de planificación vas a
+estar vos seguro
+y nosotros tres pero no tenemos no
+tenemos un costo económico O sea que
+bueno vemos ahora có lo trasladamos a la
+otra planilla diseño de interf usario
+dej
+un
+acá no va ir mucho va mucho plazo no va
+ir a 8 meses no está bien de dej porque
+sí para mí está sobredimensionado ese
+ese porcentaje Ahí está
+sobredimensionado Paulo porque no es
+tanto laburo que hay que hacer
+de de diseño ahora que lo estoy
+viendo en concreto
+sí los programadores está bien y el
+tester los testers Sí yo creo que con
+dos tester dos personas que se dediquen
+a testear el producto vamos a estar bien
+o sea nuestra plantilla debería tener
+esta cantidad de recursos deberíamos ser
+cinco en el área de desarrollo es siete
+perdón sí siete más un ad H
+un no no los otros
+eh los cinco el cco Y el dos de abajo el
+tester y el el developer eso sería eso
+eso es desarrollo eso sería desarrollo
+porque desarrollo test como que se
+agrupa ahí diseño lo podemos trabajar ya
+te digo No necesitamos para arrancar
+pero después lo podemos ir haciendo
+antes de largar inclusive antes de
+largar podemos sentarnos y hacer los
+ajustes de diseño perfecto eh ponerle si
+queres el el interfaz de usuario ya
+después lo ajustamos igual a ese a es a
+esa cantidad de me parece me parece
+mucho ahora bien eh Está bien entonces
+acá ya lo que nos está diciendo tenemos
+de que que tenemos este
+54000 con lo cual de acuerdo a nuestra
+otra cierro este para un poquito
+de acuerdo a esta
+planilla este costo puede llegar a ser
+un poco menos vamos vamos a hacer el
+ejercicio
+ahora sac nuestro nuestro honorario
+sacate nuestro honorario del primer año
+hasta todo 24 borralo directamente ahí
+borralo directo
+chao listo ahora
+traslad hagamos consultor vamos a tener
+un consultor dijimos de
+tes ahí que sistema p
+testes bor todo sufijo
+sistema test perfecto el de abajo igual
+dos de Test tes seguro y dijimos 5ar
+Perfecto Bueno ahora ahora le ponemos
+valores pero primero definamos la
+funcionalidad es administración y
+gestión eh lo vamos a hacer nosotros O
+sea que en principio no vamos a
+necesitar la administración y gestión
+Qué sería una secretaria que te maneje
+el banco los número qué s yo y lo
+dejamos en principio a lo mejor a lo
+mejor los primeros meses no sacalo sacal
+los primeros meses no no que lo vamos a
+necesitar pero no ahora a eso me refería
+perfecto está bien está bien sacarlo
+hasta el 12 como para Está bueno ya que
+no pongamos un plazo dec bueno acá fin
+de año podemos como como podemos meterle
+a pulmón un poquito podem totalmente
+Totalmente de acuerdo Bueno ahí veamos
+cómo pagamos nos estarían faltando
+cuatro eh dos test y hasta el cuarto
+tenemos ponerle en vez de el test
+empieza del primer momento el test va a
+empezar a partir de ponerle no podemos
+podemos llevarlo al mes cu podemos
+llevarlo al mes 4 ahí pero no le ponga
+ese valor vamos vamos eh Ah no está bien
+el testing sí ponerle 00 para
+redondear después lo vamos a trasladar
+exa perfecto y lo reemplazamos para
+abajo también porque el de abajo es
+igual no sé por qué sube el
+precio sube que el precio en este sube y
+en el otro baja Ah Porque eran distintas
+cosas por ahí quedó nada no a ver
+Acuérdate que todo la
+planill la planilla que ellos te
+sugieren
+tambi a ver dentro de consultorio
+cumplían esa función también de hacer un
+grupo de personas que hagan testeo no
+estaban estipulados pero ahora como para
+tener más
+claridad Bueno listo hagamos ahí lo
+sacamos perfecto ahora no queda vamos a
+unificar el valor del de desarrollo
+vamos a poner 00 a cada uno todo en todo
+eso hasta el cuat Fíjate que el cuat
+está en
+gris Ahí está y ahí lo llevamos cuatro
+desarrolladores necesitamos cuatro cinco
+en total necesitamos acordate de la
+planilla que vimos
+recién
+cinco no no no no porque yo estoyo soy
+uno de los programadores Pero entonces
+hay que poner tu sueldo acá no no no no
+me ponga a m pero necesitamos no pero
+vamos a ser real vamos vamos de cuenta
+que vos sos un manager no más no no vas
+a programar Ah Bueno listo y después
+vemos Dale dale dale dale perfecto dale
+está bien está bien vos lo que necesitas
+es Saber esto copio completo cialo hasta
+donde llegue no me acuerdo hasta d llega
+Met porque en realidad est en dólares
+estaba en euros Entonces el valor era
+más o menos el
+mismo Está bien qué más ahí soporte Sí
+vamos a necesitar a partir de que
+salgamos al mercado suponiendo que nos
+lleve se meses desarollo vamos a estar
+en el mes
+7 está bien Ahí está perfecto borrar los
+do cer al
+principio no en el mes 7 ya tendremos
+que Ah no está bien nosotros si largamos
+en el mes 7 tenemos que pagarle el mes 8
+los honorarios está bien está bien Sí
+Bueno déjalo ahí no nos afecta mucho con
+él
+chao Pablo chao chao
+Lau bueno a ver qué más tenemos servicio
+soporte a partir de eso servicio legales
+bueno eso servicio contable legal a
+partir de que formalices la la sociedad
+O sea que sacalo si querés también hasta
+el no está bueno bueno sí algunos meses
+de aire a lo mejor los primeros meses
+cuatro Le vamos Dando forma y antes el
+total es bastante rápido Aparentemente
+ahora
+eh No Esto va a tener Dale dale
+listo Bueno fíjate que ahí está
+estipulado servicio de marketing y
+capacitación servicio de capacitación eh
+eso era capacitación de usuario no no
+esto es un empleado nuestro una persona
+que trabaja para la empresa que brinda
+capacitación o hace los manuales de
+capacitación o hace los videos de
+capacitación O sea que se va a empezar a
+aplicar cuarto mes hasta a partir de que
+tengamos los módulos terminados o sea
+ponerle ahí Total no es un laburo tan
+largo Tampoco porque acordate que cuando
+esté el producto terminado en el mes 5
+mes 6 El tipo se puede sentar en una
+semana y hacer todos los videos por
+decirte Sí o sea poemos podemos sacar
+cuatro cin primeros mes
+capacitación del armado de capacitación
+a a
+usuarios pero es el armado de
+capacitación eh sí manual manual manual
+de uso Como
+quiera sí
+entiendo ahora está teniendo más
+forma ponerle en gris si qu todos lo que
+está en en cero ahí para que sepamos que
+no que no tiene impacto
+inicial s te perdió el gris ahí
+[Risas]
+lo
+vamos te tenga hijo color Ah bien
+ajustemos los valores si queres Yo creo
+que un servicio contable yo estoy
+pagando hoy por autónomo pagando boa que
+Pero bueno 100 está bien 100 Luca yo yo
+estoy pagando no es caro 100 yo estoy
+pagando a uno por autónomo 40 Luca buo
+estoy pagando casi 58 acá ponele pero
+por empresa capaz que es más caro por
+eso está bien No está mal y asesoría
+legal también o sea está bien asesoría
+legal Tenemos que tener
+porque eh vamos ir preso Si no sí porque
+hay muchas cuestiones
+O sea no vamos a tener como atajarlo si
+no sí sí está muy bien Bueno servicio de
+marketing esp acá Quiero ver algo Porque
+acá
+si lo amos a manejar nosotros me parece
+en la otra planilla no el otro día
+estuve viendo y es mucho menos el valor
+pero
+ponero son 250c acordate queo
+qué después
+sube y porque vos tenés que hacer
+campañas de marketing de a ver vos ten
+en cuenta que esto yo lo armé solo en su
+momento y no nada tomé
+referencia un crecimiento progresivo de
+la necesidad de todos los recursos
+entonces por ahí hayy cosas que
+crecieron que no necesitaban o sea nada
+250 no va a ser
+tanto Sí porque vos sí va a ser menos
+incluso porque yo creo que el el
+marketing posterior va a ser el
+conocimiento que la gente tenga de la
+herramienta también y que la el boca a
+Boca eso hablan mucho
+de Espero que espero que no se me enoje
+el J el Jose
+cuando cuando ve a la
+encuesta estoy
+sacando no Mira no lo de Jos
+Mira Tenemos que tener un poco de
+paciencia boludo porque realmente é se
+le complicó todo con esta mudanza que
+tiene que hacer viste no pero cero
+problema cero problema tenemos que hay
+un punto que por ahí quería comentá a
+vos solo y no
+Dale Pero cerremos y después hablamos
+esa particularidad te parece perfecto
+Bueno ahí está vamos
+vuel tenemos que austar
+esto es servicio de nube es el servicio
+de la nube dejal así acá eso no está
+computado en esta parte de acá o no
+porque acá está el costo de desarrollo
+no porque ahí está todo el diseño de
+configuración esto es un servicio es un
+servicio Como la luz
+como la nasta del auto y como gastos más
+o menos bien bueno fijo no variable
+peroo sacamos ahí
+perfecto Esto me gusta cada vez
+más listo vamos arriba subimos que
+quiero ver el tema de la creo que con
+eso estamos como para darle y ahí vamos
+a ver cuando no tira
+el el punto de equilibrio y estamos en
+84 estamos en el mismo valor casi no no
+va estar va estar más o menos el mismo
+lo que tenemos que ver nosotros estamos
+hablando de que el producto nosotros
+vamos a tener 100 Cuántos son 184
+clientes el en el mes 5 en septiembre
+eso yo lo veo muy difícil bueno eso hay
+que ajustarlo por eso bueno todo eso
+ajuste ya te van a tirar el número a la
+bosta Bueno
+pero pero va ser tampoco tenemos el
+precio de venta del producto entonces Ah
+teng probablemente suba no sab que ahí
+estaba pensando Bueno ahora te cuento
+eso con esa idea en la
+cabeza yo no sé si se ajusta no me
+acuerdo cómo estaba el cálculo
+automático esta parte yo no entiendo cóm
+vos hac esta previsión acá No esa pris a
+ver esa previsión no la modifiqué la
+tomé análisis que tenía hecho el
+producto anterior lo toma de la planilla
+esa y est te
+acord
+acuerdo hay que analizarlo ahí por
+porque viste que tiene un crecimiento
+del 5 6% mensual y te va aplicando eso
+loem
+pero En definitiva Fíjate que nosotros
+podemos promedio unidad no me acuerdo
+cuál el disparador inicial 90 94
+ponele ponele que baje eso para que te
+ajuste todo automáticamente y no
+tengamos andaste la segunda
+planilla acá yo lo único que no entiendo
+porque estás trabajando ahí no En la
+nube Pero bueno no importa Porque así ya
+nos queda todo
+ando yo porque me las bajo para poder
+trabajar en la compu perfecto y porque
+no entiendo mucho el Excel de Google no
+no pero no el Excel Cuando vos cuando
+vos subís un Excel Excel a la nube de
+Google trabaja como Excel
+eh tení un grado de visualización
+diferente Pero bueno Dale Ah por ahí la
+visualización Sí pero la formula y todo
+Ah está bien Bueno vamos a cálculo
+unidades así lo ajustamos para En qué
+parte en en la solap en la hoja Ahí está
+y vamos a poner en vez de 90 94 parate
+9094 donde dice progress un no estoy no
+estoy viendo la columna progresión un
+después el verde la primera acá ahí Esos
+son los valores que fíjate que te hace
+un cálculo eje doa de dónde lo está
+tomando lo Tom acá nosotros dijimos acá
+nosotros dijimos que el primer mes o el
+primer semestre vamos a vender 400
+unidades Estos son valores que se cargan
+y a ver parate abajo en el segundo
+semestre
+y acá está Ah ya lo Calcula Perfecto
+Bueno chequemos esa base de unidades con
+eso te debería actualizar todos los
+valores poner en vez de 360 no sé Ah
+porque son la progresión de unidades
+totales en el en el está
+bien bajemos eso ponerle 100 vamos a ver
+cómo nos afecta tentativo después lo
+vamos jugando perfecto Pon ponerle 50
+ponerle
+10 y AC no s por me porque era otro
+producto que no Bueno ahora no vo eso
+eso sería como que tenemos tres tres
+productos AC puede tener x yo lo dejé en
+tres porque tenía cinco productos
+anteriormente Bueno está bien vale Y acá
+qué me hace a Fíjate en la planilla no
+pero para promedio por mes está muy bien
+y qué progresión un progresión dos y
+esos son los valores que después se
+replica progresión un es la la que se
+replica en el creo que es la que se
+replica en el en la planilla en la otra
+planill en la otra hoja Fíjate que te va
+a quedar
+25 claro ahí ahí empieza a cambiar
+sustancialmente la lo sí porque tenemos
+menor ingreso Pero eso lo jugas fíjate
+el cálculo de unidades le Pon una
+progresión mayor de crecimiento en
+porcentaje fíjate que acá Tiene
+crecimiento ese crecimiento en B del 5
+puese el 15 se
+entiende está bien Sí entonces te va
+tirando Y ahí se va claro ahí se va para
+jugar eso no pero está muy bien está muy
+bien porque mi idea era por ahí
+eh Estoy pensando cómo hacer el para no
+toquetear tanto los cálculos de la
+planilla porque yo no quería empezar con
+la bueno 50
+cli esto esto concretamente esto yo
+espero que Jose no pase datos concretos
+Bueno listo decir es decir porque esto
+tiene muchas variables tiene variables
+del del producto final es decir si
+nosotros hacemos algo muy grande
+apuntado a empresa en vez de 25 vamos
+vender uno entendés el precio va a ser
+otro ent Entonces yo yo lo que más me
+preocupaba que podíamos trabajar con vos
+era estoo está trabajado entonces este
+porque tanto este el la cantidad de
+productos como el precio del producto
+tenemos que lauraro eh con otro tipo de
+investigación me parece a mí no sé cómo
+lo ves vos
+eh yo yo creo que los valores eso de
+precio están acorde a Argentina no sé
+qué valores puede manejarse en otro
+mercado y no sé cuál va a ser nuestro
+eh objetivo nuestro mercado objetivo
+Sería para si va a ser solamente
+Argentina o va a ser Paraguay y
+Argentina o va a ser porque vos en cada
+lugar que vayas tenés que tener un un un
+equipo o de marketing o de
+comercialización O sea no vamos a poder
+atajar las ventas de Paraguay desde
+Argentina
+solamente O sea la idea de la atenea es
+la parte de la parte que yo le llamo el
+cimiento es la eso también tiene una
+parte comercial que te gestiona el
+autoservicio o sea yo como cliente veo
+en Uruguay al producto y me parece que
+tiene la funcionalidades que yo necesito
+entro a la página paso la tarjeta y
+compro el producto Esa esa es parte de
+de de lo que no se ve y que no es la
+parte funcional o sea claro nosotros no
+es que vamos a tener no es que vamos a
+tener
+eh un vendedor en un local sino que va a
+ser todo por sistema se va a comprar va
+Exacto pero tenemos que atajar porque
+tenemos que tener primero la legislación
+local o sea tenemos que cumplir con la
+legisla por ahí la legislación de
+construcción de Uruguay no es la misma
+que la de Paraguay Argentina o sea
+tenemos esas variables claro sobre todo
+legales que que son las que más miedo
+por
+ahí o sea de complementación más que
+nada no s Sí sí yo creo que los puntos
+de partida fáciles son Argentina y y no
+mi amor es Argentina y Paraguay porque
+acá Jos como yo conocemos Paraguay o sea
+Jos trabajó varios años en Paraguay bien
+y en Argentina estamos los tres Entonces
+yo creo que acá podemos Me parece que
+podemos hacer un primer recorte no yo
+creo que los primeros meses tendríamos
+que ha en esta aceleradora que te decía
+y sé que es media No no es de primer
+nivel a global pero tiene mucha
+información y hay un montón cuestiones o
+consideraciones que te podemos tomar en
+la parte de la internacionalización le
+llaman ellos la internacionalización es
+empar un montón de variable de cómo cómo
+esto que te decía de la parte legal o se
+que tener en
+cuenta ahí Jose va va a tener un aporte
+importante me parece segura No no no
+seguramente seguramente pero a ver a ver
+vamos a una realidad Pablo yo a Jose lo
+veo muy verde en todo lo que estuvimos
+hablando es esa mi percepción
+seguramente una persona que sabe mucho y
+que trabajó mucho en la gestión de
+proyecto Pero de todos los temas que
+estamos tocando lo veo que que como hace
+mucha referencia a lo que él estuvo
+estudiando O lo que él estuvo viendo en
+la clase de tal cosa como que le falta
+expertiz de campo o sea no digo que no
+lo pueda hacer porque seguramente una
+mente brillante En ese sentido Pero no
+sé qué tiempo porque todos los planteos
+son muy estructurado con una dinámica
+diferente a la que se tiene por ahí en
+Argentina capaz que obviamente la
+formación en Estados Unidos va va en esa
+línea la especialización
+y el hacer hacerlo todo formal
+Y viste que nosotros
+eho la
+bolsa Bueno un pocoa cuando empezamos a
+hablar con vos era nada Vamos o sea
+soy mi sensación por ahí no querías
+transmitirla así tan tamente pero pero
+prefiero hacerlo ahora es que nos
+enlentecimiento panorama tenemos otra
+visión Y tenemos otro enfoque y otro
+objetivo que es diferente del que yo
+tenía cuando empezamos a hablar o
+inclusive de la
+previa sí me gusta mucho más esta idea
+me gusta mucho más pero lo veo más más
+más lento
+eh Y y nada Qué s yo yo creo que cuando
+destrabes esto de laburo que está por
+hacer Jos Ahora me parece que vamos a
+tener un panorama más claro
+de de a dónde ir pero como que me estoy
+enfriando en la dinámica de que y quería
+ir mostrando algo viste por eso te decía
+ir definiendo las entidades son cosas
+que por ahí inclusive podemos hacer en
+paralelo porque por ahí definir una
+entidad dec bueno Esto la parte de
+financiación necesitamos tener estos
+Campos esta información y después si no
+la hacemos ya queda un camino recorrido
+para hacerlo a futuro no lo hacemos
+primero no una prioridad digo no sé la
+verdad que yo no tengo Claridad con
+respecto a cómo cómo es la mejor táctica
+para avanzar probablemente vos con la
+experiencia de elaborar tanto en obra
+los proyectos También tienen
+esa esas definiciones un poco más
+visibles más claras no sé qué opinas no
+a
+ver Estoy totalmente de acuerdo en que
+José tiene un conocimiento teórico de su
+maestría específica eh de su maestría
+específica Jose tiene un conocimiento un
+conocimiento teórico
+eh con muy poca práctica
+No todavía de su materia específica pero
+pero sí quiero porque a lo mejor como
+vos no lo conoces a lo mejor no no no
+quiero que te quedes solamente con esas
+impresiones estos estas herramientas que
+vos no están no estás mostrando como
+también este maquetado que vos querías
+hacer y todas estas cosas tienen un es
+más aplicado o sea es más experimental
+toal Yo sé que vos te estás enfriando
+quiero que pasé ahí pero yo también
+traté de que vos un poco desacelerando
+porque no quiero que gastes toda tu
+energía en esta primera etapa y después
+a lo mejor por alguna cuestión no es tan
+viable y resulta que cuando tenemos
+decidimos ir hacia algo más viable Vos
+ya estás cansado porque ya te repode de
+poner
+tiempo y no rentable ent ten razón ah eh
+yo esto te lo repetí en otro momento mi
+objetivo es es darle un tiempito más a
+este análisis eh que por ahí cuando
+estábamos un poco los dos solos eh
+quedaban como idea y ahora le estamos
+dando más tiempo de profundidad al
+análisis está bien Sí está claro de que
+el proyecto va mudando un poquito y
+estamos tratando de acomodar

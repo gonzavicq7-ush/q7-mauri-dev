@@ -1,0 +1,707 @@
+hago el servicio profesional un proyecto
+puede ser el diseño de una casa y si
+tengo mi gente el otro otro proyecto es
+la eh ser subcontratista o una
+consultora más grande por ejemplo qué es
+lo que est expresando lo que estab un
+orden entonces si yo dentro del mismo
+sistema puedo gestionar los dos con con
+roles distintos Si se quiere en uno soy
+contratista en el otro soy este
+diseñador o arquitecto Y en el otro
+director de obra pero son tres proyectos
+diferentes de Pablo que mi sistema me lo
+tiene que
+permitir entonces en la Macro viste que
+nosotros
+veíamos yo mostr al principio una
+pantalla en donde había observaciones
+había riesgos
+había del proyecto a m me
+permite administrar o visualizar tres
+tipos de proyectos digamos que son proos
+personales y lo que hacen a mi economía
+personal la misma empresa que me
+subcontrata a m tendrá otro tipo de
+proyecto en donde se contratará
+arquitectos se contratará este albañil
+contratará otro tipo de
+cosas y el mismo
+desarrollador las obras un una amplitud
+de proyectos hasta por no un proyecto de
+desarrollo de software por eso la idea
+de que está bueno que nuestro proyecto
+nuestro sistema permita administración
+de proyectos orientado a la a las obras
+construibles
+pero que deje cierta apertura para poder
+administrar
+cualquier porque la lógica es la
+misma administrar presupuesto
+administrar recursos administrar
+materiales no serando de construcción
+pero administrar hora entender la lógica
+es más o menos la misma Lo que pasa que
+visualmente
+nosotros tenemos que orientarlo a la
+construcción porque estamos yendo para
+es lado Sí sí yo creo yo creo que sí
+porque Qué pasa ahora a
+nivel
+eh metodologías que se están que se
+están adoptando que ya se vien adoptando
+hace bastante tiempo pero bueno cada vez
+más más generalizado está todo esto que
+vos ya estuviste viendo y estudiado en
+su momento que el tema de la gestión del
+desarrollo
+ágil bueno esto en software es casi
+indiscutible o sea cualquier proyecto
+que que se desarroll ahora está con esa
+metodología o con ese marco de trabajo
+sería
+porque nosotros si implementos algo como
+Eso si bien tenemos la idea de lo que
+queremos hacer Sería mucho más flexible
+porque a ver para darte una idea si
+nosotros podemos dos equipos de
+desarrollo dos
+equipos para para
+para podríamos en paralelo ir trabajando
+y
+definiendo una a ver ir viendo
+entregables más rápido pero bueno tema
+que tenemos que tener cierta cierta
+dinámica de trabajo primero tener una
+idea más más acabada de lo que queremos
+hacer y conseguir la gente Porque esos
+equipos son interdisciplinarios no son
+todos desarrolladores vas a tener un un
+diseñador un qué s yo un manager del
+producto
+del de esa funcionalidad que se
+complejiza también el conseguir los
+perfiles porque no sé si vamos a poder
+conseguir la plata para costear ese ese
+tipo de desarrollo más adelante
+podríamos hacerlo inicialmente
+tendríamos que arrancar con una
+metodología más estándar como esta que
+estamos viendo ir haciendo un módulo dos
+módulos terminarlo entre nosotros que
+quede funcional y bueno continuar desde
+ahí
+eh Me
+me sinceramente estoy como eh No te digo
+bloqueado mentalmente pero como que
+estoy como mucha incertidumbre de de
+Cuál sería
+la la forma de de encarar el desarrollo
+del proyecto tan eh
+es un proyecto ambicioso Si se quiere
+porque estamos arrancando básicamente de
+la nada si nosotros tuviéramos una base
+o sea tenemos la base tuya Pero eso hay
+que sistematizar sistematizar está bien
+dije bien y eso va a llevar
+trabajo si nosotros eso ya lo tuviéramos
+en un sistema bueno decir Bueno ya
+tenemos ya trabajamos sobre esto por más
+que le cambie lo migre tecnología lo que
+fuera Si tuviera más interrelacionado
+hoy viste como como que tenemos muchas
+muchas pantallas diferentes de hecho por
+ahí los ejemplos incluso que vos tomaste
+lo tomaste de diferentes software para
+ellos llegar a ese a esa pantalla que
+vos copiaste y pusiste en la
+presentación deben
+tener 10 entidades 10 objetos que están
+vinculados de están relacionados de
+alguna forma y se cargan en diferentes
+pantallas Y vos llegan al final a ese
+dat no te digo de todas Pero alguna de
+esas toma de diferentes lugares etcétera
+o sea toda esa interrelación de datos eh
+tiene su trabajo tiene su diseño tiene
+su porqué porque nada se
+sentaron dos o tres o 20 profesionales
+lo definieron así se hizo de esa manera
+no quier decir ni decir si está bien o
+mal O sea nosotros tenemos que decir
+cuál es la forma que queremos trabajar
+nosotros me gusta la impronta de lo de
+lo que vos maquetas el otro día me gustó
+mucho sinceramente eh
+pero ahora que Estoy bucando esos datos
+tentativos en en esta pequeña estimación
+o una planilla de estimación que
+ocupamos en la empresa que trabajo para
+calcular la cantidad de horas y de
+recursos que se van a asignar a los
+proyectos
+Eh no la hice yo así que por ahí hay
+algunas variables que no sé que son y no
+no las toco mucho pero pero con lo que
+te voy a mostrar te va a servir para
+para tener una
+idea y te dice en base a la Bueno te
+comparto un ratito
+y así no hablo en el
+aire Dónde está visualizar tenía que ir
+a los tres puntitos
+Ah diseño
+enfoco a ver si ponía en foco no
+Ah porque vos lo tenés vos lo tenés en
+los tres puntitos no le ponés cambio de
+diseño y le ponés automático
+poner Ah foco para que se vea grande ten
+la Notebook solo pon foco si poner foco
+y ponerle después
+f12
+f1 si no te
+[Música]
+dije no f11 perdón Te estoy diciendo
+cualquiera se me cruzaron los F con f11
+te maximiza la pantalla ahí está ahí
+está perdón está bien el tamaño te te
+puedo agrandar un poquito Si
+queres
+Ah estaba por hacer el detalle completo
+Mira acá pasé todo lo que vos tenías Ah
+le fuiste Armando Como fui trasladando a
+la herramienta esta del Excel que
+tenemos nosotros para estimación de
+costos y básicamente acá lo que te dice
+es cada una de estas pantallas
+formularios Qué tipo de formulario si un
+formulario que te lleva tantas horas de
+desarrollo sencillo
+sencillo formulario complejo muy
+complejo extra complejo qué s yo
+entonces Bueno nada un poco Estas son
+las cantidad de horas que te insumen y
+este coeficiente este coeficiente lo
+multiplica por por el valor que tenés
+acá entonces para que se entienda esto
+esto sería más o menos lo que que
+llevaría la parte de armado de la
+arquitectura de la nube lo paso rápido
+porque no es lo que no importa ahora el
+diseño de arquitectura pues instalación
+de los servicios prueba de carga
+instalación del gestor documental
+después la parte de autenticación de de
+de de las aplicaciones la cual tendemos
+que proveer al usuario la posibilidad de
+que él se loguee con un usuario de Gmail
+o de Facebook o de todo eso cada una de
+esas son integraciones que tenés que
+hacer que que tú tú no es que cualquier
+software vos ponés y le ponés autenticar
+con esto y lo haces tené que hacer un
+desarrollo validar levantar token del
+lado de cada una de las plataformas
+integrar hacer pruebas creo que hay
+alguna que te cobran algo no recuerdo
+ahora la parte de la gestión de roles un
+poco tiene que ver con con con lo que
+hablábamos recién el tema de que cuando
+un usuario porque hoy el ejemplo que yo
+te daba de O te lo planteaba mejor dicho
+de el maestro mayor de obra es el
+maestro mayor de obra con era un cliente
+nuestro pero el arquitecto la empresa
+que le que le que lo contrataba para
+hacer un un desarrollo también era
+cliente nuestro entonces como que tenían
+ambos ambos estaban consumiendo el mismo
+el mismo sistema Y de alguna manera
+ellos compartían datos de los proyectos
+en
+común sí Y obviamente y los propios
+tenían AC bueno el gestión de usuario lo
+mismo acá esto Esto es un poco el diseño
+de lo que te mostraba la vez pasada que
+sería el modelado de datos que
+estos este gráfico creo que te había
+compartido de la que tenía los nombres
+de las entidades y cómo se relacionaban
+con la flechita hace un tiempito antes
+de mostrarte la bueno est la creación de
+los objeto a nivel de base de datos
+Bueno este un poco la plataforma lo que
+es la plata forma de gestión de
+usuari que que esto que hablamos la vez
+pasada de tipo los cimientos que
+necesitamos para poner tanto lo que
+sería el sistema de obra o si llegamos a
+desarrollar otro sistema después que
+todo va a trabajar arriba de
+eso y Acá empieza lo lo lo que vos
+pasaste de la parte de programa
+proyecto que tenemos la gestión del esto
+Le agregué yo gestión de portafolios
+porque vos lo tenías en el power
+ser la gestión de proyectos
+eh Esa esa vista de ver todos los
+proyectos en una sola pantalla a nivel
+gerencial hoja de tarea cómputo
+presupuesto todo lo mismo detallle que
+que pusiste gestión de documento con
+only Office que es la plataforma que
+nuestra propia Drive Google Drive sería
+acá y Microsoft
+365 bueno
+eso estimo que podríamos llegar en este
+tipo que serían 240 eh horas de base sí
+a esta hora de base después se se le
+suma lo que es el testé o Ah ahora
+volvemos abajo para
+que esa sería la hora de desarrollo de
+un programador dedicado eso Son 240
+horas para hacer este módulo
+estos este módulo que tiene todas est
+estas pantallas estas eh
+funcionalidades Para comunicaciónes lo
+mismo Bueno fui agregándole así está
+buenísimo esto es muy ya te digo es muy
+a ojo muy tentativo ya puede ser que acá
+cuando en la parte de
+certificado se nos complicó algo por
+algún motivo en Cómo toma los valores
+que estoy diciendo a nivel los problemas
+que surgen a nivel desarrollo a veces
+por ahí V está una pantalla super
+compleja y la sacar en un ratito y una
+pantalla que parecía que era una pavada
+te lleva una semana resolver te entiendo
+Bueno nada pasa eso normalmente esto es
+un tentativo gestión de
+cambios me pareció que toda la parte de
+orden de cambio como esto impacta con
+todo la lo presupuestado y con todos los
+otros módulos eso eso hay que afinarlo
+bien va a tener subida y vuelta va a
+tener interacción con con la aplicación
+del celular acá yo estoy contemplando
+que vamos a tener dos dos aplicaciones
+también Pablo Ah el pantalla y PC y
+móvil y y para los casos vamos a tener
+que tener en el en la aplicación móvil
+una pantalla diferente porque la el
+volumen de datos que vos podés O sea no
+tiene sentido a ver Bueno voy hic la
+presentación A ver no sé si puedo Ah no
+me va a dejar acá Espera yo la
+tenía creo que la tenía por
+acá Oh no sé dónde lo tenía
+Bueno me pasa que la serré
+sin No la que vos habías compartido el
+archivo que habías compartido eh No no
+quiero cerrar
+la per cerrar esto acá Este se me
+cerró ya José lo perdí
+Ah este es
+no se sumó
+Jos no no
+TR no no yo dije se nos perdió el J dije
+pero
+bueno no importa es es de la pantalla de
+la del powerp que habías armado
+una de esas pantallas
+e que estaba mirando
+sí Ah no que Mostrar tod Esa esa Esa esa
+planilla en un dispositivo
+móvil es inmanejable casi Bueno no sé si
+a vos se te hace fácil trabajar por con
+Excel o algo de eso en el teléfono o no
+es super difícil por eso ahí llega ahí
+llega un un potencial importante de
+nuestra propuesta no por eso la idea es
+simplificar o sea Mostrar los datos no
+que no puedan ver los datos pero la
+dinámica funcional de esa pantalla con
+toda esa información tiene que ser
+diferente claro o sea que vaya entrando
+en medio en cascada que vaya
+desagregando buscarle laa para que
+visualmente sea entendible No es cierto
+No
+claro los totales que s yo no sé cada
+pantalla va a tener su su
+propia dinámica su propia dinámica
+impronta y bueno hay que tratar de
+estandarizar no es cierto no para que
+una pantalla que que se vea una forma y
+la otra Bueno nada busqué algo medio
+común que que que se adecúe a a a a
+todos estos casos y estandarizar esa
+visualización pero seguramente va a ser
+diferente de la vista que teníamos con
+con la Cómo se llama en la pantalla no
+es cierto en esta este Excel si vos lo
+quieres ver es imposible escritorio
+listo escritorio no me salía la palabra
+Perfecto
+Bueno fíjate acá llegamos a la parte de
+totales total de
+programación acá te va Tirando
+La la programación las con las pruebas
+unitarias las pruebas unitarias son las
+que desarrolla realiza el programador O
+sea yo termino hac una pantalla hago las
+pruebas que yo creo que corresponden y
+termino validando que está todo
+funcionando bien obviamente
+eso el 50% las veces continúa con
+errores o con ajustes de validaciones
+que lo detecta el área de testing s
+claro se
+ve esto sería la prueba funcional
+integración y corrección de errores
+Fíjate que que es significativo es un
+15% del total estimamos en base lo que
+se viene haciendo 15% deo
+de horas para testeo Además del
+desarrollo la parte de administración o
+sea Acá está incluido básicamente todo
+lo que es la gestión del
+desarrollo no está la parte comercial
+eso viene por otro
+lado
+documentación también lo vamos a
+necesitar porque si vamos a tener un
+software vamos a necesitar
+una en nuestra página nuestro nuestra
+plataforma necesitar un apartado que sea
+Y esa ayuda indica alguien que esté
+haciendo la captura de pantalla o videos
+en cómo funciona cada cosa se usa mucho
+ahora de que vos vayas haciendo por cada
+módulo un videíto cortito de la de esa
+funcionalidad Entonces vas cargando los
+datos mostrá Y eso Y eso lo puede ver el
+cliente final por si tienea alguna duda
+de cómo funciona Porque si no hasta que
+vos no lo capacites eh tenés que hacer
+un manual de 200,000 páginas que nadie
+lo lee nunca ya la gente no lee nada es
+todo un tema
+pero esa documentación de respaldo
+funcional tiene que
+estar
+bueno en
+resumen bueno acá segmenta un poco la la
+construcción transición etcétera de lo
+que es acá Bueno de transición no
+estaría porque esto un proyecto de
+migración no se daría nuestro caso pero
+son 95 95 horas más no no no no no es
+significativo en el cálculo no lo voy a
+sacar Esto es lo que llevaría para una
+persona haciendo el el Lauro análisis de
+diseño de desarrollo y de bueno
+transición dijimos que no no aplicaría
+pero lo dejamos por cualquier otro
+ajuste lo que fuese eso eso sería como
+que si una sola persona hace todo una
+cada persona en cada en cada perfil acá
+estamos hablando que un analista el que
+hace el análisis funcional diseño
+etcétera después tener un diseñador
+gráfico diseñador de pantalla que s yo
+el
+que trabaja en el diseño esto que te
+decía cómo maquetar cada tipo de
+pantalla entonces vos para el cliente
+Pepito por ahí esta grilla se ve de una
+forma pero haciendo estamos hablando de
+sistemas diferentes no cierto porque ha
+un sistema de construcción un sistema de
+gestión de automóviles cada cada Cliente
+va a querer Un diseño particular para
+para como él ve que debe funcionar su
+negocio entonces dice No a mí esta
+grilla así como me venía a mostrar no me
+gusta quiero que tenga tales colores tal
+tamaño de letra tal este tipo de diseño
+se refiere al diseño visual de de de la
+aplicación que que a nosotros esto la
+parte de diseño nos va a servir para
+hacer esta maquetación que te decía
+recién Cómo maquetar para que en el
+dispositivo móvil podamos ver la mayor
+cantidad de datos que tenemos en en la
+pantalla de escritorio eh sobre la misma
+base de
+información Eso la mitad de tiempo de de
+construcción y la mitad de tiempo de
+análisis
+casi per pero análisis es la parte que
+ya estamos haciendo con
+ustedes esto eso ya está incluido dentro
+de esto también
+sería la
+programación con una persona son 36
+meses de programación o sea 2 años más
+de 2 años y acá está
+s para programar si si todos supongamos
+vamos a
+presuponer de que desarroll solo el
+software en aos
+ese ser la proyección yo tiré dos años
+el otro día y no estaba tan
+lejos a ver ya dije dos años porque me
+parece nada no le voy a dar mucho más
+vuelta a esto son los números que te
+tira en base a una estimación tentativa
+despu si podemos ajustar y Bajar este
+este
+módulo de estimaciones si yo vengo como
+un cliente independiente digamos y dig
+quiero hacer un sist te hago esta
+estimación eh te hago esta estimación
+claro o sea vos para sacarme un
+presupuesto me hac estimación no sabes
+que no para un cliente real no te haría
+esa estimación Pablo te haría lo
+siguiente te diría no yo acá tengo cinco
+programadores en diseño tengo una
+persona y para la parte análisis
+funcional etcétera tengo dos personas
+Sí tres personas que pueden ser estos
+cinco que por ahí al cumple doble
+función vamos a estar 28 semanas 6 meses
+28
+semanas 7 meses Está bien parece que
+está mal este cálculo
+y cu semanas un mes Ah sí está bien si
+está bien no me cerr el número que bien
+quedando con la
+matemática Bueno o sea este mes de
+análisis funcional para tener toda la
+información que necesitamos para empezar
+a codificar Pero estos tres pueden ser
+parte de tu equipo que son parte de
+estos cinco que tenemos acá abajo No
+necesariamente son podemos hacer esta
+tarea en
+paralelo se
+superpone por eso pero vos puede ser que
+de esto vos teniendo tu equipo seis o
+siete personas vos tengas tres abocados
+al diseño y como lo va haciendo por
+etapa puede ir diseñando una parte y la
+parte el equipo de desarrollo va
+atacando
+vctor y para para tener un costo de esto
+para decir bueno Esto sale tanta plata
+es multiplicar esa cantidad de hora por
+un x valor de hora digamos yo te cuento
+qué es lo que estoy cobrando qué es lo
+que me pagan a mí por
+programar con este estoy cobrando
+$ la hora 10 la hora Eso es lo que me
+pagan a m como programador es por la
+parte de construcción sería
+desarrollo análisis funcional pero pero
+de estas de estos de estas etapas que V
+a poner acá estrategia análisis diseño
+construcción transición En qué parte
+estaría No estandar a lo mismo porque
+por ahí alguna sale un poco más
+caro dependerá del perfil y esto es una
+negociación
+eh Para par o sea
+vos a ver No no es que yo no cobro lo
+mismo que el otro chico que hace el
+mismo trabajo que que yo básicamente
+okay O sea yo por ahí por experiencia
+porque Cos estoy cobrando menos que otro
+seguramente estoy cobrando menos que
+alguno el otro que tiene más
+responsabilidad porque están a cargo de
+Proyecto A mí me ofrecieron pero yo le
+dije que no porque no podía hacerme
+cargo de ningún proyecto porque estoy
+con un montón de cosas viste bueno a ver
+te quiero hacer dos preguntas
+importantes para entender esto una
+Entonces por ejemplo vamos voy a hacer
+un número estúpido digamos pero si si si
+tomamos un número de $ por por hora dig
+yo multiplico este 95 9500 horas 00 el
+proyecto sale 9000
+95000 de desarrollo de
+desarrollo qué le falta Yo creo que con
+esa plata cubrís esto O sea
+independientemente del tiempo que te
+lleve es el costo ya
+sea lo que te va a variar después es el
+el tiempo de desarrollo O sea si vos le
+ponés 200 Luca esto lo vas a hacer más
+no te va a salir lo mismo porque si vos
+tenés toda la plata junta en vez de tres
+programadores arrancar el proyecto con
+siete Sí pero pero Y a eso qué le
+después para falta todo lo que sea
+marketing todo lo que sea ventas faltan
+otros factores Sí eso lo podía eso es
+Acá está la parte fíjate está la parte
+de administración acá pueda agregar
+algún coeficiente o algo de porcentual
+de de la parte comercial eso ya no no
+tengo ni idea de costo No tengo idea de
+eso tendríamos que buscar Pero esto está
+muy bueno Che porque sirve para tener un
+piso digamos que es lo que lo que
+estamos Este ahí se sumó
+Jos Hola José Cómo andas Hola
+Jos estamos Perdón por el hoy no pas
+neno nos vemos el jueves
+paito en realidad sab pasa Me olvidé que
+alguien me me pidió para ver el
+auto justo lo que estamos necesitando
+para esta etapa del proyecto cuánto vale
+tu a para ver sios contar con ese
+recurso José mir no quiero hacer perder
+tiempo a Víctor que tiene un compromiso
+familiar Pero quiero ponerte rápidamente
+en auto Quan 5
+[Música]
+minutos quio quiero ponerte en contexto
+digamos del aurazo que hizo acá que que
+está muy bueno y nos va a servir para
+para planificar lo que se viene
+digamos sacando de lado las percepción
+las apreciaciones personales que podamos
+tener que por ahí todavía Víctor me dio
+un primer
+pantallazo pero pero pero por ahí
+apreciaciones objetivas que podemos
+tener sobre la la la presentación del
+otro día eh sacando de lado de eso
+tenemos dos aspectos importantes por un
+lado una noción de idea digamos que era
+el pantallazo que expliqué el otro día y
+por otra parte lo que hizo Víctor acá
+que está buenísimo es desglosar esa Esa
+esa idea ese esa idea de proyecto en lo
+que es una primera estimación una
+primera aproximación a lo que puede sero
+del desarrollo de ese de ese proyecto mu
+bien buen trabajo entonces todo robado
+Igual nada teoría mía Claro pero pero
+tomó
+ah origin
+[Música]
+Bueno ahí eh o sea me Me parece muy
+interesante de esto que que que
+desarrolló Víctor porque creo que
+tenemos ya elementos de análisis muy
+concretos digamos e e
+Eh bueno Víctor esta pantalla vas a
+compartirla Sí sí Ahora no la estaba
+trabajando a otro lado porque no quería
+que se abrumen por ahí con con otro que
+estaba en blanco ahora que está más o
+menos cargada la paso ahí a la carpeta
+Dale Pero bueno Más o menos Jos te pongo
+rápidamente así como como una primera
+idea esto que plantea Víctor es un es
+tan difícil poder trabajar en algo que
+todavía no llega a ser abstracto que
+está todavía en el mundo de las ideas no
+pero que que de alguna forma é él fue
+tomando como
+algunas nociones y y y y algunos
+criterios para decir bueno Esto puede
+valer tanta guita no Okay entonces eh es
+un análisis bastante interesante lo
+cuantifica en base ahora y y puede
+determinar una cierta
+cantidad bueno en cierta cantidad de
+horas para poder determinar el valor del
+proyecto a partir de ahí nosotros
+tenemos una una primer noción habrá que
+sumarle todo lo que sea la parte
+comercial habrá que sumarle un montón de
+cosas y entiendo yo que con esta Data
+podemos hacer una primer proyección
+digamos es decir Bueno si el software lo
+vendemos a tantas cosas más la
+información que nosotros podemos llegar
+podemos llegar a tantas personas o a
+tantos clientes esa inversión se podrá
+este recaudar en tanto tiempo como para
+hacer una evaluación si es viable esto
+que estamos hablando o no No
+cierto no te escucho nada pero te leo la
+boca no sé si me está hablando
+ingl el inglés no te
+entiendo Se me
+riendo entiendo
+bien genial muy bueno el trabajito no
+viene Dale dale
+dale entonces vctor si te parece con
+este
+dato comparto otra cosa Antes cortar
+Sí si yo lo paso yo lo paso Mira
+Ah no sé si lo llegas a ver ahí Uh está
+está medio roto pero después lo
+acomodamos bien un Excel es un Excel es
+un simulador financiero para planes de
+negocio s sí acá índice de inflación
+Fíjate que te contempla todo mira de
+2020 24 etctera
+te permite este este no está completo
+sí Acá está fíjate proyecto lamana
+inicialmente como se iba a llamar fíjate
+acá teníamos diferentes aplicaciones
+cada una de esta era un sistema en
+particular Y entonces te va poniendo el
+el vas cargando con la información que
+que que vos vas relevando y te va
+tirando una una estimación final de Los
+costos y y y de la plata de inversión
+que necesitas
+con alguna tipo de de idea de volumen de
+ventas con con el precio unitario por
+módulo etcétera que vos lo vas
+especificando y acá por ejemplo total
+requerimiento capital del plan de
+negocio
+61900 en ese momento para hacer el
+desarrollo del proyecto anterior monto
+aportado
+000 y acá te ponía
+AC bueno
+Esto es un poco la estimación que había
+hecho en ese
+momento y bueno nada después los
+volúmenes de venta y de recupero
+etcétera es medio lento para cargar pero
+te tira buena Data porque está bien bien
+hecho
+viste esto también lo voy a subir para
+que lo lo trabajemos
+[Música]
+ahy lo trabajemos en conjunto porque ah
+Data primero sarlo poner todo en cero y
+des empezar a trabajar Jos tener
+herramientas también para para este tipo
+de cosa
+seguramente Lo importante es sacar las
+variables una vez que las variables
+sab que ir a
+investigar para poder Así que sí s está
+buenísimo Bueno listo Dale pongo los dos
+ahí y bueno vemos vemos
+avanzamos para el jueves y nos vamos
+intercambiando ideas los dejo
+dci buen apte cualqu cosa
+pierda cualquier cosa que me pierda de
+la char usted Me comentan después ig
+Dale bueno abrazo nos vemos chao
+Jos Jos

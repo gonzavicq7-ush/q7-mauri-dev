@@ -1,0 +1,120 @@
+o deben ser nuestros potenciales
+clientes
+eh En vez de apuntarla a un solo
+segmento pueden ser cualquiera de esos
+tres eh móviles y cuál va a ser el
+expertiz algo que vos me mencionaste el
+otro día Jos cuando me
+explicaba cuando el desarrollador compre
+nuestro sistema va a tener la
+posibilidad de ofrecerle al arquitecto y
+al contratista el uso de su licencia
+para el desarrollo de su propio proyecto
+en modos limitados entonces eso puede
+generar una comunicación en red en donde
+si es lo suficientemente bueno nuestro
+sistema puede llegar a generar la
+inquietud del arquitecto de los
+contratista para poder adquirir también
+el mismo software digamos y
+y con mayor cantidad de posibilidades
+funcionales cierto por ejemplo análisis
+de costo de material análisis de
+materiales seguimiento de materiales que
+era lo que está diciendo exa
+exact exactamente y cada uno de estos
+usuarios debería tener si bien la
+información del proyecto siempre va a
+ser para todos la misma No es cierto
+pero debe tener como una relación visual
+con el sistema
+diferente entonces por ejemplo la página
+principal con herramientas configuradas
+por el usuario por ejemplo quizás al
+desarrollador no le importa mucho un
+cómputo minucioso de
+materiales pero sí le importa el control
+de los tiempos de la obra y el control
+de eh los desvíos de costo que puede
+haber es
+cierto Quizás eh al arquitecto le
+interese más que las comunicaciones
+oficiales eh de cada una de esas tareas
+que se van a ejecutar sean lo más
+precisas posible el control de cambios
+el control de las calidades de tareas
+también por qué no el control de plazos
+No es cierto y quizás al contratista lo
+que más le interesa es que la obra no se
+le desmadre digamos en los costos tanto
+en la etapa de previsión como en la
+etapa de ejecución cierto Entonces si
+bien a todos le interesa exactamente el
+mismo producto final Como terminado cada
+uno de estas patas puede llegar a ser
+mayor cantidad de foco en algún punto
+esp
+y eso me parece interesante que podamos
+entender
+cierto bueno acá viene mi
+interfaz
+en
+genial pasa que llegó muy de pensé que
+tenía algo
+Antes
+mal Bueno
+O sea ya ya se empezaron a ahorrar la
+risa en esta etapa
+deor
+l
+fuerte la idea fue
+impactar Qué pensé yo pensé esta idea
+ahora le muestro al final eh Para mí el
+sistema tiene que tener básicamente el
+control de de los tres ejes que yo le
+decía en realidad Son seis pero digamos
+el control de las tareas el control de
+los costos de los tiempos y
+agregaría la parte de recursos y los
+otros dos que faltan es la parte de
+calidad
+y o sea la el control de calidad y Me
+está faltando una pata que no me estoy
+acordando ahora
+Pero bueno ahora se me va a venir a la
+mente y la la vuelvo a
+mencionar eso Serían como
+los los elementos principales digamos
+que que van a que debe administrar
+nuestro sistema entonces La idea es que
+vos aprietes por ejemplo el botón en la
+parte de alcance que básicamente la
+definición de las tareas y aquí arriba a
+vos te aparezcan unas serie de subtareas
+que vos puedas hacer en el sector de
+alcance por ejemplo Entonces qué qué va
+a ser lo importante en la parte de
+alcance bueno la parte de seguimiento
+del plan o sea el planteo del plan el
+seguimiento el checklist de tarea las
+comunicaciones el repositorio de
+archivos y algunos reportes entonces que
+vos vayas apretando botones que nosotros
+definamos yo yo puse chicos como algunas
+ideas rápidas que me fueron se me fueron
+ocurriendo como para tratar de de de de
+acotar la propuesta no
+eh Bueno y lo mismo cuando vayamos a la
+casa de a la parte de costo también
+vamos a tener el costo planificado el
+seguimiento la caja de la obra análisis
+de categoría estimaciones de presupuesto
+archivos y reportes bueno los plazos los
+mismo plan seguimiento el seguimiento de
+desvío archivos reporte y bueno y
+algunas cosas que que sean importante en
+la parte de Plaza No es cierto recursos
+lo mismo No es cierto gestión de
+materiales
+con sí
+[Música]

@@ -1,0 +1,2647 @@
+[
+  {
+    "text": "per con un montón de cosa pero en este",
+    "start": 0.199,
+    "duration": 3.68
+  },
+  {
+    "text": "mundo aparec un montón de flujos que",
+    "start": 2.0,
+    "duration": 3.64
+  },
+  {
+    "text": "aparezcan las necesidades del",
+    "start": 3.879,
+    "duration": 4.72
+  },
+  {
+    "text": "desarrollador del invertor este la",
+    "start": 5.64,
+    "duration": 6.2
+  },
+  {
+    "text": "traducción del arquitecto o o",
+    "start": 8.599,
+    "duration": 5.96
+  },
+  {
+    "text": "proyectista digamos y",
+    "start": 11.84,
+    "duration": 6.16
+  },
+  {
+    "text": "eh la necesidad del constructor por por",
+    "start": 14.559,
+    "duration": 6.121
+  },
+  {
+    "text": "llevar hacia adelante el proyecto esos",
+    "start": 18.0,
+    "duration": 5.039
+  },
+  {
+    "text": "son como los tres Pilares o los tres",
+    "start": 20.68,
+    "duration": 5.0
+  },
+  {
+    "text": "actores principales que que deberían",
+    "start": 23.039,
+    "duration": 5.16
+  },
+  {
+    "text": "operar el sistema cierto",
+    "start": 25.68,
+    "duration": 5.8
+  },
+  {
+    "text": "y después le voy a comentar cu una idea",
+    "start": 28.199,
+    "duration": 5.441
+  },
+  {
+    "text": "también que Que bueno que ampliaría lo",
+    "start": 31.48,
+    "duration": 4.399
+  },
+  {
+    "text": "que dijo Víctor de Cómo darle un rol más",
+    "start": 33.64,
+    "duration": 6.52
+  },
+  {
+    "text": "participativo al al al descargador y le",
+    "start": 35.879,
+    "duration": 6.721
+  },
+  {
+    "text": "llamo descargador digamos a a este",
+    "start": 40.16,
+    "duration": 4.0
+  },
+  {
+    "text": "propietario que viene con con la",
+    "start": 42.6,
+    "duration": 4.2
+  },
+  {
+    "text": "inquietud de",
+    "start": 44.16,
+    "duration": 2.64
+  },
+  {
+    "text": "demand bueno Cuál cuál sería",
+    "start": 47.32,
+    "duration": 6.399
+  },
+  {
+    "text": "este la la uno del los objetivo",
+    "start": 50.16,
+    "duration": 5.079
+  },
+  {
+    "text": "principales o sea generar una",
+    "start": 53.719,
+    "duration": 3.921
+  },
+  {
+    "text": "comunicación integral entre todas las",
+    "start": 55.239,
+    "duration": 4.84
+  },
+  {
+    "text": "partes el profesional el propietario y",
+    "start": 57.64,
+    "duration": 4.52
+  },
+  {
+    "text": "el proveedor el proveedor sería el",
+    "start": 60.079,
+    "duration": 7.001
+  },
+  {
+    "text": "cont eso sería como el el",
+    "start": 62.16,
+    "duration": 7.959
+  },
+  {
+    "text": "el la comunicación sea uno de los",
+    "start": 67.08,
+    "duration": 5.52
+  },
+  {
+    "text": "objetivos principales del proyecto más",
+    "start": 70.119,
+    "duration": 5.841
+  },
+  {
+    "text": "luego este lo que haría el sistema sería",
+    "start": 72.6,
+    "duration": 5.0
+  },
+  {
+    "text": "gestionar gestión de",
+    "start": 75.96,
+    "duration": 5.64
+  },
+  {
+    "text": "procesos o sea evaluar estadíos",
+    "start": 77.6,
+    "duration": 8.04
+  },
+  {
+    "text": "eh de los procesos en la etapa de diseño",
+    "start": 81.6,
+    "duration": 6.76
+  },
+  {
+    "text": "y en la etapa",
+    "start": 85.64,
+    "duration": 2.72
+  },
+  {
+    "text": "ejecutiva esto ese sistema podía ser más",
+    "start": 88.92,
+    "duration": 6.479
+  },
+  {
+    "text": "abarcativo y no No necesariamente y",
+    "start": 92.079,
+    "duration": 6.36
+  },
+  {
+    "text": "únicamente de de proyectos de obras de",
+    "start": 95.399,
+    "duration": 5.08
+  },
+  {
+    "text": "arquitectura porque básicamente el",
+    "start": 98.439,
+    "duration": 3.801
+  },
+  {
+    "text": "lenguaje que vamos a estar usando van a",
+    "start": 100.479,
+    "duration": 6.92
+  },
+  {
+    "text": "ser este cosas que tienen que ver",
+    "start": 102.24,
+    "duration": 5.159
+  },
+  {
+    "text": "con la guía del pm Book con los",
+    "start": 108.56,
+    "duration": 6.96
+  },
+  {
+    "text": "fundamentos para para la dirección de",
+    "start": 112.439,
+    "duration": 5.561
+  },
+  {
+    "text": "proyect cuáles son los ejes principales",
+    "start": 115.52,
+    "duration": 4.48
+  },
+  {
+    "text": "de trabajo",
+    "start": 118.0,
+    "duration": 3.799
+  },
+  {
+    "text": "eso principales que con lo que vamos a",
+    "start": 120.0,
+    "duration": 4.719
+  },
+  {
+    "text": "trabajar es el alcance que básicamente",
+    "start": 121.799,
+    "duration": 6.6
+  },
+  {
+    "text": "es la es la definición de la tareas que",
+    "start": 124.719,
+    "duration": 5.88
+  },
+  {
+    "text": "hay que desarrollar en el proyecto tanto",
+    "start": 128.399,
+    "duration": 5.081
+  },
+  {
+    "text": "la etapa de diseño como la etapa",
+    "start": 130.599,
+    "duration": 5.72
+  },
+  {
+    "text": "ejecutiva los plazos",
+    "start": 133.48,
+    "duration": 7.039
+  },
+  {
+    "text": "que básicamente es un tiempo y Los",
+    "start": 136.319,
+    "duration": 6.681
+  },
+  {
+    "text": "costos",
+    "start": 140.519,
+    "duration": 6.241
+  },
+  {
+    "text": "este este es tres estos tres ejes de",
+    "start": 143.0,
+    "duration": 5.44
+  },
+  {
+    "text": "trabajo que de alguna forma son los que",
+    "start": 146.76,
+    "duration": 4.92
+  },
+  {
+    "text": "conforman cualquier tipo de",
+    "start": 148.44,
+    "duration": 5.76
+  },
+  {
+    "text": "un proyecto en",
+    "start": 151.68,
+    "duration": 5.4
+  },
+  {
+    "text": "general tienen Mucho peso digamos y",
+    "start": 154.2,
+    "duration": 6.08
+  },
+  {
+    "text": "distinta distinto",
+    "start": 157.08,
+    "duration": 6.96
+  },
+  {
+    "text": "impacto en los tres actores que van",
+    "start": 160.28,
+    "duration": 7.72
+  },
+  {
+    "text": "operar en el proyecto en distintos",
+    "start": 164.04,
+    "duration": 3.96
+  },
+  {
+    "text": "moment alcance el alcance sería la",
+    "start": 171.92,
+    "duration": 5.76
+  },
+  {
+    "text": "definición de",
+    "start": 175.04,
+    "duration": 2.64
+  },
+  {
+    "text": "tarea principales que debería poder",
+    "start": 178.84,
+    "duration": 4.9
+  },
+  {
+    "text": "operar",
+    "start": 182.159,
+    "duration": 3.601
+  },
+  {
+    "text": "[Aplausos]",
+    "start": 183.74,
+    "duration": 7.859
+  },
+  {
+    "text": "el bueno Qué es el alcance Qué sería el",
+    "start": 185.76,
+    "duration": 8.16
+  },
+  {
+    "text": "alcance básicamente",
+    "start": 191.599,
+    "duration": 4.321
+  },
+  {
+    "text": "sería la",
+    "start": 193.92,
+    "duration": 6.22
+  },
+  {
+    "text": "definición o necesidades específicas del",
+    "start": 195.92,
+    "duration": 5.72
+  },
+  {
+    "text": "[Música]",
+    "start": 200.14,
+    "duration": 5.019
+  },
+  {
+    "text": "proyecto y los factores clave que tien",
+    "start": 201.64,
+    "duration": 8.44
+  },
+  {
+    "text": "poder definir el al alcance es",
+    "start": 205.159,
+    "duration": 8.72
+  },
+  {
+    "text": "las actividades o parti o rubros en tres",
+    "start": 210.08,
+    "duration": 7.519
+  },
+  {
+    "text": "niveles de de partición tres",
+    "start": 213.879,
+    "duration": 7.44
+  },
+  {
+    "text": "niveles el alcance define la las",
+    "start": 217.599,
+    "duration": 5.36
+  },
+  {
+    "text": "cualidades específicas del proyecto",
+    "start": 221.319,
+    "duration": 5.681
+  },
+  {
+    "text": "entonces básicamente Jose en nuestro",
+    "start": 222.959,
+    "duration": 6.441
+  },
+  {
+    "text": "mundo se lo tradu un poco a vor pero",
+    "start": 227.0,
+    "duration": 4.799
+  },
+  {
+    "text": "básicamente nuestro mundo es la planilla",
+    "start": 229.4,
+    "duration": 5.44
+  },
+  {
+    "text": "de comp pero no tiene el comput",
+    "start": 231.799,
+    "duration": 5.52
+  },
+  {
+    "text": "específicamente que habla de cantidades",
+    "start": 234.84,
+    "duration": 4.599
+  },
+  {
+    "text": "sino más bien la definición de las paras",
+    "start": 237.319,
+    "duration": 5.801
+  },
+  {
+    "text": "quey que realizar para eso ser lo que yo",
+    "start": 239.439,
+    "duration": 4.091
+  },
+  {
+    "text": "entiendo",
+    "start": 243.12,
+    "duration": 2.24
+  },
+  {
+    "text": "[Música]",
+    "start": 243.53,
+    "duration": 5.349
+  },
+  {
+    "text": "como cuál serían las acciones que",
+    "start": 245.36,
+    "duration": 6.159
+  },
+  {
+    "text": "debería hacer el sistema en relación al",
+    "start": 248.879,
+    "duration": 6.36
+  },
+  {
+    "text": "alcance bueno debe poder definir las",
+    "start": 251.519,
+    "duration": 5.801
+  },
+  {
+    "text": "actividades previstas en el proyecto es",
+    "start": 255.239,
+    "duration": 4.4
+  },
+  {
+    "text": "decir en una serie de renglones uno",
+    "start": 257.32,
+    "duration": 5.04
+  },
+  {
+    "text": "puede decir",
+    "start": 259.639,
+    "duration": 6.961
+  },
+  {
+    "text": "Bueno desde un aspecto técnico eh ligas",
+    "start": 262.36,
+    "duration": 8.08
+  },
+  {
+    "text": "de fundaciones o tabiques de",
+    "start": 266.6,
+    "duration": 6.24
+  },
+  {
+    "text": "mantería un aspecto técnico lo puedes",
+    "start": 270.44,
+    "duration": 5.92
+  },
+  {
+    "text": "definir de y un aspecto no tan técnico",
+    "start": 272.84,
+    "duration": 7.0
+  },
+  {
+    "text": "uno puede definir este realizar",
+    "start": 276.36,
+    "duration": 6.64
+  },
+  {
+    "text": "ampliación del",
+    "start": 279.84,
+    "duration": 3.16
+  },
+  {
+    "text": "sanitario el alcance tiene que ver más",
+    "start": 283.88,
+    "duration": 6.4
+  },
+  {
+    "text": "con la especificación de lo que uno",
+    "start": 287.039,
+    "duration": 4.561
+  },
+  {
+    "text": "quiere",
+    "start": 290.28,
+    "duration": 3.16
+  },
+  {
+    "text": "alcanzar sería",
+    "start": 291.6,
+    "duration": 5.72
+  },
+  {
+    "text": "como tratar de dejarlo abierto dentro",
+    "start": 293.44,
+    "duration": 6.36
+  },
+  {
+    "text": "del proyecto uno lo pueda definir",
+    "start": 297.32,
+    "duration": 6.2
+  },
+  {
+    "text": "técnicamente o no tan",
+    "start": 299.8,
+    "duration": 6.959
+  },
+  {
+    "text": "técnica Bueno luego",
+    "start": 303.52,
+    "duration": 7.56
+  },
+  {
+    "text": "eh las mismas o sea estas acciones eh",
+    "start": 306.759,
+    "duration": 7.321
+  },
+  {
+    "text": "deben tener la posibilidad de asignar o",
+    "start": 311.08,
+    "duration": 5.8
+  },
+  {
+    "text": "vincular atributos s Pablo no sé si vos",
+    "start": 314.08,
+    "duration": 4.36
+  },
+  {
+    "text": "no estás mostrando la pantalla porque lo",
+    "start": 316.88,
+    "duration": 4.08
+  },
+  {
+    "text": "que estamos viendo Es el powerp pero la",
+    "start": 318.44,
+    "duration": 3.879
+  },
+  {
+    "text": "la pantallita que dice control de",
+    "start": 320.96,
+    "duration": 4.04
+  },
+  {
+    "text": "gestión solamente no estamos viendo en",
+    "start": 322.319,
+    "duration": 5.921
+  },
+  {
+    "text": "serio me pareci que estaba Ah no yo yo",
+    "start": 325.0,
+    "duration": 7.96
+  },
+  {
+    "text": "estoy y ahí ven ahí sí ahí sí Pon f5",
+    "start": 328.24,
+    "duration": 8.079
+  },
+  {
+    "text": "poner f5 poner compartir la presentación",
+    "start": 332.96,
+    "duration": 6.239
+  },
+  {
+    "text": "Sí s es que eso había puesto Ah pero te",
+    "start": 336.319,
+    "duration": 4.0
+  },
+  {
+    "text": "mandó otra",
+    "start": 339.199,
+    "duration": 4.321
+  },
+  {
+    "text": "pantalla desc compartí y compartí la",
+    "start": 340.319,
+    "duration": 6.401
+  },
+  {
+    "text": "presentación no el power Ahí está Ah Ah",
+    "start": 343.52,
+    "duration": 5.32
+  },
+  {
+    "text": "con razón Jos porque acá estaba todo",
+    "start": 346.72,
+    "duration": 3.28
+  },
+  {
+    "text": "todo lo",
+    "start": 348.84,
+    "duration": 5.799
+  },
+  {
+    "text": "otro Ahí dejé compartir dame un segundo",
+    "start": 350.0,
+    "duration": 7.08
+  },
+  {
+    "text": "tampoc lo quiero aburrir demasiado con",
+    "start": 354.639,
+    "duration": 5.84
+  },
+  {
+    "text": "eso y con los tiempos un poco rápid J",
+    "start": 357.08,
+    "duration": 7.239
+  },
+  {
+    "text": "con el tema de la eh No resulta que y",
+    "start": 360.479,
+    "duration": 5.28
+  },
+  {
+    "text": "confundí ahora tengo un poquito más de",
+    "start": 364.319,
+    "duration": 4.761
+  },
+  {
+    "text": "tiempo Dale dale buenísimo estaba",
+    "start": 365.759,
+    "duration": 5.761
+  },
+  {
+    "text": "dormido todavía cuando dijo que estaba",
+    "start": 369.08,
+    "duration": 6.119
+  },
+  {
+    "text": "ahí Ahí estamos ahora Perfecto Bueno",
+    "start": 371.52,
+    "duration": 6.04
+  },
+  {
+    "text": "entonces yo le decía comunicación",
+    "start": 375.199,
+    "duration": 3.84
+  },
+  {
+    "text": "integral entre el profesional",
+    "start": 377.56,
+    "duration": 4.6
+  },
+  {
+    "text": "propietario y proveedor la gestión de de",
+    "start": 379.039,
+    "duration": 5.44
+  },
+  {
+    "text": "procesos del diseño de la obra ahí vamos",
+    "start": 382.16,
+    "duration": 4.439
+  },
+  {
+    "text": "a hacer foco Pero puede ser gestión de",
+    "start": 384.479,
+    "duration": 4.681
+  },
+  {
+    "text": "cualquier otro proceso también y lo eje",
+    "start": 386.599,
+    "duration": 3.841
+  },
+  {
+    "text": "de trabajo Yo le decía que era el",
+    "start": 389.16,
+    "duration": 3.479
+  },
+  {
+    "text": "alcance los plazos y Los costos como",
+    "start": 390.44,
+    "duration": 5.039
+  },
+  {
+    "text": "como ejes generales no bueno y nos",
+    "start": 392.639,
+    "duration": 5.241
+  },
+  {
+    "text": "quedamos en la parte de alcance no",
+    "start": 395.479,
+    "duration": 5.041
+  },
+  {
+    "text": "Entonces yo yo había puesto Como algunos",
+    "start": 397.88,
+    "duration": 4.68
+  },
+  {
+    "text": "factores claves a tener en cuenta",
+    "start": 400.52,
+    "duration": 4.0
+  },
+  {
+    "text": "algunas acciones que a mi entender el",
+    "start": 402.56,
+    "duration": 4.8
+  },
+  {
+    "text": "sistema debería poder hacer No es cierto",
+    "start": 404.52,
+    "duration": 6.2
+  },
+  {
+    "text": "y eh lo último que le dije fue que",
+    "start": 407.36,
+    "duration": 6.6
+  },
+  {
+    "text": "aparte de poder definir estas tareas eh",
+    "start": 410.72,
+    "duration": 5.84
+  },
+  {
+    "text": "esas tareas del alcance deberían tener",
+    "start": 413.96,
+    "duration": 6.079
+  },
+  {
+    "text": "la posibilidad de asignar o vincul con",
+    "start": 416.56,
+    "duration": 6.68
+  },
+  {
+    "text": "atributos del sist es decir costos",
+    "start": 420.039,
+    "duration": 5.72
+  },
+  {
+    "text": "tiempos recursos documentos o accesorios",
+    "start": 423.24,
+    "duration": 6.679
+  },
+  {
+    "text": "cierto es decir cuál sería nosotros",
+    "start": 425.759,
+    "duration": 7.16
+  },
+  {
+    "text": "definimos una tarea",
+    "start": 429.919,
+    "duration": 3.0
+  },
+  {
+    "text": "específica ejecutar tantos metros",
+    "start": 433.0,
+    "duration": 5.639
+  },
+  {
+    "text": "cuadrados de muro por ejemplo cierto y",
+    "start": 435.8,
+    "duration": 5.239
+  },
+  {
+    "text": "yo tengo que tener la posibilidad de esa",
+    "start": 438.639,
+    "duration": 5.361
+  },
+  {
+    "text": "tarea específica asignarle un tiempo",
+    "start": 441.039,
+    "duration": 5.241
+  },
+  {
+    "text": "plazo inicio un plazo final no cierto",
+    "start": 444.0,
+    "duration": 4.4
+  },
+  {
+    "text": "poder asignarle un recurso de quién lo",
+    "start": 446.28,
+    "duration": 3.52
+  },
+  {
+    "text": "va a hacer lo va a hacer Pablo lo va a",
+    "start": 448.4,
+    "duration": 4.84
+  },
+  {
+    "text": "servir que lo va Ace J eh Y poder",
+    "start": 449.8,
+    "duration": 7.04
+  },
+  {
+    "text": "vincular documentos accesorios aa algún",
+    "start": 453.24,
+    "duration": 7.88
+  },
+  {
+    "text": "juego específico eh Este no sé algún",
+    "start": 456.84,
+    "duration": 5.44
+  },
+  {
+    "text": "plano",
+    "start": 461.12,
+    "duration": 4.44
+  },
+  {
+    "text": "que que defina cómo se se deberá hacer",
+    "start": 462.28,
+    "duration": 6.0
+  },
+  {
+    "text": "ese muro no sé esto estoy pensando como",
+    "start": 465.56,
+    "duration": 5.199
+  },
+  {
+    "text": "a lo mejor a veces pensar en voz alta",
+    "start": 468.28,
+    "duration": 5.199
+  },
+  {
+    "text": "puede confundir más Pero y si no me",
+    "start": 470.759,
+    "duration": 5.16
+  },
+  {
+    "text": "entienden no no yo te",
+    "start": 473.479,
+    "duration": 7.921
+  },
+  {
+    "text": "sig Bueno ese sería este",
+    "start": 475.919,
+    "duration": 5.481
+  },
+  {
+    "text": "la",
+    "start": 481.84,
+    "duration": 3.88
+  },
+  {
+    "text": "expectativa de que el sistema pueda",
+    "start": 483.36,
+    "duration": 7.239
+  },
+  {
+    "text": "tener el tema de El alcance no después",
+    "start": 485.72,
+    "duration": 7.84
+  },
+  {
+    "text": "luego este tendría que tener acciones de",
+    "start": 490.599,
+    "duration": 4.04
+  },
+  {
+    "text": "cambio Es",
+    "start": 493.56,
+    "duration": 2.639
+  },
+  {
+    "text": "decir",
+    "start": 494.639,
+    "duration": 5.801
+  },
+  {
+    "text": "uno aparte de definir las tareas debería",
+    "start": 496.199,
+    "duration": 5.801
+  },
+  {
+    "text": "poder definir Cuáles",
+    "start": 500.44,
+    "duration": 6.08
+  },
+  {
+    "text": "son factores claves que van a incidir en",
+    "start": 502.0,
+    "duration": 9.44
+  },
+  {
+    "text": "est entonces a lo mejor este el hacer el",
+    "start": 506.52,
+    "duration": 7.12
+  },
+  {
+    "text": "muro va a tener algunos factores clave",
+    "start": 511.44,
+    "duration": 4.719
+  },
+  {
+    "text": "como va a ser la coma del cemento porque",
+    "start": 513.64,
+    "duration": 5.199
+  },
+  {
+    "text": "a lo mejor có se hace el muro pero que",
+    "start": 516.159,
+    "duration": 5.24
+  },
+  {
+    "text": "tengo que probarle el cemento no sé",
+    "start": 518.839,
+    "duration": 4.601
+  },
+  {
+    "text": "poder especificar Cuáles son los",
+    "start": 521.399,
+    "duration": 4.681
+  },
+  {
+    "text": "factores claves y poder definir asecto",
+    "start": 523.44,
+    "duration": 5.8
+  },
+  {
+    "text": "de tarea que pueda comunicar a las tres",
+    "start": 526.08,
+    "duration": 5.16
+  },
+  {
+    "text": "partes interesadas para que cada una de",
+    "start": 529.24,
+    "duration": 4.52
+  },
+  {
+    "text": "las partes interesadas realicen la geses",
+    "start": 531.24,
+    "duration": 6.32
+  },
+  {
+    "text": "correspondientes para que est tareas se",
+    "start": 533.76,
+    "duration": 3.8
+  },
+  {
+    "text": "pueda y luego",
+    "start": 537.72,
+    "duration": 4.08
+  },
+  {
+    "text": "definir los atributos que era un poco lo",
+    "start": 540.04,
+    "duration": 5.88
+  },
+  {
+    "text": "que le decía plaz recursos costos",
+    "start": 541.8,
+    "duration": 8.44
+  },
+  {
+    "text": "y cuál sería los resultados del alcance",
+    "start": 545.92,
+    "duration": 5.76
+  },
+  {
+    "text": "entender o sea tener un listado de",
+    "start": 550.24,
+    "duration": 3.76
+  },
+  {
+    "text": "tareas generales tres niveles de",
+    "start": 551.68,
+    "duration": 5.88
+  },
+  {
+    "text": "prelación porque a lo mejor la tea",
+    "start": 554.0,
+    "duration": 6.2
+  },
+  {
+    "text": "principal puede ser",
+    "start": 557.56,
+    "duration": 6.279
+  },
+  {
+    "text": "muro muroa",
+    "start": 560.2,
+    "duration": 7.56
+  },
+  {
+    "text": "sería fundaciones",
+    "start": 563.839,
+    "duration": 8.281
+  },
+  {
+    "text": "yera una tercer tarea sería a lo mejor",
+    "start": 567.76,
+    "duration": 7.519
+  },
+  {
+    "text": "permisos particulares para la fundación",
+    "start": 572.12,
+    "duration": 7.719
+  },
+  {
+    "text": "poder definir digamos una serie de",
+    "start": 575.279,
+    "duration": 4.56
+  },
+  {
+    "text": "mínimamente y bueno y el otro es que a",
+    "start": 581.72,
+    "duration": 5.88
+  },
+  {
+    "text": "cada una de estas tareas que le puedan",
+    "start": 584.32,
+    "duration": 7.16
+  },
+  {
+    "text": "asignar buo eso con respecto más o menos",
+    "start": 587.6,
+    "duration": 7.16
+  },
+  {
+    "text": "a lo que es la definición de tarea Luego",
+    "start": 591.48,
+    "duration": 5.72
+  },
+  {
+    "text": "el tema de plazo estar vinculado con la",
+    "start": 594.76,
+    "duration": 4.28
+  },
+  {
+    "text": "tarea obviamente no hay plazo si no hay",
+    "start": 597.2,
+    "duration": 3.079
+  },
+  {
+    "text": "una",
+    "start": 599.04,
+    "duration": 3.6
+  },
+  {
+    "text": "específ",
+    "start": 600.279,
+    "duration": 6.161
+  },
+  {
+    "text": "que entonces como factor clave Yo decía",
+    "start": 602.64,
+    "duration": 5.52
+  },
+  {
+    "text": "bueno definir los plazo necesario para",
+    "start": 606.44,
+    "duration": 3.48
+  },
+  {
+    "text": "el seguimiento del proyecto en",
+    "start": 608.16,
+    "duration": 3.52
+  },
+  {
+    "text": "cualquiera de las actividades previstas",
+    "start": 609.92,
+    "duration": 3.919
+  },
+  {
+    "text": "del",
+    "start": 611.68,
+    "duration": 2.159
+  },
+  {
+    "text": "alcal como nosotros las tareas las vamos",
+    "start": 614.44,
+    "duration": 4.079
+  },
+  {
+    "text": "a definir de",
+    "start": 617.0,
+    "duration": 4.839
+  },
+  {
+    "text": "acuerdo al nivel necesario o a la",
+    "start": 618.519,
+    "duration": 6.32
+  },
+  {
+    "text": "aptitud para poder Definir la tarea que",
+    "start": 621.839,
+    "duration": 5.961
+  },
+  {
+    "text": "requi el proyecto los plazos también",
+    "start": 624.839,
+    "duration": 5.641
+  },
+  {
+    "text": "deben permitir posibilidad de adecuación",
+    "start": 627.8,
+    "duration": 4.8
+  },
+  {
+    "text": "a eso o sea si yo defino una tarea muy",
+    "start": 630.48,
+    "duration": 4.479
+  },
+  {
+    "text": "general el plazo va a ser muy general",
+    "start": 632.6,
+    "duration": 3.76
+  },
+  {
+    "text": "sobre esta",
+    "start": 634.959,
+    "duration": 4.521
+  },
+  {
+    "text": "única y si defino una tarea muy",
+    "start": 636.36,
+    "duration": 6.479
+  },
+  {
+    "text": "puntillosa o muy particular me tiene que",
+    "start": 639.48,
+    "duration": 5.159
+  },
+  {
+    "text": "generar la posibilidad de que esos",
+    "start": 642.839,
+    "duration": 5.321
+  },
+  {
+    "text": "plazos se puedan entrelazar entre sí",
+    "start": 644.639,
+    "duration": 6.88
+  },
+  {
+    "text": "para generar un tiempo total de una",
+    "start": 648.16,
+    "duration": 6.359
+  },
+  {
+    "text": "suerte como funciona el",
+    "start": 651.519,
+    "duration": 3.0
+  },
+  {
+    "text": "microsof bueno eh",
+    "start": 655.6,
+    "duration": 7.4
+  },
+  {
+    "text": "Cuáles son los resultados de esto poder",
+    "start": 659.48,
+    "duration": 6.2
+  },
+  {
+    "text": "tener una curva proyectada es importante",
+    "start": 663.0,
+    "duration": 5.2
+  },
+  {
+    "text": "la parte gráfica para m el sistema tiene",
+    "start": 665.68,
+    "duration": 5.0
+  },
+  {
+    "text": "quear gráficos que va a ser un sistema",
+    "start": 668.2,
+    "duration": 6.0
+  },
+  {
+    "text": "de comunicación básicamente y gráficos",
+    "start": 670.68,
+    "duration": 5.719
+  },
+  {
+    "text": "entendibles para tod la etapa para el",
+    "start": 674.2,
+    "duration": 6.24
+  },
+  {
+    "text": "contratista como para el arquitecto como",
+    "start": 676.399,
+    "duration": 7.961
+  },
+  {
+    "text": "para el propietario cierto entonces",
+    "start": 680.44,
+    "duration": 6.8
+  },
+  {
+    "text": "tener curva proyectada una curva",
+    "start": 684.36,
+    "duration": 5.56
+  },
+  {
+    "text": "ajustada que vaya mostrando",
+    "start": 687.24,
+    "duration": 6.44
+  },
+  {
+    "text": "se van otorgando adicionales y una curva",
+    "start": 689.92,
+    "duration": 8.8
+  },
+  {
+    "text": "real que va a est en relación a los",
+    "start": 693.68,
+    "duration": 5.04
+  },
+  {
+    "text": "avances es un poco el Macro del tema de",
+    "start": 701.56,
+    "duration": 7.56
+  },
+  {
+    "text": "plazo mucho para hablar el",
+    "start": 704.32,
+    "duration": 7.88
+  },
+  {
+    "text": "tema y luego el tercer eje el tema de",
+    "start": 709.12,
+    "duration": 4.399
+  },
+  {
+    "text": "costo",
+    "start": 712.2,
+    "duration": 7.92
+  },
+  {
+    "text": "cierto el costo para mí va a ser",
+    "start": 713.519,
+    "duration": 6.601
+  },
+  {
+    "text": "eh la frutilla del",
+    "start": 723.36,
+    "duration": 6.0
+  },
+  {
+    "text": "post el el el poder evaluar costo de los",
+    "start": 726.2,
+    "duration": 4.48
+  },
+  {
+    "text": "proyectos es",
+    "start": 729.36,
+    "duration": 4.0
+  },
+  {
+    "text": "uno no solo el coste sino el seguimiento",
+    "start": 730.68,
+    "duration": 4.12
+  },
+  {
+    "text": "de Los costos de los proyectos uno de",
+    "start": 733.36,
+    "duration": 4.279
+  },
+  {
+    "text": "los desafíos más importantes que pueden",
+    "start": 734.8,
+    "duration": 7.159
+  },
+  {
+    "text": "tener el sistema eh es lo seguramente lo",
+    "start": 737.639,
+    "duration": 5.841
+  },
+  {
+    "text": "más lo que",
+    "start": 741.959,
+    "duration": 4.161
+  },
+  {
+    "text": "más difícil va a ser que nosotros",
+    "start": 743.48,
+    "duration": 5.12
+  },
+  {
+    "text": "podamos desarrollar implementar el",
+    "start": 746.12,
+    "duration": 5.399
+  },
+  {
+    "text": "sistema pero yo creo que pue ser",
+    "start": 748.6,
+    "duration": 4.96
+  },
+  {
+    "text": "Posteriormente la frilla del postre en",
+    "start": 751.519,
+    "duration": 6.44
+  },
+  {
+    "text": "el sentido de que para cada uno de los",
+    "start": 753.56,
+    "duration": 7.44
+  },
+  {
+    "text": "actores siempre el precio el número el",
+    "start": 757.959,
+    "duration": 5.601
+  },
+  {
+    "text": "cuánto me va a salir termina siendo lo",
+    "start": 761.0,
+    "duration": 4.959
+  },
+  {
+    "text": "más importante como motivo",
+    "start": 763.56,
+    "duration": 5.719
+  },
+  {
+    "text": "inicial y también como",
+    "start": 765.959,
+    "duration": 6.721
+  },
+  {
+    "text": "verifica entonces Más allá de vender el",
+    "start": 769.279,
+    "duration": 5.721
+  },
+  {
+    "text": "entusiasmo de de qué es lo que uno",
+    "start": 772.68,
+    "duration": 5.36
+  },
+  {
+    "text": "quiere hacer cómo lo va a hacer siempre",
+    "start": 775.0,
+    "duration": 5.079
+  },
+  {
+    "text": "aparece la pregunta ulta decir cuánto no",
+    "start": 778.04,
+    "duration": 4.96
+  },
+  {
+    "text": "va salir de hecho nosotros nos",
+    "start": 780.079,
+    "duration": 5.281
+  },
+  {
+    "text": "preguntaremos por este proyecto cuánto",
+    "start": 783.0,
+    "duration": 3.6
+  },
+  {
+    "text": "nos va a salir y cuánto vamos a",
+    "start": 785.36,
+    "duration": 3.24
+  },
+  {
+    "text": "[Música]",
+    "start": 786.6,
+    "duration": 5.16
+  },
+  {
+    "text": "ganar el tema del costo va a ser como",
+    "start": 788.6,
+    "duration": 7.88
+  },
+  {
+    "text": "algo fundamental y yo creo que el tema",
+    "start": 791.76,
+    "duration": 7.72
+  },
+  {
+    "text": "de costo va a tener distintos impacto",
+    "start": 796.48,
+    "duration": 4.24
+  },
+  {
+    "text": "para",
+    "start": 799.48,
+    "duration": 4.0
+  },
+  {
+    "text": "eh los tres factores que van a",
+    "start": 800.72,
+    "duration": 5.4
+  },
+  {
+    "text": "intervenir dentro de de los proyectos",
+    "start": 803.48,
+    "duration": 5.76
+  },
+  {
+    "text": "que puede servir este sistema es cierto",
+    "start": 806.12,
+    "duration": 5.6
+  },
+  {
+    "text": "entonces voy a pensar el Macro voy a",
+    "start": 809.24,
+    "duration": 6.36
+  },
+  {
+    "text": "pensar Macro A lo mejor al desarrollador",
+    "start": 811.72,
+    "duration": 7.2
+  },
+  {
+    "text": "al inversor interesa tener el número",
+    "start": 815.6,
+    "duration": 7.239
+  },
+  {
+    "text": "final y a lo mejor",
+    "start": 818.92,
+    "duration": 7.4
+  },
+  {
+    "text": "al al constructor le interesa tener el",
+    "start": 822.839,
+    "duration": 5.641
+  },
+  {
+    "text": "número particular porque quiere saber en",
+    "start": 826.32,
+    "duration": 4.959
+  },
+  {
+    "text": "dónde aparecen los desvíos para ver si",
+    "start": 828.48,
+    "duration": 5.68
+  },
+  {
+    "text": "si su proyecto le es rentable o rentable",
+    "start": 831.279,
+    "duration": 5.841
+  },
+  {
+    "text": "la ejecu de la obra porque En definitiva",
+    "start": 834.16,
+    "duration": 5.16
+  },
+  {
+    "text": "el proyecto va a la obra pero para cada",
+    "start": 837.12,
+    "duration": 3.959
+  },
+  {
+    "text": "uno de los actores se van a transformar",
+    "start": 839.32,
+    "duration": 3.879
+  },
+  {
+    "text": "en su proyecto",
+    "start": 841.079,
+    "duration": 4.68
+  },
+  {
+    "text": "difente constructor el proyecto va a ser",
+    "start": 843.199,
+    "duration": 5.521
+  },
+  {
+    "text": "la ejecución de la obra básicamente para",
+    "start": 845.759,
+    "duration": 5.88
+  },
+  {
+    "text": "el desarrollador va a ser el proyecto",
+    "start": 848.72,
+    "duration": 5.44
+  },
+  {
+    "text": "final y para para el",
+    "start": 851.639,
+    "duration": 6.521
+  },
+  {
+    "text": "arquitecto el poder diseñar dirigir esa",
+    "start": 854.16,
+    "duration": 6.119
+  },
+  {
+    "text": "obra va ser su",
+    "start": 858.16,
+    "duration": 5.599
+  },
+  {
+    "text": "propioy entonces Los costos van a ser",
+    "start": 860.279,
+    "duration": 5.881
+  },
+  {
+    "text": "Van a impactar diferente a pesar de que",
+    "start": 863.759,
+    "duration": 5.721
+  },
+  {
+    "text": "es el Macro es el mismo para todos pero",
+    "start": 866.16,
+    "duration": 6.44
+  },
+  {
+    "text": "van a impactar diferente",
+    "start": 869.48,
+    "duration": 6.2
+  },
+  {
+    "text": "en Bueno si el sistema pudiera de alguna",
+    "start": 872.6,
+    "duration": 5.799
+  },
+  {
+    "text": "forma entesar esta",
+    "start": 875.68,
+    "duration": 7.04
+  },
+  {
+    "text": "neidad yo creo que sería un punto muy",
+    "start": 878.399,
+    "duration": 7.8
+  },
+  {
+    "text": "importante bueno eso básicamente más",
+    "start": 882.72,
+    "duration": 7.76
+  },
+  {
+    "text": "luego el sistema debería poder este",
+    "start": 886.199,
+    "duration": 5.921
+  },
+  {
+    "text": "colocar recursos",
+    "start": 890.48,
+    "duration": 5.0
+  },
+  {
+    "text": "digamos materiales mano de obra digamos",
+    "start": 892.12,
+    "duration": 4.76
+  },
+  {
+    "text": "quiénes van a ser los actores",
+    "start": 895.48,
+    "duration": 3.56
+  },
+  {
+    "text": "involucrados para la ejecución de tal",
+    "start": 896.88,
+    "duration": 2.959
+  },
+  {
+    "text": "cuá",
+    "start": 899.04,
+    "duration": 4.799
+  },
+  {
+    "text": "tarea cto",
+    "start": 899.839,
+    "duration": 4.0
+  },
+  {
+    "text": "este podría debería poder otorgar",
+    "start": 904.32,
+    "duration": 5.519
+  },
+  {
+    "text": "listados de materiales debería",
+    "start": 907.16,
+    "duration": 5.96
+  },
+  {
+    "text": "poder generar administrar recursos",
+    "start": 909.839,
+    "duration": 5.36
+  },
+  {
+    "text": "digamos Y por",
+    "start": 913.12,
+    "duration": 4.12
+  },
+  {
+    "text": "último también el tema de las",
+    "start": 915.199,
+    "duration": 5.121
+  },
+  {
+    "text": "comunicaciones No es cierto este en",
+    "start": 917.24,
+    "duration": 4.399
+  },
+  {
+    "text": "donde se",
+    "start": 920.32,
+    "duration": 4.199
+  },
+  {
+    "text": "podrían alguna forma el sistema en algún",
+    "start": 921.639,
+    "duration": 8.521
+  },
+  {
+    "text": "apartado este poder eh",
+    "start": 924.519,
+    "duration": 5.641
+  },
+  {
+    "text": "instrumentar las comunicaciones",
+    "start": 930.639,
+    "duration": 6.601
+  },
+  {
+    "text": "formales este como consenso oad",
+    "start": 933.079,
+    "duration": 8.081
+  },
+  {
+    "text": "materiales o de la últimas",
+    "start": 937.24,
+    "duration": 7.64
+  },
+  {
+    "text": "tareas que se plantearon a resolver o un",
+    "start": 941.16,
+    "duration": 5.88
+  },
+  {
+    "text": "calendario o",
+    "start": 944.88,
+    "duration": 7.28
+  },
+  {
+    "text": "informes o bien los libros de órdenes de",
+    "start": 947.04,
+    "duration": 5.12
+  },
+  {
+    "text": "servici",
+    "start": 952.68,
+    "duration": 6.8
+  },
+  {
+    "text": "este eso es un poco el el",
+    "start": 954.199,
+    "duration": 7.2
+  },
+  {
+    "text": "el esquema de lo que Fu trando el",
+    "start": 959.48,
+    "duration": 3.919
+  },
+  {
+    "text": "esquema general con con el que más o",
+    "start": 961.399,
+    "duration": 3.321
+  },
+  {
+    "text": "menos fuimos",
+    "start": 963.399,
+    "duration": 5.041
+  },
+  {
+    "text": "trabajando y bueno de alguna forma con",
+    "start": 964.72,
+    "duration": 6.359
+  },
+  {
+    "text": "esa información algo fue Armando Víctor",
+    "start": 968.44,
+    "duration": 5.12
+  },
+  {
+    "text": "estamos en este feed sí pero no porque",
+    "start": 971.079,
+    "duration": 5.56
+  },
+  {
+    "text": "también para mí es muy difícil entender",
+    "start": 973.56,
+    "duration": 6.6
+  },
+  {
+    "text": "la lógica de la programación digamos",
+    "start": 976.639,
+    "duration": 8.081
+  },
+  {
+    "text": "también es un lenguaje nuevo y y Bueno",
+    "start": 980.16,
+    "duration": 6.919
+  },
+  {
+    "text": "un poco aparece también tu tu visión de",
+    "start": 984.72,
+    "duration": 5.4
+  },
+  {
+    "text": "todo esto ahora Jos Digamos como",
+    "start": 987.079,
+    "duration": 6.721
+  },
+  {
+    "text": "como actor interesado por lo",
+    "start": 990.12,
+    "duration": 3.68
+  },
+  {
+    "text": "menos no no Gracias por Mostrarme lo que",
+    "start": 996.44,
+    "duration": 7.839
+  },
+  {
+    "text": "hicieron Ahora hay que creo que para",
+    "start": 999.519,
+    "duration": 8.161
+  },
+  {
+    "text": "hacerte muy sincero avanzaron",
+    "start": 1004.279,
+    "duration": 7.601
+  },
+  {
+    "text": "mucho sin entender el mercado el esquema",
+    "start": 1007.68,
+    "duration": 7.56
+  },
+  {
+    "text": "armar un emprendimiento pao",
+    "start": 1011.88,
+    "duration": 3.36
+  },
+  {
+    "text": "y como hubo tanto vent cap tanta plata",
+    "start": 1017.839,
+    "duration": 5.521
+  },
+  {
+    "text": "que se puso en emprendimiento se armó",
+    "start": 1021.399,
+    "duration": 4.841
+  },
+  {
+    "text": "como un esquema muy muy claro de cóm vos",
+    "start": 1023.36,
+    "duration": 5.319
+  },
+  {
+    "text": "tenés que emprender para saber que",
+    "start": 1026.24,
+    "duration": 4.0
+  },
+  {
+    "text": "presentar a la gente interesada que va",
+    "start": 1028.679,
+    "duration": 3.441
+  },
+  {
+    "text": "que va a poner la plata en el negocio No",
+    "start": 1030.24,
+    "duration": 4.839
+  },
+  {
+    "text": "es cierto Entonces cómo es ese proceso",
+    "start": 1032.12,
+    "duration": 6.719
+  },
+  {
+    "text": "tenés que encontrar qui encontrar un",
+    "start": 1035.079,
+    "duration": 5.76
+  },
+  {
+    "text": "problema de un grupo de personas No es",
+    "start": 1038.839,
+    "duration": 6.12
+  },
+  {
+    "text": "cierto después ver qué qué soluciones",
+    "start": 1040.839,
+    "duration": 8.561
+  },
+  {
+    "text": "podrían eh resolver este problema sí",
+    "start": 1044.959,
+    "duration": 7.761
+  },
+  {
+    "text": "Y qué tamaño es el mercado Cuál es el",
+    "start": 1049.4,
+    "duration": 4.72
+  },
+  {
+    "text": "tamaño del mercado de la gente que",
+    "start": 1052.72,
+    "duration": 4.16
+  },
+  {
+    "text": "necesita esa solución Y por último Cuál",
+    "start": 1054.12,
+    "duration": 4.36
+  },
+  {
+    "text": "es la competencia existente en el",
+    "start": 1056.88,
+    "duration": 5.64
+  },
+  {
+    "text": "mercado entonces mi experencia sería",
+    "start": 1058.48,
+    "duration": 7.92
+  },
+  {
+    "text": "Volver atrás y empezar a analizar esto",
+    "start": 1062.52,
+    "duration": 5.76
+  },
+  {
+    "text": "porque tiene una idea lo cual está",
+    "start": 1066.4,
+    "duration": 5.32
+  },
+  {
+    "text": "buenísimo cto y y hay gente con",
+    "start": 1068.28,
+    "duration": 6.759
+  },
+  {
+    "text": "conocimiento y experiencia en es en ese",
+    "start": 1071.72,
+    "duration": 4.24
+  },
+  {
+    "text": "en",
+    "start": 1075.039,
+    "duration": 4.401
+  },
+  {
+    "text": "ese en ese rubro Sí exactamente y está",
+    "start": 1075.96,
+    "duration": 5.64
+  },
+  {
+    "text": "perfecto lo que hay que hacer ahora es",
+    "start": 1079.44,
+    "duration": 5.16
+  },
+  {
+    "text": "volver atrás hacer un análisis completo",
+    "start": 1081.6,
+    "duration": 5.4
+  },
+  {
+    "text": "que no es muy largo análisis completo",
+    "start": 1084.6,
+    "duration": 5.72
+  },
+  {
+    "text": "del mercado y de la competencia con",
+    "start": 1087.0,
+    "duration": 6.52
+  },
+  {
+    "text": "datos que nos digan si esta solución es",
+    "start": 1090.32,
+    "duration": 7.92
+  },
+  {
+    "text": "la correcta o no o hay que ir o hay que",
+    "start": 1093.52,
+    "duration": 6.24
+  },
+  {
+    "text": "ir Ajustando lo que vos presentaste",
+    "start": 1098.24,
+    "duration": 6.2
+  },
+  {
+    "text": "Pablo es es algo muy con poca",
+    "start": 1099.76,
+    "duration": 8.08
+  },
+  {
+    "text": "batería es algo muy es un software muy",
+    "start": 1104.44,
+    "duration": 5.04
+  },
+  {
+    "text": "adaptativo",
+    "start": 1107.84,
+    "duration": 4.719
+  },
+  {
+    "text": "eh Hay software abarcativo pero el que",
+    "start": 1109.48,
+    "duration": 4.84
+  },
+  {
+    "text": "vos presentaste es más abarcativo de lo",
+    "start": 1112.559,
+    "duration": 7.321
+  },
+  {
+    "text": "más abarcativo ahora por un gran",
+    "start": 1114.32,
+    "duration": 8.359
+  },
+  {
+    "text": "sueño Te tiro una Data antes de que se",
+    "start": 1119.88,
+    "duration": 5.039
+  },
+  {
+    "text": "nos corte Si se nos corta nos conectamos",
+    "start": 1122.679,
+    "duration": 4.761
+  },
+  {
+    "text": "de vuelta En caso que puedan la misma",
+    "start": 1124.919,
+    "duration": 4.681
+  },
+  {
+    "text": "mismo link funciona no",
+    "start": 1127.44,
+    "duration": 4.4
+  },
+  {
+    "text": "cierto estoy de acuerdo porque estamos",
+    "start": 1129.6,
+    "duration": 3.76
+  },
+  {
+    "text": "en una etapa por lo menos que tenemos",
+    "start": 1131.84,
+    "duration": 5.16
+  },
+  {
+    "text": "quear no un punto No más ahí que lo",
+    "start": 1133.36,
+    "duration": 4.88
+  },
+  {
+    "text": "hemos mencionado dos veces pero no",
+    "start": 1137.0,
+    "duration": 3.36
+  },
+  {
+    "text": "sabíamos como articular porque como como",
+    "start": 1138.24,
+    "duration": 4.4
+  },
+  {
+    "text": "no me da no me da la capacidad temporal",
+    "start": 1140.36,
+    "duration": 4.88
+  },
+  {
+    "text": "ni ni de cabeza por ahí para entender",
+    "start": 1142.64,
+    "duration": 5.68
+  },
+  {
+    "text": "todos estos conceptos término o",
+    "start": 1145.24,
+    "duration": 6.559
+  },
+  {
+    "text": "sea literalmente Sí pero en el Macro de",
+    "start": 1148.32,
+    "duration": 5.599
+  },
+  {
+    "text": "cómo lo ve Pablo hay cosas que las",
+    "start": 1151.799,
+    "duration": 5.201
+  },
+  {
+    "text": "entiendo y hay cosas que por ahí me me",
+    "start": 1153.919,
+    "duration": 4.921
+  },
+  {
+    "text": "superan Esa es la realidad por no",
+    "start": 1157.0,
+    "duration": 3.44
+  },
+  {
+    "text": "conocer la lógica de",
+    "start": 1158.84,
+    "duration": 4.16
+  },
+  {
+    "text": "negocio entonces hablamos con Pablo que",
+    "start": 1160.44,
+    "duration": 5.359
+  },
+  {
+    "text": "que la idea porque he trabajado con otra",
+    "start": 1163.0,
+    "duration": 4.64
+  },
+  {
+    "text": "mentoría con mentor day Que es una",
+    "start": 1165.799,
+    "duration": 3.88
+  },
+  {
+    "text": "empresa de Canarias que que se dedica a",
+    "start": 1167.64,
+    "duration": 4.399
+  },
+  {
+    "text": "hacer este tipo de coaching para para",
+    "start": 1169.679,
+    "duration": 5.601
+  },
+  {
+    "text": "startups y lo hice Durante un mes y",
+    "start": 1172.039,
+    "duration": 5.88
+  },
+  {
+    "text": "medio en el 2021 y tengo alguna dat y le",
+    "start": 1175.28,
+    "duration": 4.32
+  },
+  {
+    "text": "he pasado un par de documentos a Pablo",
+    "start": 1177.919,
+    "duration": 2.921
+  },
+  {
+    "text": "que que fue lo que estuve trabajando",
+    "start": 1179.6,
+    "duration": 3.4
+  },
+  {
+    "text": "solo en ese momento con con la idea de",
+    "start": 1180.84,
+    "duration": 5.16
+  },
+  {
+    "text": "de encaminar un una producción de",
+    "start": 1183.0,
+    "duration": 5.52
+  },
+  {
+    "text": "software como servicio para diferentes",
+    "start": 1186.0,
+    "duration": 5.76
+  },
+  {
+    "text": "rubros Eh entonces alguna idea de todo",
+    "start": 1188.52,
+    "duration": 4.72
+  },
+  {
+    "text": "esto que vos estás comentando la tengo",
+    "start": 1191.76,
+    "duration": 4.72
+  },
+  {
+    "text": "muy muy vaga por lo lejano y básica por",
+    "start": 1193.24,
+    "duration": 5.799
+  },
+  {
+    "text": "el tiempo que le dediqué también al tema",
+    "start": 1196.48,
+    "duration": 5.52
+  },
+  {
+    "text": "pero eh una uno de los puntos que se",
+    "start": 1199.039,
+    "duration": 4.52
+  },
+  {
+    "text": "queda ahí es que hay que tratar de",
+    "start": 1202.0,
+    "duration": 4.48
+  },
+  {
+    "text": "apuntar o tratar de implementar en en",
+    "start": 1203.559,
+    "duration": 5.561
+  },
+  {
+    "text": "seguramente familiar el tema de la la",
+    "start": 1206.48,
+    "duration": 4.84
+  },
+  {
+    "text": "reglas de pareto o ley de pareto para",
+    "start": 1209.12,
+    "duration": 4.72
+  },
+  {
+    "text": "para tratar de de",
+    "start": 1211.32,
+    "duration": 4.719
+  },
+  {
+    "text": "potenciar una mínima cantidad de",
+    "start": 1213.84,
+    "duration": 4.68
+  },
+  {
+    "text": "característica un 20% del producto total",
+    "start": 1216.039,
+    "duration": 5.12
+  },
+  {
+    "text": "que queremos desarrollar darle",
+    "start": 1218.52,
+    "duration": 7.48
+  },
+  {
+    "text": "eh empuje a a que salga eso funcional y",
+    "start": 1221.159,
+    "duration": 6.921
+  },
+  {
+    "text": "después ir trabajando sobre el resto de",
+    "start": 1226.0,
+    "duration": 4.96
+  },
+  {
+    "text": "de de del alcance total o global del",
+    "start": 1228.08,
+    "duration": 5.599
+  },
+  {
+    "text": "proyecto eso lo hablamos varias veces",
+    "start": 1230.96,
+    "duration": 4.64
+  },
+  {
+    "text": "algo así Algo así te iba a decir después",
+    "start": 1233.679,
+    "duration": 3.681
+  },
+  {
+    "text": "de lo que est lo que perfecto Perdón que",
+    "start": 1235.6,
+    "duration": 4.04
+  },
+  {
+    "text": "te coré te dejo que termes ent per Era",
+    "start": 1237.36,
+    "duration": 3.679
+  },
+  {
+    "text": "ese punto que lo hablamos varias veces",
+    "start": 1239.64,
+    "duration": 3.84
+  },
+  {
+    "text": "pero no sabemos cómo articular O sea no",
+    "start": 1241.039,
+    "duration": 4.921
+  },
+  {
+    "text": "hemos tenido tanto avance como para para",
+    "start": 1243.48,
+    "duration": 5.079
+  },
+  {
+    "text": "decir bueno punteos esto esto lo que más",
+    "start": 1245.96,
+    "duration": 4.079
+  },
+  {
+    "text": "se va a usar esto no lo vamos a usar",
+    "start": 1248.559,
+    "duration": 3.161
+  },
+  {
+    "text": "nunca nos pasa con diferentes software",
+    "start": 1250.039,
+    "duration": 3.161
+  },
+  {
+    "text": "de gestión como lo que habrás usado",
+    "start": 1251.72,
+    "duration": 4.64
+  },
+  {
+    "text": "también vos en la construcción y que ten",
+    "start": 1253.2,
+    "duration": 6.08
+  },
+  {
+    "text": "un software gigante y que usas cinco",
+    "start": 1256.36,
+    "duration": 5.08
+  },
+  {
+    "text": "pantallas 10 pantallas que l usas",
+    "start": 1259.28,
+    "duration": 4.0
+  },
+  {
+    "text": "continuamente pantallas digo",
+    "start": 1261.44,
+    "duration": 4.88
+  },
+  {
+    "text": "funcionalidades que que son las las las",
+    "start": 1263.28,
+    "duration": 5.2
+  },
+  {
+    "text": "prioritaria o principales Y seguramente",
+    "start": 1266.32,
+    "duration": 4.0
+  },
+  {
+    "text": "la parte gerencial ocupará otra cada",
+    "start": 1268.48,
+    "duration": 5.24
+  },
+  {
+    "text": "área tendrá su su su su demanda y Bueno",
+    "start": 1270.32,
+    "duration": 6.04
+  },
+  {
+    "text": "hay que tratar de hacer foco en",
+    "start": 1273.72,
+    "duration": 5.68
+  },
+  {
+    "text": "esa en esa funcionalidad iniciales Como",
+    "start": 1276.36,
+    "duration": 4.76
+  },
+  {
+    "text": "para salir al con algo al mercado lo",
+    "start": 1279.4,
+    "duration": 4.72
+  },
+  {
+    "text": "antes posible para ver si se llegase a",
+    "start": 1281.12,
+    "duration": 5.6
+  },
+  {
+    "text": "decidir que es algo viable el producto y",
+    "start": 1284.12,
+    "duration": 3.96
+  },
+  {
+    "text": "bueno Y si no nos dedicamos a vender",
+    "start": 1286.72,
+    "duration": 3.36
+  },
+  {
+    "text": "helado en la playa no sé hacemos otra",
+    "start": 1288.08,
+    "duration": 5.52
+  },
+  {
+    "text": "cosa no no tiene que ser la idea No mira",
+    "start": 1290.08,
+    "duration": 6.12
+  },
+  {
+    "text": "eh genial genial",
+    "start": 1293.6,
+    "duration": 4.92
+  },
+  {
+    "text": "genial viene totalmente al caso ese",
+    "start": 1296.2,
+    "duration": 4.839
+  },
+  {
+    "text": "comentario y me gusta nosos hemos",
+    "start": 1298.52,
+    "duration": 4.279
+  },
+  {
+    "text": "trabajado con mucho mucho equipo de",
+    "start": 1301.039,
+    "duration": 3.081
+  },
+  {
+    "text": "trabajo acá y la verdad que así tiene",
+    "start": 1302.799,
+    "duration": 5.401
+  },
+  {
+    "text": "que ser interrumpiendo y y y y opinando",
+    "start": 1304.12,
+    "duration": 7.36
+  },
+  {
+    "text": "Eh bueno el NBA en realidad es así es",
+    "start": 1308.2,
+    "duration": 7.68
+  },
+  {
+    "text": "todo interrumpir y opinar",
+    "start": 1311.48,
+    "duration": 4.4
+  },
+  {
+    "text": "opil entr eh",
+    "start": 1316.24,
+    "duration": 6.76
+  },
+  {
+    "text": "ahora entonces Tenés una idea marcaa de",
+    "start": 1319.36,
+    "duration": 5.52
+  },
+  {
+    "text": "todo lo que necesita cada parte Me",
+    "start": 1323.0,
+    "duration": 4.24
+  },
+  {
+    "text": "encantó eso porque vos ahí tenés",
+    "start": 1324.88,
+    "duration": 5.76
+  },
+  {
+    "text": "definido distintas Burbujas de trabajo y",
+    "start": 1327.24,
+    "duration": 6.919
+  },
+  {
+    "text": "ahora lo que hay que hacer es ir al",
+    "start": 1330.64,
+    "duration": 6.96
+  },
+  {
+    "text": "capaz que tercera tercer paso pero uno",
+    "start": 1334.159,
+    "duration": 5.52
+  },
+  {
+    "text": "de los pasos que hay que hacer es ir al",
+    "start": 1337.6,
+    "duration": 4.559
+  },
+  {
+    "text": "mercado y ver qué",
+    "start": 1339.679,
+    "duration": 6.081
+  },
+  {
+    "text": "productos ayudan en cada parte del de",
+    "start": 1342.159,
+    "duration": 6.921
+  },
+  {
+    "text": "esa de esa vos Casi casi queb",
+    "start": 1345.76,
+    "duration": 6.24
+  },
+  {
+    "text": "total la cadena de valor",
+    "start": 1349.08,
+    "duration": 5.92
+  },
+  {
+    "text": "constucción Enton lo que cadena de valor",
+    "start": 1352.0,
+    "duration": 3.88
+  },
+  {
+    "text": "de la",
+    "start": 1355.0,
+    "duration": 5.48
+  },
+  {
+    "text": "construcción el tema de cóm se se un",
+    "start": 1355.88,
+    "duration": 6.2
+  },
+  {
+    "text": "producto en cada parte de la cadena de",
+    "start": 1360.48,
+    "duration": 5.79
+  },
+  {
+    "text": "valor es como un paso",
+    "start": 1362.08,
+    "duration": 5.839
+  },
+  {
+    "text": "[Música]",
+    "start": 1366.27,
+    "duration": 5.009
+  },
+  {
+    "text": "pas pero por",
+    "start": 1367.919,
+    "duration": 3.36
+  },
+  {
+    "text": "ejemplo con lo conoc es un software de",
+    "start": 1372.96,
+    "duration": 6.16
+  },
+  {
+    "text": "control de gestión de proyecto",
+    "start": 1376.96,
+    "duration": 5.04
+  },
+  {
+    "text": "más orientado a la parte de construcción",
+    "start": 1379.12,
+    "duration": 4.48
+  },
+  {
+    "text": "y entrega de la",
+    "start": 1382.0,
+    "duration": 4.48
+  },
+  {
+    "text": "obra la parte de documentación de obra",
+    "start": 1383.6,
+    "duration": 7.4
+  },
+  {
+    "text": "es muy mala Es triste no es la peor he",
+    "start": 1386.48,
+    "duration": 7.48
+  },
+  {
+    "text": "visto peor porque esta parte se ve que",
+    "start": 1391.0,
+    "duration": 5.12
+  },
+  {
+    "text": "es muy complica se enfocaron en la",
+    "start": 1393.96,
+    "duration": 4.68
+  },
+  {
+    "text": "comunicación comunicación entre parte y",
+    "start": 1396.12,
+    "duration": 5.32
+  },
+  {
+    "text": "registro de documentos la mayoría de los",
+    "start": 1398.64,
+    "duration": 4.72
+  },
+  {
+    "text": "Software que yo he visto se dedican a",
+    "start": 1401.44,
+    "duration": 4.359
+  },
+  {
+    "text": "esto registro de documento querían",
+    "start": 1403.36,
+    "duration": 5.6
+  },
+  {
+    "text": "resolver el problema de los papeles",
+    "start": 1405.799,
+    "duration": 5.48
+  },
+  {
+    "text": "es lo que vos me dijiste di eso es lo",
+    "start": 1408.96,
+    "duration": 5.24
+  },
+  {
+    "text": "que quería los papel entonces están muy",
+    "start": 1411.279,
+    "duration": 5.441
+  },
+  {
+    "text": "enfocados y ya hay un grupo grande que",
+    "start": 1414.2,
+    "duration": 4.88
+  },
+  {
+    "text": "se dedica eso es un lado con el tema de",
+    "start": 1416.72,
+    "duration": 4.6
+  },
+  {
+    "text": "los productos pero lo que hay hay que",
+    "start": 1419.08,
+    "duration": 4.4
+  },
+  {
+    "text": "meterse antes que eso",
+    "start": 1421.32,
+    "duration": 5.08
+  },
+  {
+    "text": "es cuál es el grupo que tiene un",
+    "start": 1423.48,
+    "duration": 5.679
+  },
+  {
+    "text": "problema en este momento con esto con lo",
+    "start": 1426.4,
+    "duration": 6.759
+  },
+  {
+    "text": "que vos resolver Y cuál es el mercado",
+    "start": 1429.159,
+    "duration": 7.081
+  },
+  {
+    "text": "para este grupo Qué significa esto tiene",
+    "start": 1433.159,
+    "duration": 6.681
+  },
+  {
+    "text": "plata para pagar un producto",
+    "start": 1436.24,
+    "duration": 6.48
+  },
+  {
+    "text": "y gente con esa suficiente cantidad de",
+    "start": 1439.84,
+    "duration": 6.0
+  },
+  {
+    "text": "plata está en el mercado",
+    "start": 1442.72,
+    "duration": 5.319
+  },
+  {
+    "text": "para",
+    "start": 1445.84,
+    "duration": 5.04
+  },
+  {
+    "text": "mercado para Argentina es para",
+    "start": 1448.039,
+    "duration": 5.721
+  },
+  {
+    "text": "latinoamérica es para Estados Unidos es",
+    "start": 1450.88,
+    "duration": 6.039
+  },
+  {
+    "text": "para Europa para",
+    "start": 1453.76,
+    "duration": 3.159
+  },
+  {
+    "text": "Asia pero Hacia dónde quieren apuntar",
+    "start": 1457.36,
+    "duration": 6.24
+  },
+  {
+    "text": "entonces lo que yo sugiero es genial Hi",
+    "start": 1460.2,
+    "duration": 6.079
+  },
+  {
+    "text": "análisis lo hay que hacer análisis es",
+    "start": 1463.6,
+    "duration": 6.6
+  },
+  {
+    "text": "volver atrás y el mercado qué mercado",
+    "start": 1466.279,
+    "duration": 6.76
+  },
+  {
+    "text": "nos queremos enfocar y o nos gustaría",
+    "start": 1470.2,
+    "duration": 5.88
+  },
+  {
+    "text": "enfocarnos y qué necesita es mercado hay",
+    "start": 1473.039,
+    "duration": 5.481
+  },
+  {
+    "text": "dos formas de analizarlo con información",
+    "start": 1476.08,
+    "duration": 4.28
+  },
+  {
+    "text": "primaria y secundaria con cualquier res",
+    "start": 1478.52,
+    "duration": 5.32
+  },
+  {
+    "text": "No es cierto entonces una es ver qué hay",
+    "start": 1480.36,
+    "duration": 7.08
+  },
+  {
+    "text": "en internet no es cierto y segundo es",
+    "start": 1483.84,
+    "duration": 6.439
+  },
+  {
+    "text": "entrevistar gente hablar con gente",
+    "start": 1487.44,
+    "duration": 4.839
+  },
+  {
+    "text": "hablar con gente hablar con gente esa es",
+    "start": 1490.279,
+    "duration": 3.841
+  },
+  {
+    "text": "la parte que que a mí me interesa porque",
+    "start": 1492.279,
+    "duration": 5.441
+  },
+  {
+    "text": "yo ahora tengo llegada mucha gente Eh a",
+    "start": 1494.12,
+    "duration": 4.76
+  },
+  {
+    "text": "veces",
+    "start": 1497.72,
+    "duration": 4.16
+  },
+  {
+    "text": "AC un poquito",
+    "start": 1498.88,
+    "duration": 8.6
+  },
+  {
+    "text": "ent problemas yo por ejemplo en to",
+    "start": 1501.88,
+    "duration": 5.6
+  },
+  {
+    "text": "que estendo hast",
+    "start": 1510.32,
+    "duration": 3.8
+  },
+  {
+    "text": "ahora",
+    "start": 1518.12,
+    "duration": 3.0
+  },
+  {
+    "text": "[Música]",
+    "start": 1521.81,
+    "duration": 3.12
+  },
+  {
+    "text": "dado m",
+    "start": 1527.32,
+    "duration": 3.479
+  }
+]

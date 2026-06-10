@@ -1,0 +1,1425 @@
+[Música]
+Pos sí Perfecto esa era la idea avanzar
+esta semana si podíamos tener la base
+como para armar la maqueta de ese módulo
+y y
+arrancar bueno así que bueno en
+principio que veng medio golpeado con
+varias cositas pero
+capitulando quería sentarme ayer a ver
+algo y al final se rompió un servidor en
+el casino estuve todo el día con
+ellos meag me cago todo el avance Pero
+bueno lo que necesitamos Entonces es de
+tu Excel a ver yo lo voy a abrir acá
+para tenerlo en otra
+[Música]
+pantalla
+necesitamos por un lado
+tipeando en un un documento Perdón que
+me Acá está
+AC voy a poner acá este lado y voy a
+poner la carpeta
+compartida
+en có and todo Dónde está Paraguay en el
+país
+vecino estudio
+estimación esto no vamos a abrir un
+nuevo documento
+documento
+comp querés abrir vos y compartir el
+Excel y así me vas comentando y yo te
+preguntando sobre la base de
+la yo voy anotando en otro documento un
+poco lo que voy viendo ahí como objetos
+diferentes para que vas
+uniendo
+planill Ah vos tenés la compu grande Ahí
+sí vas a poder Sí sí abro dos planillas
+y eh A ver
+déjame que trato de voy a compartir
+ventana esto sería eh
+[Música]
+e
+estimación costos costos el 01.1 creo
+que se llam planill no no no yo para
+denominar el documento que estoy creando
+ahí en
+el costos Ahí está perfecto
+Bueno entonces me dat costos y ahí voy
+a abrir
+Esto
+bueno bueno ahí tenemos
+entonces dijimos
+el Ah espera Bueno ahí tenemos oficial
+No espera esta esta planilla que estoy
+abriendo acá
+es digamos lo que yo en varias ocasiones
+te mencioné como el lenguaje
+universal
+est esta
+planilla es la
+que nuestro sistema de alguna
+forma debería poder
+quizás
+premeditadamente planific
+exportar esta planilla es una planilla
+típica que
+básicamente a nivel nacional y bueno por
+lo menos en Paraguay también
+funciona es como una planilla de cómputo
+y
+presupuesto vuelvo a lo mismo que te
+expliqu pero me interesa
+que partamos de acá porque es una her
+que que es útil que es Útil para para el
+proceso de obra es es como que vos tenés
+los planos y esta planilla digamos y eso
+es una información mínima para poder
+cuantificar una obra entonces luego
+vamos a trabajar sobre la otra planilla
+Pero vas a ver que tiene referencias a
+esta
+Perfecto Bueno básicamente qué nos
+interesa esta planilla más o menos sa
+ver qué son cada una de estas columnas
+Ajá Por una parte la parte que dice
+número no es Ni más ni menos que una
+codificación Sí eso pueden ser cada uno
+pueden tener sus codificaciones este no
+no no no es tan importante pero si es
+una codificación que cada estudio cada
+equipo cada empresa por ahí Tiene
+particularmente lo suyo o sea deberíamos
+permitir tener diferentes tipos de
+codificación eso lo que decir Estados
+Unidos Jos nos explicaba que esas
+codificaciones están muy tabuladas pero
+en Argentina no y en Latinoamérica no
+Entonces por
+ejemplo para ciertos rubros la
+codificación de Estados Unidos tiene un
+modo particular de
+especificarlo pero Argentina no Entonces
+esto tiene que ser
+flexible más luego tenemos la
+descripción del em Qué es el
+em es el en tres escalas que siempre
+venimos hablando que eran rubro tarea y
+subtarea perfecto r tarea y subtarea o
+sea ahí te van esos tres niveles se van
+a bosquejar ahí como una línea cada una
+correcto
+eh En este caso hay dos niveles
+desarrollados el que está en azul es el
+rubro aj debajo viene la tarea y podría
+haber una subtarea o otro más otro nivel
+más fíate vos que están encolumnados
+pero debería tener alguna
+suerte tabulación de tabulación de
+tabulación pero no otra columna
+necesariamente sino como que Gen la
+dependencia enti Bueno ahí está las
+tareas rubro tareas y subtareas que son
+las que más luego la unidad de medida o
+sea vos estos rubro tare y subtareas
+tenés que generar un elemento mínimo
+mensurable esas unidades dependiendo la
+escala de lo que se va gener
+Generalmente son por unidades de medida
+eh que pueden ser metros cúbicos metros
+lineales Eso sí ya está
+estandarizado está estandarizado pero
+pero debería tener la posibilidad
+también de hacerlo independientemente
+ahora te voy a explicar porque ahora
+cuando pasemos la otra planilla lo van a
+entender mejor por qué porque hay
+algunas unidades que son globales
+Entonces si tu Si tu rubro no está
+demasiado definido o tu tarea no está
+demasiado definida y tiene un compendio
+de muchas
+subtareas entonces ocurre que a veces
+vos no no lo podés acotar dentro un
+marco porque a lo mejor el proyectista
+no lo pudo acotar o porque a lo mejor es
+algo muy específico muy especial
+entonces la unidad de medida es global
+uno puede hacer una cuantificación
+global de cuánto puedes estar eso y no
+tan
+este desgranado
+digamos Por supuesto que cuando vos
+logras que la métrica de tus unidades
+sean más desgranado te permite
+comparaciones con otr
+presupuestos mejores comparaciones con
+otr presupuest
+a un rubro Sí y a otro y a otro no O sea
+Exacto por ejemplo en este caso eh A ver
+qué rubro veo por acá eh pórtico de
+acceso dice el el ha1 eh Fíjate que
+tiene una unidad global por qué porque
+era un diseño muy particular de ese
+pórtico y era muy difícil cuantificarlo
+por metro cuadrado me entend porque
+Generalmente las unidades de medidas
+están orientadas a
+eh
+cuantificaciones más estándares ía más
+típicas está
+bien De igual forma Está bueno tener
+parámetros prefijados porque por más que
+después sean cambiables
+Generalmente hay como un lenguaje
+bastante universal en donde uno dice que
+las vigas se miden por metros lineales
+lo el hormigón seio por metros cúbicos
+la pared por metro cuadrado la pintura
+por metro cuadrado son unidades
+comparativas bastante universales que
+cualquiera cualquier contratista o
+cualquier arquitecto Eh puede
+administrar entonces vos se va Le pedir
+le preguntar a fulano fulano cuánto me
+cobrar el metro cuadrado de pared x
+cuánto me cobras vos x entonces vos ante
+una misma unidad de de medida es este
+una una comparativa bastante más
+acertada y con menos posibilidades de
+error Por eso hay rubros o tareas o
+subtareas que ya están como tabuladas en
+su modo de
+cuantificar me seguí hast ahí sí
+Perfecto Bueno más luego aparece el
+precio en este lugar vos tenés
+básicamente vamos a poner
+tres instancias s bueno Primero te
+explico esto en este lugar va el precio
+de los materiales y el precio de las de
+la mano de obra y el total unitario es
+el precio del material más el precio de
+mano de obra pero por la unidad de
+medida más el precio parcial va a ser el
+precio unitario por la unidad de
+medida eso me va a generar un valor y la
+sumatoria de esos valores en el en el
+gradiente digamos de cada va a ir
+sumando hacia arriba No es cierto
+Entonces el rubro trabajos preliminares
+sale 7500 pes y el rubro trabajo
+preliminares tiene una única tarea en
+este caso que son
+eh replanteo tareas preliminares y
+limpieza ahí te vuelvo a preguntar el
+precio ahí es por el total de los de los
+a ver subí un poquito sí es el precio
+unitario por la
+cantidad perfecto es uno no se puede dar
+porque ahí veo que en la columna de
+materiales no tenés materiales Claro
+porque porque yo en este Porque trabajo
+Solamente Claro en este caso cotizaba
+mano de obra y en el caso que tengas los
+dos valores ambos se multiplican por la
+por la unidad no se suma este más este
+se suma El material más la mano de obra
+y eso me da un subtotal acá que se llama
+el precio unitario No espera vamos de
+vuelta entonces Ah no te estoy sigiendo
+el cálculo si tenes no 56 ahí abajo y
+tenés un valor de 0 com o de 50 p ahí en
+donde está Viga de refuerzo fundación
+Viga de refuerzo con fundación metr
+lineales dice 500 metro lineal 500
+Entonces el unitario es 300 más 500 está
+bien y es el que se multiplica por la
+unidad de perfecto ahora y ese se m por
+la cantidad listo entend y bueno
+entonces la vi de refuerzo de fundación
+me sale
+2000 pero la sumatoria ahí se sumó Jos
+la sumatoria de todo eso Hola Jos
+Oh sobrevivido a la primera
+semana hola
+muchachos cómo está con el virus te
+dejó está ahí queriendo irse querendo
+buo tener mejor cara que el otro día
+pensando que teamos llevar la la extrem
+unción loco porque
+[Risas]
+llegaste salimos Adelante siempre de
+alguna forma otra cada tanto le p una
+toci per Ah bueno pero
+bien que fue el mismo día el día que
+peor estuve fue el día que me tuve que
+hacer preocupacional
+Uh el médico estás remal me
+dice así no te puedo Cómo así no te
+puedo evaluar no menos la presión
+alta le pediste un
+amigazo
+sale la
+iglesia el trabajo no se
+puede hubiese dicho que te esper un par
+de días te
+mató Pero
+bueno estaba enfermo pasa Qué va ha
+bueno estás mejor ahora por lo menos sí
+s perón estab mi primer Día de
+entrenamiento Así que estaba medio entre
+que terminaba y venía para acá por eso
+no pude mucho el teléfono ok Okay y
+recién que empezaron hace un rato
+estamos empezando
+recién la idea de de hoy Jos es empezar
+un poco a desglosar la planilla que
+habíamos visto el otro día para que
+Víctor vaya entendiendo la lógica y ver
+si podemos generar como un esquema y y
+bueno en base un poco a las opiniones
+que vayamos emitiendo ver si ese esquema
+lo podemos transformar en una maqueta
+sí antes de empezar yo le estaba
+explicando a Víctor la lógica de una
+planilla típica de cómputo y presupuesto
+para que entendamos de que nuestro foco
+nuestra digamos referencia no deja de
+ser un computo de presupuesto
+tradicional más luego nuestro análisis
+comparativo si bien la otra planilla que
+yo preparé es un poco distinta porque yo
+entiendo lo que es el computo
+presupuesto pero la otra planilla
+debería tener algún tipo de referencia a
+esto digamos que es como El Punto de
+partida
+Entonces yo estaba repasando un poco con
+Víctor el tema de explicarle cada una de
+estas columnas eh Qué significan en un
+cómputo y presupuesto tradicional por lo
+menos en Argentina no sé si es la misma
+lógica de Estados
+Unidos países latinoamérica pero por lo
+que yo vi en Paraguay o lo que vi
+inclusive en Brasil es muy parecido
+digamos a esto que usamos acá en
+Argentina que es la tarea la unidad
+cantidad es tod
+lad entonces a m me parecía muy
+importante como es un lenguaje bastante
+universal tomar esto como
+parte después
+iremos mejorando si fuera el caso que
+sea necesario ampliando etcétera Pero
+arranquemos con esto que tenemos que vos
+te funciona para
+el el trabajo ya lo
+tenado arranquemos por acá o sea no
+Claro pero aparte interesante lo que
+dice Jose que es lo mismo en todos lados
+sea que esto es bastante
+universal Entonces qué dijimos Víctor
+tenemos tres rubros de itemizado en lo
+que son rubros tarea o subtarea no es
+cierto luego tenemos una unidad de
+medida una
+cantidad tenemos una estimación de
+materiales otra de mano de obra la
+sumatoria de ambos nos da un total
+unitario y el precio queda configurado
+por ese unitario por la unidad cierto
+Perfecto ahí me da las unidades
+parciales y eso se va escalando hacia
+arriba No es cierto o sea el rubro eh
+que aglutina muchas tareas va a ser el
+total de todas estas Tas Sí sí
+sí Bueno con esta información Ahora sí
+pasamos a a la otra que es la la que
+clarifican esas dos columnas que no
+tienen no tienen
+se llama no tienen
+encabezado es porcentaje ser pongo nuoo
+nu el porcentaje porem y el otro el
+total Aparentemente pero es eso es el
+por el porcentaje del costo de la obra
+claro es Cómo sería la denominación de
+eso claro cuánto este
+em signific el costo total de la obra
+costo total de la obra en este caso son
+475000 pesos ese ítem significa un
+1,58 y el otro sería el el cuánto
+significa ese ítem ese rubro es rubro
+ese rubro en relación al o sea tendría
+que estar totalizado por
+eh Por rubro tarea o subtarea
+Exacto sí un comentario
+en los proyectos más grandes aparte de
+esto le dan como una llamadita extra a a
+los ems que son por zonas los dividen
+por sectores
+también entonces Pablo Por ejemplo si un
+edificio en altura lo dividen por piso
+con entonces también tiene una
+subdivisión de hormigón armado por piso
+por si en la ingeniería de valor
+eliminan un piso por ejemplo como lo ten
+unitario es fácil porque decir unitario
+es por piso por metro me va a salir
+tanto este piso tengo
+3.20 entonces puedo reducir o modificar
+si agrego un piso saco un piso Elm no s
+si se entiende se entiende claro lo que
+Jos nos dice
+vor es que habría un gradiente más en
+esta cascada que sería Superior y que
+tendría que ver con zona en principio
+área sí área sí áre
+poner una
+columna agregas claro y le
+agregas qué área corres Si lo agregas
+por área le dec las área tiene tanta
+medida o tanto por área algo así era
+tengo que verificar bien pero tenía
+cuestión para que cuando la ingeniería
+de valor lo puedas agregar o quitar por
+área también si queres es como un como
+que sería como un filtro extra una cosa
+así está buenísimo está buenísimo o sea
+tenemos cuatro cuatro
+instancias el área el rubro la tarea y
+la subtarea supongamos como para empezar
+digamos bien Bueno ahora voy a partir a
+la otra a la otra planilla voy a
+compartir la otra planilla es la que
+bien bueno
+Esto más o menos Víctor Jos tiene la
+misma información que la otra pero un
+poco más desordenada no tan ordenadita
+como la
+otra entonces por
+ejemplo en esta columna voy a ir
+pintando para repasar esta colum aparece
+el
+rubro aparece el
+rubro luego pasan toda esta instancia
+que tiene que ver con este con con
+algunas cuestiones particulares que yo
+quería para el análisis pero aquí
+aparece el rubro que era el el el
+recorte más principal que habíamos visto
+luego acá aparece la
+tarea
+cierto luego aparece la unidad
+la
+cantidad y el
+precio el precio
+unitario total sería el precio unitario
+para
+la más o menos me siguen ahí sí sí Bueno
+Cuál es la diferencia esta planilla
+bueno acá de acuerdo a lo que nosotros
+estamos planteando va a haber debería
+haber cuatro columnas Si se
+quiere o cuatro t digamos zona rubro T
+un tarea est de acuerdo o no ahí la zona
+Me parece que va a tener otro otro es
+más Debería ser un poco más transversal
+por lo que yo entiendo porque como si no
+te va te va a generar mucho trabajo de
+carga o sea tendemos que ver la forma de
+meter la
+la eh la zona de alguna forma
+que por ejemplo a ver se me ocurre una
+cosa en la otra en la otra planilla que
+tenías recién vos tenías el rubro Y vos
+ya sabías que ese rubro para toda la
+obra te iba a salir
+eh Nada te totaliza 100 100000 pesos
+pero vos tenés tres zonas iguales
+idénticas entonces por ahí una columna
+que te que te compute solamente la
+cantidad de zonas y ver cómo hacer que
+esa zona vincular de alguna forma ese
+rubro
+para por zona sea un porcentaje no
+sé cómo verlo porque me parece otro
+nivel como que se va va a tener mucho
+volumen de carga se me hace
+claro ahí ahí tendríamos que utilizar
+algú elemento predictivo Si se
+quiere Claro porque por ejemplo nosotros
+tenemos subdividido hormigón en funda
+usualmente
+estructura elevación y cubierta por
+ejemp esas son nuestras zonas más Com en
+una
+casa AC no lo
+ten No est lo que pasa
+que no s có
+explicarlo que estoy mostrando son
+básicamente los datos
+elección
+nuestra tiene que ver con la
+materialización de cuál sería el mejor
+modo para poder comunicar y generar la
+experiencia
+del
+esta esta planilla claramente no tiene
+esa experiencia del usuario sino que
+tiene más bien
+datos que a m me
+siro cargarlo no es una planilla apta
+para usuario es como que tenene que
+tener una un un conocimiento medio
+particular del quien la creó y y y cuál
+es la la la intención que tiene eso
+cierto Entonces yo lo que decía era
+tomar la base de la anterior planilla
+tomar la base de la anterior
+planilla y luego este con la base de la
+anterior planilla entender de que esta
+planilla debería manejar los mismos
+entonces en la anterior planilla lo que
+yo les mostré voy a ver cómo puedo
+hacer comp puedo compartir mi pantalla
+siendo más
+[Música]
+Dinámico as vemos las dos salo que est
+viendo porno algo que no puedas
+compartir pero es lo que estaba haciendo
+bolud ah bien ahí vemos las cierto
+s se ven las dos cambios no no ahí se ve
+una pero si seleccionas la otra vas a
+poder
+ver me dan un
+segundo Hola Qué todo
+bien
+esto no no necesito en este
+[Música]
+momento bueno
+perdón Ah cambiate vos Excel y vamos a
+ver el otro Ah ah lo ven el otro
+Perfecto Bueno Enton digo yo qu digo yo
+en este punto en este itemizado nosotros
+tenemos vamos a tener
+supongamos insertar vamos a tener zona
+rubro tarea y eventualmente una
+subtarea Cómo Cómo podemos hacer esto si
+lo hacemos en una misma columna o en
+tres columnas No lo sé eso a nivel de
+sistema no lo sé pero la lógica sería la
+lógica sería que nosotros podamos
+tabular Este voy a abrir Mientras tanto
+el Microsoft project como para mostrarle
+Cómo cómo trabaja el
+project es interesante digamos En ese
+sentido
+pueden ver el
+Microsoft Bueno entonces supongamos el
+project tiene esta particularidad
+ustedes escribimos zona un zona un el
+rubro Si se quiere este hormigón armado
+bueno no me permite corregir tengo una
+copiaa supongamos
+encadenado es la primera
+tarea y una subtarea sería pilotin o o
+armaduras bueno Esto lo que me permite a
+mí es que yo puedo con
+esta con esto con esta flechita yo puedo
+generar un gradiente
+a
+ver el anterior
+ahí
+que acá con esta flechita yo puedo
+generar un gradiente Entonces me dice
+que todo esto depende de zona uno y a su
+vez La Viga de encadenado repende del
+rubro hormigón No es cierto y a su vez
+la armadura depende de La viga
+encadenada
+Entonces yo luego puedo hacer
+así o puedo hacer hormigón Y seguramente
+en zona uno también me aparece
+albañilería Está buena la dinámica de de
+creación o sea no sé si es la mejor pero
+por ejemplo digo albañilería y en
+albañilería voy a tener
+paredes de ladrillo
+común y voy a
+tener paredes
+de y Ah me aparece como un preditivo
+ladrillo
+hueco no cierto entonces estas dos son
+subtareas o son tareas de
+albañilería
+Perdón entonces yo selecciono las dos y
+le pongo la flechita y automáticamente
+aparece albañilería entonces en la zona
+uno tengo hormigón y albañilería no sé y
+está todo en la misma
+columna Pero si yo quisiera con un modo
+de visualización del project yo puedo
+desglosar estas en distintas
+coles más o menos me siguen No es cierto
+Está bueno sí sí me gust me gusta no sé
+que tan complejo podría ser armarlo
+con porque no tengo ningún componente
+que haga exactamente ese laburo eso hay
+que hacerlo medio a mano buscar algún
+tipo de
+se entiende se entiende Está bueno está
+bueno me gusta también quedado super
+ordenado sí o por ejemplo el Word lo que
+tiene
+eh el el Word lo que tiene es usas el
+Tab por ejemplo Entonces yo yo uso mucho
+en el Word por ejemplo le muestro el
+Word Sí pero ahí tenés tabulado
+solamente no tenés la posibilidad de
+contraer O sí sí mira con con la parte
+de título entonces pones qu está bien
+zona
+un zona dos No es cierto y en zona uno
+lo que pasa que Word es para escribir no
+cierto pones el T y pones
+este claro ahí tenés forma para contraer
+tener razón solamente con la parte
+de con título si ahí puede ser que teng
+vas a este y pones título dos
+seguramente en algún lado
+sí Y ahí te permite ahí te permite
+Exacto Bueno no sé si nosotros podemos
+lograr algo así el t con algo de eso
+sería genial Entonces qué es lo que
+estoy diciendo qué es lo que estoy
+diciendo en este en esta planilla
+nosotros tenemos todo en una única
+columna y es bastante artesanal el
+sistema porque nosotros Le vamos
+poniendo con colores a la celda y yo
+podría Agregar agregar una forma de
+filtro y podría decir que todo lo que
+dependa eh agrego distintas columnas y
+todo lo que dependa de zona uno me
+filtre todo lo que depende de trabajo
+preliminares del rubro uno me filtre el
+rubro dos me filtre y siese una subtarea
+que me filtre en base a la tarea
+correspondiente o sea eso eso podríamos
+hacerlo agregando en distintas column
+Pero bueno eh No sé eso tiene más que
+ver con el diseño de la Gráfica
+con la experiencia que podamos lograr
+con sofware no no no nos preocupemos por
+la visualización ahora o sea entiendo la
+idea pero hoy hoy necesitamos avanzar
+sobre los
+datos qué datos son los que el usuario
+tiene que cargar porque acordate que
+imagínate que entra un usuario nuevo al
+sistema y tiene esta planilla
+vacía lo primero tenemos que ver es
+tratar de de generarle uno o más
+template o plantillas de con con
+diferentes modelo de trabajo y nosotros
+tenemos que permitir que el sistema
+Cualquiera de esos modelos de trabajo le
+permita eh ajustarlos después por más
+que sean ejemplificado ejemplificativos
+o sea con tres rubros con dos tareas
+cada uno o tres con una subtarea y uno
+sin zona otro con zona que s o sea
+Tenemos que trabajar en dimensionar
+el yo creo que lo que va a ser muy útil
+y por lo que estuve viendo en los
+sistemas estos también todos trabajan
+con con plantillas tanto para el
+proyecto cuando V cargas un proyecto
+nuevo nunca te aparece viste de cero te
+trae mínimamente datos de ejemplo por
+decirte y tenés un repositorio de
+y tareas en los cuales vos podrías ir
+seleccionando rápidamente por ejemplo
+seleccionar cinco rubros V ten que hacer
+una casa y sab más menos rubro que
+implica la casa y después lo vas
+Ajustando eso yo creo que
+sería tenemos que apuntar a eso Tal cual
+tal cual no no esimportante tener un
+repositorio pu siempre sirve guía porque
+si no imagínate yo que no entiendo nada
+y lo bajo al sistema para gestionar mi
+casa y me mato si tengo que cargar esto
+a capela no tal cual tal cual no a m
+hasta esta planilla me cuesta Pero bueno
+coincido coincido que tenemos que
+apuntar a los datos ent acá los datos
+datos el equivalente a esta columna que
+es descripción del ítem que son cuatro
+partes nosotros vamos a tener la carga
+de zona rubro tarea y su
+tarea en este caso en este caso el orden
+no quiero modificar mucho la planilla
+mientras expli pero el orden de la tarea
+estaría en esta columna esta columna es
+como que de acuerdo a lo que estamos
+hablando debería estar ubicada por acá
+se
+entiende está
+bien ser esto sera el rubro bien se
+entiende la descripción de la tarea no
+sería Ni más ni menos que bien Te queda
+claro y la subtarea que no lo tenés
+todavía la podríamos agregar a la
+subtarea claro sea qu irian Si se quiere
+y y ahí y ahí viene una pregunta
+importante que me quedó de un concepto
+que hablamos hace ya tiempo el tema de
+la posibilidad de que algunas tareas
+estén vinculadas con diferentes rubros y
+ahí te [ __ ] tu
+planilla cómo
+hacemos claro ahí aparecía la idea de
+actividades te acordad por eso por eso a
+mí me gustaba el concepto de ese
+actividad estaba bueno está bueno es un
+un un Plus
+es un idioma Si se quiere
+más como coloquial Si se quiere más
+coloquial eh No tan
+técnico que podría ser pero Generalmente
+O sea la importancia de esta planilla
+que es la base que estamos diciendo es
+que te permite organizar y cuantificar
+estructuradamente entonces esta tarea
+específica replanteo
+o excavación va va a ser para movimiento
+de
+suelos no es
+excavación de hormigón se entiende o no
+a medida que yo gener más
+rubros todas las tareas van a generar
+como un gradiente más que van a permitir
+ordenar estructuralmente
+ahí viene una
+pregunta conocimiento completamente
+puedo repetir entiendo que no porque por
+lo que veo son todos códigos que están
+no mclados con con una idea puude se
+puede repetir un concepto de tarea en
+diferentes rubros
+no es lo que acaba de decir esto Esto es
+un nivel de abstracción de lo que es la
+obra no es cierto es como que yo te digo
+analizame el el cuerpo
+humano el cuerpo humano es un todo
+es la obra en sí misma No es cierto y y
+y vos me lo puedes analizar desde mucha
+perspectiva me lo puedes analizar desde
+la parte de la estructura ósea desde la
+parte de los órganos desde la parte de
+musculación desde la parte de la
+relación sanguínea de la parte de de
+todos los terminales nerviosos Por
+decirlo entonces ahí vos vas
+descomponiendo ese cuerpo humano para
+generar una interpretación abstracta del
+mismo
+pero después está todo interrelacionado
+porque el cuerpo humano es uno solo no
+es no es que es solamente músculo o
+hueso o
+órg segu no entiendo el rubro hueso va a
+tener
+fur el rubro órgano va a tener que
+pulmones
+corazón sangu va tener
+ot caso tenés por un lado el rubro este
+hormigón armado que viene a ser la
+estructura ósea después tener la parte
+de albañilería que será la parte
+muscular del cuerpo después tener las
+instalaciones que son la parte de de de
+Irrigación No sé vos vas ordenando toda
+esa estructura en una en una base
+Digamos si se quiere casi prestablecida
+desde el código de interpretación
+arquitectónico constructiva No perfecto
+listo
+es eso No no sé Jos qué opinas de
+acuerdo al comentario por Ah si algo
+para aclarar mejor se puso un poco
+exótica la
+comparación por lo menos salió para ese
+lado V quería
+quería escuchar cómo iba a ha la
+analogía cuando llegaba abajo de la
+cintura tengo mis
+límites Bueno entonces decimos tenemos
+zonas tenemos rubros tenemos tarea y
+tenemos
+subtarea luego tenemos unidades de
+medida que son
+esto tenemos
+cantidades s tenemos las
+cantidades y luego tenemos esto que dice
+recurso es básicamente la subdivisión
+entre materiales y mano de
+obra y luego tenemos digamos los precios
+parciales
+sí Cuál es la variante de esta de esta
+planilla Cuál es la variante de esta
+planid la idea era que nosotros tengamos
+básicamente tres
+instancias una instancia preliminar que
+es de planificación en donde uno llega a
+este valor de forma predictiva digamos
+es decir uno cree que
+esta tarea de este rubro va a salir este
+dinero en base a un presupuesto o uno
+predice que eso va a ser va a salir ese
+monto Sí pero No necesariamente es la
+verdad porque uno presupone algo que
+después en lo real puede ir cambi
+entonces la primer parte es esto que
+dice solicitud que básicamente
+baterí voy busc car
+Dale la primer parte es esta parte que
+es la solicitud no cierto sea vamos a
+tener una parte planificación Víctor una
+parte de análisis en donde tenemos que
+tomar una decisión digamos y una parte
+real que va a ser adoptada son tres
+etapas planificación que ser el
+presupuesto la de análisis va a ser una
+comparativa para que yo tome la decisión
+y la última instancia va a ser la
+adoptada que va a ser la
+real no la adoptada va a ser la elegida
+no sé elegida la elegid real va a ser la
+real Cuando termine la obra y sepa
+realmente las modificaciones que tuvo
+okay Entonces cuando yo voy a hacer un
+presupuesto primero voy a poner la parte
+de referencia sea lo que
+presuponga sería la
+predictiva la
+predictiva yo le puse hay palabras que a
+lo mejor no ilustran tambi pero yo puse
+referencia cierto y esa predictiva a mí
+yo por lo menos entiendo que la puedo
+hacer de dos
+modos una
+analizando todo lo que compone ese rubro
+o esa tarea o esa subtarea es decir que
+yo digo para 1 metro cbico de hormigón
+voy a tener tanto de arena tanto de
+cemento tantas horas hombre de trabajo
+eso es de acuerdo a un análisis o
+también lo puedo hacer en base a una
+estimación esa estimación va a ser a lo
+mejor comparativa digo bueno eh el metro
+cúbico en una obra que hice anterior me
+salió tanto dinero y ahora una inflación
+de tanto a lo mejor me sale tanta plata
+y í cargo el se entiende o no Sí por qué
+yo lo divido de acuerdo a estos dos
+valores de acuerdo a análisis o
+estimación eso podría ser flexible se
+puede agregar otro tipo de
+de de Estado para la solicitud para la
+parte predictiva y no sé Jos si se le
+ocurre mén se me ocurren estas dos V dec
+análisis y estimación claro o
+sea yo lo justo cuando te fuiste lo que
+hablamos José es que tenemos tres
+instancias una instancia predictiva que
+es la del presupuesto en donde
+presuponemos cuánto va a salir una
+instancia de análisis que es donde vamos
+a tomar la decisión Para qué lado vamos
+y una instancia
+adoptada que donde decimos Bueno este
+lado vamos y la real que va a ser la
+última Si se quiere Hablando Hablando de
+cuatro instancias cuatro
+instancias dije tres vor me agregó una
+pero no son tres son tres en realidad
+para
+m si porque vos tenés budget que es
+presupuesto No es cierto que es la
+primera y vos hac un presupuesto general
+no muy Exacto Esos son los datos que V
+sacar internet cierto o de datos
+históricos buscas decí Bueno este va a
+ser mi presupuesto para vos fondear tu
+proyecto si yo fondeo mi proyecto con
+este con este pres y después vas al
+análisis fina donde vos terminas tu tu
+proyecto tu diseño o lo avanzas lo más
+posible y ahí si haces un presupuesto en
+base a tu hac una cotización de todos
+los ems cierto donde vos Ahí sabes lo
+que te va a cobrar un subcontratista
+para hacer ese proyecto c y a veces
+depende del tipo de contrato que vos
+tenés Tenés una instancia intermedia
+donde vos ajustas tu presupuesto pero
+depende del tipo de contrato pero las
+normales es que vos cuando cotizaste p
+larg a construir en un proyecto chico y
+después ya tenés el real usualmente son
+tres a veces hay una
+intermedia pero
+depende yo Yo opino que tenemos que
+partir de tres y luego cuando estamos
+generando la experiencia digamos de uso
+ver la flexibilidad o posibilidad de
+para para mí tres porque con cuatro Ya
+empezas a complejizar mucho V
+entrada tien que ser esos tres Bueno
+entonces sería
+la presupuesto Si se quiere la
+referencia de presupuesto digamos la
+propuesta sería la de análisis y la
+adoptada sería la
+real Entonces cuando yo voy a la de
+presupuesto
+eso me permite a
+mí tener dos
+tipos que a mí se me ocurren dos tipos
+de cómo llegar ese una es de acuerdo a
+un análisis parcial que yo hago y cuando
+yo hablaba de análisis vctor me refería
+a
+esto en donde yo digo por ejemplo
+eh estructura resente
+voy a la parte de pilotines por ejemplo
+de acuerdo a mi análisis para 1 m cbico
+de pilotines yo tengo 300 kg de cemento
+065 arena 065 de piedra tanto de hierro
+tanto
+alante eso yo lo puedo cuantificar
+valores unitarios y puedo determinar de
+que acuerdo mi análisis el precio de
+referencia de pilotin son 21,000 pes por
+metro c bien
+es eso a nosotros esa subdivisión nos
+permitiría en un futuro poder lograr
+este tipo de planillas en donde nosotros
+analizamos rubro por rubro y y acá
+era de acuerdo a internet o de acuerdo a
+análisis de revista de acuerdo a precio
+histórico no sé pues generar un modo
+predictivo cuánto vale cada uno de y uno
+puede llegar a presupuestar en base a
+información digamos que no pued otorgar
+la Inteligencia artificial digo Estoy
+hablando como una cuestión una cuestión
+aspirator en algún momento no no digo
+que ahora podíamos nosotros pero eso nos
+permitiría a nosotros
+entender que el presupuesto puede ser en
+base a un análisis y tomar un dato
+histórico de Cuánto vale el costo de los
+nón
+armado de acuerdo a alguna base de datos
+que
+se entiende más o menos sí sí okay Por
+otra parte la podemos hacer de acuerdo
+estimación de acuerdo estimación nos
+referimos a que nosotros estimamos en
+base a comparativa o en base a algún
+dato específico que tomamos de algún
+lado y decimos nuestro precio unitario
+lo que yo planteaba si antes valió tanto
+o para tal lra valió tanto para esta
+obra estimo que valdrá tanto
+después aparece una idea de quién va a
+ser el proveedor de eso este Qué tipo de
+recurso es si es material mano de obra o
+equipamiento
+laa aparece la unidad
+y eso a mí me va generando una serie de
+datos que básicamente sería
+[Música]
+básicamente esos datos se
+complementarían se completarían acá
+donde yo finalmente de acuerdo a todos
+los datos que tengo voy a tener una
+planilla de
+estimación esta planilla que va a decir
+que mi obra o los rubros especificado
+valen
+esta eso para la primer fase en la fase
+ejecutiva yo voy a tener que comparar
+comparar valores
+para no alejarme tanto o alejarme
+controladamente de lo que
+pres entonces ahí ya aparecería esta
+idea que ya no sería más eh referencia
+sino que aparece la parte propuesta
+cuando aparece la parte propuesta Yo
+tengo varias alternativas puedo tener
+presupuesto uno presupuesto dos
+presupuesto tres cuatro
+5
+y yo puedo
+componer el
+el el rubro
+hormigón de acuerdo a las hipótesis de
+ejecución que yo planteé porque en la
+propuesta uno a lo mejor voy y le compro
+el hormigón a un contratista específico
+en la propuesta dos analizo la
+posibilidad
+de traer piedra del río jun arena en la
+playa yo no sé y y hacerlo con el al la
+propuesta analizo la
+posibilidad contratar un contratista más
+la mano de
+obra yo genero
+hipótesis y esa hipótesis a mí me deben
+me deberían
+generar resultados
+comparativos esos resultados compara
+va a decir propuesta un sale x pero
+implica tal cosa propuesta dos sale x
+pero implica tal otra me deberían a m
+ayudar a tomar una
+decisión creo que ese sería
+como la intención más fuerte que debería
+aspirar nuestro
+proyecto permita
+expedi cargar
+y las alternativas de cada una de las
+formas en que se desarrollaría esaa esa
+resolución del problema o del rudo de la
+tarea para que nos muestre el abanico de
+posibilidades decir voy por este camino
+porque a lo mejor es el más costoso pero
+es el más rápido va a ahorrar tiempo o o
+a lo mejor es el más costoso pero me
+permite mejor forma de pago o a lo mejor
+simplemente lo que estoy buscando que
+sea más
+de alguna forma tenemos que nosotros
+poder Mostrar digamos esas posibilidades
+gráficamente y es y las hipótesis que
+sustentan esa posibilidad para generar
+finalmente
+una situación adoptada o una situación
+real que sería el tercero
+cuando yo tenga una situación adoptada
+va a ser de acuerdo a un presupuesto que
+aprobé o de acuerdo a una adicional o de
+acuerdo a una
+ord vol anterior quio una
+cosita la derecha botón de la
+derecha otro que
+adicional y
+lo pasa Qué pasa cuando yo una solicitud
+aquí me genera distintas opciones
+aquí acá yo tengo es adoptado
+presupuesto aprobado Qué quiere decir
+que adopté hipótesis un hipótesis do
+hipótesis o a veces puede ser que mi
+proyecto
+tenga tareas
+adicionales
+agregando lando nosotros completamos
+contemplamos nuestro presupuesto hasta
+determinado itemizado
+nada que la parte ejecutiva no están
+entonces ahí aparece la idea de
+adicional acordarme con lo que yo con lo
+que yo he visto porque me acuerdo que
+también tenían como tres opciones de
+estado una era
+aprobado lo
+aprobaste otro era
+como tentativo una cosa así como que
+estaba en espera IB a seguir
+evaluando otro era
+rechasado cre que otro
+estudio estudio lo Tena aprobado teno lo
+tenía Y vos podías
+visualizar el estado de parte del
+presupuesto lo pod comparando
+con aob
+y des pod loe
+loobe y ahí veías como tu presupuesto
+variando
+[Música]
+[Aplausos]
+deero participando que manej empresa
+creo si me parece
+verí si me acuerdo bien tendría que
+preguntar qu pero
+sí una forma gráfica muy sencilla veías
+viste t tu Monte cuánto probaste cuánto
+rezaste cuá tenía en espera y
+así Bueno pero pero creo que tiene que
+ver con lo que vos estás queriendo
+Mostrar acá para eso te puedo entar sí
+me da bronca que alguien ya haya hecho
+lo
+que bueno en síntesis Víctor Sí yo tengo
+un ratito más nos Ah la idea de campo Sí
+si vos te vas acá la parte de
+referencia aparece la idea de solicitud
+tres ejes pues referencia propuesta y
+adoptado entonces dice esta planilla que
+si acá dice
+referencia va a ser de acuerdo a
+estimación o de acuerdo a
+análisis cuando hablamos de
+Propuesta voy a tener presupuesto uno
+presupuesto dos presupuesto 3 cu c lo
+que sea y cuando hablamos de adoptado va
+a ser lo aprobado lo adicional lo orden
+de cambio o economía no es como que
+nosotros tenemos que darle un poco de
+labor Pero est sería
+como como digamos el eje de
+la más luego la parte
+gráfica que un poco la idea es que con
+una idea de filtros nosotros podamos
+tener esos gráficos que nos ayuden
+nosotros ordenar digamos
+este Cómo cómo está en cada uno de estos
+estadíos este el presupuesto adoptado en
+relación a las alternativas o en
+relación al faltante Eso es todo un
+estudio que vamos a tener que hacer Cuál
+es la la información la mejor
+información pero que que yo pueda tener
+digamos este cómo se compone el por
+ejemplo a ver voy a buscar algunas
+tareas existe
+eh est estarea justo tiene muy poca
+carga de información planilla
+pero
+este La idea es que yo tengo acá por
+ejemplo
+en en este gráfico tenga si tengo tres
+presupuestos que tenga las tres columnas
+con tres alternativa y cómo se componen
+cada una de esas alternativas en este
+caso
+naranja es el proveedor
+de materiales y el azul son la compra de
+las materiales por el propietario pero
+podría haber una columna aquí en donde
+el mismo proveedor que compra los
+materiales O podría ha otra columna
+comparativa aquí en donde hay este dos
+contratistas y cuatro proveedores
+materiales la sumatoria de eso me va a
+generar valores reales 3 millones el
+otro c el otro seis pero las hipótesis
+que la componen van a ser
+diferentes y luego Aquí voy a tener otro
+gráfico en donde me va a decir Bueno
+está bien Esto es lo que me sale Pero
+este es lo que yo
+presup y acá me va a aparecer otro
+gráfico de cómo se compone lo real y
+otro gráfico y así tenemos que definir
+un poquito Cuál va a ser la información
+específica que queremos que no Este pero
+siempre va a ser en base a los datos eh
+a estos
+datos
+perfecto se entiende clarísimo la idea
+eh yo tengo los Excel eso ya tengo la
+explicación más
+que más que suficiente entre lo de la
+semana pasada lo del viernes y lo de lo
+de hoy Yo creo que ya tengo como para
+para trabajar un poco y vos quejando
+estaría bueno eso lo de clarificar Jos
+lo de la zona a ver cómo lo veías vos en
+la herramienta esta con la que trabajaba
+en su momento Cómo cómo interactuaba en
+esto no sé si no sé si es un nivel mayor
+a rubro o te digo para mí Debería ser
+más como un parámetro adicional una
+columna adicional de los rub y las
+tareas o no no no se me ocurre ahora
+Claro porque porque vos en zona
+va a tener una serie de rubros y en zona
+dos puede tener los mismos rubros por
+eso por eso por eso para no tener que
+replicar salo que pasa que la
+información sale del volumen unitario
+porque vos la zona uno le pues asignar
+viste que vos
+tenés la cantidad en unitario no cierto
+y después V lo multiplicas por el por la
+cantidad metr lineal o metros que tener
+sería un coeficiente adicional Ah una
+columna Entonces es un coeficiente de
+referido a eso al unitario entonces si
+vos tenés por metro cuadrado tal precio
+a este le Pon 5 Met cu 10 Met cu por la
+zona que vos quieras subdividir es un
+trabajito extra pero para los que tienen
+proyectos más grandecitos que los
+dividen no estoy diciendo un estadio
+Pero porque también lo hacen así pero si
+vos tenés un edificio Y vos queres
+decidir si sector agregas acá
+simplemente vas ando o
+sea el filtro y desp encima no pero está
+interesante Jos porque inclusive para
+hacer una casa familiar vos decí Bueno
+yo quiero hacer esta casa completa Pero
+toda la casa me sale
+000 Y si saco esta zona tildando un un
+check y te recalcula Ah mira bueno capaz
+que llego a esta a esta Y a esta hoy y
+lo dejo te estoy diciendo una pavada eh
+per
+la la agre la agrega simplicidad
+simplicidad para cómo se llama para el
+usuario para el usuario sí me gusta me
+gusta el Por eso te digo yo lo sumaría
+te digo de ya me parece que va a ser
+necesario el tema es
+Cómo Cuál es la forma más fácil Cuál es
+la forma Cuál es la forma eh dónde
+cargarlo O sea qué qué qué impacto de
+carga tiene
+y Pablo yo apreciación personal y
+Bueno me
+parece considerando los datos que
+tenemos de las dos
+planillas la forma final que va a ser
+más práctico usar va a ser diferente a
+lo que vos la Estás viendo hoy en las
+columnas o sea la pantalla final que va
+a quedar Armada con toda esa información
+Debería ser tener otra dinámica me
+parece para que sea más más
+Sí más práctica básicamente Pero bueno
+eso vamos a tener que ahora voy a
+empezar a armar un poco los datos que
+necesitamos voy a tomar los datos que
+vos tenés cargados en la plan ese esa y
+y les cuento a ver qué puedo hacer si me
+trabo algo levanto la mano y te digo
+mira acá me quedé con me falta
+clarificar este concepto
+poner para como para poder Mostrar
+mostrarte algo de lo mostrarle a los dos
+algo de
+lo sobre lo que podos ir trabajando Pero
+bueno no sé
+que no para mí Está muy bien Víctor el
+primer factor
+es entendiendo esto que hablamos que es
+saber si estamos en línea con lo que
+veníamos ideando personalmente cuando
+estuvimos hablando de la idea de de esta
+ingeniería valor si más o menos estamos
+imaginando lo mismo o esto cambia traer
+el
+paradigma un poco esa la pregunta que me
+queda a mí
+para mí está bastante alineado porque
+eso que vos estás haciendo es ingeniería
+de valor lo que vos armaste ahí y yo
+entiendo porque vos le encontraste valor
+personal porque armaste algo que se está
+haciendo en el mercado pero no
+está está grandemente difundido Ah eso
+buenísimo as que así que para m tiene
+bastante bastante valor y gente que le
+va a encontrar el valor y si vctor nos
+da el de que va ser al de que no va
+requerir fuerzo gigantesco y enorme
+quiere decir que estamos encaminando no
+no no me parece que con esto tenemos
+para trabajar y sacar
+algo para que Juguemos un poco a ver si
+es lo que queremos o sea obviamente yo
+le voy a mostrar una cosa y decir mira
+as no veamos
+otra porque hago este abro el paragua
+porque por ahí Pablo se imagina que
+cuando termine de armar algo va a quedar
+un Excel parecido lo que tenemos hoy no
+vamos a tener la información va a tener
+otra dinámica por ahí de funcional pero
+hay cosas que se van a poder ajustar y
+Bueno hay cosas que
+no Cómo sería la idea para que avance
+más rápido o sea tratar de
+hacer sin meterle si bien Está bueno
+Esto de las tabulaciones Y eso tengo que
+ver a ver Con qué herramienta o con Qué
+componente de de apex o de algo que
+pueda meterlo dentro de
+apex se puede hacer esas tabulaciones lo
+más sencillo posible lo de project eso
+que mostraba que te queda uno abajo del
+otro todo en una sola columna porque por
+ahí sí te hago una pregunta vos estás
+pensando en una una ventana donde vos
+cargas la planilla de de comp
+presupuesto y otra donde vos hacés la
+ingeniería de valor algo así estás
+pensando vos Y sí es probable que sean
+dos o probable que sean cuatro no sé o
+sea porque por ahí van a ser cosas
+emergentes dependiendo Dónde estás No no
+no vas a trabajar tod
+Sí porque la la ingeniería Está bueno lo
+que dice José para mí ha ha hay una
+planilla que nosotros tendríamos que
+intentar eh tanto o en la etapa
+presupuestaria o en la etapa real
+conservarla Víctor que es la primer
+planilla que porque esa es digamos una
+base y además muchos arquitectos
+supongamos bien un arquitecto no me
+refería a la segunda Pablo a la segunda
+la primera la vamos a mantener seguro
+primera pero la segunda está más
+asociada a lo que plantea Jos con el
+análisis o la ingeniería de valor eso
+tiene que tener una dinámica mucho más
+expeditiva y más bueno no no yo apuntaba
+a esa puntualmente olvidate la primera
+va a quedar así porque me quedó claro
+que es lo que se usa en más o menos
+estándar en el mercado en el rubro Así
+que eso fíjate que para con el software
+este queo te comentaba tenés a la
+derecha vos trabajas con agregar quitar
+em modificando lo que vos quieras y a la
+izquierda teníamos un par de gráficos
+que te iba mostrando Cómo quedaba cuando
+vos modificas lo de la derecha eso era
+como la parte visual para si no te
+quiero decir ha as así así para darte
+una idea de cómo
+trabaj buena la idea sacando lo visual
+que lo visual es
+otro estás hablando visual a nivel
+diseño que te muestre visual no visual a
+nivel plata o sea esto yo voy agregando
+esteem sacando de item Ah en la misma
+pantalla yo estoy viendo cómo eso me
+modifica el número general en dos OEM
+grandes un grafito de tengamos en
+cuenta
+eh una una cosa ustedes me van a decir
+que Qué les parece pero como que son dos
+etapas diferentes una cosa después
+cuando vos ya tenés volcada toda la
+información pero en la primera etapa de
+carga o o de El buk sería el laburo más
+más duro de de ajustar cargar
+presupuesto hacer todo el tipo de esto
+esto que mostraba en la planilla esa de
+análisis de cómo cómo crear un metro
+cuadrado de un metro cúbico de hormigón
+todo ese carga de datos esa carga de
+datos no la va a hacer el dueño de la
+empresa seguramente la hab la va a hacer
+o la tenemos que dar predefinida
+nosotros en algún mínimo mínima Cómo se
+llama información
+de de base para que puedan trabajar el
+usuario porque o va a tener que ser una
+persona que trabaje para el que contrate
+el sistema y que lo
+pueda cargar en una pantalla
+independiente o sea toda la carga gruesa
+Me parece que y
+después pantalla adicional van a sera en
+esa primera pantalla en esa primera
+pantalla que vos decís lo que hacían
+esta lo que hacen las empresas grandes
+es tienen un software para hacer lo que
+se llama Take offs y que son los
+relevamientos y el badg y es otro
+software lo importan de ese software
+para cargar la
+información tanto lo a poder hacer como
+dec capaz lo tengas que traer de un
+exc estoy
+conjurando
+toda Sin poner valores o armas todo tu
+proyecto en base a rubro y
+tareas y en otra pantalla diferente de
+la que de esa para no complejizar
+después analizamos si va a ser necesario
+que sea la misma o no pero en otra que
+llame a ese que te arme tipo un Excel
+con todas estas tabulaciones visualmente
+como te decía Pablo lo que planteaba
+Pablo y poner una columna por cada
+presupuesto entonces vos en una sola
+planilla en la cual vos tenés un Excel
+de un lado vas a tener el las tareas los
+rubros las zonas y del otro vas a tener
+el presupuesto uno para el proveedor uno
+de mano de obra y de y de y de
+materiales para el mismo ítem se se me
+ocurro que por ahí puede simplificar el
+tema la carga porque el tipo que está
+con dos presupuestos acá en la mesa
+cargando pone presupuesto uno el mismo
+ítem tal cosa Lo que pasa que ahí ahí
+ahí vamos a tener que ver cómo
+trabajamos porque para la ingeniería de
+valor hay algo importante son hipótesis
+diferentes o sea vos puedes para el
+mismo ítem cambiar la tecnología cambiar
+los proveedores O cambiar este el modo
+de ejecución solamente ahí radica en que
+vos generes escenarios diferentes para
+poder tomar una decisión digamos O sea
+no no no solamente el cambio de costo de
+un proveedor no solamente el presupuesto
+de un proveedor sino la el Cómo se hace
+eso Claro porque eso eso eso va a ser lo
+que finalmente ayuda Ojalá siempre fuera
+tan tan lineal pero yo yo creo que el
+valor justamente radica en que vos estás
+ofreciendo alternativas ejecutivas de
+modo diferente digamos está bien bueno
+eso lo vamos a tener que pensar un
+poquito no vo a hacer un desafío sí Jose
+me quería tomar un
+atrevimiento eh como más o menos vos
+entendiste la lógica yo vi que de Timber
+se pueden bajar como un un demo Eh sí no
+sé si si vos por ahí te llegabas a
+animar bajar Eso y y por ahí hacernos
+una muestra a lo mejor el viernes este
+como
+para entendamos un poquito la lógica de
+funcionamiento o algunas pantallas viste
+como voy a pegar una mirada le voy a
+pegar una mirada Si lleg a poder si no
+lo hacemos la semana que viene que está
+rebado con otras cosas Ah Dale molestar
+Dale dale dale si no lo hacemos el
+viernes lo hacemos el lunes sí d estando
+Estando voando algo con esto y lo voy
+comentando igual el viernes
+y estando la página para mir que había
+bueno y lo empieza a mirar o capaz un
+manual de usuario un video en YouTube
+que muestre más o menos
+algo no te pongas a estudiar y perder
+tiempo con eso si por ahí hay algo Dale
+dale dale voy aar
+chicos buenísimo buena reunión Gracias
+los dejo Gracias Nos vemos

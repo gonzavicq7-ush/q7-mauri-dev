@@ -1,0 +1,218 @@
+como yo te decía viene como de un
+estadío previo a esto que sería la
+definición de las actividades que vamos
+a hacer cierto esto ya es un segundo
+estadio un tanto más técnico porque acá
+implica algún nivel de asociación de
+partidas itemizado de que comprenden el
+proyecto entonces básicamente vos acá
+vas a ver eh dos cosas Una una línea que
+aparece con línea azul que son los
+rubros viste los rubros en este caso el
+rubro
+eh trabajos
+preliminares comprende a la tarea de
+replanteo o tareas preliminares de
+limpieza Sí meas
+ahí o el trabajo de hormigón armado el
+rubro de hormigón armado comprende las
+tareas de zapatas corridas vigas
+refuerzo zapatas corridas y un sin
+número
+de de tareas que que puedan existir para
+para el proyecto nosotros podemos este
+este es el lenguaje típico No es cierto
+este el lenguaje típico que que
+cualquier arquitecto o ingeniero lo
+pueda entender
+e este este tipo de cosas a nosotros nos
+permite generar atributos una vez
+definida la tarea replanteo de tareas
+preliminares nosotros podemos generar
+atributos nosotros podemos decir a ver
+esa tarea eh voy a algo más específico a
+la de excavación para fundaciones por
+ejemplo No es cierto que implica
+movimiento de suelo yo puedo decir Bueno
+cuánto de excavación para fundaciones
+Cuántos eh eh cuánto de excavación hay
+que hacer Entonces vos tenés
+Generalmente una unidad específica de
+medición que
+puede sobre la tarea sobre la tarea V
+Tenés una unidad específica que en este
+caso son metros cúbicos vos Puedes
+cuantificar puedes poner precio de mano
+de obra y precio de de
+materiales ahí eso después ya vamos a
+hablar del tema de precio porque vos
+puedes tener precios reales o poder
+tener precios de estimación O puedes
+tener precios de s viste de presupuestos
+eh Y también le puede poner otro tipo de
+atributo por ejemplo para excavación
+para fundaciones v v a necesitar tantas
+horas de máquina tantas horas de mano de
+obra o o podemos poner que el atributo
+de que el trabajo para fundaciones va a
+empezar tal día y va a finalizar tal día
+y podemos decir después por qué no
+finalizó tal día Y por qué no empezó tal
+día Y por qué no finalizó tal día o sea
+controlar todo en base a el trabajo
+excavación para fundaci se entiende
+Entonces nosotros sí o sí necesitamos
+partir de esto necesitamos partir de un
+listado de rubros y un listado de tareas
+Sí podría existir un tercer nivel que
+sea sub
+tareas sí sí
+no no no no no no Sí o
+sí totalmente y tiene que ver con la
+planificación específica de cada
+administrador te doy un ejemplo
+totalmente distinto de otro rubro vctor
+vamos voy a tratar de ponerme en tu
+lugar en tu lugar entonces y voy a
+inventar cosas porque desconozco En lo
+particular pero por ejemplo
+vamos a hablar del proyecto de sistema
+un rubro A lo mejor tiene que ver con el
+modelado del sistema o la definición del
+alcance donde ese ese rubro tiene tarea
+de reuniones preliminares para definir
+el alcance este preparación de
+maquetado no s una serie de tareas que
+incluye
+ese otro rubro puede ser este
+no sé cuál será la palabra técnica pero
+como darle a personas que directamente
+desarrollan el sistema cierto y va a
+tener distintas tareas
+este qu s yo este sc para definición de
+pasos no sé vist una serie de cosas que
+puedan hacer
+entonces cada rubro lo que lo que
+básicamente tienes que definir es unem
+típico que el lenguaje del administrador
+conozca y debe contener una serie de
+tareas que estén relacionadas con ese
+tipo de
+rubro a modo tal
+de poder dar respuestas efectivas
+Entonces por ejemplo un rubro en en este
+caso va a ser instalaciones sanitarias
+todas las tareas tiene que estar
+definida en base a la instalación
+sanitaria y no no no deberían aparecer
+cuestiones que tengan que ver con la
+ingeniería estructural ahí porque el
+plomero no te va a hacer una
+columna te ordena te ordena por ahí
+por ahí lo que sí hay son dependencias
+si hay dependencia entonces vos por
+ejemplo para hacer la instalación
+sanitaria necesitar hacer algunas cosas
+que tienen que ver con albañilería viste
+eso eso le llamamos ayuda de gremio
+viste entonces como que vos necesitas
+ciertos enlaces por ahí viste o sea una
+tarea A lo mejor depende de otra de otro
+rubro también
+[Música]
+Bueno mira por
+ejemplo parcial parcial y por tarea y
+también en porcentual A lo mejor V
+necesitas hacer un porcentaje de la
+excavaciones para las fundaciones porque
+Qué pasa Qué pasa
+el nivel de definición de cada
+tarea puede ser
+este tan abarcable como la realidad
+misma o puede ser un nivel de
+abstracción que pueda ilustrar esa tarea
+cierto Entonces por ejemplo excavaciones
+para fundaciones es general porque yo
+puedo decir a ver qué tipo de
+fundaciones una cosa es excavación para
+Zapata otra cosa para pilotina y otra
+cosa para vigas de encadenado eh
+a su vez yo puedo tener pilotines que
+vayan a una profundidad y otros
+pilotines que vayan a otra profundidad
+entonces vos tenés una multiplicidad
+de de posibilidades ante una misma tarea
+pero uno cada administrador generará su
+propio nivel de abstracción para que esa
+tarea sea controlable pues si vos la
+empezas a a desmenuzar demasiado A lo
+mejor se transforma en incontrolable v
+claro poco usable o sea nosotros
+deberíamos permitir la posibilidad de
+flexibilidad pero deberíamos acotar A lo
+mejor con una plantilla como esta que te
+estoy mostrando para que el tipo tenga
+una serie de de órdenes prevalentes
+digamos Bueno entonces una vez definido
+esto es el alcance definidas las
+actividades más luego los rubros y luego
+las tareas y luego Si se quiere
+subtareas podría haber un tercer
+eje nosotros podemos generar atributos
+Qué tipo de atributos atributos que
+tienen que ver con los recursos
+atributos que tienen que ver con los
+tiempos
+Generalmente el atributo está vinculada
+a la tarea o a la subtarea
+Entonces entonces ese atributo pueden
+ser
+recursos recursos o sea sean materiales
+o o mano de obra
+pueden ser tiempos es decir esa tarea
+tiene que empezarse o terminarse en
+determinado
+tiempo pueden ser costos esa tarea no
+debe superar tal costo
+este una serie de atributo que yo un
+poco la identifiqué que que creo que te
+lo pasé o después te lo puedo decir pero
+lo que trato de decir es que a partir de
+acá aparece el origen de nuestro es la
+la carga de nuestro
+sistema después por ejemplo Víctor para
+poder determinar esto que vos me decías
+los avances cómo hago yo para medir los
+avances en base a las tareas
+Generalmente mido los avances de las
+tareas que lo puedo medir en costos o en
+tiempo me ent entonces cada tarea ver
+por ejemplo
+instalaciones canalización según plano
+conexión acometida yo digo a ver en qué
+porcentaje avanzó esta tarea y bueno
+este mes avanzó un 10% bueno bárbaro
+Entonces le pagó un 10% de lo que vale
+esa tarea el
+contratista El Avance básica cada uno
+cada uno de los atributos vamos a tener
+que darle una charla muy específica pero
+pero pero puede ser por avance de obra
+por medición física o por por costos
+Generalmente lo estándar lo estándar es
+por medición de avance físico entonces
+viste que vos tenés una unidad que ten
+en este caso son globales pero tener
+metros cúbicos metros lineales El Avance
+se mide si yo tengo tanto x cantidad de
+metros lineales que producir yo digo
+Bueno produje 20 metros lineales Eso
+significa un x porcentaje del total
+exacto
+solo Claro claro
+claro claro puede ser Comparado as
+Generalmente lo que hacemos le generamos
+porcentajes
+directamente así
+Sí y eso te determina un costo
+info

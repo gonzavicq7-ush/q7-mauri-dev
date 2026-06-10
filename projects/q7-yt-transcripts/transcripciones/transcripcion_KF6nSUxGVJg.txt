@@ -1,0 +1,981 @@
+tanto el desarrollador como el de la
+empresa necesitan que sea rentable
+entonces
+eh eso a mí me deriva cuando hablamos de
+rentabilidad me deriva digamos dos
+factores y financiero y
+costo me río me río
+porque es casi la el le mo de cualquier
+comerciante de cualquier rubro O sea que
+sea rentable la empresa o sea pone un
+para que sea rentable entiendo a que
+viene pero es casi de facto
+no Claro pero bueno evidentemente lo que
+le come la cabeza es eso eh sabes que me
+doy cuenta Víctor eh que para en la
+construcción para que para que sea O sea
+a ver en un kiosco si vos hacés un
+sistema para un kiosco vos tendrías la
+posibilidad de
+eh tabular digamos eh o con un sistema
+vos podrías etiquetar bueno Esto me
+salió tanto y yo por sistema digo le
+Quiero ganar un 30% digamos Y a medida
+que se van actualizando los precios o
+que hay cambios tenés fácilmente de un
+control de stock y de un control de de
+precios digamos y Por ende un control
+eh del de de la rentabilidad Si se
+quiere por lo menos matemáticamente a
+nivel de caja digamos sí sí
+eh Y el tema de la
+construcción la rentabilidad como uno
+hace un proyecto vos proyect dec Bueno
+más o menos como nos pasa acá v proyect
+y decimos bueno Esto no va a salir
+este 000 obra Ahora hay rubros que vos
+previste que te van a salir que 00 y
+después te terminan saliendo 5000 y hay
+otro rubro que a lo mejor vos priste te
+salían 7000 y te terminan saliendo 15 el
+doble Entonces la rentabilidad es muy
+fluctuante en el proceso no es que voy a
+decir esto me sale esto y efectivamente
+me sale vos tené que tratar que salga
+eso o menos te entiend o no sí no no no
+no no me queda claro s sea que va la el
+planteo pero pero evidentemente a los
+tipos no le importa la como empresa
+viéndolo de capaz de la cabeza de con
+quién hablaste por lo que vos dijiste
+que era la prioridad eh
+no importa el día a día o sea los tipos
+ven números básicamente o sea yo
+Exacto Yo técnicamente estoy en el día a
+día y me interesa que la viga se soporte
+pero pero nosotros para ese tipo de
+tipos que tienen la la el la impronta de
+emprender somos un número Exacto te doy
+ejemplo o sea este tipo con el que
+estuve hablando recontra interesante pu
+unos datos El vago es un [ __ ]
+empresario tiene su empresa está
+haciendo la obra pero aparte de eso
+tiene una un sistema desarrollado con un
+equipo de proyecto también que que tiene
+una página web que que
+buscan empleo para que gente busque
+empleo aparte de eso tiene un restaurant
+aparte de eso tiene no s o sea lo que
+vos
+decís Son
+productos es una pata es su negocio de
+su
+totalmente
+inconexo es
+emprendedor
+entonces ahí se empieza para mí este a
+ver una primera oportunidad una primera
+oportunidad el tema de costos yo siempre
+pensé que el tema de costos era una pata
+adicional Claro porque es el más
+complejo es el más complejo porque ten
+muchísimas variant viste
+eh Por ejemplo él me estuvo hablando
+que que él compró que él usaba él compró
+uno de los sistemas que te pasé ayer
+ayer estuve viajando con el tipo viste
+entonces estuvimos Charlando muchísimo
+él compró uno de esos sistemas que fue
+el segundo no no el que investigaste vos
+y no le dio resultado porque
+este para para lo que como tiene un
+restaurant usan ese sistema en el
+restaurant El odu ese que me pasaste vos
+no el otro no me acuerdo dos nombres
+eran eh Para no me pasaste uno solo eh
+No cómo se llama nuestro chat
+eh obras proyecto de obras podemos
+ponerle vector ya que vay Dale sí sí
+pero sí
+sí yo ya me estoy no repito vector No yo
+también pero como esto lo lo creamos
+antes de definir el nombre viste que no
+ahí le cambio per aquí Quiero buscar lo
+me odo y el otro se llama beims beims Ah
+beims ah no pero bim pensé que hacía
+referencia al acrónimo bim
+que el que el que se refiere Cómo se
+llama al tema de diseño y eso Ah No este
+se llama beams lo lo que él me contaba
+beims Mobile ahí está
+Ah pero acá tien muchísimas malas malos
+comentarios Igual acá encontré Bueno yo
+te mira Víctor yo sinceramente no
+entiendo nada de software yo te cuento
+la experiencia del
+usuario lo que él me contaba es que Us
+ellos usan ese software en el
+restaurante y en el restaurante le le
+resulta muy bien
+porque te administra el software desde
+la la parte del pedido de mesa hasta la
+solicitud del plato de cocina hasta la
+solicitud de ingredientes por plato
+hasta la logística de compra o sea te
+genera una trazabilidad de todo digamos
+y le es muy útil entonces Ellos pensaban
+te permite facturar te permite hacer un
+montón de
+cosas Él pensaba que el tiene un
+apartado de construcción y que el
+software le iba a dar los mismos
+resultados
+y Aparentemente no sabe si si es porque
+é ya lo empezó a implementar con unas
+obras en curso o sea no sab si le
+resultó por por la dificultad que
+implica la curva de aprendizaje o porque
+realmente no le
+servía entonces
+este yo pasé esos datos solamente como
+para para que lo veamos y él me dijo que
+anteriormente usaban ese odo que es él
+me decía que es un programa de de código
+abierto que uno puede bajar y y hasta
+pues armar tu propio programa No entendí
+sí sí sí como que es un un software
+funcional que ya tiene sus sus módulos
+su lógica Pero vos le podés ir agregando
+en base a una herramienta que ellos te
+proveen de desarrollo eh
+agregar modificaciones a lo que ya está
+hecho o crear módulos nuevos claro eh Y
+me decía que hay como una comunidad que
+trabaja en eso no no no es así es tal
+cual te lo dijo él pero viste los datos
+en la captura no sé si llegaste a verlo
+porque capaz estabas en el teléfono
+abriste yo estaba estaba viajando
+entonces much Sí no ahí ahí mandé en el
+WhatsApp Tenés una captura de lo de lo
+inmensa que la empresa tiene Ah 20000
+empleados 2000 y pico de empleados 2800
+empleados después tiene no sé cuántos
+clientes o sea cuán clientes no son
+clientes son usuarios la mayoría de no
+lo no paga Pero tenés la versión
+comercial que vos pagas por un soporte
+claro yo por ahí comparto estas cosas no
+para copiar la lógica material de los
+programas pero sí para entender por lo
+menos yo porque eso me cuesta un poco e
+Cuáles son las funciones que usan los
+usuarios Entonces sí pero me parece que
+no tenés que diversificar tanto vos que
+que no sos del
+rubro o sea Entiendo entiendo lo lo que
+estás planteando con esto sugerencia V
+obviamente vas a hacer lo que lo que
+puedas ir haciendo en el día a día Pero
+sumarte eso te
+va a distraer de lo que necesitamos que
+que resuelvas vos hoy para mí lo que
+tenemos que resolver o lo que vos
+deberías resolver por por por tu
+conocimiento experiencia y porque Bueno
+nada eh No
+no lo viví el día a día es esto que está
+diciendo el tipo te dijo Bueno nada
+eh poder definir Cuáles son los módulos
+y las características de los módulos
+porque ese ese software puntualmente
+lodu y veo que el bim también un poco un
+irp un rp muy grande que tiene un montón
+de módulos un montón de funcionalidad
+diferentes rubros Si si nos ponemos a
+analizar cada uno de la cantidad que hay
+bu no vamos a terminar nunca no no no no
+lo mío era mucho más superficial era Era
+como decir viste a ver qué están usando
+eh claro viste es como agarro el
+WhatsApp y decí a ver qué es esto no
+Aprender a usar digamos a ver cómo se
+sube una historia Cómo se comparte un
+video un segundo como sino entender Qué
+qué es lo que te está mostrando eso nada
+más vist Qué información porque yo ese
+tipo de información sí la puedo procesar
+en la toma de decisiones me entendés
+Entonces era entender qué te ofrecen
+cada uno de los sistemas nada más no no
+O sea lo que quiero decir que no no
+entro en la materialidad profunda de
+cómo se se gesta en esos sistemas sino
+solamente que podamos tener un Fil decir
+mir esto te hace esto nada más vist y
+después analizarlo profundamente como
+vos decir sí esto te hace eso pero para
+llegar a eso necesitamos 2 personas
+Bueno
+entonces eso con un equipo más chico
+Bueno nada Eso es Te quería comentar
+esas cosas digamos
+vos crees que inicialmente uno de los
+puntos e para enfocar o de los módulos
+principales sería la gestión de costos
+bueno la gestión de costos Pero esto
+está atado al proyecto Sí o sí O sea que
+esto a su vez está O sea sí o sí vas a
+tener que tener una gestión del proyecto
+mínima claro Yo decía eh Por ejemplo una
+cosa que él me dijo que está en línea
+con lo que ya venimos hablando y con el
+inicio del proyecto yo te decía que
+inicialmente
+el lenguaje común tanto de él como
+empresa como de Los profesionales
+inclusive con un desarrollador es un
+listado de
+tareas se entiende te acuerdas que te
+pasé presupuesto un listado de tarea
+entonces qué hacen los tipos Qué hacen
+los tipos los tipos decir Bueno mira
+Estas son las tareas que vos tenés que
+ejecutar
+dec cu de pared Met cuadr de hormigón
+metr cuadr de coso instalaciones
+sanitarias globales qu s yo hay como
+distintas unidades Esto es lo que vos
+tenés que ejecutar vos le ponés
+cantidades unidades y le
+ponés
+precio ellos para ese análisis de precio
+lo pueden hacer de muchos
+modos lo pueden hacer con un análisis
+meticuloso
+de Punto por punto en donde 1 m cu de
+pared te llevan x cantidad de ladrillo
+el ladrillo Sale tanto más el pleto más
+coso eh arena tanto cemento tanto lo
+pueden hacer por un análisis
+meticuloso lo pueden hacer por un
+análisis comparativo decir Bueno mira yo
+el metro cuadrado me salió el mes pasado
+me salió 1000 con la inflación me sale
+tanto coso lo pueden hacer por un
+análisis
+este
+eh
+estimado Esto me va a salir un 10% del
+monto de la obra Entonces más o menos me
+va a salir o sea vos puedes llegar al
+monto al número de distintos de
+distintos se
+entiende una consulta que no entiendo O
+sea cuando vc la estimación de costo est
+Porque a ver
+no entiendo de qué lado viene la
+información como Cuál sería la lógica o
+si tenés varias lógicas que me parece
+que viene por ahí el camino o sea porque
+vos para eh yo dueño de un proyecto o
+sea dueño un proyecto dueño quiero hacer
+mi casa voy te consulto a vos vos hablas
+con el desarrollador sería o Quién sería
+no el desarrollador sería yo
+eh Claro vos sos el vos sos el
+desarrollador vos sos el vos serías el
+profesional exacto y la empresa
+constructora contratistas y sería el
+contratista bueno el cont Quién hace la
+estimación de de de de la pared pueden
+ser de distintas formas Vos como
+desarrollador le decís directamente al
+contratista Che Mira esta es la casa que
+me hizo el arquitecto decme cuánto va a
+salir Está bien o sea y o en el modo en
+que yo trabajo por eso pueden ser de
+distintas formas y ahí primer
+flexibilidad de inicio o en el modo que
+yo trabajo yo te digo esta es la casa y
+para hacer esta casa Víctor te va a
+salir a prox tanto y va a implicar todo
+este desglose de
+tareas me seguís perfecto Sí que fue lo
+inicial lo que hablamos
+inicialmente
+Pero hay veces que los contratistas si
+son un poquito más grandes tienen todo
+su equipo técnico entonces yo te digo
+mira Víctor yo te hago el diseño lo malo
+y vos en vez de pagarme a mí un
+honorario más elevado por mi proyecto le
+das directamente al contratista y el
+contratista te dice te daría un listado
+de tareas más o menos desarrollado de
+acuerdo a sus capacidades digamos en
+donde van a estar especificadas todas
+las tareas que implican el proyecto que
+el diseño que yo te hice Perfecto
+paremos ahí te hago dos consultas cómo
+vos te imaginas la lógica de
+funcionamiento en estas dos dinámicas
+diferente que me dijiste recién o sea
+tratemos de verlo desde el software o
+sea porque en el software va a ser un
+solo proyecto independientemente cómo
+actúen los actores en esta dinámica de
+si vos sos el que haces el cálculo o si
+es el contratista el que hace el cálculo
+y todo va a ir a parar a la misma
+información pero tienen diferente
+injerencia en cuanto a la dinámica de
+interactuar con el sistema porque para
+para o sea por ahí para el desarrollador
+va a ser la misma información pero va a
+ser diferente la carga de esos datos si
+lo hacés vos como profesional porque vos
+acordaste un precio más elevado para
+hacer esa gestión con el con el
+desarrollador y va a ser otra la
+dinámica de interactuar con el sistema
+cuando el que haga el cálculo del costo
+o la estimación del costo sea el eh
+contratista estoy mirando para no
+marearme porque viste como que estoy
+tratando la cabeza armar la lógica a ver
+yo creo que no nos va a dar el tiempo
+para desarrollar con tanta profundidad
+esto ahora en est no no te lo tiro así
+para que lo para que lo trabajemos yo
+tengo claro lo tengo claro y para para
+eso eh creo que lo mejor va a ser que yo
+arme una presentación de cómo podríamos
+abordar eso pero básicamente yo iría a
+lenguajes comunes es decir ya no a una
+cuestión inventada sino lo que yo te
+decía inicialmente la la planilla esa de
+cómputo y presupuesto ese es un lenguaje
+común lo entiende el contratista lo
+entiendeme claro lo que yo quiero
+acordate que tenés diferentes perfiles
+Vos como Supongo Quién va a pagar el
+costo de la licencia del software para
+ingresar con un un rol que te permita
+hacer la modificaciones sobre un
+proyecto que el dueño es a nivel sistema
+te estoy diciendo porque V acordate que
+que no es lo mismo A ver vamos a hacer
+un ejemplo con el Google Drive viste vos
+sos entr en el Google Drive creas un
+Excel ese Excel me lo puedes compartir a
+mí y decir bueno Víctor es un
+colaborador es un veedor o puede ser
+dueño pu modificar lo que quiera el
+colaborador te hace anotaciones te dice
+este celda tenene que cambiar porque el
+cálculo está mal este valor no
+corresponde el veedor Mira obviamente y
+el que está
+el bueno sería el dueño el otro socio
+propietario no sé comoo podemos ponerle
+como denominación puede hacer las mis el
+modificador puede modificar tal cual
+como si fuera que lo creó é el documento
+a nivel proyecto tenemos que que ver es
+dos realidades porque quién va a ser el
+que paga la licencia para que cada uno
+de esos perfiles de usuario accedan al
+sistema para poder cumplir el rol que
+tienen en cada proyecto porque vos hoy
+con el contratista podés estar
+trabajando en una relación de que él
+haga el cálculo de la obra para Juancito
+pero después en otro proyecto va a ser
+como vos hiciste el cálculo y él
+solamente va a ser El ejecutor del
+proyecto y va a tener acceso para ver
+solamente ese proyecto dos de Pepe
+entiende toda esa interrelación de
+lógica interna o sea porque todo todo el
+Macro de qué cada funcionalidad eso lo
+tenés super claro Incluso si no lo
+tuviésemos claro tenemos donde ir a
+relevar el tema que lo que estoy viendo
+Es
+que se me está complicando a
+mí pensar
+cómo definir las diferentes
+funcionalidades de cada rol porque son
+empresas diferentes no sé qué tipo de
+vínculo van a tener con con vector cada
+uno de esos o si ponele el el para
+decirte un ejemplo el desarrollador paga
+la licencia y tiene tres usuarios para
+para poder trabajar uno va a ser el
+profesional otro va a ser el contratista
+el contratista Pero él es el dueño de la
+licencia que tiene No es cierto Entonces
+él administra ese proyecto y después a
+su vez
+el contratista como paga una licencia
+para gestionar sus propios proyectos va
+a ser dueño de otros proyectos y en este
+va a ser todoo consultor o o
+desarrollador sí bien Estamos de acuerdo
+con esa mirada es es Es la búsqueda si
+vos me pedís que lo resuelva ya en este
+momento pero pero a ver qué estoy
+planteando una primera idea de
+focalizarnos en la parte de costos no sé
+si es la mejor pero la estoy pensando
+porque si no es la mejor en algún
+momento lo vamos a tener que hacer o sea
+si a m Yo creo que era una de las que le
+tenía más fe de que podría ser la que
+más necesito porque no quise meter el
+otro día La cuchara
+pero cuando yo estuve en esa situación
+era la que más me afligía como como
+desarrollador porque era como que perdés
+en un momento el control y exacto y Y
+eso te trae obviamente por más menos te
+trae cierta Claridad Obviamente que le
+tenés que meter datos le tenés que meter
+y yo no sé si todo lo desolladores o
+todos los los los los propietarios en
+forma particular tienen la capacidad el
+tiempo y las ganas para volcar tanta
+información en un sistema o sea Debería
+ser super minimalista y ver Cómo
+agilizar extremadamente porque no va a
+ser lo mismo el desarrollador que quiere
+construir su casa que tiene que volcar
+imagínate todos los valores de nada que
+se me ocurre que son un montón de de
+números O me estoy acordando Mejor
+dicho no sé si es parte de la tarea que
+él tendría que hacer eh Bueno ahí se me
+queman los papeles Sí ahí o sea yo yo
+creo que tengo algunos elementos como
+Punto de partida como para que podamos
+profundizar esto eh Por ejemplo yo logré
+armar un una planilla un pequeño
+sistemita que que después te lo voy a
+mostrar un poco mejor te lo compartí
+oportunamente pero pero te quiero
+mostrar bien la funcionalidad que te
+permitiría vos tomar este algunas de las
+tareas que que se prevé en la planilla
+común que van a tener todas las partes
+Ajá y te
+permite para la misma
+tarea te permite
+eh comparar costos de acuerdo a precios
+estimados a precios este e a precios
+eh relevados digamos o por análisis de
+precio y también te permite administrar
+este
+el si hubiese cambio y cuál es el precio
+final entonces vos permanentemente en la
+carga de datos tenés lo presupuestado es
+decir esto es lo que yo preví que iba a
+valer y lo real
+va teniendo comparativas por tareas
+digamos gráficas dec si vos estás
+previendo esto pero estás gastando esto
+gastando esto y ten
+mar yo creo que puede haber una
+oportunidad ahí a mi planilla el
+problema que tiene es que yo no más la
+sé cargar Entonces si nosotros podemos
+sistematizar y generar esta experiencia
+con con esa información puede ser
+interesante y es muy sencill tiene dos
+pantallas tres pantallas
+eh Y parte de la misma información
+inicial que nos va a servir para después
+hablar de plazos que no va a servir para
+hablar de est de materiales que no va a
+servir para hablar de calidad de
+material de tareas parte del la misma
+base de datos
+inicial esa base de datos va a tener un
+grado de complejidad lo que voy está
+clarísimo es así lo pu administrar el
+arquitecto o el constructor que son más
+o tambén el desarr y el nivel de desl de
+eso va a
+tener va a ser de acuerdo a las
+capacidades técnicas o de miradas que
+cada uno pueda desarrollar es bastante
+abierto porque vos si son una persona
+muy meticulosa a lo mejor asent hasta la
+cantidad de clavos quee para tu casa
+pero otro A lo mejor tiene una mirada
+más
+holística
+% de la H me voy a concentrar a lo mejor
+Met cuadrad de pared o de pintura
+exactamente o de revestimiento No sé
+estoy dando ejemplo distinto pero la
+lógica de lo que planteo te permitiría
+para cualquiera de los dos
+mundos entendés hasta
+eh comparativas globales Como un llave
+en
+mano en donde vos supongamos que son
+desarrollado grande y miras metros
+cuadrados
+no entonces le pasas a a una empresa
+para que te diga cuánto me sale esta
+obra en grande un precio global por la
+obra y vos lo compares con otros
+edificios y tu unidad de medida sea obra
+grande metros cuadrad de construcción
+terminada a en micro alguien que puede
+ser que tiene que hacer una
+pequeña ampliación y le
+preocupa montante va a usaras Soler
+ahí vos sabes que ahí mientras que iba
+hablando se me ocurrió una loca
+idea y qué tal si mezclamos todo y sí
+qué tal si mezclamos todo que me imagino
+que venía por ahí tu idea pero o sea no
+no mezclamos todo entonces cada perfil
+va a ver lo que quiere ver en cuanto
+pero la información
+de desgranado eso anulado de eso sea en
+base al al rol que está jugando el
+usuario en ese momento perfecto está
+bien anótate eso Víctor Porque después
+voy a mostrarte eh que tengamos un
+ratito más
+eh este un poquito más de esto que
+porque yo no lo tengo claro cómo pero
+creo que hay algo en lo que tengo armado
+sí como para que con esta dinámica en
+base a tu experiencia y y lo mío podamos
+podamos explorar sí
+em ese era un punto que te quería contar
+y lo otro te lo dejo como para para que
+lo vayas pensando porque sí es algo que
+que quiero que que empecemos a hablarlo
+digamos que tiene que ver con la con la
+la Constitución y la lógica de Nuestra
+Empresa
+eh Cómo me gustaría que pienses digamos
+cómo cómo lo imaginas Vos cómo cómo como
+lo plantearíamos digamos porque son
+discusiones que creo que ya tenemos que
+empezar a otorgarla y y no no viste
+tener un producto terminado y que no no
+no no son cosas que que
+concretas tengo alguna idea lo estuve no
+pensando ahora con esto lo vengo
+masticando del proyecto anterior O sea
+que leído un poco al respecto y bueno
+nada lo es cuestión de que conversemos
+pero pero te lo planteo así ya
+inicialmente como para que vos los
+pienses y me dias a vos realmente te
+parece darle una parte igual a Jos Yo sé
+que está en otra instancia que está con
+toda la mudanza o sea vos realmente lo
+pensaste así inicialmente
+o está hecha esa propuesta con él o
+estaba abierta para que conversemos no
+no todo está abierto para conversar no
+está nada cerrado ú pudo hacer creo que
+gratamente es formar un equipo de
+trabajo en donde no No perfecto no no yo
+no estoy y y y creo que hay muchas
+discusiones o sea si vos me preguntas a
+mí eh cuánto te cuánto crees J yo te voy
+a decir mira no yo creo que con un 95
+por voy a estar bien yo y un c div con
+Jose como pueda O sea entendé la lógica
+cosa y creo que son cosas que tenemos
+que discutirla profundamente sacarnos
+los ojos y llegar a acuerdos
+de sacarnos los ojos creo
+que nosotros somos conscientes vctor y
+acá te digo la verdad mi único propósito
+Es que empujar esto que esto salga y
+creo que que todos tenemos que salir
+contentos de
+est lo que no quiero bajo ningún
+concepto es llegar a una instancia en
+donde exista la pérdida y No empecemos a
+mirar de re o exista la ganancia y
+también empecemos a mirar reojo
+Entonces quiero quiero que nos
+[Música]
+clarifiquen
+ni con vos ni con Jose ni conmigo digo o
+sea no sé estoy abierto a que podamos
+Escuchar eh
+recién estoy comprendiendo la lógica de
+lo que implica una cosa de esta no Bueno
+te sumo algo cuando termines vos te sumo
+algo con respecto a entonces sé que hay
+muchos factores que que tenemos que que
+que matizar digamos y y y bueno
+simplemente quiero que la expectativa de
+todo esté cumplimentada digamos lo mejor
+que podamos es eso nada más y por eso
+creo que
+en Próximamente tenemos que empezar a
+desarrollar
+profundizar
+es buenísimo
+[Música]
+e quería me colgué Me colgué como que se
+me cruzaron dos ideas en la cabeza para
+hablar y tengo poco tiempo te cuento una
+un poco aclarando eso lo todo lo que
+tiré en el WhatsApp ayer de de lo que le
+fui sacando medio con sacacorcho a mi
+amigo de qu mindaro
+eh primero pensé que no me iba a dar
+nada de esa info porque bastante
+reservado él viste Pero bueno le conté
+que estamos con un proyecto que tenía un
+un montón de dudas que él saben en que
+yo estuve trabajando siempre que más que
+nada en en gobierno en el estado y los
+proyectos chicos que hice lo hice por
+cuenta propia Entonces era hacía tod
+todas las funcionalidades y y bueno
+pateado y cabeceado todo
+y y Bueno entonces me me fuei contando y
+después se soltó y me contó me tiró toda
+la la Data de la la la empresa bueno
+básicamente esa empresa hace 10 años que
+vienen trabajando en este producto
+obviamente toda la parte web esto no no
+creo que hayas entrado pero yo entré me
+fijé cómo estaba a nivel de de gestión
+porque tiene una una una versión
+gratuita para acceder está muy muy lindo
+toda la parte de trazabilidad de de
+camión etcétera muy eh Cómo se
+llama bien hecho el software pero esa es
+la parte como que el
+visual No no es la parte de gestión la
+parte de gestión de la plataforma o sea
+el que está en la oficina el dueño de
+los camiones el dueño de la empresa de
+camiones o el que tiene un solo camión
+eso lo ven en la página después El
+camionero el chófer Mejor dicho tiene la
+aplicación que desarrolló mi amigo y que
+llevó todos esos tiempos que yo te
+Estuve contando que tardaron en
+principio para hacer toda la parte de
+login autenticación y todo eso tardaron
+creo que 5 meses cuatro personas
+trabajando bueno para que vos veas la
+complejidad
+lo tiré como para que para que tengan
+ustedes una idea yo al ser del rubro por
+ahí conocía que más menos venían en esos
+valores y que los plazos que estaba
+poniendo ahí eran relativamente cortos
+con
+apex Pero bueno me me fue cerrando todos
+los números porque bueno toda esa ese
+laburo que que hicieron ellos que es
+bastante grande eh tiene su su tiempo su
+o sea estamos hablando de 12 meses 5
+meses y bueno y el otro producto viene
+trabajando hace un montón de tiempo
+siempre con ajuste y tienen un equipo de
+de desarrollador infraestructura project
+manager solamente de la parte de de
+sistema que son 20 personas 22 personas
+me dice en total eh Y es un producto que
+es una sola
+herramienta
+con con clientes manejado con la idea
+esta que tenemos de multiempresa o sea
+una sola plataforma única con todas las
+características que todos los usuarios
+finales van a ver ese mismo producto no
+no como tenían antes que tenían una
+copia en cada cliente o
+sea eso eso me quedó claro y creo que el
+camino está definido digamos perfecto
+pero eso le costó Fíjate que a ellos le
+costó x
+tiempo ellos empezaron en un momento en
+donde quizás no estaba tan claro esto
+ellos pensaron con la idea que teníamos
+nosotros inicialmente hagamos esto para
+Pablo si funciona después se lo copiamos
+a Pepito y cobramos x coso y después
+vamos viendo evolucionar y llegar a esta
+a este producto pero bueno los tiempos
+se acortan y me parece que que hoy
+estemos acá es buenísimo porque estamos
+más allá de mi ansiedad estamos
+acortando un montón de tiempo de laburo
+posterior porque ya estamos encarando
+las cosas como corresponde pero va un
+poco en contra de la idea que vos tenías
+de decir que en 4 c se meses cuando
+terminemos el producto este vendible
+podamos chequear el recurso para
+abaratar costo Ah entiendo y lo que voy
+ahí yo creo que cuando lleguemos a ese
+punto vamos a necesitar más más recursos
+o sea porque funciona un poco así la
+dinámica de este tipo de empresa porque
+no vas a hacer una empresa constructora
+vas a pasar a ser una empresa de
+sistemas eso hacerte la idea un poquito
+era un poco toda esta vuelta era para
+comentarte eso ya ya deja de ser el
+porque el que pasó el dueño este de la
+empresa de camiones era un camionero que
+tenía un camión después tuvo cinco
+camiones me contaba el otro día la
+historia yo se asocia con tu amigo
+digamos El tipo se asocia con no no él
+es empleado él empezó a trabajar ahí
+hace 3 años cuando renunció a
+gobi El camionero digo Ah se asocia con
+un desarrollador con con alguien de
+sistema dijo Necesito hacer esto para
+resolver porque veo que hay que hacerlo
+bueno nada y empezó a meterse y bueno
+hoy el tipo es el gerente de una empresa
+de sistema y seguro que ya ni camiones
+debe tener Probablemente sí los tenga
+pero el tipo está fíjate está en cuatro
+países está en España está en coso está
+con otra cosa en la cabeza dejó el se
+enfocó en lo que era brindar su mejor
+producto a mayor cantidad de empresas
+del rubro que él conoce lo mismo que
+contaban la vez pasada del construction
+online me fijé en la historia un poco
+eso también era un arquitecto un
+ingeniero No me acuerdo qué que dijo
+esto está sin resolver Y se puso a hacer
+eso y hoy Bueno Son 400 empleados en la
+parte de sistema pero bueno sí entiendo
+listo era eso no más como para entiendo
+me costaba el otro día transmitirte
+porque yo veía tu idea de de abar costos
+tenes que ir al hueso no más para
+transmitir estas cosa la verdad no no
+que tampoco tenía la fundamento decirte
+por ahí con ejemplo es más más
+eh entendible por ahí lo que
+uno lo que yo lo que yo pienso como de O
+sea si como un involucrado en esto es lo
+que te decía ayer de que
+eh para sumar más gente necesita ser
+rentable
+el el por lo menos la proyección del
+producto no no no
+obviamente
+e yo creo que mi mirada inicial era como
+una entrada y salida sí Y como una
+entrada y salida y como tener un
+enlatado eh
+ya no existe más existe el software vivo
+Exacto Entonces todo eso me llevó un
+aprendizaje y esa charla Vos me dijiste
+me parece te no te desilusionado en
+realidad no era una desilusión era un
+reaprendizaje de un cambio paradigma
+entendés y va a haber un montón de otras
+cosas que yo no conozco me entendés Este
+pero pero lo entiendo
+así Por eso digo que que está bueno
+todos estos procesos a pesar de que no
+tenemos nada concreto no no tenemos un
+montón eh Tenemos un montón y yo creo
+que hoy con lo
+que ya tenemos la punta del iber como
+para empezar a tirar así a ver si
+ponemos flot el resto Pero bueno Dale yo
+no te quiero sacar más tiempo Víctor
+pensemos esto que te hablé del tema de
+de la Constitución y todo est no no yo
+tengo algo bosquejado por ahí lo busco y
+lo medito un poco queres que lo haos
+mañana por ahí dale si querés lo
+hablamos nosotros en principio lo garía
+que lo hablemos nosotros inicialmente y
+después parte J está con otra cosa en la
+cabeza también y ya te tiro algo que el
+otro día no me animé porque no no no me
+pareció que me diese en pie para eso
+pero me gustaría ver en algún momento
+eh No sé ni costo yo voy a tratar de que
+no me cobre nada etcétera Pero me
+gustaría
+eh que nos aporte algo este chico
+Maximiliano viste Fernández El chico del
+del Ministerio de energía de nación El
+vago te cuento la experiencia él trabajó
+en Sony Alemania como jefe de producto
+para desarrollo de de la PlayStation 3
+en su momento Ajá Es realmente un tipo
+muy muy groso viste muy groso en cuanto
+a
+a proyectos
+procesos así como el otro día me dijo no
+sabes que esto por ahí no tiene un tema
+monetario capaz que no ve cosas que
+nosotros por ahí No la vamos a ver y y
+Bueno aparte me pidió la vez pasada que
+le empiece a mostrar apex se puso a
+hacer algunas cosas con apex también
+para resolver el problema de ahí que del
+ministerio y bueno ahora está con todo
+este tema laboral que no es que necesite
+la plata él pero bueno laburo cobraba
+por eso y no le están pagando Así que
+anda medio loco con ese tema Ah y cómo
+lo ves Vos como un posible un posible
+desarrollador que necesitemos para No yo
+no creo que con la cabeza que tiene lo
+desaprovechemos como desarrollador
+Yo creo que él nos puede aportar en
+cuanto a
+los punto de vista para no perder tiempo
+en algunas cosas porque por ahí decimos
+no bueno este este módulo como maneja
+números también y esto nos puede ayudar
+en clarificar por ahí punto de vista
+conoce las obras desde otro punto de
+vista más estado No es cierto y él le
+Resuelve los problemas a las empresas
+para que puedan hacer la gestión de los
+pagos etcétera tiene eso claro qué s yo
+por ahí vemos o sea después en alún
+momento cuando cuando tengas Gan tiempo
+o algo Yo trato de que coordinemos
+alguna reunión y lo sonde porque yo
+tampoco sé que nos puede aportar
+concretamente vamos entonces entiendo
+hay un recurso que que no sabemos dónde
+lo podemos usar pero pero que es
+importante que estamos viendo un valor
+ahí que estamos viendo un
+valoro creo yo creo que sí me gustaría
+que que vos me digas puede ser capaz lo
+pagamos momento TR meses como consultor
+para hacer tal tarea o por ahí se suma
+para para porque a ver tiene mucha
+experiencia de sistema fue jefe de
+sistema en diferentes empresas acá en
+gobierno cuat c 6 años dónde vive él
+vive es del mundo vive el cordobés pero
+trabaja en Buenos Aires Así que va y
+viene está una semana en Buenos Aires
+una semana en Córdoba Ah okay okay okay
+Bueno no está buenísimo Víctor ese tipo
+de cosas son muy importantes más cuando
+empecemos a
+a a hacer más p en lo que va a ser el
+equipo de desarrollo sí sí sí sí
+obviamente este y Y sí boludo la verdad
+si vos me decí mira este no puedo
+aportar acá o lo escuchamos y vemos y
+después bas a nuestra necesidades vamos
+bueno Y ahora yo y y te cuento otra cosa
+eso te agradezco igual ahí la la la pata
+para ver eso igual capaz que le digo Y
+me dice no sabes que Víctor tengo 50,000
+cosas no puedo y listo no pero lo sé el
+otro día y me dijo Uh estaría buenísimo
+si le puedo dar una mano pero ahí quedó
+viste bueno como yo no sabía qué
+ofrecerle ni nada no no le seguía La
+charla viste claro Entonces como no
+había hablado con vos ni con Jose viste
+no quería pasar arriba decir no Bueno
+hay alguna posibilidad de esto porque no
+realidad de la nada misma claro no no no
+no lo no no no le ofrezco nada no
+ofrezcamos nada per pero sí pero sí este
+seamos abiertos en escuchar a ver qué
+puede haber Porque si él tiene en
+predisposición este puede llegar a ser o
+un asesor o un socio minoritario o por
+eso por eso no no por eso no no tengo
+idea ni Claridad con respecto a ese tema
+y el otro tema que que voy a avanzar si
+puedo tengo que ver mis números ahora
+porque justo Norberto es uno de los
+chicos que yo lo
+eh los programadores viste que lo quiero
+tener y se rompió tenía una máquina el
+otro día y el nene le tiró la
+computadora a la [ __ ] me dijo justo me
+agarró con una obra en casa y no tengo
+un mango bueno quería ver si le podía
+resolver eso me dice cuando le planteo
+la posibilidad de que salía empezábamos
+a elaborar en julio me dice Bueno sí
+eh Sí pero necesito una compu me dice
+entonces yo digo Bueno a mí no me jode
+si me da para comprar la compu la compro
+y nada se la doy como parte Norberto
+Bueno mira Norberto programador aparecen
+muchas cosas Está bueno vamos a a
+focalizarnos Víctor en dos ejes uno es
+en el del el producto este que más o
+menos te estaba contando Y en el otro
+la el acta de acuerdo de soci de socios
+o sea en Buscar acuerdos entre nosotros
+para decir bueno Nuestra Empresa se va a
+constituir de esto y va a funcionar de
+este modo Por más que no tengamos muchas
+claridades pero por lo menos general
+nosotros acuerdos iniciales que nos
+permitan ya entendiendo Hacia dónde
+estamos
+yendo generar digamos
+cierta pregnancia más profunda con el
+producto entendiendo también el nivel de
+participación y de riesgo que vamos
+totalmente totalmente eh eso Por una
+parte y por otro lado el producto en sí
+mismo y cerremos eso entre nosotros en
+estos días digamos Dale mañana mañana
+tratemos de juntarnos un r para darle un
+poquito más de manija y a la tarde me va
+a quedar mejor a mí eh a la tarde me va
+a quedar mejor a mí vos podés a la tarde
+mañana a la tarde sábado creo que sí che
+creo que sí dale nos juntamos si no el
+domingo a la mañana poner si no tenés yo
+laburo todos los días igual así que no
+no me afecta si vos tenés descansar el
+domingo
+cagaste tengo muchas chicas que me par
+sí ya lo sé si ese es tu problema
+viste Dale guacho bueno querido AB daleo
+ver
+boludo que es muy probable que nos
+veamos en breve yo yo creo que si anda
+esto
+eh la verdad que estoy medio con laado
+por
+me estar haciendo pasear para unos días
+Así que seguro que hacemos algo o te
+puedes venir para acá con con tu tropa
+Pero ahí no no sé cómo lo vas lo vas a
+manejar ese
+tema estoy solo acá siempre con los
+brazos abiertos Olvídate
+cuando no bueno d nos vamos al cerro
+olvidate Dale vamos vamos a ver Dale
+dale querido
