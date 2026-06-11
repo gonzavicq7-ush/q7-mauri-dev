@@ -1,8 +1,8 @@
-# PROJECT_STATE.md — ObraClara MVP
+# PROJECT_STATE.md — q7-obras-02 MVP
 
 ## Proyecto
-- **Nombre:** ObraClara (working name)
-- **Ubicación:** `mauri-dev/projects/obraclara/`
+- **Nombre:** q7-obras-02
+- **Ubicación:** `mauri-dev/projects/q7-obras-02/`
 - **Estado:** Especificación cerrada, implementación no iniciada
 - **Specs:** 8 documentos en `specs/` (00 al 08)
 - **Creado:** 2026-06-11

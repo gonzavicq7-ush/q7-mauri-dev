@@ -1,8 +1,8 @@
-# ObraClara — MVP
+# q7-obras-02 — MVP (sucesor de q7-obras-01)
 
 Sistema operativo financiero de obras de construcción. Para comitentes que autogestionan, pymes constructoras y estudios de arquitectura que invitan a sus clientes.
 
-**Producto:** `ObraClara` (working name, configurable en `branding.ts`)
+**Producto:** `q7-obras-02`
 
 ## Tesis
 
@@ -73,4 +73,4 @@ pnpm dev
 
 ## Relación con q7-obras-01
 
-`q7-obras-01` fue el prototipo funcional (Python/FastAPI + SQLite + HTMX) que validó el dominio. ObraClara es el **sucesor productivo** con arquitectura seria, multi-tenant por esquema PostgreSQL, design system completo, y soporte para implementación con agentes en paralelo.
+`q7-obras-01` fue el prototipo funcional (Python/FastAPI + SQLite + HTMX) que validó el dominio. q7-obras-02 es el **sucesor productivo** con arquitectura seria, multi-tenant por esquema PostgreSQL, design system completo, y soporte para implementación con agentes en paralelo.
