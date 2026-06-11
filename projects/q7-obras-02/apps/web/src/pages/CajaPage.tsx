@@ -5,7 +5,7 @@
 import React, { useState, useEffect, useCallback, useRef } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { api } from '../lib/api.js';
-import { tokens } from '@q7/ui/tokens';
+import { tokens } from '@q7/ui';
 import { Tarjeta } from '@q7/ui';
 import { Dinero } from '@q7/ui';
 import { Semaforo } from '@q7/ui';
@@ -969,7 +969,7 @@ export function CajaPage() {
                 background: tokens.color.info, transition: 'width 0.3s',
               }} />
               <div style={{
-                width: `${Math.min(Math.max(((comprometido) / Math.max(previsto, 1)) * 100 - (pagado / Math.max(previsto, 1)) * 100, 0), 100 - (pagado / Math.max(previsto, 1)) * 100), 100)}%`,
+                width: `${(comprometido / Math.max(previsto, 1)) * 100}%`,
                 background: tokens.color.alerta, transition: 'width 0.3s',
               }} />
             </>

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { api } from '../lib/api.js';
-import { tokens } from '@q7/ui/tokens';
+import { tokens } from '@q7/ui';
 
 export function RecuperarPage() {
   const [email, setEmail] = useState('');

@@ -7,7 +7,7 @@ import { useParams, useNavigate, useSearchParams } from 'react-router-dom';
 import { api } from '../lib/api.js';
 import { useAuth } from '../lib/AuthContext.js';
 import { Boton, Tarjeta, BadgeEstado, Dinero, ModalConfirmar } from '@q7/ui';
-import { tokens } from '@q7/ui/tokens';
+import { tokens } from '@q7/ui';
 import { formatearDinero, MotivoOC, EstadoOC } from '@q7/shared';
 
 // ── Tipos locales ─────────────────────────────────────────────────────────────

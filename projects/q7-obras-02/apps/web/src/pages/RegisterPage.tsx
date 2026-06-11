@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useAuth } from '../lib/AuthContext.js';
-import { tokens } from '@q7/ui/tokens';
+import { tokens } from '@q7/ui';
 
 export function RegisterPage() {
   const { register } = useAuth();

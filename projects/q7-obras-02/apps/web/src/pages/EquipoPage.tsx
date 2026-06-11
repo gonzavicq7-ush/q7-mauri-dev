@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { api } from '../lib/api.js';
-import { tokens } from '@q7/ui/tokens';
+import { tokens } from '@q7/ui';
 import { BadgeEstado, badgeType } from '@q7/ui';
 
 interface Miembro {

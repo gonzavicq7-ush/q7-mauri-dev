@@ -5,7 +5,7 @@ import { Boton } from '@q7/ui';
 import { BadgeEstado, badgeType } from '@q7/ui';
 import { EstadoVacio } from '@q7/ui';
 import { ModalConfirmar } from '@q7/ui';
-import { tokens } from '@q7/ui/tokens';
+import { tokens } from '@q7/ui';
 
 const API = import.meta.env.VITE_API_URL || 'http://localhost:3001';
 

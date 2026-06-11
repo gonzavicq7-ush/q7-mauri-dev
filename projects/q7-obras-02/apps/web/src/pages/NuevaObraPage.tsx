@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../lib/AuthContext.js';
 import { api } from '../lib/api.js';
-import { tokens } from '@q7/ui/tokens';
+import { tokens } from '@q7/ui';
 
 export function NuevaObraPage() {
   const navigate = useNavigate();

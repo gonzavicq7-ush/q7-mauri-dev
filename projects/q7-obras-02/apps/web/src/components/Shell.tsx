@@ -1,7 +1,7 @@
 import React from 'react';
 import { Outlet, useNavigate } from 'react-router-dom';
 import { useAuth } from '../lib/AuthContext.js';
-import { tokens } from '@q7/ui/tokens';
+import { tokens } from '@q7/ui';
 
 export function Shell() {
   const { user, obras, logout } = useAuth();

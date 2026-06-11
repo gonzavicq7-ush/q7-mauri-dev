@@ -8,7 +8,7 @@ import { Semaforo } from '@q7/ui';
 import { EstadoVacio } from '@q7/ui';
 import { ModalConfirmar } from '@q7/ui';
 import { BarraProgreso } from '@q7/ui';
-import { tokens } from '@q7/ui/tokens';
+import { tokens } from '@q7/ui';
 
 const API = import.meta.env.VITE_API_URL || 'http://localhost:3001';
 
@@ -400,7 +400,7 @@ export function PresupuestosPage() {
         ) : (
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))', gap: '12px' }}>
             {propuestas.map(p => (
-              <Tarjeta key={p.id} padding="16px" style={{ border: seleccionada ? `2px solid ${tokens.color.primario}` : `1px solid ${tokens.color.borde}`, cursor: 'pointer' }}>
+              <Tarjeta key={p.id} padding="16px" style={{ border: seleccionadas.includes(p.id) ? `2px solid ${tokens.color.primario}` : `1px solid ${tokens.color.borde}`, cursor: 'pointer' }}>
                 <div onClick={() => toggleSeleccion(p.id)}>
                   <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '8px' }}>
                     <input
@@ -427,7 +427,7 @@ export function PresupuestosPage() {
                     </span>
                     <div style={{ display: 'flex', gap: '8px' }}>
                       <button onClick={e => { e.stopPropagation(); setDetalleId(p.id); }} style={{ background: 'none', border: 'none', cursor: 'pointer', fontSize: '13px', color: tokens.color.primario, textDecoration: 'underline' }}>Ver</button>
-                      <Link to={`/obras/${obraId}/presupuestos/${p.id}`} onClick={e => e.stopPropagation()} style={{ fontSize: '13px', color: tokens.color.primario', textDecoration: 'underline' }}>Editar</Link>
+                      <Link to={`/obras/${obraId}/presupuestos/${p.id}`} onClick={e => e.stopPropagation()} style={{ fontSize: '13px', color: tokens.color.primario, textDecoration: 'underline' }}>Editar</Link>
                     </div>
                   </div>
                 </div>

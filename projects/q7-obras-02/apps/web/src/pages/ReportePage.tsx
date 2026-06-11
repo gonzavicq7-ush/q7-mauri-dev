@@ -7,7 +7,7 @@
 import React, { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { api } from '../lib/api.js';
-import { tokens } from '@q7/ui/tokens';
+import { tokens } from '@q7/ui';
 import { Dinero } from '@q7/ui';
 import { Semaforo } from '@q7/ui';
 import { Boton } from '@q7/ui';

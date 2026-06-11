@@ -1,5 +1,5 @@
 export { tokens, cssVariables } from './tokens';
-export { BadgeEstado } from './components/BadgeEstado';
+export { BadgeEstado, badgeType } from './components/BadgeEstado';
 export { Boton } from './components/Boton';
 export { Dinero } from './components/Dinero';
 export { Semaforo } from './components/Semaforo';
