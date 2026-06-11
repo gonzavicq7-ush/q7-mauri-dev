@@ -73,7 +73,7 @@ Fase 3 (secuencial, integrador): A6 (M6) + pasada E2E completa
 
 ## Comparativa con q7-obras-01
 
-| Aspecto | q7-obras-01 (prototipo) | ObraClara (producto) |
+| Aspecto | q7-obras-01 (prototipo) | q7-obras-02 (producto) |
 |---------|------------------------|---------------------|
 | Stack | Python/FastAPI + SQLite + HTMX | React/TS + Node/Fastify + Prisma/PostgreSQL |
 | Tamaño | 8 HU, ~2000 líneas | 7 módulos, ~50K+ líneas estimadas |
@@ -86,9 +86,52 @@ Fase 3 (secuencial, integrador): A6 (M6) + pasada E2E completa
 | Tablero | Panel simple | Tablero integrador + reporte semanal automático |
 | UX | Templates HTML básicos | Design system completo con tokens y componentes |
 
+## Análisis por módulo (M3–M6)
+
+### M3 — Caja de Obra
+- ✅ Compromiso y Pago como entidades separadas: el compromiso anticipa el desvío, el pago confirma
+- ✅ Semáforo verde ≤90% / ámbar 90-100% / rojo >100% — consistente con el componente `Semaforo` del DS
+- ✅ Fallback en cascada: ADOPTADO → REFERENCIA → sin semáforo + CTA a M2
+- ✅ R5: evento `caja.desvio_detectado` se emite una sola vez por cruce de umbral (no spam)
+- ✅ R4: movimientos inmutables — se anulan y recrean, trazabilidad total
+- ⚠️ R1: moneda distinta excluye de totales (badge gris) — correcto para MVP pero genera inconsistencia visual
+- ⚠️ R3: anular compromiso con 50 pagos puede ser frustrante — considerar "anular en cascada"
+
+### M4 — Órdenes de Cambio
+- ✅ R3: solicitante NO puede aprobar su propia OC — evita conflicto de interés
+- ✅ R4: transacción atómica al aprobar — escribe en ADOPTADO + tareas + evento. Si falla uno, nada persiste
+- ✅ OC de economía: ítems con cantidad negativa → resta en el adoptado
+- ⚠️ R4 reparto de días: "total a la última tarea del primer rubro" es simplista para obras con muchas tareas
+- ✅ R8: 5 eventos distintos con resumen_humano para que M6 los muestre textualmente
+
+### M5 — Plazos y Avance
+- ✅ Solo tareas hoja llevan plazos (R1) — padres y rubros son rollup calculado
+- ✅ Avance no puede bajar sin nota de corrección, solo ADMIN/PROFESIONAL (R2)
+- ✅ Finalizar exige avance 100% — forzado por endpoint (R3)
+- ✅ Gantt simplificado + curva S con Recharts — suficiente para MVP
+- ⚠️ R7 Constructor: fallback "cualquier tarea" si no se determina pertenencia — política ambigua
+
+### M6 — Tablero y Reporte Semanal
+- ✅ R1: el tablero no calcula nada — consume endpoints de resumen de cada módulo
+- ✅ Bloques con error boundary: si caja falla, el resto vive
+- ✅ Recorte por rol server-side — PROVEEDOR redirige a Presupuestos
+- ✅ Reporte idempotente por (obra, semana_inicio) — no duplica envíos
+- ✅ R4: no enviar si la obra no tuvo eventos en la semana — evita spam
+- ✅ Resumen ejecutivo con 3 escenarios de test: obra sana / con desvío / con OC pendiente
+
+## Riesgos cross-module consolidados
+
+| Riesgo | Severidad | Módulos afectados | Acción |
+|--------|-----------|-------------------|--------|
+| M4 escritura atómica en 3 tablas | 🔴 Alto | M4↔M2↔M5 | Test de atomicidad exhaustivo |
+| Parser Excel M1/M2 con columnas distintas | 🟡 Medio | M1↔M2 | Hacerlo parametrizable desde día 1 |
+| M5 Constructor avance en "cualquier tarea" | 🟡 Medio | M5 | Definir antes de implementar |
+| Empate adopción "todo verde" M2 | 🟡 Medio | M2 | Tiebreaker: menor precio → antigüedad → alfabético |
+| M3 sin presupuesto (estado frecuente) | 🟢 Bajo | M3↔M2 | Ya degrada con CTA a M2 |
+
 ## Próximo paso (a decidir con Victor)
 
 1. **Opción A — Arrancar Fase 0**: scaffold del monorepo con A0 (M0 completo)
-2. **Opción B — Revisión profunda**: detectar más gaps/contradicciones entre módulos
-3. **Opción C — Plan de migración**: roadmap para pasar de q7-obras-01 a ObraClara
-4. **Opción D — MVP reducido**: versión mínima con M0 + M2 + M3 primero, el resto después
+2. **Opción B — Revisión profunda**: más gaps/contradicciones entre módulos
+3. **Opción C — Plan de migración**: roadmap q7-obras-01 → q7-obras-02
+4. **Opción D — MVP reducido**: M0 + M2 + M3 primero, el resto después
