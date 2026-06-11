@@ -1,0 +1,21 @@
+# Docker Compose — infraestructura mínima para q7-obras-02
+# Solo PostgreSQL. La API y el frontend se levantan con pnpm en el host.
+
+version: "3.8"
+
+services:
+  db:
+    image: postgres:15
+    container_name: q7-obras02-db
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: q7obras02
+      POSTGRES_DB: q7_obras_02
+    ports:
+      - "127.0.0.1:5432:5432"
+    volumes:
+      - pgdata_q7_obras02:/var/lib/postgresql/data
+
+volumes:
+  pgdata_q7_obras02:
