@@ -12,6 +12,8 @@ export default defineConfig({
   },
   server: {
     port: 3041,
+    host: '0.0.0.0',
+    allowedHosts: ['obras02.local', 'localhost', '.local'],
     proxy: {
       '/api': 'http://localhost:3001',
     },
