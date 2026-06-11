@@ -3,9 +3,10 @@
 ## Proyecto
 - **Nombre:** q7-obras-02
 - **Ubicación:** `mauri-dev/projects/q7-obras-02/`
-- **Estado:** Especificación cerrada, implementación no iniciada
+- **Estado:** Fase 0 ✅ completa — scaffold del monorepo + M0 implementado
 - **Specs:** 8 documentos en `specs/` (00 al 08)
 - **Creado:** 2026-06-11
+- **Última actividad:** 2026-06-11 — Fase 0 (M0 + scaffold total) desplegado
 - **Propietario:** Victor Gonzalez
 
 ## Resumen del producto

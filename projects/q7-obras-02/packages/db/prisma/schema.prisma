@@ -1,0 +1,491 @@
+// Prisma schema — modelo de datos único para q7-obras-02
+// Fuente de verdad: 00_ARQUITECTURA_COMUN.md §5
+// Convención: snake_case, singular, id uuid pk, creado_en, actualizado_en, eliminado_en?
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// ── M0: Identidad y obra ──
+
+model Usuario {
+  id             String    @id @default(uuid()) @db.Uuid
+  email          String    @unique @db.VarChar(255)
+  nombre         String    @db.VarChar(255)
+  passwordHash   String    @map("password_hash") @db.VarChar(255)
+  avatarUrl      String?   @map("avatar_url") @db.VarChar(500)
+  creadoEn       DateTime  @default(now()) @map("creado_en") @db.Timestamptz()
+  actualizadoEn  DateTime  @updatedAt @map("actualizado_en") @db.Timestamptz()
+  eliminadoEn    DateTime? @map("eliminado_en") @db.Timestamptz()
+
+  obrasCreadas      Obra[]          @relation("ObraCreador")
+  membresias        ObraMiembro[]
+  eventos           Evento[]
+  adopciones        Adopcion[]
+  ocsSolicitadas    OrdenCambio[]   @relation("OCSolicitante")
+  ocsResueltas      OrdenCambio[]   @relation("OCResolutor")
+  avancesRegistrados AvanceRegistro[]
+
+  @@map("usuario")
+}
+
+model Obra {
+  id                  String     @id @default(uuid()) @db.Uuid
+  nombre              String     @db.VarChar(255)
+  tipo                TipoObra   @default(OTRO)
+  direccion           String?    @db.VarChar(500)
+  pais                String     @db.Char(2)
+  monedaBase          String     @map("moneda_base") @db.Char(3)
+  superficieM2        Decimal?   @map("superficie_m2") @db.Decimal(10, 2)
+  presupuestoObjetivo Decimal?   @map("presupuesto_objetivo") @db.Decimal(14, 2)
+  estado              EstadoObra @default(ACTIVA)
+  creadorId           String     @map("creador_id") @db.Uuid
+  creadoEn            DateTime   @default(now()) @map("creado_en") @db.Timestamptz()
+  actualizadoEn       DateTime   @updatedAt @map("actualizado_en") @db.Timestamptz()
+  eliminadoEn         DateTime?  @map("eliminado_en") @db.Timestamptz()
+
+  creador          Usuario          @relation("ObraCreador", fields: [creadorId], references: [id])
+  miembros         ObraMiembro[]
+  eventos          Evento[]
+  rubrosObra       RubroObra[]
+  tareas           Tarea[]
+  presupuestos     Presupuesto[]
+  adopciones       Adopcion[]
+  movimientos      Movimiento[]
+  ordenesCambio    OrdenCambio[]
+  avancesRegistro  AvanceRegistro[]
+  reportesSemanales ReporteSemanal[]
+
+  @@map("obra")
+}
+
+model ObraMiembro {
+  id             String        @id @default(uuid()) @db.Uuid
+  obraId         String        @map("obra_id") @db.Uuid
+  usuarioId      String?       @map("usuario_id") @db.Uuid
+  emailInvitado  String?       @map("email_invitado") @db.VarChar(255)
+  rol            RolObra
+  estado         EstadoMiembro @default(PENDIENTE)
+  tokenInvitacion String?      @unique @map("token_invitacion") @db.VarChar(64)
+  creadoEn       DateTime      @default(now()) @map("creado_en") @db.Timestamptz()
+  actualizadoEn  DateTime      @updatedAt @map("actualizado_en") @db.Timestamptz()
+  eliminadoEn    DateTime?     @map("eliminado_en") @db.Timestamptz()
+
+  obra                Obra              @relation(fields: [obraId], references: [id])
+  usuario             Usuario?          @relation(fields: [usuarioId], references: [id])
+  presupuestos        Presupuesto[]
+  contratistaMovimientos Movimiento[]
+  contratistaOCs      OrdenCambio[]     @relation("OCContratista")
+
+  @@unique([obraId, usuarioId, rol])
+  @@map("obra_miembro")
+}
+
+model Evento {
+  id        String   @id @default(uuid()) @db.Uuid
+  obraId    String   @map("obra_id") @db.Uuid
+  usuarioId String?  @map("usuario_id") @db.Uuid
+  tipo      String   @db.VarChar(60)
+  payload   Json     @db.JsonB
+  fecha     DateTime @default(now()) @db.Timestamptz()
+
+  obra    Obra     @relation(fields: [obraId], references: [id])
+  usuario Usuario? @relation(fields: [usuarioId], references: [id])
+
+  @@index([obraId, fecha])
+  @@map("evento")
+}
+
+// ── M1: Cómputo ──
+
+model RubroCatalogo {
+  codigo String  @id @db.Char(4)
+  nombre String  @db.VarChar(255)
+  orden  Int
+
+  @@map("rubro_catalogo")
+}
+
+model RubroObra {
+  id      String       @id @default(uuid()) @db.Uuid
+  obraId  String       @map("obra_id") @db.Uuid
+  codigo  String       @db.Char(4)
+  nombre  String       @db.VarChar(255)
+  orden   Int
+  origen  OrigenRubro  @default(CATALOGO)
+  creadoEn       DateTime  @default(now()) @map("creado_en") @db.Timestamptz()
+  actualizadoEn  DateTime  @updatedAt @map("actualizado_en") @db.Timestamptz()
+  eliminadoEn    DateTime? @map("eliminado_en") @db.Timestamptz()
+
+  obra                 Obra               @relation(fields: [obraId], references: [id])
+  tareas               Tarea[]
+  presupuestoItems     PresupuestoItem[]
+  movimientos          Movimiento[]
+  adopciones           Adopcion[]
+
+  @@unique([obraId, codigo])
+  @@map("rubro_obra")
+}
+
+model Tarea {
+  id               String       @id @default(uuid()) @db.Uuid
+  obraId           String       @map("obra_id") @db.Uuid
+  rubroObraId      String       @map("rubro_obra_id") @db.Uuid
+  padreId          String?      @map("padre_id") @db.Uuid
+  codigo           String       @db.VarChar(8)
+  descripcion      String       @db.VarChar(500)
+  nivel            Int          @default(1)
+  unidad           Unidad       @default(UN)
+  cantidad         Decimal?     @db.Decimal(14, 4)
+  orden            Int
+  // Plazos (dueño funcional: M5)
+  fechaInicio      DateTime?    @map("fecha_inicio") @db.Date
+  diasHabilesPrev  Int?         @map("dias_habiles_prev")
+  fechaFinPrevista DateTime?    @map("fecha_fin_prevista") @db.Date
+  diasPerdidos     Int          @default(0) @map("dias_perdidos")
+  fechaFinNueva    DateTime?    @map("fecha_fin_nueva") @db.Date
+  fechaFinReal     DateTime?    @map("fecha_fin_real") @db.Date
+  avancePct        Decimal      @default(0) @map("avance_pct") @db.Decimal(5, 2)
+  estado           EstadoTarea  @default(PENDIENTE)
+  creadoEn         DateTime     @default(now()) @map("creado_en") @db.Timestamptz()
+  actualizadoEn    DateTime     @updatedAt @map("actualizado_en") @db.Timestamptz()
+  eliminadoEn      DateTime?    @map("eliminado_en") @db.Timestamptz()
+
+  obra                Obra              @relation(fields: [obraId], references: [id])
+  rubroObra           RubroObra         @relation(fields: [rubroObraId], references: [id])
+  padre               Tarea?            @relation("TareaHijos", fields: [padreId], references: [id])
+  hijos               Tarea[]           @relation("TareaHijos")
+  presupuestoItems    PresupuestoItem[]
+  movimientos         Movimiento[]
+  avancesRegistro     AvanceRegistro[]
+
+  @@index([obraId, rubroObraId])
+  @@map("tarea")
+}
+
+// ── M2: Presupuestos ──
+
+model Presupuesto {
+  id                     String            @id @default(uuid()) @db.Uuid
+  obraId                 String            @map("obra_id") @db.Uuid
+  tipo                   TipoPresupuesto
+  nombre                 String            @db.VarChar(255)
+  contratistaMiembroId   String?           @map("contratista_miembro_id") @db.Uuid
+  proveedorNombre        String?           @map("proveedor_nombre") @db.VarChar(255)
+  moneda                 String            @db.Char(3)
+  fechaPrecio            DateTime          @map("fecha_precio") @db.Date
+  estado                 EstadoPresupuesto @default(BORRADOR)
+  observaciones          String?
+  creadoEn               DateTime          @default(now()) @map("creado_en") @db.Timestamptz()
+  actualizadoEn          DateTime          @updatedAt @map("actualizado_en") @db.Timestamptz()
+  eliminadoEn            DateTime?         @map("eliminado_en") @db.Timestamptz()
+
+  obra                Obra              @relation(fields: [obraId], references: [id])
+  contratistaMiembro  ObraMiembro?      @relation(fields: [contratistaMiembroId], references: [id])
+  items               PresupuestoItem[]
+  adopciones          Adopcion[]
+  origenAdopciones    Adopcion[]        @relation("AdopcionOrigen")
+
+  @@map("presupuesto")
+}
+
+model PresupuestoItem {
+  id             String     @id @default(uuid()) @db.Uuid
+  presupuestoId  String     @map("presupuesto_id") @db.Uuid
+  rubroObraId    String     @map("rubro_obra_id") @db.Uuid
+  tareaId        String?    @map("tarea_id") @db.Uuid
+  descripcion    String     @db.VarChar(500)
+  tipoRecurso    TipoRecurso @default(MATERIAL) @map("tipo_recurso")
+  unidad         Unidad     @default(UN)
+  cantidad       Decimal    @db.Decimal(14, 4)
+  precioUnitario Decimal    @map("precio_unitario") @db.Decimal(14, 2)
+  subtotal       Decimal    @db.Decimal(14, 2)
+  incluye        String?    @db.VarChar(1000)
+  excluye        String?    @db.VarChar(1000)
+  noCotizado     Boolean    @default(false) @map("no_cotizado")
+  origen         OrigenItem @default(MANUAL)
+  origenItemId   String?    @map("origen_item_id") @db.Uuid
+  creadoEn       DateTime   @default(now()) @map("creado_en") @db.Timestamptz()
+  actualizadoEn  DateTime   @updatedAt @map("actualizado_en") @db.Timestamptz()
+  eliminadoEn    DateTime?  @map("eliminado_en") @db.Timestamptz()
+
+  presupuesto     Presupuesto      @relation(fields: [presupuestoId], references: [id])
+  rubroObra       RubroObra        @relation(fields: [rubroObraId], references: [id])
+  tarea           Tarea?           @relation(fields: [tareaId], references: [id])
+  origenItem      PresupuestoItem? @relation("ItemOrigen", fields: [origenItemId], references: [id])
+  itemsDerivados  PresupuestoItem[] @relation("ItemOrigen")
+
+  @@map("presupuesto_item")
+}
+
+model Adopcion {
+  id                  String       @id @default(uuid()) @db.Uuid
+  obraId              String       @map("obra_id") @db.Uuid
+  rubroObraId         String       @map("rubro_obra_id") @db.Uuid
+  presupuestoOrigenId String       @map("presupuesto_origen_id") @db.Uuid
+  decididoPor         String       @map("decidido_por") @db.Uuid
+  fecha               DateTime     @default(now()) @db.Timestamptz()
+  nota                String?
+  creadoEn            DateTime     @default(now()) @map("creado_en") @db.Timestamptz()
+  actualizadoEn       DateTime     @updatedAt @map("actualizado_en") @db.Timestamptz()
+  eliminadoEn         DateTime?    @map("eliminado_en") @db.Timestamptz()
+
+  obra              Obra         @relation(fields: [obraId], references: [id])
+  rubroObra         RubroObra    @relation(fields: [rubroObraId], references: [id])
+  presupuestoOrigen Presupuesto  @relation("AdopcionOrigen", fields: [presupuestoOrigenId], references: [id])
+  decididoPorUser   Usuario      @relation(fields: [decididoPor], references: [id])
+
+  @@map("adopcion")
+}
+
+// ── M3: Caja de obra ──
+
+model Movimiento {
+  id                     String          @id @default(uuid()) @db.Uuid
+  obraId                 String          @map("obra_id") @db.Uuid
+  rubroObraId           String           @map("rubro_obra_id") @db.Uuid
+  tareaId                String?          @map("tarea_id") @db.Uuid
+  tipo                   TipoMovimiento
+  compromisoId          String?          @map("compromiso_id") @db.Uuid
+  fecha                  DateTime         @db.Date
+  proveedorNombre        String           @map("proveedor_nombre") @db.VarChar(255)
+  contratistaMiembroId   String?          @map("contratista_miembro_id") @db.Uuid
+  descripcion            String?          @db.VarChar(500)
+  moneda                 String           @db.Char(3)
+  importe                Decimal          @db.Decimal(14, 2)
+  comprobanteUrl         String?          @map("comprobante_url") @db.VarChar(1000)
+  medioPago              MedioPago?       @map("medio_pago")
+  ordenCambioId          String?          @map("orden_cambio_id") @db.Uuid
+  estado                 EstadoMovimiento @default(VIGENTE)
+  creadoEn               DateTime         @default(now()) @map("creado_en") @db.Timestamptz()
+  actualizadoEn          DateTime         @updatedAt @map("actualizado_en") @db.Timestamptz()
+  eliminadoEn            DateTime?        @map("eliminado_en") @db.Timestamptz()
+
+  obra              Obra         @relation(fields: [obraId], references: [id])
+  rubroObra         RubroObra    @relation(fields: [rubroObraId], references: [id])
+  tarea             Tarea?       @relation(fields: [tareaId], references: [id])
+  compromiso        Movimiento?  @relation("CompromisoPagos", fields: [compromisoId], references: [id])
+  pagos             Movimiento[] @relation("CompromisoPagos")
+  contratistaMiembro ObraMiembro? @relation(fields: [contratistaMiembroId], references: [id])
+  ordenCambio       OrdenCambio? @relation(fields: [ordenCambioId], references: [id])
+
+  @@index([obraId, fecha])
+  @@map("movimiento")
+}
+
+model Indice {
+  tipo  TipoIndice
+  fecha DateTime @db.Date
+  valor Decimal  @db.Decimal(12, 4)
+
+  @@id([tipo, fecha])
+  @@map("indice")
+}
+
+// ── M4: Órdenes de cambio ──
+
+model OrdenCambio {
+  id              String      @id @default(uuid()) @db.Uuid
+  obraId          String      @map("obra_id") @db.Uuid
+  numero          Int
+  titulo          String      @db.VarChar(255)
+  descripcion     String?
+  motivo          MotivoOC    @default(OTRO)
+  impactoCosto   Decimal      @map("impacto_costo") @db.Decimal(14, 2)
+  moneda         String       @db.Char(3)
+  impactoDias    Int          @default(0) @map("impacto_dias")
+  rubrosAfectados String[]    @map("rubros_afectados") @db.Uuid
+  estado         EstadoOC     @default(BORRADOR)
+  solicitanteId  String       @map("solicitante_id") @db.Uuid
+  resolutorId    String?      @map("resolutor_id") @db.Uuid
+  fechaResolucion DateTime?   @map("fecha_resolucion") @db.Timestamptz()
+  notaResolucion String?      @map("nota_resolucion")
+  creadoEn       DateTime     @default(now()) @map("creado_en") @db.Timestamptz()
+  actualizadoEn  DateTime     @updatedAt @map("actualizado_en") @db.Timestamptz()
+  eliminadoEn    DateTime?    @map("eliminado_en") @db.Timestamptz()
+
+  obra          Obra             @relation(fields: [obraId], references: [id])
+  solicitante   Usuario          @relation("OCSolicitante", fields: [solicitanteId], references: [id])
+  resolutor     Usuario?         @relation("OCResolutor", fields: [resolutorId], references: [id])
+  contratista   ObraMiembro?     @relation("OCContratista", fields: [solicitanteId], references: [id])
+  items         OrdenCambioItem[]
+  movimientos   Movimiento[]
+
+  @@unique([obraId, numero])
+  @@map("orden_cambio")
+}
+
+model OrdenCambioItem {
+  id              String      @id @default(uuid()) @db.Uuid
+  ordenCambioId   String      @map("orden_cambio_id") @db.Uuid
+  descripcion     String      @db.VarChar(500)
+  tipoRecurso     TipoRecurso @default(MATERIAL) @map("tipo_recurso")
+  unidad          Unidad      @default(UN)
+  cantidad        Decimal     @db.Decimal(14, 4)
+  precioUnitario  Decimal     @map("precio_unitario") @db.Decimal(14, 2)
+  subtotal        Decimal     @db.Decimal(14, 2)
+
+  ordenCambio OrdenCambio @relation(fields: [ordenCambioId], references: [id])
+
+  @@map("orden_cambio_item")
+}
+
+// ── M5: Avance (tabla propia de M5) ──
+
+model AvanceRegistro {
+  id            String    @id @default(uuid()) @db.Uuid
+  tareaId       String    @map("tarea_id") @db.Uuid
+  obraId        String    @map("obra_id") @db.Uuid
+  fecha         DateTime  @db.Date
+  avancePct     Decimal   @map("avance_pct") @db.Decimal(5, 2)
+  nota          String?   @db.VarChar(1000)
+  fotoUrl       String?   @map("foto_url") @db.VarChar(1000)
+  registradoPor String    @map("registrado_por") @db.Uuid
+  creadoEn      DateTime  @default(now()) @map("creado_en") @db.Timestamptz()
+
+  tarea           Tarea    @relation(fields: [tareaId], references: [id])
+  obra            Obra     @relation(fields: [obraId], references: [id])
+  registradoPorUser Usuario @relation(fields: [registradoPor], references: [id])
+
+  @@map("avance_registro")
+}
+
+// ── M6: Reporte semanal ──
+
+model ReporteSemanal {
+  id           String    @id @default(uuid()) @db.Uuid
+  obraId       String    @map("obra_id") @db.Uuid
+  semanaInicio DateTime  @map("semana_inicio") @db.Date
+  generadoEn   DateTime  @default(now()) @map("generado_en") @db.Timestamptz()
+  contenido    Json      @db.JsonB
+  enviado      Boolean   @default(false)
+
+  obra Obra @relation(fields: [obraId], references: [id])
+
+  @@unique([obraId, semanaInicio])
+  @@map("reporte_semanal")
+}
+
+// ── Enums ──
+
+enum TipoObra {
+  VIVIENDA
+  REFORMA
+  COMERCIO
+  CONDOMINIO
+  OTRO
+}
+
+enum EstadoObra {
+  ACTIVA
+  PAUSADA
+  FINALIZADA
+}
+
+enum RolObra {
+  ADMIN_OBRA
+  COMITENTE
+  PROFESIONAL
+  CONSTRUCTOR
+  PROVEEDOR
+}
+
+enum EstadoMiembro {
+  PENDIENTE
+  ACTIVO
+  REVOCADO
+}
+
+enum EstadoTarea {
+  PENDIENTE
+  EN_CURSO
+  FINALIZADA
+  CANCELADA
+}
+
+enum Unidad {
+  GL
+  M2
+  M3
+  ML
+  UN
+  KG
+  HS
+  DIA
+}
+
+enum OrigenRubro {
+  CATALOGO
+  PERSONALIZADO
+}
+
+enum TipoPresupuesto {
+  REFERENCIA
+  PROPUESTA
+  ADOPTADO
+}
+
+enum EstadoPresupuesto {
+  BORRADOR
+  VIGENTE
+  ADOPTADO_PARCIAL
+  ADOPTADO_TOTAL
+  DESCARTADO
+}
+
+enum TipoRecurso {
+  MO
+  MATERIAL
+  EQUIPO
+  SUBCONTRATO
+  OTRO
+}
+
+enum OrigenItem {
+  MANUAL
+  IMPORTACION
+  ADOPCION
+  ORDEN_CAMBIO
+}
+
+enum TipoMovimiento {
+  COMPROMISO
+  PAGO
+}
+
+enum EstadoMovimiento {
+  VIGENTE
+  ANULADO
+}
+
+enum MedioPago {
+  EFECTIVO
+  TRANSFERENCIA
+  OTRO
+}
+
+enum TipoIndice {
+  INFLACION_MENSUAL
+  TC_USD
+}
+
+enum MotivoOC {
+  PEDIDO_COMITENTE
+  IMPREVISTO
+  ERROR_PROYECTO
+  MEJORA
+  OTRO
+}
+
+enum EstadoOC {
+  BORRADOR
+  PENDIENTE
+  APROBADA
+  RECHAZADA
+  ANULADA
+}

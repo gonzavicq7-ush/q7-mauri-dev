@@ -1,0 +1,16 @@
+{
+  "name": "q7-obras-02",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Sistema operativo financiero de obras de construcción",
+  "scripts": {
+    "dev": "pnpm --parallel -r run dev",
+    "build": "pnpm -r run build",
+    "lint": "pnpm -r run lint",
+    "test": "pnpm -r run test",
+    "db:migrate": "pnpm --filter @q7/db run migrate",
+    "db:seed": "pnpm --filter @q7/db run seed",
+    "db:generate": "pnpm --filter @q7/db run generate",
+    "db:studio": "pnpm --filter @q7/db run studio"
+  }
+}

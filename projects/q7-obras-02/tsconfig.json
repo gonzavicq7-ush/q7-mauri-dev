@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "baseUrl": ".",
+    "paths": {
+      "@q7/shared": ["./packages/shared/src"],
+      "@q7/ui": ["./packages/ui/src"],
+      "@q7/db": ["./packages/db/src"]
+    }
+  },
+  "exclude": ["node_modules", "dist"]
+}
