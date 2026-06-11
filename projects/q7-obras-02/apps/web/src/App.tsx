@@ -15,6 +15,9 @@ import { PresupuestosPage } from './pages/PresupuestosPage.js';
 import { ComparadorPage } from './pages/ComparadorPage.js';
 import { AdoptadoPage } from './pages/AdoptadoPage.js';
 import { OrdenesCambioPage } from './pages/OrdenesCambioPage.js';
+import { PlazosPage } from './pages/PlazosPage.js';
+import { TableroPage } from './pages/TableroPage.js';
+import { ReportePage } from './pages/ReportePage.js';
 
 export default function App() {
   const { user, loading } = useAuth();
@@ -44,6 +47,9 @@ export default function App() {
         <Route path="obras/:obraId/cambios" element={<OrdenesCambioPage />} />
         <Route path="obras/:obraId/cambios/nueva" element={<OrdenesCambioPage />} />
         <Route path="obras/:obraId/cambios/:id" element={<OrdenesCambioPage />} />
+        <Route path="obras/:obraId/plazos" element={<PlazosPage />} />
+        <Route path="obras/:obraId" element={<TableroPage />} />
+        <Route path="obras/:obraId/reportes/:reporteId" element={<ReportePage />} />
       </Route>
 
       {/* Catch-all */}
