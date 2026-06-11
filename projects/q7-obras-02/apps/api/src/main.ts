@@ -6,6 +6,8 @@ import { authRoutes } from './routes/auth.js';
 import { obrasRoutes } from './routes/obras.js';
 import { miembrosRoutes } from './routes/miembros.js';
 import { eventosRoutes } from './routes/eventos.js';
+import { cajaRoutes } from './routes/caja.js';
+import { computoRoutes } from './routes/computo.js';
 import { errorHandler, AppError } from './middleware/error.js';
 
 const app = fastify({ logger: true });
@@ -33,6 +35,8 @@ await app.register(authRoutes, { prefix: '/api/v1/auth' });
 await app.register(obrasRoutes, { prefix: '/api/v1' });
 await app.register(miembrosRoutes, { prefix: '/api/v1' });
 await app.register(eventosRoutes, { prefix: '/api/v1' });
+await app.register(cajaRoutes, { prefix: '/api/v1' });
+await app.register(computoRoutes, { prefix: '/api/v1' });
 
 // Health check
 app.get('/api/v1/health', async () => ({ status: 'ok' }));

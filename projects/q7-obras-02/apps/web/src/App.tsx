@@ -9,6 +9,8 @@ import { MisObrasPage } from './pages/MisObrasPage.js';
 import { NuevaObraPage } from './pages/NuevaObraPage.js';
 import { EquipoPage } from './pages/EquipoPage.js';
 import { InvitacionPage } from './pages/InvitacionPage.js';
+import { CajaPage } from './pages/CajaPage.js';
+import { ComputoPage } from './pages/ComputoPage.js';
 
 export default function App() {
   const { user, loading } = useAuth();
@@ -30,6 +32,8 @@ export default function App() {
         <Route path="obras" element={<MisObrasPage />} />
         <Route path="obras/nueva" element={<NuevaObraPage />} />
         <Route path="obras/:obraId/equipo" element={<EquipoPage />} />
+        <Route path="obras/:obraId/caja" element={<CajaPage />} />
+        <Route path="obras/:obraId/computo" element={<ComputoPage />} />
       </Route>
 
       {/* Catch-all */}
