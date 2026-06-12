@@ -188,7 +188,6 @@ model Presupuesto {
   obra                Obra              @relation(fields: [obraId], references: [id])
   contratistaMiembro  ObraMiembro?      @relation(fields: [contratistaMiembroId], references: [id])
   items               PresupuestoItem[]
-  adopciones          Adopcion[]
   origenAdopciones    Adopcion[]        @relation("AdopcionOrigen")
 
   @@map("presupuesto")
@@ -312,7 +311,6 @@ model OrdenCambio {
   obra          Obra             @relation(fields: [obraId], references: [id])
   solicitante   Usuario          @relation("OCSolicitante", fields: [solicitanteId], references: [id])
   resolutor     Usuario?         @relation("OCResolutor", fields: [resolutorId], references: [id])
-  contratista   ObraMiembro?     @relation("OCContratista", fields: [solicitanteId], references: [id])
   items         OrdenCambioItem[]
   movimientos   Movimiento[]
 
