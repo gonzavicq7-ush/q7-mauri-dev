@@ -15,7 +15,7 @@ export default defineConfig({
     host: '0.0.0.0',
     allowedHosts: ['obras02.local', 'localhost', '.local'],
     proxy: {
-      '/api': 'http://localhost:3001',
+      '/api': 'http://localhost:3011',
     },
   },
 });

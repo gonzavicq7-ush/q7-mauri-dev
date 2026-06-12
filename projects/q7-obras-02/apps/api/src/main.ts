@@ -50,7 +50,7 @@ await app.register(tableroRoutes, { prefix: '/api/v1' });
 app.get('/api/v1/health', async () => ({ status: 'ok' }));
 
 try {
-  const port = parseInt(process.env.PORT || '3001');
+  const port = parseInt(process.env.PORT || '3011');
   await app.listen({ port, host: '0.0.0.0' });
   console.log(`✅ API q7-obras-02 corriendo en http://localhost:${port}`);
 } catch (err) {
