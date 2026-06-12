@@ -17,6 +17,25 @@ function uuid(): string {
 async function main() {
   console.log('🌱 Sembrando datos demo de q7-obras-02...');
 
+  // Limpiar datos existentes (orden inverso por FK constraints)
+  console.log('🧹 Limpiando datos anteriores...');
+  await prisma.evento.deleteMany();
+  await prisma.avance.deleteMany();
+  await prisma.ordenCambioItem.deleteMany();
+  await prisma.ordenCambio.deleteMany();
+  await prisma.movimiento.deleteMany();
+  await prisma.presupuestoItem.deleteMany();
+  await prisma.adopcion.deleteMany();
+  await prisma.presupuesto.deleteMany();
+  await prisma.computoItem.deleteMany();
+  await prisma.computo.deleteMany();
+  await prisma.rubroObra.deleteMany();
+  await prisma.obraMiembro.deleteMany();
+  await prisma.obra.deleteMany();
+  await prisma.rubro.deleteMany();
+  await prisma.usuario.deleteMany();
+  console.log('✅ Datos anteriores eliminados');
+
   // ── Usuarios demo (4 roles) ──
   const adminId = uuid();
   const comitenteId = uuid();
