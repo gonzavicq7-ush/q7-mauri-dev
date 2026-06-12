@@ -8,7 +8,7 @@ import * as crypto from 'crypto';
 const prisma = new PrismaClient();
 
 // Password: "demo123" para todos los usuarios demo
-const HASH = '$2b$10$placeholder__replaced_at_runtime'; // bcrypt hash placeholder
+const HASH = '$2a$10$nCbm5nL7yeR7M0Ypw0QAHeKCWFP7UBGQ15fDHOWxTqsb5atXKFZpm'; // bcrypt hash de "demo123"
 
 function uuid(): string {
   return crypto.randomUUID();
