@@ -80,7 +80,6 @@ model ObraMiembro {
   usuario             Usuario?          @relation(fields: [usuarioId], references: [id])
   presupuestos        Presupuesto[]
   contratistaMovimientos Movimiento[]
-  contratistaOCs      OrdenCambio[]     @relation("OCContratista")
 
   @@unique([obraId, usuarioId, rol])
   @@map("obra_miembro")
