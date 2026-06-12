@@ -7,7 +7,7 @@
   "scripts": {
     "generate": "prisma generate",
     "migrate": "prisma migrate dev --name init",
-    "seed": "npx tsx seed/index.ts",
+    "seed": "npx tsx seed/demo.ts",
     "studio": "prisma studio",
     "lint": "echo ok",
     "test": "echo ok"
