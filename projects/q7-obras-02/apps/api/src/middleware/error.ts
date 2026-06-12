@@ -18,7 +18,7 @@ export function errorHandler(error: FastifyError, _request: FastifyRequest, repl
   }
 
   // Errores inesperados
-  request.log.error(error);
+  _request.log.error(error);
   return reply.status(500).send({
     error: { codigo: 'ERROR_INTERNO', mensaje: 'Error interno del servidor' },
   });
