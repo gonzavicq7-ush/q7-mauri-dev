@@ -1,0 +1,46 @@
+# FreeScout Help Desk — Docker Compose
+# Ejecutar en el host openclaw01
+
+version: "3.8"
+
+services:
+  freescout-db:
+    image: mariadb:10.11
+    container_name: freescout-db
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: freescout_root
+      MYSQL_DATABASE: freescout
+      MYSQL_USER: freescout
+      MYSQL_PASSWORD: freescout_pass
+    volumes:
+      - freescout_db:/var/lib/mysql
+    ports:
+      - "127.0.0.1:3307:3306"
+
+  freescout-app:
+    image: tiredofit/freescout:latest
+    container_name: freescout-app
+    restart: unless-stopped
+    depends_on:
+      - freescout-db
+    environment:
+      DB_HOST: freescout-db
+      DB_PORT: 3306
+      DB_DATABASE: freescout
+      DB_USERNAME: freescout
+      DB_PASSWORD: freescout_pass
+      SITE_URL: http://localhost:3080
+      ADMIN_EMAIL: admin@admin.com
+      ADMIN_PASS: password123
+      APPLICATION_NAME: "Q7 Helpdesk"
+    ports:
+      - "127.0.0.1:3080:80"
+    volumes:
+      - freescout_storage:/var/www/html/storage
+      - freescout_modules:/var/www/html/Modules
+
+volumes:
+  freescout_db:
+  freescout_storage:
+  freescout_modules:
