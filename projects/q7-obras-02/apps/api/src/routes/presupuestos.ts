@@ -6,7 +6,7 @@ import { requiereRol } from '../middleware/auth.js';
 import { RolObra, TipoPresupuesto, EstadoPresupuesto, TipoRecurso, OrigenItem } from '@q7/shared';
 import { EventoService } from './eventos.js';
 import { calcularComparador, type ComparadorFila } from '../services/presupuestos/comparador.js';
-import { adoptarRubro, adoptarRubroMultiple } from '../services/presupuestos/adopcion.js';
+import { adoptarRubro, adoptarRubroMultiple, obtenerAdoptadoConOrigenes } from '../services/presupuestos/adopcion.js';
 
 const prisma = new PrismaClient();
 
@@ -573,6 +573,33 @@ export async function presupuestosRoutes(app: FastifyInstance) {
     return { ok: true };
   });
 
+  // GET /api/v1/obras/:obraId/presupuestos/:id/items/:rubroId — items de un rubro para drawer
+  app.get('/obras/:obraId/presupuestos/:id/items/:rubroId', {
+    preHandler: [requiereRol([RolObra.ADMIN_OBRA, RolObra.COMITENTE, RolObra.PROFESIONAL, RolObra.CONSTRUCTOR])],
+  }, async (request) => {
+    const { obraId, id, rubroId } = request.params as any;
+
+    const items = await prisma.presupuestoItem.findMany({
+      where: { presupuestoId: id, rubroObraId: rubroId, eliminadoEn: null },
+      include: { tarea: { select: { codigo: true, descripcion: true } } },
+      orderBy: { creadoEn: 'asc' },
+    });
+
+    return items.map(i => ({
+      id: i.id,
+      descripcion: i.descripcion,
+      tarea_codigo: i.tarea?.codigo || null,
+      tarea_descripcion: i.tarea?.descripcion || null,
+      tipo_recurso: i.tipoRecurso,
+      unidad: i.unidad,
+      cantidad: i.cantidad.toString(),
+      precio_unitario: i.precioUnitario.toString(),
+      subtotal: i.subtotal.toString(),
+      incluye: i.incluye,
+      excluye: i.excluye,
+    }));
+  });
+
   // POST /api/v1/obras/:obraId/presupuestos/:id/importar
   app.post('/obras/:obraId/presupuestos/:id/importar', {
     preHandler: [requiereRol([RolObra.ADMIN_OBRA, RolObra.COMITENTE, RolObra.PROFESIONAL, RolObra.CONSTRUCTOR])],
@@ -795,6 +822,16 @@ export async function presupuestosRoutes(app: FastifyInstance) {
       where: { id },
       data: { eliminadoEn: new Date() },
     });
+  });
+
+  // GET /api/v1/obras/:obraId/adoptado
+  app.get('/obras/:obraId/adoptado', {
+    preHandler: [requiereRol([RolObra.ADMIN_OBRA, RolObra.COMITENTE, RolObra.PROFESIONAL, RolObra.CONSTRUCTOR])],
+  }, async (request) => {
+    const { obraId } = request.params as any;
+    const data = await obtenerAdoptadoConOrigenes(obraId);
+    if (!data) throw new AppError(404, 'SIN_ADOPTADO', 'No hay presupuesto adoptado');
+    return data;
   });
 
   // GET /api/v1/obras/:obraId/comparador/exportar

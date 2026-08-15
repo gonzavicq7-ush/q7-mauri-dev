@@ -1,0 +1,96 @@
+version: '3.8'
+
+# Docker Compose INDEPENDIENTE para infraestructura de q7-forms2apex
+# Levantar con: docker-compose -f docker-compose.infra.yml up -d
+# Este stack corre FUERA del contenedor de OpenClaw, en el host baremetal/VM.
+# El backend de q7-forms2apex (corriendo en el host o en el container de OC)
+# se conecta vía localhost:<puerto_mapeado>.
+
+services:
+  postgres:
+    image: postgres:15-alpine
+    container_name: q7-forms2apex-postgres
+    environment:
+      POSTGRES_DB: forms2apex
+      POSTGRES_USER: forms2apex
+      POSTGRES_PASSWORD: forms2apex_secret
+    volumes:
+      - q7_f2a_postgres:/var/lib/postgresql/data
+    ports:
+      - "5433:5432"
+    networks:
+      - q7-forms2apex
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U forms2apex -d forms2apex"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  redis:
+    image: redis:7-alpine
+    container_name: q7-forms2apex-redis
+    volumes:
+      - q7_f2a_redis:/data
+    ports:
+      - "6380:6379"
+    networks:
+      - q7-forms2apex
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  minio:
+    image: minio/minio:latest
+    container_name: q7-forms2apex-minio
+    environment:
+      MINIO_ROOT_USER: forms2apex
+      MINIO_ROOT_PASSWORD: forms2apex_secret
+    command: server /data --console-address ":9001"
+    volumes:
+      - q7_f2a_minio:/data
+    ports:
+      - "9000:9000"
+      - "9001:9001"
+    networks:
+      - q7-forms2apex
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:9000/minio/health/live"]
+      interval: 15s
+      timeout: 5s
+      retries: 5
+
+  # Inicializa el bucket de MinIO al primer arranque
+  minio-init:
+    image: minio/mc:latest
+    container_name: q7-forms2apex-minio-init
+    depends_on:
+      minio:
+        condition: service_healthy
+    entrypoint: >
+      /bin/sh -c "
+      echo 'Configurando MinIO...' &&
+      mc alias set local http://minio:9000 forms2apex forms2apex_secret &&
+      mc mb local/forms2apex-uploads --ignore-existing &&
+      mc anonymous set download local/forms2apex-uploads &&
+      echo 'Bucket forms2apex-uploads listo'
+      "
+    networks:
+      - q7-forms2apex
+    restart: "no"
+
+volumes:
+  q7_f2a_postgres:
+    driver: local
+  q7_f2a_redis:
+    driver: local
+  q7_f2a_minio:
+    driver: local
+
+networks:
+  q7-forms2apex:
+    driver: bridge

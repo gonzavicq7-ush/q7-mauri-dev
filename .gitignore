@@ -26,7 +26,7 @@ Thumbs.db
 data.bak/
 gentle-ai/
 mauri/
--e 
+
 # Large files
 *.exe
 *.bin
@@ -37,3 +37,14 @@ projects/oracle-forms-migration/
 projects/q7-audio2md/tools/ffmpeg
 projects/q7-audio2md/tools/ffprobe
 
+
+# Whisper.cpp (código de terceros, se clona aparte)
+projects/q7-audio2md/tools/whisper.cpp/
+
+# Archivos temporales
+*.tmp
+pnpm-workspace.json
+.pnpmfile.cjs.tmp
+
+# Transcripciones comprimidas (datos, no código)
+projects/q7-yt-transcripts/*.tar.gz

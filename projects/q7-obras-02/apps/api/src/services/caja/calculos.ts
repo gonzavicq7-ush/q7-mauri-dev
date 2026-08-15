@@ -177,7 +177,7 @@ export async function resumenGlobal(
   const porRubro: ResumenRubro[] = [];
 
   for (const rubro of rubos) {
-    const resumen = await resumirRubro(rubro);
+    const resumen = await resumirRubro(rubro, contratistaMiembroId);
     porRubro.push(resumen);
   }
 
